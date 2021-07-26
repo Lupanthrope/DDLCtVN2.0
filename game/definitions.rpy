@@ -116,6 +116,7 @@ image bg closet = "bg/closet.png"
 image bg bedroom = "bg/bedroom.png"
 image bg sayori_bedroom = "bg/sayori_bedroom.png"
 image bg livingroom = "mod_assets/livingroom.png"
+image bg livingroom evening = "mod_assets/livingroom2.png"
 image bg house = "bg/house.png"
 image bg kitchen = "bg/kitchen.png"
 

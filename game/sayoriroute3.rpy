@@ -1,11 +1,10 @@
 label sayoriroute3:
-    scene bg bedroom_night
-    with wipeleft_scene
-    show sayori 1bf at t11
-    s 1bf "..."
-    s 1bg "..."
-    s 1bk "..."
-    s 1bk "...{i}once in a lullaby…"
+    scene black
+    with fade
+    s "..."
+    s "..."
+    s "..."
+    s "...{i}once in a lullaby…"
     scene black
     call sayoriroute31
     call sayoriroute32
@@ -15,7 +14,7 @@ label sayoriroute31:
     "It’s been about 2 months since I’ve noticed something change in Sayori…"
     "Almost every night she comes over to cuddle and sleep."
     "I’m not complaining about that, not at all."
-    "In fact, I’ve noticed I’ve been in a much better mood in general since she started to  because of that."
+    "In fact, I’ve noticed I’ve been in a much better mood in general since she started to because of that."
     "Can’t figure out why she does. Maybe she’s just so used to it since the first time?"
     "Or maybe she’s just so used to me…"
 
