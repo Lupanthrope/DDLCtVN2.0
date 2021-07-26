@@ -13,4 +13,4 @@ Code for DDLCtVN 2.0 :
   1. Use this version of Renpy : https://www.renpy.org/release/6.99.12
   2. Put all the file of the game folder of the repo inside the game folder of your DDLCtVN installation. If the installation is fresh, nothing should be asked to be replaced
   3. Configure Renpy to point unto the folder where the your DDLCtVN is (preferences => Projects Directory)
-  4. Launch DDLCtVN with Renpy to activate the dev mod, use Shift+r when you made a change to a script to reload the game without closing it
+  4. Launch DDLCtVN with Renpy launcher, use Shift+r when you made a change to a script to reload the game without closing it
