@@ -5,12 +5,13 @@ label sayoriroute3:
     s "..."
     s "..."
     s "...{i}once in a lullaby…"
-    scene black
     call sayoriroute31
     call sayoriroute32
 return
 
 label sayoriroute31:
+    scene black
+    with fade
     "It’s been about 2 months since I’ve noticed something change in Sayori…"
     "Almost every night she comes over to cuddle and sleep."
     "I’m not complaining about that, not at all."
@@ -40,7 +41,7 @@ label sayoriroute31:
 
     scene bg kitchen
 
-    show sayori 1bw at t11 zorder 2
+    show sayori 1bv at t11 zorder 2
 
     mc "Sayori!"
 
@@ -67,22 +68,27 @@ label sayoriroute31:
     "Before I even put the egg in my mouth I set my fork down and look up."
     "My suspicions were absolutely correct."
 
+    show sayori 3bk at t11 zorder 2
+
     mc "Something on your mind?"
-    s"I guess I just, kinda feel bad about earlier is all…"
+    s 3bh "I guess I just, kinda feel bad about earlier is all…"
     mc "Don’t worry. You didn’t do any harm."
     mc "I still have the house, after all."
 
+    show sayori 3bd at t11 zorder 2
     "She smirks slightly."
 
-    s "Thank you…"
+    s 1bx "Thank you…"
+
+    show sayori 1bd at t11 zorder 2
 
     "I can hardly tell if she's hiding her sorrow or if she’s being genuine."
     "I guess that’s progress…"
     "We finish our breakfast without a hitch after that."
     "After we’re done, we both plop back on the couch."
 
-    s "So…"
-    s "What is it you want to do?"
+    s 1be "So…"
+    s 1bc "What is it you want to do?"
 
     mc "Hmm.."
 
@@ -92,16 +98,17 @@ label sayoriroute31:
 
     mc "Wanna go catch a movie at the theater?"
 
+    show sayori 4bs at h11 zorder 2
     s "Of course!"
 
     mc "Alright, when should I pick you up?"
 
-    s "Let’s see…"
-    s "There’s one movie that I really want to go see that has a screening at 8. So we can have supper and head out by 6:30?"
+    s 1bc "Let’s see…"
+    s 1bx "There’s one movie that I really want to go see that has a screening at 8. So we can have supper and head out by 6:30?"
 
     mc "Works for me, see you then, Sayori."
 
-    scene bg custom theater
+    scene bg theater
     with wiperight
 
     "The dinner went well."
@@ -109,19 +116,26 @@ label sayoriroute31:
     "Oh and they burnt mine, too."
     "But at least we have the movie here."
 
+    show sayori 1bq at t11 zorder 2
+
     mc "So, which movie is it you wanted to see?"
 
-    s "Eheheheh…"
-    s "I…"
+
+    s 1br "Eheheheh…"
+    s 5bb"I…"
     s "Actually didn’t have one in mind."
-    s "I just wanted an excuse to go out."
+    s 5ba "I just wanted an excuse to go out."
 
     "I instinctively sigh."
     "Classic Sayori."
 
+    show sayori 4br at h11 zorder 2
     s "So, you can pick whichever movie you’d like."
 
     mc "Hmm..."
+
+    show sayori 4br at thide zorder 2
+    hide sayori
 
     "I look around a little bit and see a bunch of the posters, weighing my options."
 

@@ -1211,6 +1211,4 @@ label sayoriroute22:
     "Actually I just thought of that but why ruin Sayori's fun?"
     "I love cuddles."
 
-    scene black
-    with fade
 return
