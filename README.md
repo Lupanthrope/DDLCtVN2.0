@@ -17,5 +17,6 @@ Code for DDLCtVN 2.0 :
 
 Troubleshooting :
 
-You may have an error while lauching the mod the first time stating that label are defined twice. This is due to the fact that we are using the whole DDLCtVN 1.5 archive which contain duplicate files. This error while be fixed at the released when everything will be repack into a single archive
+You may have an error while lauching the mod the first time stating that label are defined twice. This is due to the fact that we are using the whole DDLCtVN 1.5 archive which contain duplicate files. This error while be fixed at the released when everything will be repack into a single archive.
+
 For now, the way to make it work is to hit the "Reload" button in the error screen and it should be ok
