@@ -14,3 +14,8 @@ Code for DDLCtVN 2.0 :
   2. Put all the file of the game folder of the repo inside the game folder of your DDLCtVN installation. If the installation is fresh, nothing should be asked to be replaced
   3. Configure Renpy to point unto the folder where the your DDLCtVN is (preferences => Projects Directory)
   4. Launch DDLCtVN with Renpy launcher, use Shift+r when you made a change to a script to reload the game without closing it
+
+Troubleshooting :
+
+You may have an error while lauching the mod the first time stating that label are defined twice. This is due to the fact that we are using the whole DDLCtVN 1.5 archive which contain duplicate files. This error while be fixed at the released when everything will be repack into a single archive
+For now, the way to make it work is to hit the "Reload" button in the error screen and it should be ok
