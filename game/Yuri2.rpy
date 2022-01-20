@@ -4737,7 +4737,7 @@ Sincerely,
     y 4nc2 "Thank you, all of you."
     y 4oc2 "You all make me happy to just purely exist."
     y "..."
-    show yuri 4sc2 at t41 zorder 2
+    show yuri 4s c2 at t41 zorder 2
     "As her crying started to slow, she slowly rolled her sleeves back down, wiping them off her face."
     show yuri 2u at f41 zorder 3
     y "I think I'm feeling a bit better now..."

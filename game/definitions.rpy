@@ -33,7 +33,7 @@ init python:
         if time <= 0: return
         renpy.pause(time)
 
-
+define b_w = "mod_assets/b_w.png"
 
 
 # Music
@@ -1490,6 +1490,7 @@ default natsuki_23 = None
 
 #Variable
 define pickedCorrectYuriGame = False
+define sayori_confronted = False
 
 #Sound
 
@@ -1519,6 +1520,7 @@ image bg bedroom_dirty = "mod_assets/bedroom_dirty.png"
 
 #School
 image bg school = "mod_assets/school.png"
+image bg school courtyard = "mod_assets/courtyard.png" # Wretched Team - Kimagure After
 
 #Road Shots
 image bg road = "mod_assets/road.png"
@@ -1530,6 +1532,7 @@ image bg road_monika = "mod_assets/road_monika.png"
 #Bookstore
 image bg bookstore = "mod_assets/bookstore.png"
 image bg bookstore_sunset = "mod_assets/bookstore_sunset.png"
+image bg reading room = "mod_assets/reading_room.png"
 
 #Restaurant
 image bg restaurant_front = "mod_assets/restaurant_front.png"
@@ -1588,6 +1591,33 @@ image sayori pjv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png
 image sayori pjw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/w.png")
 image sayori pjx = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/x.png")
 image sayori pjy = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/y.png")
+
+        #Jacket
+image sayori jaca = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/a.png")
+image sayori jacb = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/b.png")
+image sayori jacc = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/c.png")
+image sayori jacd = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/d.png")
+image sayori jace = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/e.png")
+image sayori jacf = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/f.png")
+image sayori jacg = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/g.png")
+image sayori jach = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/h.png")
+image sayori jaci = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/i.png")
+image sayori jacj = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/j.png")
+image sayori jack = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/k.png")
+image sayori jacl = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/l.png")
+image sayori jacm = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/m.png")
+image sayori jacn = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/n.png")
+image sayori jaco = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/o.png")
+image sayori jacp = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/p.png")
+image sayori jacq = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/q.png")
+image sayori jacr = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/r.png")
+image sayori jacs = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/s.png")
+image sayori jact = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/t.png")
+image sayori jacu = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/u.png")
+image sayori jacv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/v.png")
+image sayori jacw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/w.png")
+image sayori jacx = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/x.png")
+image sayori jacy = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/y.png")
 
     #Yuri
         #Cut
@@ -1820,6 +1850,7 @@ image sayori 3fwink = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/s
 image sayori 4fwink = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "mod_assets/placeholder/sayori/wink.png")
 
 image sayori pjwink = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "mod_assets/placeholder/sayori/wink.png")
+image sayori jacwink = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "mod_assets/placeholder/sayori/wink.png")
 
 image sayori 1uwink = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "mod_assets/placeholder/sayori/wink.png")
 image sayori 2uwink = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "mod_assets/placeholder/sayori/wink.png")

@@ -4,39 +4,40 @@ label sayoriroute3:
     s "..."
     s "..."
     s "..."
-    s "...{i}once in a lullaby…"
+    s "...{i}once in a lullaby..."
     call sayoriroute31
     call sayoriroute32
+    call sayoriroute33
 return
 
 label sayoriroute31:
     scene black
     with fade
-    "It’s been about 2 months since I’ve noticed something change in Sayori…"
+    "It's been about 2 months since I've noticed something change in Sayori..."
     "Almost every night she comes over to cuddle and sleep."
-    "I’m not complaining about that, not at all."
-    "In fact, I’ve noticed I’ve been in a much better mood in general since she started to because of that."
-    "Can’t figure out why she does. Maybe she’s just so used to it since the first time?"
-    "Or maybe she’s just so used to me…"
+    "I'm not complaining about that, not at all."
+    "In fact, I've noticed I've been in a much better mood in general since she started to because of that."
+    "Can't figure out why she does. Maybe she's just so used to it since the first time?"
+    "Or maybe she's just so used to me..."
 
-    "Again, I’m not complaining."
+    "Again, I'm not complaining."
     "Well, not too much, at least."
     "Who am I to deny her, of all people, that sense of joy?"
     "I feel myself start to wake back up from my slumber."
-    mc "Mhh…"
+    mc "Mhh..."
 
     scene bg bedroom
     with dissolve_scene_full
 
     "I open my eyes to look at the clock and calendar."
-    "It’s nine o’clock on a Saturday."
+    "It's nine o'clock on a Sunday."
     "That means no school."
     "Just Sayori."
     "I look over to the other side of my bed."
-    "Where she used to be the night before, there’s an empty spot."
+    "Where she used to be the night before, there's an empty spot."
     "I start to get dressed to see if she needed to go do something like use the bathroom."
-    "I can’t imagine she ran off during the night..."
-    "Almost as soon as I’m done getting dressed, I hear the fire alarm go off."
+    "I can't imagine she ran off during the night..."
+    "Almost as soon as I'm done getting dressed, I hear the fire alarm go off."
     "I rush to the kitchen to see what happened only to find Sayori crying over some burnt eggs."
 
     scene bg kitchen
@@ -50,11 +51,11 @@ label sayoriroute31:
     "Shock replaces her look of depression almost instantly as she looks up from the eggs and toward me."
 
     s "[player]!"
-    s "I’m so sorry!"
-    s 4bp "I just wanted to make you a delicious breakfast like you do for me and…"
+    s "I'm so sorry!"
+    s 4bp "I just wanted to make you a delicious breakfast like you do for me and..."
 
     "I hug her to calm her down before she gets too flustered."
-    mc "It’s okay. The thought is what counts."
+    mc "It's okay. The thought is what counts."
 
     show sayori at thide zorder 1
     hide sayori
@@ -62,39 +63,39 @@ label sayoriroute31:
     "I release my grip and toss out the charred eggs."
     "I make some new ones for her and I just how we like them."
     "We sit down at the dining room table across from each other to eat."
-    "I start to dig in to my egg, but I don’t even need to look up from my plate to know that Sayori isn’t eating."
+    "I start to dig in to my egg, but I don't even need to look up from my plate to know that Sayori isn't eating."
     "I hear her silverware tink against the ceramic plate."
-    "She’s clearly just prodding at it."
+    "She's clearly just prodding at it."
     "Before I even put the egg in my mouth I set my fork down and look up."
     "My suspicions were absolutely correct."
 
     show sayori 3bk at t11 zorder 2
 
     mc "Something on your mind?"
-    s 3bh "I guess I just, kinda feel bad about earlier is all…"
-    mc "Don’t worry. You didn’t do any harm."
+    s 3bh "I guess I just, kinda feel bad about earlier is all..."
+    mc "Don't worry. You didn't do any harm."
     mc "I still have the house, after all."
 
     show sayori 3bd at t11 zorder 2
     "She smirks slightly."
 
-    s 1bx "Thank you…"
+    s 1bx "Thank you..."
 
     show sayori 1bd at t11 zorder 2
 
-    "I can hardly tell if she's hiding her sorrow or if she’s being genuine."
-    "I guess that’s progress…"
+    "I can hardly tell if she's hiding her sorrow or if she's being genuine."
+    "I guess that's progress..."
     "We finish our breakfast without a hitch after that."
-    "After we’re done, we both plop back on the couch."
+    "After we're done, we both plop back on the couch."
 
-    s 1be "So…"
+    s 1be "So..."
     s 1bc "What is it you want to do?"
 
     mc "Hmm.."
 
     "I take a second to think."
 
-    s "I heard there’s been a lot of good movies that were released recently."
+    s "I heard there's been a lot of good movies that were released recently."
 
     mc "Wanna go catch a movie at the theater?"
 
@@ -103,8 +104,8 @@ label sayoriroute31:
 
     mc "Alright, when should I pick you up?"
 
-    s 1bc "Let’s see…"
-    s 1bx "There’s one movie that I really want to go see that has a screening at 8. So we can have supper and head out by 6:30?"
+    s 1bc "Let's see..."
+    s 1bx "There's one movie that I really want to go see that has a screening at 8. So we can have supper and head out by 6:30?"
 
     mc "Works for me, see you then, Sayori."
 
@@ -112,42 +113,44 @@ label sayoriroute31:
     with wiperight
 
     "The dinner went well."
-    "If the definition of well is that someone put too much mayo on Sayori’s burger."
+    "If the definition of well is that someone put too much mayo on Sayori's burger."
     "Oh and they burnt mine, too."
     "But at least we have the movie here."
 
-    show sayori 1bq at t11 zorder 2
+    show sayori jacq at t11 zorder 2
 
     mc "So, which movie is it you wanted to see?"
 
 
-    s 1br "Eheheheh…"
-    s 5bb"I…"
-    s "Actually didn’t have one in mind."
-    s 5ba "I just wanted an excuse to go out."
+    s jacr "Eheheheh..."
+    s jacl"I..."
+    s "Actually didn't have one in mind."
+    s jacs "I just wanted an excuse to go out."
 
     "I instinctively sigh."
     "Classic Sayori."
 
-    show sayori 4br at h11 zorder 2
-    s "So, you can pick whichever movie you’d like."
+    show sayori jacr at h11 zorder 2
+    s "So, you can pick whichever movie you'd like."
 
     mc "Hmm..."
 
-    show sayori 4br at thide zorder 2
+    show sayori jacr at thide zorder 2
     hide sayori
 
     "I look around a little bit and see a bunch of the posters, weighing my options."
 
-    "Sayori is looking in the opposite direction of me. She seems to be enamored by a poster of a movie I can’t quite make out since she’s in the way."
+    "Sayori is looking in the opposite direction of me. She seems to be enamored by a poster of a movie I can't quite make out since she's in the way."
 
-    "Though I do see some yellow bricks and some girl’s feet with red shoes on them."
+    "Though I do see some yellow bricks and some girl's feet with red shoes on them."
 
     "Eh, whatever."
 
     "I continue to search for something good to watch."
 
     "This theater has a few movies running at 8."
+
+    $flag = False
 
     menu:
         "But which one would we like to see?"
@@ -157,22 +160,27 @@ label sayoriroute31:
 
             "I point at a poster for this old comedy movie from Britain."
 
-            "I’m surprised they even have it playing."
+            "I'm surprised they even have it playing."
             "Must be the anniversary."
 
             mc "Sayori!"
 
             "She walks over."
 
+            show sayori jacx at t11 zorder 2
             s "Yeah?"
 
             mc "This look any good to you?"
 
-            s "That looks awesome!"
+            s jacr "That looks awesome!"
 
-            mc "So, that’s a yes?"
+            mc "So, that's a yes?"
 
+            show sayori jacr at h11 zorder 2
             s "Absolutely!"
+
+            show sayori jacr at thide zorder 2
+            hide sayori
 
             scene black
             with wiperight
@@ -181,121 +189,133 @@ label sayoriroute31:
             "We  have enough money left over for a large popcorn and a couple large sodas."
             "Our movie is in theater 13."
 
-            scene bg custom theater screen
+            scene bg theater_in
             with wiperight
 
             "Sayori and I manage to find some really good seating."
             "The theater isn't really packed, even though the movie has a serious cult following."
             "The movie follows an old British king portrayed by an old, but popular British comedian as him and his band of crusaders embark across europe looking for the Ark of the Covenant."
             "Of course with comedic results and antics."
-            "I’m in the dead center of the theater, and Sayori is on my right."
+            "I'm in the dead center of the theater, and Sayori is on my right."
             "The opening credits roll."
 
             s "This looks old!"
             s "And British!"
 
-            mc "That’s because it IS British."
+            mc "That's because it IS British."
 
             "I notice a couple of greasy looking guys a few seats down looking back up at us."
-            "They aren’t happy."
+            "They aren't happy."
             "I turn to Sayori."
 
             mc "Sorry, could you keep it down a bit for the..."
 
-            "I feel the men’s glare burn through my soul."
+            "I feel the men's glare burn through my soul."
 
-            mc "Errr… wonderful gentlemen in front of us?"
+            mc "Errr... wonderful gentlemen in front of us?"
 
             "Sayori flushes red and nods."
             "I put my arm around her to soothe her out."
             "Seemingly content, the men turn around."
             "Despite the rough start to the film, what with the greasy diehard fans, the rest goes really smoothly, actually."
-            "Sayori laughs harder than I’ve ever heard her laugh before at some of the jokes."
+            "Sayori laughs harder than I've ever heard her laugh before at some of the jokes."
             "The greasy fellows in front of us gave off a more approving presence in regard to Sayori, as opposed to the more confrontational aura from earlier."
-            "It’s almost as if they’re silently saying ‘we’ve converted her,’ amongst themselves."
-            "And I can’t really blame them for being happy either."
-            "Seeing Sayori genuinely enjoy herself, especially with everything…"
+            "It's almost as if they're silently saying 'we've converted her,' amongst themselves."
+            "And I can't really blame them for being happy either."
+            "Seeing Sayori genuinely enjoy herself, especially with everything..."
             "The rain clouds."
             "The depression."
             "It makes it all seem so foreign."
-            "It makes me…"
+            "It makes me..."
             "..."
             "The kiss on the cheek I give Sayori felt instinctual."
+
+            show sayori 4bm at h11 zorder 2
             "She falls silent almost instantly, and turns a beet red."
 
-            s "[player]..."
+            s 4bh "[player]..."
+            show sayori 4be at t11 zorder 2
 
-            mc "s- sorry…"
-            mc "I… couldn’t help it."
+            mc "S- sorry..."
+            mc "I... couldn't help it."
 
-            s "It’s fine.."
+            s 1bc "It's fine.."
             s "Thank you.."
-            s "But please."
-
-            show sayori wink at t11 zorder 2
-
-            s "Keep it down for the men in front!"
+            s 1bx "But please."
+            s 3bwink "Keep it down for the men in front!"
 
             $ y_name = "Greasy Guy"
             y "You tell him, sister!"
             $ y_name = "Yuri"
 
-            "Their entire group erupts in laughter, as if they were a bunch of drunken knights singing some sort of song in a bar,"
-            "Well, that also is what’s happening in the movie now."
-            "Perhaps life imitates art after all."
+            show sayori 4br at t11 zorder 2
 
-            show sayori thide zorder 1
+            "Their entire group erupts in laughter, as if they were a bunch of drunken knights singing some sort of song in a bar,"
+
+            show sayori 4br at thide zorder 2
             hide sayori
 
+            "Well, that also is what's happening in the movie now."
+            "Perhaps life imitates art after all."
             "The movie finally ends, and when the credits roll, Sayori is in tears from the laughter."
             "I can tell she really enjoyed herself tonight."
-            "As the credits roll, Sayori and I get up and leave the theater and head for the lobby."
+            "As the credits roll, Sayori and I get up and leave the theater and head for the outside."
 
-            scene bg lobby background
+            scene bg theater_evening
             with wipeleft
 
             "Sayori is still giggling 10 minutes after the movie ended."
 
+            show sayori jacr at t11 zorder 2
             s "Hahah, that movie was amazing!"
             s "I really had a good time tonight!"
-            s "I can’t tell you the last time I laughed that hard!"
+            s "I can't tell you the last time I laughed that hard!"
 
+            show sayori jact at t11 zorder 2
             "She takes a moment to collect herself"
 
-            s "Woo-ee!"
-            s "This may be odd to ask, but…"
+            s jacr "Woo-ee!"
+            s jacx "This may be odd to ask, but..."
             s "Is it ok if we go back to my place?"
 
-            mc "I don’t see a problem with that."
+            show sayori jaca at t11 zorder 2
+
+            mc "I don't see a problem with that."
             mc "So, sure."
 
-            scene bg sayori_bedroom
+            #Sleep at Sayori's house
+            $flag = True
+            scene bg sayori_bedroom_evening
             with wipeleft
 
             "Almost as soon as we get through her room door, Sayori and I plop into bed."
 
-            s "Hey, uh, before we get to sleep…"
-            s "I want to thank you for the wonderful evening."
-            s "I really had fun."
+            show sayori 4bh at t11 zorder 2
+            s "Hey, uh, before we get to sleep..."
+            s 3bc "I want to thank you for the wonderful evening."
+            s 3br "I really had fun."
             s "I felt at ease watching that movie with you."
+
+            show sayori 3br at thide zorder 2
+            hide sayori
 
             "I wrap my arms around Sayori."
 
-            mc "I…"
-            mc "I don’t know what to say…"
+            mc "I..."
+            mc "I don't know what to say..."
 
-            s "Don’t say anything more…"
+            s "Don't say anything more..."
 
             "I feel her start to clutch for my shirt."
 
             mc "No, not tonight.."
-            mc "Let’s just cuddle."
+            mc "Let's just cuddle."
 
-            "I can’t help but feel like she didn’t like my answer."
+            "I can't help but feel like she didn't like my answer."
 
             s "Okay."
 
-            "That answer doesn’t sit well with me. But I take it."
+            "That answer doesn't sit well with me. But I take it."
 
             mc "Goodnight, Sayori."
 
@@ -305,45 +325,49 @@ label sayoriroute31:
         "Romance":
             "I take a moment to scan the posters."
             "I see one for a romantic movie that came out just last week."
-            "My rep could be ruined if I actually pay money to go watch this, but at this point, being the only guy in an all girls literature club, I think I’m pretty secure with my masculinity."
+            "My rep could be ruined if I actually pay money to go watch this, but at this point, being the only guy in an all girls literature club, I think I'm pretty secure with my masculinity."
 
             mc "Sayori."
             mc "What do you think about romantic movies?"
 
-            s "I’ve never seen one before."
-            s "But I’d be willing to try it out, if you want to!"
+            show sayori jacc at t11 zorder 2
+            s "I've never seen one before."
+            s jacx "But I'd be willing to try it out, if you want to!"
 
-            mc "Alright, then, it’s a deal."
+            mc "Alright, then, it's a deal."
+
+            show sayori jacx at thide zorder 2
+            hide sayori
 
             scene black
             with wiperight
 
             "We get the tickets and a tub of popcorn."
-            "I’m not too sure on this one, she might like it, or she might not. Who knows?"
+            "I'm not too sure on this one, she might like it, or she might not. Who knows?"
             "We are located at theater 15."
 
 
-            scene bg theater screen
+            scene bg theater_in
 
             mc "Theater 15, here we are"
 
-            "It didn’t take us long to find our screen, and we’re sat down in our allocated seats within five minutes, even with Sayori going to the bathroom beforehand."
+            "It didn't take us long to find our screen, and we're sat down in our allocated seats within five minutes, even with Sayori going to the bathroom beforehand."
 
             "The theatre is fairly crowded, this is a popular movie, after all."
 
-            s "So what’s this movie about?"
+            s "So what's this movie about?"
 
-            mc "Well, I don’t know the details, but I think it’s about a poor woman who falls for a rich man, but social differences get in the way of their relationship."
+            mc "Well, I don't know the details, but I think it's about a poor woman who falls for a rich man, but social differences get in the way of their relationship."
 
-            s "Sounds depressing, I hope they get a happy ending…"
+            s "Sounds depressing, I hope they get a happy ending..."
 
-            mc "There’s only one way to find out!"
+            mc "There's only one way to find out!"
 
             "With that, the lights dim, the obligatory \"oooh\" rings out among the audience, and the movie begins."
-            "We’re about twenty minutes in now, and the plot has begun to thicken."
+            "We're about twenty minutes in now, and the plot has begun to thicken."
             "Sayori has clearly taken a liking to a character called Goldwoman by the way her eyes light up every time he comes into frame."
-            "I’m glad she’s enjoying herself, although she’s strangely silent for a girl I know to be bubbly beyond belief."
-            "I guess she’s just that into it."
+            "I'm glad she's enjoying herself, although she's strangely silent for a girl I know to be bubbly beyond belief."
+            "I guess she's just that into it."
             "Suddenly, a sex scene erupts from almost nowhere."
             "I look over to Sayori next to me."
             "She seems shocked, but gradually her expression returns to one of subtle appreciation."
@@ -352,7 +376,7 @@ label sayoriroute31:
             "I turn my head to Sayori once more."
             "She is looking straight at me with a sly grin and a deep red tint, visible even in the darkness of the theatre."
             "She flashes a small wink, then returns to watching the movie with a look of intent upon her face."
-            "Does she mean…wow."
+            "Does she mean...wow."
             "I can feel my face heating up and my heartbeat racing, and I almost choke on my own saliva."
             "She appears to notice my hands fumbling, as I hear a quiet giggle from next to me."
             "I had no idea she could be so forthcoming."
@@ -364,17 +388,21 @@ label sayoriroute31:
             "Her sobbing quietens as I do so."
             "After a few minutes, she looks up at me with glistening eyes and gives me a little nod, signifying that she feels a little better."
             "I remove my hand from her head and release her from the embrace."
-            "We sit side-by-side, leaning on each other’s shoulders, as the last few minutes of the movie play out."
+            "We sit side-by-side, leaning on each other's shoulders, as the last few minutes of the movie play out."
             "The movie is over and the end credits roll."
             "Sayori seems to have cleared herself up, and finishes the process by giving me a brief hug and a light squeeze."
             "We walk out of the theatre and back into the foyer, where we each use the bathroom then head out."
 
-            scene bg theater lobby
+            scene bg theater_evening
             with wipeleft
 
             mc "So, what did you think of it?"
 
-            s "I really enjoyed it. It’s not so much what I’m into but it was a nice break from the norm."
+            show sayori jacx at t11 zorder 2
+
+            s "I really enjoyed it. It's not so much what I'm into but it was a nice break from the norm."
+
+            show sayori jaca at t11 zorder 2
 
             "Huh, that was...a genuine and well-structured answer!"
             "What did this movie do to her..?"
@@ -383,12 +411,15 @@ label sayoriroute31:
 
             "Sayori nods"
 
-            s "Oh, by the way, I wasn’t nudging you for no reason, you know…"
+            s jacx "Oh, by the way, I wasn't nudging you for no reason, you know..."
 
+            show sayori jacq at t11 zorder 2
             "She flashes her now infamous sly grin."
             "Once again I feel the heat of entire universes being born upon my face."
 
-            mc "Yeah, let’s go.."
+            show sayori jacq at thide zorder 2
+            hide sayori
+            mc "Yeah, let's go.."
 
             "Sayori giggles and walks beside me."
 
@@ -398,15 +429,16 @@ label sayoriroute31:
             "We stroll along the illuminated sidewalk, arms interlinked and shoulder-to-shoulder."
             "Sayori giggles every so often, with a slight blush across her cheeks, while I remain silent with one arm around her."
 
+            show sayori jacc at t11 zorder 2
             s "Hey, can I stay at your house tonight?"
 
             mc "Sure, but how come?"
 
-            s  "Because."
+            s jaco "Because."
 
-            mc "That isn’t an answer…"
+            mc "That isn't an answer..."
 
-            s "Yes it is!"
+            s jacp "Yes it is!"
 
             mc "Whatever."
 
@@ -416,12 +448,14 @@ label sayoriroute31:
             scene bg kitchen
             with wiperight
 
-            "It doesn’t take us long to reach my place, and we step inside into the warm air."
+            "It doesn't take us long to reach my place, and we step inside into the warm air."
 
-            scene bg bedroom
+            scene bg bedroom_night
             with wiperight
 
-            s  "Hey, about that movie.."
+            show sayori 5bb at t11 zorder 2
+
+            s "Hey, about that movie.."
 
             mc "Yeah?"
 
@@ -429,22 +463,26 @@ label sayoriroute31:
 
             mc "Yeah..?"
 
-            "I’m starting to sense where she’s going with this."
+            "I'm starting to sense where she's going with this."
 
-            s "We could try-"
+            s 5ba "We could try-"
 
             "I decide to stop her there."
 
-            mc "I’m afraid that’s a no from me, I’m just not feeling up for it right now. I’m sorry."
+            mc "I'm afraid that's a no from me, I'm just not feeling up for it right now. I'm sorry."
 
-            s "But-"
+            s 5bc "But-"
 
-            mc "You’re welcome to share a bed, but nothing more, nothing…"
+            mc "You're welcome to share a bed, but nothing more, nothing..."
             mc "...lewd"
 
-            s "Okay…"
+            s 5bd "Okay..."
 
-            "She looks a little down, but I’m sure some cuddles will help fix that."
+            "She looks a little down, but I'm sure some cuddles will help fix that."
+
+            show sayori 5bd at thide zorder 2
+            hide sayori
+
             "We both climb into bed after changing and otherwise getting ready."
 
             mc "Goodnight, Sayori."
@@ -454,10 +492,10 @@ label sayoriroute31:
         "Drama":
             "I glance at the posters."
             "Nothing in particular strikes my eye in any way."
-            "Eenie…"
-            "Meenie…"
-            "Minie…"
-            "Moe…"
+            "Eenie..."
+            "Meenie..."
+            "Minie..."
+            "Moe..."
             "Hm, this one is actually pretty well known."
             "I heard it was a wholesome life story of a man with an intellectual disability."
             "Even I know the quote, \"Life is like a box of chocolates.\""
@@ -466,19 +504,25 @@ label sayoriroute31:
             "What's the worst that could happen?"
             "I approach Sayori and point at the poster."
             mc "Hey, Sayori, how does this movie sound?"
-            s "What’s it about?"
+
+            show sayori jacc at t11 zorder 2
+            s "What's it about?"
             "Probably should have told her that before asking."
-            mc  "It’s a story of a mentally disadvantaged man trying to lead a normal life. Sound good?"
-            s "Okay!"
+            mc  "It's a story of a mentally disadvantaged man trying to lead a normal life. Sound good?"
+            s jacr "Okay!"
             "Sayori flashes her million-dollar smile."
-            "Unlike most other things, it doesn’t lose a penny of its value despite the fact that it’s seen everywhere."
+            "Unlike most other things, it doesn't lose a penny of its value despite the fact that it's seen everywhere."
             mc "Alright, in we go then."
+
+            show sayori jacr at thide zorder 2
+            hide sayori
+
             "I calmly stroll into the lobby, and Sayori gleefully skips beside me, almost bounding with a spring in her step."
-            "I can’t help but smile at her bubbly nature"
+            "I can't help but smile at her bubbly nature"
             
             scene black
             with wiperight
-            scene bg theater screen
+            scene bg theater_in
 
             "We take our seats just as the pre-movie advertisements finish. As a glimpse of some cheesy horror flick fades out of the screen, the title card plays"
             "As the first half an hour of the movie go by, Sayori never takes her eyes off the screen."
@@ -494,45 +538,92 @@ label sayoriroute31:
             "I say to myself, unthinkingly"
             "Sayori doesn't even seem to notice I said anything, and at this point is even leaning forward in her seat"
             "Once the credits begin rolling, I glance over at sayori yet again"
-            "Is she…?"
+            "Is she...?"
             mc "Woah, Sayori. Are you- crying?"
             "Sayori sniffles a little and wipes her eyes"
+            show sayori jacv at t11 zorder 2
             s "n- no. The movie was just really sad!"
             "Thinking back, the movie was definitely on the sad side, but I wasn't even close to crying"
-            "As we walk out into the lobby, Sayori seems to have rebuilt some of her good mood"
+
+            scene black
+            with wipeleft
+            "As we walk outside, Sayori seems to have rebuilt some of her good mood"
+
+            scene bg theater_evening
+            with wipeleft
+
             mc "So, it seems like you really enjoyed it, huh?"
-            s "Well, it was okay, I guess…"
+
+            show sayori jacg at t11 zorder 2
+            s "Well, it was okay, I guess..."
+
             "I raise my eyebrows"
+
             mc "Sayori, you were {i}crying{/i} at the end of it."
+
+            show sayori jach at t11 zorder 2
             s "Only a little! And besides, how come the movie didn't have any effect on you?"
+
             "Seeing how much Sayori seemed to enjoy the movie, I hold my tongue"
             mc "I liked it, I guess I just found it hard to relate with the protagonist."
+
+            show sayori jacq at t11 zorder 2
             "Sayori grins"
-            mc "What’s so funny?"
-            s "Well, I would have thought that you of all people would relate to the struggle of a girl constantly rejecting you"
-            mc "I’ll have you know you're the first person i've ever asked out, and you said yes. So, I’ve got a perfect record in the dating world"
+
+            mc "What's so funny?"
+
+            s jacx "Well, I would have thought that you of all people would relate to the struggle of a girl constantly rejecting you"
+            mc "I'll have you know you're the first person i've ever asked out, and you said yes. So, I've got a perfect record in the dating world"
+
+            show sayori jacx at thide zorder 2
+            hide sayori
+
             "I smirk"
             "Sayori rolls her eyes and grins again, pushing me playfully"
+
+            scene bg residential_night
+            with wipeleft
+
             "As we head home, however, Sayori starts to look more and more like she did right after the movie."
             mc "Hey, do you want to stay the night at my house again?"
+
+            show sayori jacg at t11 zorder 2
             s "Yeah, if that's okay."
             "I look at sayori with confusion"
             mc "Of course you can stay, why would you think I don't want you to?"
-            s "I- I’ll tell you when we get back to your house."
+            s jace "I- I'll tell you when we get back to your house."
+
+            show sayori jace at thide zorder 2
+            hide sayori
+
             "We walk the rest of the way home in silence"
+
+            scene black
+            with wipeleft
             "We reach my front door an I walk in, with Sayori following close behind me"
+
+            scene bg kitchen
+            with wipeleft
+
             mc "So, what happened during the movie?"
-            s " Well, I guess the main character just got to me."
+
+            show sayori 1bg at t11 zorder 2
+            s "Well, I guess the main character just got to me."
             "I think for a second. Why would a mentally challenged person be relatable to Sayori?"
             mc "What do you mean?"
-            s "It just felt like there was someone out there who knew what its like"
-            s "But it also ended up reminding me of it too."
+            s "It just felt like there was someone out there who knew what its like."
+            s 1bh "But it also ended up reminding me of it too."
             s "I already knew there were others out there with problems like mine, but seeing someone deal with them like that was like a reminder"
             "It finally clicks"
             mc "I- I understand."
-            "Sayori looks like she’s about to cry again"
+            show sayori 1bu at t11 zorder 2
+            "Sayori looks like she's about to cry again"
             "I move over and put my arm around her"
-            s "I’m just being stupid."
+
+            show sayori 1bu at thide zorder 2
+            hide sayori
+
+            s "I'm just being stupid."
             s "I shouldn't be acting this torn up over some movie"
             mc "It's fine, we all have our problems. Besides, there were a few other people who were crying at the end of the movie, too."
             "Sayori looks at me, confused"
@@ -540,24 +631,32 @@ label sayoriroute31:
             mc "In any case, dont worry about it."
             "We sit on the couch for a while and Sayori calms down."
             s "So, do you want to go to bed yet?"
-            mc "That sounds great."
+            mc "That sounds great."            
+
+            scene bg bedroom_night
+            with wipeleft
             "We make our way to my bedroom and flop onto the bed."
 
         "Horror" :
-            "Hm…."
-            "How about…"
-            "No, no, that’s lame."
+            "Hm...."
+            "How about..."
+            "No, no, that's lame."
             "Hm, this one could be interesting."
             "Does Sayori like horror, though?"
             "Has she even seen a horror movie?"
-            "What’s the worst that could happen?"
-            "I can just show her something better if she doesn’t like this one."
+            "What's the worst that could happen?"
+            "I can just show her something better if she doesn't like this one."
 
             mc "Well then, how about this one, Sayori?"
 
+
+            show sayori jacn at t11 zorder 2
             s "A horror movie?"
-            s "I don’t really like those, because they can be a bit too scary for me…"
-            s "But if you’re with me, I think I can handle it!"
+            s jacl "I don't really like those, because they can be a bit too scary for me..."
+            s jacx "But if you're with me, I think I can handle it!"
+
+            scene black
+            with wipeleft
 
             "We buy our tickets and head over to get some snacks."
             "I hear some rather heavy rainfall begin outside, cursing myself for not bringing an umbrella."
@@ -575,41 +674,49 @@ label sayoriroute31:
 
             mc "You too."
 
-            "Realizing my mistake, I blush and rush over to put extra butter on my popcorn while hoping the clerk didn’t notice."
+            "Realizing my mistake, I blush and rush over to put extra butter on my popcorn while hoping the clerk didn't notice."
 
             $ y_name = "Yuri"
 
+            scene bg theater_in
+            with wipeleft
+
             "We enter the auditorium, find our seats, and get ready for the movie to start playing."
-            "The movie itself isn’t particularly good or scary."
-            "It’s about a group of teenagers who wander into the woods looking for a wizard but find that a demon haunts it and the demon kills all but one."
-            "It’s filmed in one of those {i}oh these are my phone recordings that some random dude picked up and played{/i} styles and has a lot of jumpscares."
+            "The movie itself isn't particularly good or scary."
+            "It's about a group of teenagers who wander into the woods looking for a wizard but find that a demon haunts it and the demon kills all but one."
+            "It's filmed in one of those {i}oh these are my phone recordings that some random dude picked up and played{/i} styles and has a lot of jumpscares."
             "The acting isn't even that good, either."
-            "Half the times the ‘demon’ attacks one of the kids sounds like they’re laughing."
+            "Half the times the 'demon' attacks one of the kids sounds like they're laughing."
             "And the demon looks like some guy in a black skinsuit crawling on all fours."
-            " I feel Sayori cling to my arm and jump every time something mildly scary happens, so I guess it’s somehow scary?"
-            "I don’t know, maybe I just don’t get it."
-            "Maybe I just don’t have a high enough IQ to enjoy this movie"
+            "I feel Sayori cling to my arm and jump every time something mildly scary happens, so I guess it's somehow scary?"
+            "I don't know, maybe I just don't get it."
+            "Maybe I just don't have a high enough IQ to enjoy this movie"
             "I feel Sayori push really hard against my side when the movie comes to a close as the sole survivor of the group is implied to be killed."
             "Once the movie is over, we head out of the auditorium and into the foyer."
+         
+            scene bg theater_evening
+            with wipeleft
 
-            mc "So how’d you like the movie, Sayori?"
+            mc "So how'd you like the movie, Sayori?"
 
+
+            show sayori jacg at t11 zorder 2
             s "The demon looked like it was going to kill me in the end, I was scared."
 
             mc "Really? The demon of all things?"
-
             mc "I thought that was the least scary part of the whole movie."
 
+            show sayori jach at t11 zorder 2
             s "Yeah well it was to you!"
-            s "You’re braver than me!"
+            s "You're braver than me!"
 
             mc "So?"
             mc "Still doesn't change that the movie looked like it had a budget of 4 dollars."
             mc "Maybe 5 for the skin suit the \"demon\" wore."
-            #Sayori-specialface c(with customsprite varsity jacket)
-            #what
-            s "You meanie!"
-            s "Let’s just go home, I’m scared now."
+
+
+            s jacp "You meanie!"
+            s jacj "Let's just go home, I'm scared now."
 
             mc "Alright, sorry."
 
@@ -617,92 +724,106 @@ label sayoriroute31:
 
 
             scene bg residential_night
-            with wiperight
+            with wipeleft
 
-            "I’m about to walk Sayori back, so I give her my jacket to shield from the rain."
-            "It’s not much, but it seems to help."
+            "I'm about to walk Sayori back, so I give her my jacket to shield from the rain."
+            "It's not much, but it seems to help."
             
-            s "Actually… can you sleep over at my house tonight?"
-            s "Y’know… I just want to make sure nothing happens to you."
+            show sayori jach at t11 zorder 2
+            s "Actually... can you sleep over at my house tonight?"
+            s jacl "Y'know... I just want to make sure nothing happens to you."
 
-            "I would ask if she was still scared, but it’s a question that I’m already well aware of the answer to."
+            "I would ask if she was still scared, but it's a question that I'm already well aware of the answer to."
 
-            mc "Sure thing, Sayori, I don’t mind spending the night."
+            mc "Sure thing, Sayori, I don't mind spending the night."
            
+            show sayori jacl at thide zorder 2
+            hide sayori
+
             "As we head over to her house, I notice that she keeps on looking around nervously."
             "Lightning flashes and I hear the crack of thunder about 4 seconds after."
 
+            show sayori jacp at h11 zorder 2
             s "EH!?"
 
             mc "What?"
 
-            "Sayori shouts out, started. Upon her realization it was just thunder, she calms down a bit."
+            "Sayori shouts out, startled. Upon her realization it was just thunder, she calms down a bit."
 
-            s "Oh… it’s nothing." 
-            s "I’m not scared anymore, so there’s no reason to be worried!"
+            s jacl "Oh... it's nothing." 
+            s jacm "I'm not scared anymore, so there's no reason to be worried!"
 
-            mc "Come on, Sayori…"
+            mc "Come on, Sayori..."
 
             "She looks away for a minute."
 
 
-            s "Okay… so maybe I still am…"
+            s jack "Okay... so maybe I still am..."
 
             mc "Here."
 
+
+            show sayori jack at thide zorder 2
+            hide sayori
+
             "I put an arm around her and pull her close to me."
 
-
-            mc "I’ll protect you from any horrifying low budget monsters that try to attack us, alright?"
-
+            mc "I'll protect you from any horrifying low budget monsters that try to attack us, alright?"
             s "T-thank you, [player]..."
+
+            scene black
+            with wipeleft
 
             "Shortly after, the walk concludes."
             "Sayori unlocks the door to her house and turns the light on."
-            #put the proper background here skull you’ll remember it or at least you better you fucking moron
-            #which background-jan
-
             "Or, tries to anyway."
-            "She flicks the light switch a few times before realizing that nothing’s actually changing."
-
-
-            s "Umm…"
-
-
+            "She flicks the light switch a few times before realizing that nothing's actually changing."
+          
+            s "Umm..."
             mc "Storm must have knocked the power out."
 
-            "From what I can see of Sayori’s face, she’s definitely not comfortable regarding this information."
+            "From what I can see of Sayori's face, she's definitely not comfortable regarding this information."
             "I cling onto her a bit tighter and get my phone out, using its screen as a flashlight."
 
-
-            mc "Let’s just go to bed. The power will be back up by tomorrow morning."
-
-            s "O-okay…"
+            mc "Let's just go to bed. The power will be back up by tomorrow morning."
+            s "O-okay..."
 
             "We walk up the stairs to her room together."
             "You really do start to notice every creak and noise that comes out of your movements."
+            
+            #Sleep at Sayori's house
+            $flag = True
+            scene bg sayori_bedroom_night
+            with wipeleft
+
             "Once in her room, she gets comfy in her bed."
 
             mc "Better?"
 
+            show sayori 1br at t11 zorder 2
             s "Much better!"
 
 
-            mc "Well, I’m going to go sleep on the couch downstairs."
+            mc "Well, I'm going to go sleep on the couch downstairs."
             mc "Yell if you need something."
 
+            show sayori 1bm at h11 zorder 2
             s "Wait!"
-            s "You don’t really have to sleep downstairs, do you?"
+            s "You don't really have to sleep downstairs, do you?"
 
-            "I realize what she’s proposing, and why."
-            "I wouldn’t really object, but her bed is kind of small…"
-            "Ah, what’s the worst that could happen?"
+            "I realize what she's proposing, and why."
+            "I wouldn't really object, but her bed is kind of small..."
+            "Ah, what's the worst that could happen?"
 
 
             mc "Alright, fine."
             mc "Here, scoot over."
 
-            "She shuffles over slightly, and it’s really not enough room, so she turns over on her side."
+            show sayori 1bm at thide zorder 2
+            hide sayori
+
+
+            "She shuffles over slightly, and it's really not enough room, so she turns over on her side."
 
             "I lay next to her, also on my side to conserve room and put an arm around her."
 
@@ -711,478 +832,1010 @@ label sayoriroute31:
 
             s "Goodnight, [player]."
 
-            "We lay silent for a few minutes."
-            "Random noises start going off and I can tell by Sayori’s breathing that it’s not helping her fall asleep."
+            scene black
+            with wipeleft
 
-            mc "Hey, listen…"
+            "We lay silent for a few minutes."
+            "Random noises start going off and I can tell by Sayori's breathing that it's not helping her fall asleep."
+
+            mc "Hey, listen..."
             mc "Turn around."
 
             "She shuffles a bit to be turned to me."
             "I kiss her forehead and pull her closer to my chest."
 
-            mc "Nothing will happen to you, don’t worry."
-            mc "I’ll take care of whatever there is."
+            mc "Nothing will happen to you, don't worry."
+            mc "I'll take care of whatever there is."
             mc "I promise."
 
-            s "Thanks…"
+            s "Thanks..."
 
             "Sayori slurs her appreciation."
-            "Within the next few seconds, she’s fast asleep."
+            "Within the next few seconds, she's fast asleep."
             "I finally settle down and get my rest as well."
 return
 
 label sayoriroute32:
-    scene bg bedroom_morning
+    if flag:
+        scene bg sayori_bedroom_morning
+    else:
+        scene bg bedroom_morning
     with dissolve_scene_full
+
     "My eyes flutter open"
 
-    mc "that might be the best sleep I’ve ever had"
+    mc "That might be the best sleep I've ever had"
 
-    " I say that quietly, just in case Sayori is still sleep"
-    "I suppose I didn’t realise how tired I was last night,"
+    "I say that quietly, just in case Sayori is still sleep"
+    "I suppose I didn't realise how tired I was last night"
 
     "I gently roll over to check"
 
     "Still sleeping soundly"
-    mc "God, you’re adorable"
+    mc "God, you're adorable"
 
     "I notice Sayori stirring"
-    "Best not push my luck any more, Time to quietly get up"
+    "Best not push my luck any more, time to quietly get up"
 
+    scene black
+    with wipeleft
 
-    "I get out of bed, have a quick shower and get dressed"
-    mc "What should I make for breakfast…"
+    if flag :
+        "I get out of bed, get dressed then leave a writen message to Sayori asking her to come home when she's up."
+    else :
+        "I get out of bed, have a quick shower and get dressed."
+
+    scene kitchen
+    with wipeleft
+
+    mc "What should I make for breakfast..."
 
     mc "oh I know!"
     "I recently learned to make this really special type of pancake"
-    "It’s called Okonomiyaki"
+    "It's called Okonomiyaki"
 
-    "They’re more of a meal food rather than a quick breakfast"
-    "But I’d like to treat Sayori to something special"
-    mc "Let’s get cooking!"
+    "They're more of a meal food rather than a quick breakfast"
+    "But I'd like to treat Sayori to something special"
+    mc "Let's get cooking!"
 
     "The recipe is easier than I remember, and before long I have a plate of Okonomiyaki pancakes"
 
-    # Writers note: I wasn’t sure as to whether or not this was a school day or a weekend, if it’s a weekend then oof my bad as I am writing this as though it’s a week day
+    # Writers note: I wasn't sure as to whether or not this was a school day or a weekend, if it's a weekend then oof my bad as I am writing this as though it's a week day
 
-    "Hmm, Sayori isn’t down yet."
+    if flag :
+        "Hmm, Sayori isn't here yet."
+    else :
+        "Hmm, Sayori isn't down yet."
+
     "I suppose she must have been equally tired, if not more."
-    "She put in so much effort last night for our little date, I wouldn’t be surprised if Sayori slept until midday"
+    "She put in so much effort last night for our little date, I wouldn't be surprised if Sayori slept until midday"
     "But we need to get to school."
 
-    "I head upstairs and into my room, where Sayori appears to be slowly waking up."
+    if flag :
+        "I lean to my phone and proceed to call Sayori."
+        "After some calls, she finally picks up."
+    else :
+        scene bg bedroom_morning
+        with wipeleft
+        "I head upstairs and into my room, where Sayori appears to be slowly waking up."
 
-    mc "Sayori…"
+    mc "Sayori..."
     mc "You gotta get up, we gotta eat breakfast and go"
 
     "Sayori grumbles something unintelligible."
 
-    s "Hmmf mff… nn breakfast mmf..."
+    if not flag :
+        show sayori pjq at t11 zorder 2
+
+    s "Hmmf mff... nn breakfast mmf..."
 
     mc "Sayori?"
 
     "Suddenly, and without warning, Sayori springs to life!"
 
-    s "I’m AWAKE!"
-    s "Breakfast!"
-    "Sayori yawns"
-    s "Woah sorry…"
-    s "You startled me a little."
-    s "Hehe..."
-    s " I’m sleepy"
+    if flag :
+        s "BREAKFAST ! COMING !"
+        "Sayori yawns"
+    else :
+        s pjm "I'm AWAKE!"
+        s pjr "Breakfast!"
+        "Sayori yawns"
+        s pjl "Woah sorry..."
+        s "You startled me a little."
+        s "Hehe..."
+        s pjk"I'm sleepy"
 
     mc "I think you spent all your energy on waking up."
     mc "Go take a shower, same as last time"
     mc "Be quick though, breakfast is waiting"
 
+    if not flag :
+        show sayori pjr at t11 zorder 2
+
     s "Okayyyy!"
 
-    "I hope she doesn’t take too long…"
+    if flag :
+        "And she hangs up just like that."
+    else :
+        "While she's preparing, I'm heading back to the kitchen"
+        scene kitchen
+        with wipeleft
+
+    "I hope she doesn't take too long..."
     "I want the pancakes to be at least warm by the time we eat them."
     "..."
-    "On second thought, this is about making Sayori happy…"
-    "It’d be pretty sad if the only way to do that was to make some pancakes…"
+    "On second thought, this is about making Sayori happy..."
+    "It'd be pretty sad if the only way to do that was to make some pancakes..."
     "..."
-    "I’ll make today great, as best I can!"
+    "I'll make today great, as best I can!"
 
-    "Before long Sayori comes down from upstairs, dressed and ready to eat."
+    if flag :
+        "Before long Sayori knocks on my door, dressed and ready to eat."
+    else :
+        "Before long Sayori comes down from upstairs, dressed and ready to eat."
 
-    s "What’s for breakfast?"
+    show sayori 1x at t11 zorder 2
+
+    s "What's for breakfast?"
     mc "I made something called Okonomiyaki,"
-    mc "They’re basically like-"
-    s "Oko- Okoya- Okoyakonoma?"
-    s "You made me a tongue twister for breakfast!"
-    mc "Don’t worry Sayori"
-    mc "They’re basically just healthy pancakes"
-    mc "Besides, they’re my treat!"
-    s "Huh?"
-    s "What did I do to deserve a treat?"
-    mc "Well, you just put in so much effort during our date last night…"
+    mc "They're basically like-"
+    s 1o "Oko- Okoya- Okoyakonoma?"
+    s 1m "You made me a tongue twister for breakfast!"
+    mc "Don't worry Sayori"
+    mc "They're basically just healthy pancakes"
+    mc "Besides, they're my treat!"
+    s 1o "Huh?"
+    s 1h "What did I do to deserve a treat?"
+    mc "Well, you just put in so much effort during our date last night..."
     mc "I mean, we had such a great time."
-    s "Awww [player], you really didn’t have to.."
-    s "But if it’s food I can’t say no!"
+    s 1x "Awww [player], you really didn't have to.."
+    s 1r "But if it's food I can't say no!"
 
 
-    # Writers note: Sorry about the okonomiyaki thing, this can be changed if you want, but I had it in my head because I recently learned how to make them. On a nother note, I’m assuming that this is a western society, because of the way the mod is so far and also the original game. 
+    # Writers note: Sorry about the okonomiyaki thing, this can be changed if you want, but I had it in my head because I recently learned how to make them. On a nother note, I'm assuming that this is a western society, because of the way the mod is so far and also the original game. 
 
+    scene residential
+    with wipeleft
 
     "After a quick breakfast we head out to school"
-    "For once, I actually think we’ll be on time"
+    "For once, I actually think we'll be on time"
     "And Sayori seems positively chipper today"
 
+    show sayori 1r at t11 zorder 2
     s "That was so yummy, [player]!"
-    s "Can you make them again sometime?"
-    mc "Sure…"
+    s 1x "Can you make them again sometime?"
+    mc "Sure..."
     mc "Only if you learn how to say it"
-    s "C’mon that’s mean!"
-    s "Oka- Mako- yaki mangos…"
+    s 1p "C'mon that's mean!"
+    s 1o "Oka- Mako- yaki mangos..."
     "I chuckle softly"
     "Yaki Mangos"
-    mc "You’ll get there eventually sayori"
+    mc "You'll get there eventually sayori"
+
+    show sayori 1q at t11 zorder 2
     "Sayori smiles"
+
+    scene black
+    with wipeleft
 
     "We arrive at school on time for once."
     "Sayori and I go our separate ways until the dreaded hour known as math."
 
-    # Writer’s note: I was unsure as to whether or not Sayori and mc share any classes, so I left space for a short moment of interaction between the two in the case of there being a need for extending the scene, or adding more context.
+    scene bg class_day
+    with wipeleft_scene
 
     "Come time for math, my mind is already in a place of pure dread."
     "However, I think being stuck in that class with Sayori at least next to me will make things more tolerable."
     "I walk into the classroom and take my seat where I typically sit, expecting Sayori to sit by me in her usual spot."
+    show sayori 1q at t22 zorder 2
     "A few moments later she walks in and smiles at me."
     "I smile back, but instead of her sitting by me, she drops a note on my desk, then takes a spot on the other end of the room."
+    show sayori 1q at thide zorder 2
+    hide sayori
     "Aw, what the hell!"
     "Finally I open the note and read what she wrote for me."
 
     python:
         s21_poem4 = Poem(
         author = "sayori",
-        title = "{},".format(player),
-        text = """\
-         I’m gonna sit somewhere else for math today. This is for your own good. I know you need to pay attention for the test coming up. XOXO.
+        title = "{}".format(player),
+        text = """
+         I'm gonna sit somewhere else for math today. This is for your own good. I know you need to pay attention for the test coming up.
+         
+         XOXO.
         """
         )
 
     call showpoem(s21_poem4, music=False)
 
 
-    "{i}Son of a…"
-    "Sayori’s either the most thoughtful person I know, or the most devious."
+    "{i}Sayori, you..."
+    "Sayori's either the most thoughtful person I know, or the most devious."
 
+    scene bg corridor
+    with wipeleft_scene
 
     "School is as boring as ever today."
     "Not only that but I had to study during morning break."
-    "Luckily, it’s lunch now."
-    "I wonder where Sayori is…"
-
+    "Luckily, it's lunch now."
+    "I wonder where Sayori is..."
+    
+    show sayori 1r at t11 zorder 2
     s "[player]!"
     "I turn around and see sayori, lunch in hand, waving violently at me."
     "I wave gently in return and make my way over to where she is standing."
 
-    s "Hi [player]!"
+    s 1x "Hi [player]!"
     mc "Yo, Sayori"
     s "Wanna go for a walk before the bell rings?"
 
+    show sayori 1a at t11 zorder 2
+
     "My brain already hurts from studying"
     "I have a feeling that walking will make that worse"
-    "But I feel like I need to treat sayori today…"
+    "But I feel like I need to treat sayori today..."
 
-    # Writer’s note: Depending on what ya’ll think, we could add a choice here: Going or asking to sit somewhere and rest. I don’t fully mind.
+    # Writer's note: Depending on what ya'll think, we could add a choice here: Going or asking to sit somewhere and rest. I don't fully mind.
     
     menu :
         "Go with Sayori":
             mc "Sure thing Sayori, where do you want to go?"
-            s "I’m not quite sure…"
-            s "Just somewhere around the campus would be fun!"
+
+            s 1n "I'm not quite sure..."
+            s 1r "Just somewhere around the campus would be fun!"
             s "Like an adventure!"
             s "Wandering wherever we want to go!"
             mc "Sounds great, Sayori!"
 
-            "Sayori and I grab each other’s hands and begin wandering around the school."
+            show sayori 1r at thide zorder 2
+            hide sayori
+
+            scene black
+            with wipeleft
+
+            "Sayori and I grab each other's hands and begin wandering around the school."
             "For once Sayori seems really laid back."
-            "It’s odd how in normal conversation with Sayori, there was a degree of stress and tension in how she acted that I didn’t notice until now."
+            "It's odd how in normal conversation with Sayori, there was a degree of stress and tension in how she acted that I didn't notice until now."
+
+            scene bg school courtyard
+            with wipeleft
 
             "Sayori leads me to a bench under a lone tree in the middle of our school campus."
-            "I’ve never really been here due to my unfortunate love of indoors…"
-            "And free library Wi-Fi…"
+            "I've never really been here due to my unfortunate love of indoors..."
+            "And free library Wi-Fi..."
+
+            show sayori 1x at t11 zorder 2
 
             s "How has your day been so far [player]?"
             mc "Not too bad Sayori, how has your day been?"
+           
+            show sayori 1a at t11 zorder 2
             "This is a weirdly normal conversation for Sayori"
-            s "Actually not bad."
-            "There’s an eerie degree of surprise in Sayori’s voice when she says that."
-            s "I mean, school’s boring…"
-            s "But nothing bad has happened!"
-            s "And I actually understood math for once!"
+
+            s 1x "Actually not bad."
+            "There's an eerie degree of surprise in Sayori's voice when she says that."
+            s 1j "I mean, school's boring..."
+            s 1x "But nothing bad has happened!"
+            s 1r "And I actually understood math for once!"
             mc "Sayori, is there any reason you might be feeling so happy?"
-            mc "I mean, not to be negative but…"
-            mc "I rarely see you this… well, actually happy."
-            s "... but I’m always happy."
-            mc "Correction: you’re always positive!"
+
+            show sayori 1q at t11 zorder 2
+            mc "I mean, not to be negative but..."
+
+            show sayori 1a at t11 zorder 2
+            mc "I rarely see you this... well, actually happy."
+            s 1h "... but I'm always happy."
+            mc "Correction: you're always positive!"
             mc "And that is really great!"
-            mc "But there’s a difference between happy and positive,"
-            "Sayori thinks for a moment…"
-            "I hope I didn’t say anything wrong…"
-            s "I guess you’re right!"
-            s "And to answer your question, I suppose I’m happy for a few reasons…"
-            s "The main one is I’m so proud of myself for everything last night…"
+            mc "But there's a difference between happy and positive."
+            show sayori 1o at t11 zorder 2
+            "Sayori thinks for a moment..."
+            "I hope I didn't say anything wrong..."
+            s 1r "I guess you're right!"
+            s 1x "And to answer your question, I suppose I'm happy for a few reasons..."
+            s 5b "The main one is I'm so proud of myself for everything that happened the other day..."
             mc "As you should be, Sayori!"
             mc "You did awesome!"
-            s "It took a lot of preparation you know!"
+            s 5a "It took a lot of preparation you know!"
             mc "I could tell, it was really something"
             mc "How did you manage all that?"
-            s "Well…"
-            s "I had some help… hehe "
+            s "Well..."
+            s 5b "I had some help... hehe "
             "Before I have time to ask questions, the bell rings."
             "Sayori and I hug, and go to our separate classes."
         "Choose to rest":
-            "I hope this doesn’t upset Sayori too much,"
-            "But personal health is important…"
+            "I hope this doesn't upset Sayori too much"
+            "But personal health is important..."
             "Probably?"
-            mc "listen Sayori,"
-            s "What’s up?"
-            mc "I really don’t feel great right now so, an adventure isn’t really the ideal thing for me right now."
-            mc "I hope that’s ok!"
+            mc "Listen Sayori."
+            s 1h "What's up?"
+            mc "I really don't feel great right now so, an adventure isn't really the ideal thing for me right now."
+            mc "I hope that's ok!"
+            show sayori 1g at t11 zorder 2
             "Sayori looks at me blankly for a moment"
+            show sayori 4r at h11 zorder 2
             s "I have an idea!"
             mc "Sayori-"
-            s "You wanna go to the library to relax right?"
-            mc "I mean… yeah?"
+            s 4x "You wanna go to the library to relax right?"
+            mc "I mean... yeah?"
             s "Follow me!"
+
+            scene bg bookstore
+            with wipeleft
+
             "Sayori leads me gently to the library and the up some stairs"
-            "I’ve never been up here"
-            "I see teachers come up here all the time though…"
-            "So I hope this isn’t a restricted area…"
-            "We come to a set of doors labeled ‘Reading Room’"
+
+
+            scene black
+            with wipeleft
+
+            "I've never been up here"
+            "I see teachers come up here all the time though..."
+            "So I hope this isn't a restricted area..."
+            "We come to a set of doors labeled 'Reading Room'"
             s "In here!"
+
+            scene bg reading room
+            with wipeleft
+
             "We walk in a quiet room."
-            "It’s the same build as the library the books here are more academic"
+            "It's the same build as the library the books here are more academic"
             "It seems the only people up here are teachers and third-year students studying for college placement exams"
             mc "Wow"
-            s "It’s pretty soothing right?"
-            s "come this way!"
+            show sayori 1x at t11 zorder 2
+            s "It's pretty soothing right?"
+            s "Come this way!"
+            show sayori 1x at thide zorder 2
+            hide sayori
             "She leads me into the corner of the room"
-            "The shelves here are packed with books that haven’t been touched for years"
+            "The shelves here are packed with books that haven't been touched for years"
             "Except maybe by teachers"
+            show sayori 1r at h11 zorder 2
             s "Right here!"
-            s "Sit, the carpet is nice!"
-            "I’m in awe"
-            "We’re alone here with the best view of our town that I’ve ever seen"
+            s 1x "Sit, the carpet is nice!"
+            "I'm in awe"
+            "We're alone here with the best view of our town that I've ever seen"
             "..."
-            s "C‘mon’"
-            "Sayori Pulls me down onto the floor"
-            mc "hey the carpet is pretty nice"
-            "Sayori Snuggles up to me"
+            s 5d "C'mon'"
+            "Sayori pulls me down onto the floor"
+            mc "Hey the carpet is pretty nice"
+            show sayori 5d at thide zorder 2
+            hide sayori
+            "Sayori snuggles up to me"
             "I put my arm around her"
+            #Would be nice to have a "Sayori x MC snuggling against a wall" here
             mc "How has your day been so far sayori?"
             s "Actually not bad."
-            "There’s an eerie degree of surprise in Sayori’s voice when she says that."
-            s "I mean, school’s boring…"
+            "There's an eerie degree of surprise in Sayori's voice when she says that."
+            s "I mean, school's boring..."
             s "But nothing bad has happened!"
             s "And I actually understood math for once!"
             mc "Sayori, is there any reason you might be feeling so happy?"
-            mc "I mean, not to be negative but…"
-            mc "I rarely see you this… well, actually happy."
-            s "... but I’m always happy."
-            mc "Correction: you’re always positive!"
+            mc "I mean, not to be negative but..."
+            mc "I rarely see you this... well, actually happy."
+            s "... but I'm always happy."
+            mc "Correction: you're always positive!"
             mc "And that is really great!"
-            mc "But there’s a difference between happy and positive,"
-            "Sayori thinks for a moment…"
-            "I hope I didn’t say anything wrong…"
-            s "I guess you’re right!"
-            s "And to answer your question, I suppose I’m happy for a few reasons…"
-            s "The main one is I’m so proud of myself for everything last night…"
+            mc "But there's a difference between happy and positive,"
+            "Sayori thinks for a moment..."
+            "I hope I didn't say anything wrong..."
+            s "I guess you're right!"
+            s "And to answer your question, I suppose I'm happy for a few reasons..."
+            s "The main one is I'm so proud of myself for everything that happened the other day..."
             mc "As you should be, Sayori!"
             mc "You did awesome!"
             s "It took a lot of preparation you know!"
             mc "I could tell, it was really something"
             mc "How did you manage all that?"
-            s "Well…"
-            s "I had some help… hehe "
+            s "Well..."
+            s "I had some help... hehe "
             "Before I have time to ask questions, the bell rings."
             "Sayori and I hug, and go to our separate classes."
     
-    "Ughh…"
+    scene bg corridor
+    with wipeleft_scene
+
+    "Ughh..."
     "School is finally over."
     "Time for the Literature club!" 
+
+    scene bg club_day
+    with wipeleft_scene
+
 
     "I show up at the clubroom a little early."
     "But it looks like Monika and Natsuki are here as well."
     "I swing open the doors and walk in cheerfully."
     "Monika is the first to greet me."
+
+    show monika 1b at t11 zorder 2
+
     m "Hello, [player]!"
     m "You seem awfully chipper!"
     mc "Haha, thanks."
-    "Natsuki turns to me like she’s only just now noticed me."
+    "Natsuki turns to me like she's only just now noticed me."
+    show monika 1a at t22 zorder 2
+    show natsuki 1h at f21 zorder 2
     n "Oh hey, [player]."
-    mc "Umm hey, Natsuki,"
-    "Sheesh…"
+    mc "Umm hey, Natsuki"
+    "Sheesh..."
     "She seems a little agro today."
     "Best to steer clear I suppose"
     "Without warning Sayori and Yuri walk in simultaneously."
+    show monika 1a at t44 zorder 2
+    show natsuki 1g at t41 zorder 2
+    show sayori 1r at f42 zorder 2
+    show yuri 1e at t43 zorder 2
     s "Hey guys!!!"
+    show sayori 1q at t42 zorder 2
+    show yuri 1f at f43 zorder 2
     y "Good afternoon, everyone."
+    show yuri 1e at t43 zorder 2
 
     "After everyone has greeted each other, we get on to doing our respective activities."
-    "I was gonna talk to Sayori, but it seems like she’s preoccupied talking to Yuri about perfumes…"
-    "Not gonna lie, didn’t see that coming."
-    mc "God, I’m lucky to have her."
+    show monika at thide zorder 2
+    show natsuki at thide zorder 2
+    show sayori at thide zorder 2
+    show yuri at thide zorder 2
+    hide monika
+    hide natsuki
+    hide sayori
+    hide yuri
+
+    "I was gonna talk to Sayori, but it seems like she's preoccupied talking to Yuri about perfumes..."
+    "Not gonna lie, didn't see that coming."
+    mc "God, I'm lucky to have her."
     "I whisper that quietly to myself."
     "I should write a poem about her."
+    show monika 1g at t11 zorder 2
     m "You doing okay, [player]?"
     mc "Ah!"
-    "I was so stuck daydreaming I didn’t notice Monika sneaking up on me."
-    mc "Yeah I’m fine thanks…"
+    "I was so stuck daydreaming I didn't notice Monika sneaking up on me."
+    mc "Yeah I'm fine thanks..."
+    show monika 1j at t11 zorder 2
     "Monika chuckles."
-    m "Try blinking!"
-    m "Aha, I’m just kidding."
+    m 1k "Try blinking!"
+    m 1b "Aha, I'm just kidding."
     m "But Sayori would probably be a little uncomfortable if she noticed you staring like that."
     mc "You make a good point."
-    "You know, maybe it’s okay to talk to Monika about Sayori and I."
-    "I mean she’s Sayori’s best friend."
+    show monika 1a at t11 zorder 2
+    "You know, maybe it's okay to talk to Monika about Sayori and I."
+    "I mean she's Sayori's best friend."
     "And probably the most trustworthy person in the club."
-    mc "Well you see it’s just…"
-    m "Mhmm?"
+    mc "Well you see it's just..."
+    m 1c "Mhmm?"
     mc "Sayori and I went on a date last night and, well it was really good."
     mc "She had perfume, and nice clothes as well."
     mc "Like she really put in a lot of effort."
-    mc " I suppose I’m just so proud of her, you know?"
+    mc "I suppose I'm just so proud of her, you know?"
+    show monika 1j at t11 zorder 2
     "Monika laughs softly."
-    m "You know, [player]..."
-    m "That is the most adorable thing I’ve ever heard."
-    m "Hehe~!"
-    m "I’ll let you in on a little secret…"
-    m "I’ve been giving Sayori tips on dating and fashion." 
-    m "I’ve even lent her a few clothes to try out…"
-    "That explains the ‘help’ Sayori referred to earlier."
-    m "She’s not too good at returning stuff you know."
+    m 1b "You know, [player]..."
+    m "That is the most adorable thing I've ever heard."
+    m 2k "Hehe~!"
+    m 4b "I'll let you in on a little secret..."
+    m "I've been giving Sayori tips on dating and fashion." 
+    m "I've even lent her a few clothes to try out..."
+    "That explains the 'help' Sayori referred to earlier."
+    m 2d "She's not too good at returning stuff you know."
     mc "How so?"
     m "Well, I once let her borrow this really nice jacket from me."
     m "It was a varsity jacket of mine."
-    m "She’s probably forgotten about it by now, hehe."
-    m "It really suited her, but I’m unsure as to whether she would actually wear it."
-    mc "Huh…"
-    "A varsity Jacket… like the one she wore last night?"
-    "Monika would be a slightly bigger size to Sayori due to the…"
-    "Chest area…"
-    "And the one from last night was slightly too big for her…"
-    mc "Monika, I don’t think that Sayori forgot about the jacket…"
-    m "What makes you say that?"
+    m 2l "She's probably forgotten about it by now, hehe."
+    m 2n "It really suited her, but I'm unsure as to whether she would actually wear it."
+    mc "Huh..."
+    show monika 1m at t11 zorder 2
+    "A varsity Jacket... like the one she wore last night?"
+    "Monika would be a slightly bigger size to Sayori due to the..."
+    "Chest area..."
+    "And the one from last night was slightly too big for her..."
+    mc "Monika, I don't think that Sayori forgot about the jacket..."
+    m 1d "What makes you say that?"
     mc "I think she wore it on our date last night." 
     "I send Monika a picture of Sayori from the night before"
-    m "Ahh…"
-    m "That’s the one,"
-    m "This might be a little awkward but..."
-    m "n-no I can’t really ask for it back, can I…?"
-    m "I mean I would love it back, but I don’t think that would be fair."
+    m 1p "Ahh..."
+    m "That's the one"
+    m 1n "This might be a little awkward but..."
+    m "N-no I can't really ask for it back, can I...?"
+    m "I mean I would love it back, but I don't think that would be fair."
     mc "I can ask for it back if you want, Monika."
-    m "I suppose it’s up to you."
-    m "I won’t stop you, but it was your idea."
-
-    # Writers note: There will be a choice here when the script is completed, but due to the complexity of writing an arguement that would likely involve all the club members I’m gonna have to ask for some help with that, so this draft is the version  where mc doesn’t confront sayori.
-    # {CHOICE}
-    # {CONFRONT SAYORI—or—DONT CONFRONT SAYORI}
-    #     {DONT CONFRONT SAYORI} += 1
-
-    $flag=False
+    m 1r "I suppose it's up to you."
+    m 1d "I won't stop you, but it was your idea."
 
     menu:
         "Don't confront Sayori":
             mc "...I know you probably want your jacket back, Monika."
             mc "But if it could at least wait until tomorrow,"
-            mc "Sayori is legitimately happy today, and I don’t want to wreck that by starting an argument."
-            m "..."
-            m "Y-yeah that seems fair…"
-            "Something about Monika’s tone tips off to me that she’s a little disappointed."
-            m "You enjoy the rest of the club today!"
+            mc "Sayori is legitimately happy today, and I don't want to wreck that by starting an argument."
+            m 1q "..."
+            m 1d "Y-yeah that seems fair..."
+            show monika 1c at t11 zorder 2
+            "Something about Monika's tone tips off to me that she's a little disappointed."
+            m 3k "You enjoy the rest of the club today!"
             "Definitely not the right call if I wanted to satisfy Monika..."
-            "But I’m glad she wasn’t openly angry about it."
+            "But I'm glad she wasn't openly angry about it."
+
+            scene bg club_sunset
+            with wipeleft
 
             "The club went on without any more apprehensions."
             "And overall it was a pretty good day!"
+
+            show sayori 1x at t11 zorder 2
             s "Ready to walk home [player]?"
-            mc "Let’s do it, Sayori!"
+            mc "Let's do it, Sayori!"
             mc "See you tomorrow, everyone!"
-            s "Bye-bye, guys!"
+            s 1r "Bye-bye, guys!"
+
+            show sayori 1r at thide zorder 2
+            hide sayori
+
             "After the girls give us their respective farewells, Sayori and I wander back home, having our usual cheerfully silly conversations."
+
+            scene black
+            with wipeleft
+
             "When we reach the front of my house later than expected."
+
+            scene bg residential_evening
+            with wipeleft
+
+
+            show sayori 1c at t11 zorder 2
             s "[player]?"
             mc "Yes, sayori?"
-            s "If it’s ok with you I think I’ll stay at my own house tonight."
-            s "I mean it’s been a while since I’ve actually slept in my own bed."
+            s "If it's ok with you I think I'll stay at my own house tonight."
+            s "I mean it's been a while since I've actually slept alone."
+            mc "Sounds good, just let me know if you need anything be sure to let me know, ok?"
+            s 1x "Yeah, ok. I'll see you tomorrow [player]!" 
+            "And with that, I head back home to wrap up my day."
+
         "Confront Sayori" :
-            $flag = True
-            mc "Yeah I hear you, I’ll go talk to her as soon as I can."
-            m "I’ll come with you"
+            $sayori_confronted = True
+            mc "Yeah I hear you, I'll go talk to her as soon as I can."
+            m "I'll come with you"
+            show monika 1d at thide zorder 2
+            hide monika 
             "Me and Monika walk over to where Sayori is sitting, humming to herself while reading."
-            "In truth I’m pretty nervous about this."
-            "But it’s the right thing to do."
+            "In truth I'm pretty nervous about this."
+            "But it's the right thing to do."
             mc "Hey, Sayori we gotta talk about something."
+            show sayori 3c at f21 zorder 2
+            show monika 1c at t22 zorder 1
             s "Is everything okay?"
-            mc "Yeah, it’s nothing too-"
-            m "No it’s not really okay, Sayori."
+            mc "Yeah, it's nothing too-"
+            show sayori 3b at t21 zorder 1
+            show monika 1i at f22 zorder 2
+            m 1i "No it's not really okay, Sayori."
             mc "Uhh, Monika?"
+            show monika 2h at t22 zorder 1
             "She takes one quick glance at me"
-            s "I haven’t done anything wrong have I?"
+            show sayori 1h at f21 zorder 2
+            s "I haven't done anything wrong have I?"
+            show sayori 1b at t21 zorder 1
             mc "No you just-"
+            show monika 4i at f22 zorder 2
             m "You took something from me and I want it back!"
+            show monika 2h at t22 zorder 1
             "Wow, Monika is getting pretty aggressive."
-            "She’s making it sound like Sayori robbed her."
+            "She's making it sound like Sayori robbed her."
+            show sayori 4m at hf21 zorder 2
             s "What are you talking about?"
-            s "I’d never take anything from you!"
-            "Monika grabs my phone from my hand and opens it up to the photo I’d shown her a few moments ago."
+            s "I'd never take anything from you!"
+            show sayori 4m at t21 zorder 1
+            "Monika grabs my phone from my hand and opens it up to the photo I'd shown her a few moments ago."
+            show monika 4i at f22 zorder 2
             m "What about this, Sayori?"
+            show monika 4h at t22 zorder 1
+            show sayori 3o at f21 zorder 2
             s "Huh?"
-            s "That’s [player] and I on our date night!"
+            s 3h "That's [player] and I on our date night!"
+            show sayori 3g at t21 zorder 1
+            show monika 4h at f22 zorder 2
             "Monika points to the jacket."
-            m "I believe that belongs to me."
+            m 4i "I believe that belongs to me."
+            show monika 4h at t22 zorder 1
             "Sayori thinks for a second."
+            show sayori 4n at hf21 zorder 2
             s "Oh!"
-            s "That’s right…"
+            s 3l "That's right..."
+            show sayori 3l at t21 zorder 1
+            show monika 4i at f22 zorder 2
             m "So? How come you haven't returned it yet?"
+            show monika 4h at t22 zorder 1
+            show sayori 3h at f21 zorder 2
             s "Well, I, uh-"
             "Sayori looks down dejectedly and mumbles."
-            s "I forgot."
+            s 4k "I forgot."
+            show sayori 4k at t21 zorder 1
+            show monika 4i at f22 zorder 2
             m "That was a really expensive jacket, Sayori! I need to get it back soon."
-            s "I promise I’ll get it back to y-you."
-            "Sayori looks like she’s about to cry."
-            Mc "Hey, Monika. I think she got the message, you don't need to lay into her so much anymore."
+            show sayori 4w at f21 zorder 2
+            show monika 4h at t22 zorder 1
+            s 4w "I promise I'll get it back to y-you."
+            "Sayori looks like she's about to cry."
+            mc "Hey, Monika. I think she got the message, you don't need to lay into her so much anymore."
             "Suddenly Natsuki walks over to see what the commotion is."
-            n "What’s going on?"
+
+            show monika 2h at t33 zorder 1
+            show sayori 4u at t32 zorder 1
+            show natsuki 3c at f31 zorder 2
+
+            n "What's going on?"
+            show natsuki 3g at t31 zorder 1
+            show monika 2i at f33 zorder 2
             m "Well, Sayori borrowed my really nice varsity jacket and wont give it back."
+            show monika 2h at t33 zorder 1
+            show sayori 3m at f32 zorder 2
             s "Hey! I'm not trying to keep it from you, I just keep forgetting to return it!"
-            Mc "Yeah, Sayori wouldn't steal anything from you."
+            mc "Yeah, Sayori wouldn't steal anything from you."
+            show monika 2i at f33 zorder 2
+            show sayori 3f at t32 zorder 1
             m "Is there really a difference, if I don't get it back either way?"
-            n "I dont think it's the same thing, it's not like she meant to steal it, she’s just a forgetful person."
+            show monika 2h at t33 zorder 1
+            show natsuki 3c at f31 zorder 2
+            n "I dont think it's the same thing, it's not like she meant to steal it, she's just a forgetful person."
             "Yuri begins to walk over, seemingly bracing for impact."
+
+            show monika 2i at f44 zorder 2
+            show sayori 3f at t42 zorder 1
+            show natsuki 3g at t41 zorder 1
+            show yuri 1e at t43 zorder 1
+        
             m "Exactly. It's my favorite jacket, and I don't want to have to get a new one.."
-            Y "I think Monika has a point too, Intentionally or not Sayori isn't giving something of her’s back."
-            "Oh great, Yuri’s siding with Monika."
+
+            show monika 2h at t44 zorder 1
+            show yuri 1f at f43 zorder 2
+            y "I think Monika has a point too, Intentionally or not Sayori isn't giving something of her's back."
+            "Oh great, Yuri's siding with Monika."
+            show yuri 1e at t43 zorder 1
+            show natsuki 3c at f41 zorder 2
             n "Sayori will give it back at some point, how long has it even been since she borrowed it?"
-            Y "It's not about how long it’s been, it’s about personal property. Monika let her borrow it for a night, not indefinitely."
-            n "She could at least show some decency and not start a fight over a jacket’s imaginary late fees."
+            show yuri 1f at f43 zorder 2
+            show natsuki 3g at t41 zorder 1
+            y "It's not about how long it's been, it's about personal property. Monika let her borrow it for a night, not indefinitely."
+            show yuri 1e at t43 zorder 1
+            show natsuki 3c at f41 zorder 2
+            n "She could at least show some decency and not start a fight over a jacket's imaginary late fees."
+            show natsuki 3g at t41 zorder 1
+            show monika 3i at f44 zorder 2
             m "Excuse me? I have been patient for {i}months{/i}."
+            show sayori 4k at t42 zorder 1
+            show monika 3h at t44 zorder 1
             "I cast a glance at Sayori, who buries her face further into her hands."
             "Both Yuri and Natsuki fall silent too."
-            Mc "Okay seriously, that's enough, Monika. It's definitely been too long, and I’ll make sure the jacket gets back to you tomorrow."
-            m "I really hope that you’re more responsible than Sayori, [player]."
+            mc "Okay seriously, that's enough, Monika. It's definitely been too long, and I'll make sure the jacket gets back to you tomorrow."
+            show monika 3i at f44 zorder 2
+            m "I really hope that you're more responsible than Sayori, [player]."
             "I sigh and look at Sayori again, gesturing for her to say something to Monika."
-            s "I- It’s fine. I’ll bring you your jacket tomorrow, I promise."
+            show monika 3h at t44 zorder 1
+            show sayori 4v at f42 zorder 2
+            s "I- It's fine. I'll bring you your jacket tomorrow, I promise."
+            show sayori 4f at t42 zorder 1
+            show monika 4i at f44 zorder 2
             m "You promise?"
-            "There’s a look of embarrassed defeat on Sayori’s face."
+            "There's a look of embarrassed defeat on Sayori's face."
+            show monika 4h at t44 zorder 1
+            show sayori 4v at f42 zorder 2
             s "Yeah."
-            Mc "Well it looks like that’s finally settled."
+            mc "Well it looks like that's finally settled."
+
+            show monika at thide zorder 2
+            show sayori at thide zorder 2
+            show natsuki at thide zorder 2
+            show yuri at thide zorder 2   
+            hide monika
+            hide natsuki
+            hide sayori
+            hide yuri
+
+
+
             "Me and Sayori head outside afterwards, as the meeting seems to have reached an unspoken early end."
+            scene black
+            with wipeleft
             "We walk back home in silence, avoiding discussing the fight."
+            scene bg residential_evening 
+            with wipeleft
+
             "As we make it back to our houses, I turn to Sayori"
-            Mc "Are you okay? I know Monika laid into you pretty hard back there."
-            s "I-I’m fine. I guess I’m just a little shaken up. I don't know how I forgot it wasn't my jacket."
-            Mc "Don’t worry about it. We’ll give Monika back her jacket tomorrow and it'll all be fine."
-            s "Yeah, you’re right. I should go, I- have a lot of homework to catch up on."
-            Mc "Alright. Call me if you want to come over and study at my house."
-            "Sayori’s already halfway down the street and I hear a quiet \"okay\""
+            mc "Are you okay? I know Monika laid into you pretty hard back there."
+            show sayori 1g at t11 zorder 2
+            s "I-I'm fine. I guess I'm just a little shaken up. I don't know how I forgot it wasn't my jacket."
+            mc "Don't worry about it. We'll give Monika back her jacket tomorrow and it'll all be fine."
+            s 1k "Yeah, you're right. I should go, I- have a lot of homework to catch up on."
+            mc "Alright. Call me if you want to come over and study at my house."
+            show sayori at thide zorder 2
+            hide sayori
+            "Sayori's already halfway down the street and I hear a quiet \"okay\""
             "I sigh and open my door, heading inside."
             "Today has been rough, and I still have things to do. I can't worry about Sayori all the time."
-            "For now, it’s dinner and homework."
+            "For now, it's dinner and homework."
 return
 
+
+label sayoriroute33:
+    scene black
+    with wipeleft
+    "The rest of the week passes by without anything noteworthy happening. It is now Sunday."
+    "Unlike most days, Natsuki actually texted me and Sayori."
+
+    scene bg livingroom
+    with wipeleft
+
+    n "{i}Hey, can I hang out with you guys today?{/i}"
+    "Sayori is overjoyed by the idea."
+
+    show sayori 3br at t11 zorder 2
+
+    s "My best friend and boyfriend are going to hang out together!"
+    mc "Best friend?"
+    s "Now that we're dating, Natsuki gets to be my best friend!"
+    "I mean, I can't really argue with that." 
+    mc "Hey, haven't you known Natsuki longer than me?"
+    s "No, I don't think so. I met her in fifth grade."
+    mc "Really?"
+    s "Yessir! We were both looking for coins under the vending machine!"
+    mc "Well, I guess- {i}what?{/i}"
+    s "Yep! I remember it like it just happened..."
+    scene black
+    with fade
+    scene bg corridor_flashback
+    with fade
+    "Okay, so, [player] wants me to get him a cookie, and I'll get some apple juice..."
+    "I open my mini purse and stick some coins into the vending machine."
+    "One of the coins starts to slip, and it falls."
+    "It bounces off my shoe and directly under the vending machine."
+    s "Aww, man!"
+    "I get down on the floor and start attempting to snatch it up."
+    "However, I feel another hand or something grab for the coin as well."
+    "I start to scream softly."
+    "To my surprise, the other side also screams, and the hand quickly retracts."
+    "Oh god, I don't have to look over there, do I?"
+    "I slowly look over, awaiting the monster on the other side..."
+    "Only to see some bright pink hair staring back at me."
+    s "Hello?"
+    n "H-hi..."
+    s "I'm Sayori! What's your name?"
+    "I extend a hand to the girl."
+    "She at first flinches, but eventually reaches to shake it."
+    n "I'm Natsuki..."
+    "What were you doing under there?"
+    n "I wasn't fishing for coins or something, if that's what you think..."
+    "I smile."
+    "This girl's a really bad liar."
+    n "Um, well it was nice meeting you. Sorry for trying to take your money."
+    "Dang, she left. I really wanted to talk to her more."
+    "Oh well, I’m sure I’ll see her around."
+    scene black
+    with fade
+    scene bg livingroom
+    with fade
+    s "And that's how we met. Even though she escaped my clutches that day, I still found her again another time!"
+    mc "Wow. When was that other time?"
+    s "Maybe I’ll tell you some other day."
+    "I swear, Sayori seems to remember the most trivial things at times."
+    "Before I can give further comment, or ask how she met some of the others, a mass of pink shows up at our door."
+    "Sayori goes to answer it."
+    "The two say some things to each other I can't really make out."
+    "They both walk over to me."
+    n "So, me and Sayori thought over it, and we want to play Never Have I Ever for the first game tonight."
+    n "And the loser... has to wear whatever the other two wants him- or, wants them, to."
+    "I roll my eyes."
+    mc "Are we seriously doing this?"
+    "I don't know why Sayori thought inviting Natsuki over one day was a good idea."
+    "I mean, of all the games to play, 'Never Have I Ever'?"
+    "It's like she's asking for all 3 of us to be embarrassed."
+    s "Come on, it'll be fun."
+    n "Pfft, clearly he's just chicken. It's alright, you don't have to play if you're scared."
+    "Oh, is {i}that{/i} how she wants to play it?"
+    mc "Scared? Me?"
+    mc "Keep Dreaming. I'm in."
+    s "Yaaaaay!"
+    "Sayori wraps her arms around me, happy."
+    "I swear, it's the little things that make her happy."
+    n "Everyone know the rules?"
+    "Sayori and I nod."
+    "With that, the three of us stand shoulder to shoulder at the end of the hallway."
+    "Natsuki seems to have chosen an extra long playing field."
+    n "Anyone want to start?"
+    "Seeing my easy advantage, I step forward."
+    mc "Never have I ever stayed up until three AM to finish a video game."
+    "Natsuki chuckles."
+    n "How do you get any sleep, Sayori?"
+    s "It's okay! I don't sleep very early normally, anyway..."
+    n "Whatever. I guess that means it's my turn."
+    n "Never have I ever done a cartwheel!"
+    "Natsuki and Sayori both take a step forward."
+    "I feel like she's toying with me."
+    "Sayori goes next."
+    s "Never have I ever..."
+    s "Stolen a cookie from Natsuki!"
+    "She walks forward, proud of herself."
+    n "Hey! That's against the rules!"
+    n "... isn't it?"
+    mc "I don't know. Seems perfectly legal to me."
+    mc "I smile."
+    mc "It may put me behind Sayori, but seeing the slight anger on Natsuki's face is worth it."
+    n "Alright, fine. [player], it's back to you."
+    mc "Sweet."
+    mc "Never have I ever..."
+    "I stop to think."
+    "I don't want to pull the masturbation card just yet..."
+    "Partly because I have a functional sense of shame, and partly because I don't want to learn something about these two that I didn't want to know."
+    "I need something else specific to my gender, maybe..."
+    mc "...used a urinal."
+    "I take a step forward, smug."
+    n "Oh yea, well, never have I ever been in a woman's restroom!"
+    "Natsuki and Sayori both step forward."
+    mc "You realize that this still puts Sayori in the lead, right?"
+    n "..."
+    "I hear what I assume to be a low growl out of Natsuki."
+    "I can tell I'm getting to her."
+    n "Sayori, your turn."
+    s "Never have I ever played a guitar!"
+    "Sayori alone steps forward."
+    mc "Sayori, I've never seen your guitar..."
+    n "Neither have I..."
+    s "Ehehe... I probably shoved it under my bed, or into a closet..."
+    "I shrug it off and take my turn without prompting."
+    n "Never have I ever kept my hair dye-free."
+    "All three of us step forward."
+    "Wait, all three of us?"
+    "Sayori and I both stare at Natsuki."
+    n "What? It's completely natural, I swear!"
+    "Well, that's a waste of a turn."
+    "Natsuki realizes that this was a target attack and decides to fire back."
+    n "Never have I ever read a Manga 3 times!"
+    "Natsuki alone steps forward, putting me behind her and the now tied Sayori."
+    "Sayori, realizing this, tries to come up with something."
+    "I pity her, as she was never really the competitive type."
+    "Although, I guess that's a good thing."
+    "Her attitude seems a lot more carefree than mine or Natsuki's."
+    "I guess ignorance truly is bliss."
+    s "Never have I ever failed PE class!"
+    "She takes a step forward, a bit more proud than she needs to be."
+    mc "You don't seem to lack athletic ability, Sayori."
+    s "No, but it was my first period class."
+    s "They don't let you in late..."
+    "That makes a bit more sense."
+    "Natsuki and I stay back, putting Sayori back in the lead. Then Natsuki, then myself."
+    mc "Never have I ever swallowed a spider!"
+    "I strut to Natsuki's position, confident."
+    s "Eek!"
+    "Natsuki's face is one of pure disgust."
+    mc "I lost a bet when I was nine. I guess it helped me out, in the end."
+    n "Boys are so gross."
+    "Natsuki begins scheming."
+    n "Never have I ever put on lipstick!"
+    "All three of us step forward."
+    n "Wha- really?"
+    "Natsuki looks at me."
+    mc "Different bet this time."
+    mc "You never said where the lipstick was applied."
+    mc "I had to draw a rather phallic shape on my forehead and leave it on for three hours."
+    n "..."
+    s "Anyway!"
+    s "Never have I ever been shoved in a locker!"
+    "Both Sayori and Natsuki step forward."
+    n "Keep that up Sayori. Keep the eagle in its nest."
+    "Wait, what?"
+    "What kind of expression is that?"
+    "It almost sounds like a code word..."
+    "Ah, I'm sure it's nothing."
+    "What to do next...?"
+    "Natsuki basically stole my wank card."
+    "How about..."
+    mc "Never have I ever been locked in a closet for an hour!"
+    "Me and Sayori step forward."
+    "Back on equal footing with Natsuki. Sayori now has a two-step lead."
+    "Hopefully, that's not going to come back to bite us later."
+    "We're now almost through the hall."
+    n "Never have I ever... gotten a cupcake thrown in my face!"
+    "Sayori and Natsuki both step forward."
+    mc "... is there a story here?"
+    s "Ooh, Ooh, can I tell it?"
+    "Before either Natsuki and I can answer, Sayori starts up..."
+    #POV change---
+    scene black
+    with fade
+    scene bg sayori_bedroom_flashback
+    with fade
+    n "Well, here they are!"
+    n "I wanted to thank you for being my friend by making you these, so... here."
+    "Aww, this is sweet!"
+    "Natsuki brought me some cupcakes for our sleepover today!"
+    s "Thank you, Natsuki!"
+    "I say, and grab one."
+    "I take a bite. It's... really good, actually."
+    s "I like it!"
+    n "I knew I was a good baker!"
+    s "It could be better, though..."
+    n "Really?"
+    "Natsuki takes a bite out of her own cupcake."
+    n "How?"
+    s "Simple."
+    "I then take the cupcake and push it in her face."
+    s "It doesn't have enough Natsuki in it!"
+    n "Hey!"
+    "Natsuki laughs, and reacts by getting revenge using her own cupcake, and my face."
+    "She then grabs another one from her tray and starts chasing me around with it."
+    "I run, but all my laughing catches up to me and I eventually double over."
+    "She takes it and puts it on top of my head like a hat."
+    s "Woah, Natsuki..."
+    n "I didn't go too far, did I?"
+    s "...this cupcake makes a really good hat!"
+    "We both laugh."
+    #PoV is back to normal---
+    scene black
+    with fade
+    scene bg livingroom
+    with fade
+    n "Hey, I never said that last line!"
+    s "You totally did!"
+    mc "I hate to cut the theatrics short, but it's your turn, Sayori."
+    s "Oh yea!"
+    s "Never have I ever gotten a cupcake shoved in my hair!"
+    "Sayori takes a three step lead."
+    n "Sayori, come on, eagle in the nest!"
+    s "What? He's still behind."
+    n "DON'T SAy THAT OUT LOUD!"
+    "...I feel like they're conspiring."
+    mc "What's going on?"
+    n "Okay so..."
+    n "We may or not have come up with a plan to put you in last..."
+    n "Because we really wanted to see what you looked like in one of Sayori's dresses."
+    "... seriously?"
+    "That's the game plan?"
+    mc "Well, now I have to win."
+    n "Not if I have anything to say about it!"
+    "Natsuki doesn't know the mistake she's made putting my dignity on the line."
+    mc "Alright, let's play that game."
+    mc "Never have I ever..."
+    mc "Read a hentai doujin!"
+    "All 3 of us step forward."
+    "..."
+    mc "..."
+    n "..."
+    s "..."
+    "A powerfully awkward silence fills the room."
+    s "I was... curious one day, people talk about them in chat rooms all the time, so..."
+    mc "I do it... rarely, but sometimes..."
+    "Natsuki refuses to explain herself as I and Sayori do. She instead shoots me a look."
+    mc "Desperate times, Desperate measures." 
+    n "Yea, yea."
+    n "Never have I ever slept in a doghouse!"
+    "Natsuki alone steps forward, beginning to close the gap between her and Sayori."
+    s "Never have I ever won a game of Never Have I Ever!"
+    "Sayori takes a step forward and completes the game."
+    "I don't have the heart to tell her that's probably against the rules."
+    "At this point, I'm three steps away from the goal. Natsuki is two steps away."
+    mc "Never have I ever taken items from the top shelf of a store!"
+    "I step forward."
+    n "Ah come on, that was low!"
+    mc "You know a lot about low, don't you Natsuki?"
+    n "Oh yeah? Never have I ever looked for coins under a vending machine!"
+    "Damn, that one had exposition to it, too."
+    "Natsuki takes her step forward." 
+    "I've got to make sure this next one is perfect..."
+    "Never have I ever slept next to Sayori!"
+    "I made sure my wording was perfect as not to imply anything lewd."
+    "Me and Natsuki are neck and neck..."
+    "Until she takes a step forward."
+    "I pause."
+    n "Be careful with your wording."
+    n "I've slept next to Sayori too. We've had sleepovers before."
+    n "Not in the same bed, but it still counts!"
+    "... my own wording trick got me."
+    "I stand there, one step from the goal, Natsuki and Sayori having already crossed it."
+    "Natsuki puts on a face so smug it's blinding."
+    n "Well, Sayori, you know what that means!"
+    n "Go pick out your favorite dress!"
+    s "I'll be right back!"
+    "Great..."
+    "Sayori comes back, dress in hand, and I excuse myself to the restroom to put it on."
+    "As soon as I come out, a camera flash blinds my vision."
+    mc "Hey, no one said anything about pictures!"
+    s "Come on, [player]! Can I just put some make up on you? You'd look so cute!"
+    n "Stand still, you're making the camera blurry! Remember, you've gotta wear that the rest of the night!"
+    "{b}Good grief...{/b}"
