@@ -2914,9 +2914,11 @@ Sincerely,
     y 2bw "I-I... I guess..."
     show yuri at thide zorder 1
     hide yuri
-    scene bg hotel_outside
+    scene bg hotel_lobby
     with wipeleft_scene
-    "We were now outside the hotel. Despite it's public nature, it's surprisingly quiet."
+    "We got off the bus and entered the hotel."
+    "It was a nice simple looking spa and sauna type of inn."
+    "Nothing super fancy like a hotel in a city, but it seemed like a cozy little place."
     "Anyone we see wandering around looked much older than us, but just keeping to themselves."
     show natsuki 4be at t41 zorder 2
     n "THIS is the place? Ugh. It's just old people everywhere!"
