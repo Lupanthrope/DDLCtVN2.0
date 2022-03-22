@@ -1517,6 +1517,7 @@ image bg theater_in = "mod_assets/theater_in.png"
 
 #Player house
 image bg bedroom_dirty = "mod_assets/bedroom_dirty.png"
+image bg livingroom_sunset = "mod_assets/livingroom_sunset.png"
 
 #School
 image bg school = "mod_assets/school.png"
@@ -1530,9 +1531,10 @@ image bg road_natsuki = "mod_assets/road_natsuki.png"
 image bg road_monika = "mod_assets/road_monika.png"
 
 #Bookstore
+image bg central_hub = "mod_assets/central_hub.png"
 image bg bookstore = "mod_assets/bookstore.png"
 image bg bookstore_sunset = "mod_assets/bookstore_sunset.png"
-image bg reading room = "mod_assets/reading_room.png"
+image bg reading_room = "mod_assets/reading_room.png"
 
 #Restaurant
 image bg restaurant_front = "mod_assets/restaurant_front.png"
@@ -1540,7 +1542,9 @@ image bg restaurant = "mod_assets/restaurant.png"
 
 #Yuri's House
 image bg yuri_house = "mod_assets/yuri_house.png"
+image bg yuri_house_night = "mod_assets/yuri_house_night.png"
 image bg yuri_bedroom = "mod_assets/yuri_bedroom.png"
+image bg yuri_bedroom_night = "mod_assets/yuri_bedroom_night.png"
 image bg yuri_bathroom = "mod_assets/yuri_bathroom.png"
 
 #Hotel Scene
