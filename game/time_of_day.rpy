@@ -4360,6 +4360,9 @@ image natsuki n5bx = night(im.Composite((960, 960), (18, 22), "natsuki/x.png", (
 image natsuki n5by = night(im.Composite((960, 960), (18, 22), "natsuki/y.png", (0, 0), "natsuki/3b.png"))
 image natsuki n5bz = night(im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), "natsuki/3b.png"))
 
+image natsuki n6ba = night(im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep2.png"))
+image natsuki n6bb = night(im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep.png"))
+
 
 image yuri n1 = night(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
 image yuri n2 = night(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png"))
