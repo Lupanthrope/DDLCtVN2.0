@@ -1527,8 +1527,6 @@ image bg school courtyard = "mod_assets/courtyard.png" # Wretched Team - Kimagur
 image bg road = "mod_assets/road.png"
 image bg road_sunset = "mod_assets/road_sunset.png"
 image bg road_night = "mod_assets/road_night.png"
-image bg road_natsuki = "mod_assets/road_natsuki.png"
-image bg road_monika = "mod_assets/road_monika.png"
 
 #Bookstore
 image bg central_hub = "mod_assets/central_hub.png"
