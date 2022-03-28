@@ -8,6 +8,7 @@ label sayoriroute3:
     call sayoriroute31
     call sayoriroute32
     call sayoriroute33
+    jump sayoriroute4
 return
 
 label sayoriroute31:
@@ -1570,19 +1571,23 @@ label sayoriroute33:
 
     s "My best friend and boyfriend are going to hang out together!"
     mc "Best friend?"
-    s "Now that we're dating, Natsuki gets to be my best friend!"
+    s 3bx "Now that we're dating, Natsuki gets to be my best friend!"
+    show sayori 3ba at t11 zorder 2
     "I mean, I can't really argue with that." 
     mc "Hey, haven't you known Natsuki longer than me?"
-    s "No, I don't think so. I met her in fifth grade."
+    s 1bx "No, I don't think so. I met her in fifth grade."
+    show sayori 1ba at t11 zorder 2
     mc "Really?"
+    show sayori 4bx at h11 zorder 2
     s "Yessir! We were both looking for coins under the vending machine!"
+    show sayori 4ba at t11 zorder 2
     mc "Well, I guess- {i}what?{/i}"
-    s "Yep! I remember it like it just happened..."
+    s 4br "Yep! I remember it like it just happened..."
     scene black
     with fade
     scene bg corridor_flashback
     with fade
-    "Okay, so, [player] wants me to get him a cookie, and I'll get some apple juice..."
+    s "{i}Okay, so, [player] wants me to get him a cookie, and I'll get some apple juice...{/i}"
     "I open my mini purse and stick some coins into the vending machine."
     "One of the coins starts to slip, and it falls."
     "It bounces off my shoe and directly under the vending machine."
@@ -1591,251 +1596,370 @@ label sayoriroute33:
     "However, I feel another hand or something grab for the coin as well."
     "I start to scream softly."
     "To my surprise, the other side also screams, and the hand quickly retracts."
-    "Oh god, I don't have to look over there, do I?"
+    s "{i}Oh god, I don't have to look over there, do I?{/i}"
     "I slowly look over, awaiting the monster on the other side..."
     "Only to see some bright pink hair staring back at me."
+    show natsuki 5g at t11 zorder 2
     s "Hello?"
-    n "H-hi..."
+    n 5c "H-hi..."
+    show natsuki 5g at t11 zorder 2
     s "I'm Sayori! What's your name?"
     "I extend a hand to the girl."
+    show natsuki 5b at t11 zorder 2
     "She at first flinches, but eventually reaches to shake it."
-    n "I'm Natsuki..."
-    "What were you doing under there?"
-    n "I wasn't fishing for coins or something, if that's what you think..."
+    n 2c "I'm Natsuki..."
+    show natsuki 2g at t11 zorder 2
+    s "What were you doing under there?"
+    n 4e "I wasn't fishing for coins or something, if that's what you think..."
+    show natsuki 4g at t11 zorder 2
     "I smile."
     "This girl's a really bad liar."
-    n "Um, well it was nice meeting you. Sorry for trying to take your money."
-    "Dang, she left. I really wanted to talk to her more."
-    "Oh well, I’m sure I’ll see her around."
+    n 4w "Um, well it was nice meeting you. Sorry for trying to take your money."
+    show natsuki at thide
+    hide natsuki
+    s "{i}Dang, she left. I really wanted to talk to her more.{/i}"
+    s "{i}Oh well, I’m sure I’ll see her around.{/i}"
     scene black
     with fade
     scene bg livingroom
     with fade
+    show sayori 4br at t11 zorder 2
     s "And that's how we met. Even though she escaped my clutches that day, I still found her again another time!"
     mc "Wow. When was that other time?"
-    s "Maybe I’ll tell you some other day."
+    s 2bx "Maybe I’ll tell you some other day."
+    show sayori 2ba at t11 zorder 2
     "I swear, Sayori seems to remember the most trivial things at times."
     "Before I can give further comment, or ask how she met some of the others, a mass of pink shows up at our door."
+    show sayori at thide
+    hide sayori
     "Sayori goes to answer it."
     "The two say some things to each other I can't really make out."
     "They both walk over to me."
+    show sayori 1bq at t21 zorder 2
+    show natsuki 5bd at t22 zorder 2
     n "So, me and Sayori thought over it, and we want to play Never Have I Ever for the first game tonight."
     n "And the loser... has to wear whatever the other two wants him- or, wants them, to."
+    show natsuki 5bz at t22 zorder 2
     "I roll my eyes."
     mc "Are we seriously doing this?"
     "I don't know why Sayori thought inviting Natsuki over one day was a good idea."
     "I mean, of all the games to play, 'Never Have I Ever'?"
+    show natsuki 5ba at t22 zorder 2
     "It's like she's asking for all 3 of us to be embarrassed."
-    s "Come on, it'll be fun."
-    n "Pfft, clearly he's just chicken. It's alright, you don't have to play if you're scared."
+    s 1bx "Come on, it'll be fun."
+    show sayori 2ba at t21 zorder 2
+    n 5bd "Pfft, clearly he's just chicken. It's alright, you don't have to play if you're scared."
+    show natsuki 5bz at t22 zorder 2
     "Oh, is {i}that{/i} how she wants to play it?"
     mc "Scared? Me?"
-    mc "Keep Dreaming. I'm in."
+    mc "Keep Dreaming. I'm in."    
+    show sayori 4br at h21 zorder 2
+    show natsuki 5bl at t22 zorder 2
     s "Yaaaaay!"
+    show sayori at thide
+    hide sayori
+    show natsuki 5ba at t11 zorder 2
     "Sayori wraps her arms around me, happy."
     "I swear, it's the little things that make her happy."
-    n "Everyone know the rules?"
+    n 5bd "Everyone know the rules?"
+    show natsuki 5ba at t11 zorder 2
     "Sayori and I nod."
+    scene black
+    with fade
     "With that, the three of us stand shoulder to shoulder at the end of the hallway."
     "Natsuki seems to have chosen an extra long playing field."
-    n "Anyone want to start?"
+    scene bg livingroom
+    with fade
+    show sayori 1ba at t21 zorder 2
+    show natsuki 2bd at t22 zorder 2
+    n "Anyone wants to start?"
+    show natsuki 2ba at t22 zorder 2
     "Seeing my easy advantage, I step forward."
     mc "Never have I ever stayed up until three AM to finish a video game."
+    show natsuki 2bz at t22 zorder 2
     "Natsuki chuckles."
-    n "How do you get any sleep, Sayori?"
-    s "It's okay! I don't sleep very early normally, anyway..."
-    n "Whatever. I guess that means it's my turn."
+    n 2bl "How do you get any sleep, Sayori?"
+    show natsuki 2ba at t22 zorder 2
+    s 2bs "It's okay! I don't sleep very early normally, anyway..."
+    show sayori 2bq at t21 zorder 2
+    n 2bd "Whatever. I guess that means it's my turn."
     n "Never have I ever done a cartwheel!"
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at h22 zorder 2
     "Natsuki and Sayori both take a step forward."
     "I feel like she's toying with me."
+    show natsuki 1ba at t22 zorder 2
     "Sayori goes next."
-    s "Never have I ever..."
-    s "Stolen a cookie from Natsuki!"
+    s 1bx "Never have I ever..."
+    s 1br "Stolen a cookie from Natsuki!"
+    show sayori 1br at h21 zorder 2
     "She walks forward, proud of herself."
-    n "Hey! That's against the rules!"
-    n "... isn't it?"
+    n 4be "Hey! That's against the rules!"
+    n 4bk "... isn't it?"
+    show natsuki 4bg at t22 zorder 2
     mc "I don't know. Seems perfectly legal to me."
-    mc "I smile."
-    mc "It may put me behind Sayori, but seeing the slight anger on Natsuki's face is worth it."
-    n "Alright, fine. [player], it's back to you."
+    "I smile."
+    "It may put me behind Sayori, but seeing the slight anger on Natsuki's face is worth it."
+    n 4bk "Alright, fine. [player], it's back to you."
+    show natsuki 4bg at t22 zorder 2
     mc "Sweet."
     mc "Never have I ever..."
+    show sayori 2bq at t21 zorder 2
     "I stop to think."
     "I don't want to pull the masturbation card just yet..."
     "Partly because I have a functional sense of shame, and partly because I don't want to learn something about these two that I didn't want to know."
     "I need something else specific to my gender, maybe..."
     mc "...used a urinal."
     "I take a step forward, smug."
-    n "Oh yea, well, never have I ever been in a woman's restroom!"
+    n 4bd "Oh yea, well, never have I ever been in a woman's restroom!"
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at t22 zorder 2
     "Natsuki and Sayori both step forward."
     mc "You realize that this still puts Sayori in the lead, right?"
-    n "..."
+    n 2bg "..."
     "I hear what I assume to be a low growl out of Natsuki."
     "I can tell I'm getting to her."
-    n "Sayori, your turn."
-    s "Never have I ever played a guitar!"
+    n 2bc "Sayori, your turn."
+    show natsuki 2bg at t22 zorder 2
+    s 1bx "Never have I ever played a guitar!"
+    show sayori 1br at h21 zorder 2
     "Sayori alone steps forward."
     mc "Sayori, I've never seen your guitar..."
-    n "Neither have I..."
-    s "Ehehe... I probably shoved it under my bed, or into a closet..."
+    n 4bk "Neither have I..."
+    s 3bl "Ehehe... I probably shoved it under my bed, or into a closet..."
+    show sayori 3by at t21 zorder 2
     "I shrug it off and take my turn without prompting."
-    n "Never have I ever kept my hair dye-free."
+    mc "Never have I ever kept my hair dye-free."
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at h22 zorder 2
     "All three of us step forward."
     "Wait, all three of us?"
+    show sayori 1ba at t21 zorder 2
     "Sayori and I both stare at Natsuki."
-    n "What? It's completely natural, I swear!"
+    n 1bb "What? It's completely natural, I swear!"
     "Well, that's a waste of a turn."
+    show natsuki 1bg at t22 zorder 2
     "Natsuki realizes that this was a target attack and decides to fire back."
-    n "Never have I ever read a Manga 3 times!"
+    n 1bd "Never have I ever read a Manga 3 times!"
+    show natsuki 1bz at h22 zorder 2
     "Natsuki alone steps forward, putting me behind her and the now tied Sayori."
+    show sayori 3bo at t21 zorder 2
     "Sayori, realizing this, tries to come up with something."
     "I pity her, as she was never really the competitive type."
+    show natsuki 1ba at t22 zorder 2
     "Although, I guess that's a good thing."
     "Her attitude seems a lot more carefree than mine or Natsuki's."
     "I guess ignorance truly is bliss."
-    s "Never have I ever failed PE class!"
+    s 3bx "Never have I ever failed PE class!"
+    show sayori 1br at h21 zorder 2
     "She takes a step forward, a bit more proud than she needs to be."
     mc "You don't seem to lack athletic ability, Sayori."
-    s "No, but it was my first period class."
+    s 4bl "No, but it was my first period class."
     s "They don't let you in late..."
+    show sayori 4by at t21 zorder 2
     "That makes a bit more sense."
     "Natsuki and I stay back, putting Sayori back in the lead. Then Natsuki, then myself."
     mc "Never have I ever swallowed a spider!"
+    show sayori 1bp at t21 zorder 2
+    show natsuki 1bp at t22 zorder 2
     "I strut to Natsuki's position, confident."
     s "Eek!"
     "Natsuki's face is one of pure disgust."
     mc "I lost a bet when I was nine. I guess it helped me out, in the end."
-    n "Boys are so gross."
+    n 1bf "Boys are so gross."
+    show sayori 1bf at t21 zorder 2
     "Natsuki begins scheming."
-    n "Never have I ever put on lipstick!"
+    n 1bb "Never have I ever put on lipstick!"
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at h22 zorder 2
     "All three of us step forward."
-    n "Wha- really?"
+    n 3bm "Wha- really?"
     "Natsuki looks at me."
+    show sayori 1bn at t21 zorder 2
+    show natsuki 3bg at t22 zorder 2
     mc "Different bet this time."
     mc "You never said where the lipstick was applied."
     mc "I had to draw a rather phallic shape on my forehead and leave it on for three hours."
     n "..."
-    s "Anyway!"
+    s 1br "Anyway!"
     s "Never have I ever been shoved in a locker!"
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at h22 zorder 2
     "Both Sayori and Natsuki step forward."
-    n "Keep that up Sayori. Keep the eagle in its nest."
+    n 1bd "Keep that up Sayori. Keep the eagle in its nest."
+    show natsuki 1ba at t22 zorder 2
     "Wait, what?"
     "What kind of expression is that?"
     "It almost sounds like a code word..."
+    show sayori 1ba at t21 zorder 2
     "Ah, I'm sure it's nothing."
     "What to do next...?"
     "Natsuki basically stole my wank card."
     "How about..."
     mc "Never have I ever been locked in a closet for an hour!"
+    show sayori 1br at h21 zorder 2
     "Me and Sayori step forward."
     "Back on equal footing with Natsuki. Sayori now has a two-step lead."
     "Hopefully, that's not going to come back to bite us later."
+    show sayori 1ba at t21 zorder 2
     "We're now almost through the hall."
-    n "Never have I ever... gotten a cupcake thrown in my face!"
+    n 1bl "Never have I ever... gotten a cupcake thrown in my face!"
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at h22 zorder 2
     "Sayori and Natsuki both step forward."
     mc "... is there a story here?"
-    s "Ooh, Ooh, can I tell it?"
+    s 1bx "Ooh, Ooh, can I tell it?"
+    show natsuki 1bk at t22 zorder 2
     "Before either Natsuki and I can answer, Sayori starts up..."
     #POV change---
     scene black
     with fade
     scene bg sayori_bedroom_flashback
     with fade
+    show natsuki 5bd at t11 zorder 2
     n "Well, here they are!"
     n "I wanted to thank you for being my friend by making you these, so... here."
-    "Aww, this is sweet!"
-    "Natsuki brought me some cupcakes for our sleepover today!"
+    show natsuki 5ba at t11 zorder 2
+    "{i}Aww, this is sweet!{/i}"
+    "{i}Natsuki brought me some cupcakes for our sleepover today!{/i}"
     s "Thank you, Natsuki!"
     "I say, and grab one."
     "I take a bite. It's... really good, actually."
     s "I like it!"
-    n "I knew I was a good baker!"
+    n 5bd "I knew I was a good baker!"
+    show natsuki 5ba at t11 zorder 2
     s "It could be better, though..."
-    n "Really?"
+    n 5bc "Really?"
     "Natsuki takes a bite out of her own cupcake."
     n "How?"
     s "Simple."
     "I then take the cupcake and push it in her face."
+    show natsuki 1bv at h11 zorder 2
     s "It doesn't have enough Natsuki in it!"
-    n "Hey!"
+    n 1be "Hey!"
+    show natsuki at thide
+    hide natsuki
     "Natsuki laughs, and reacts by getting revenge using her own cupcake, and my face."
+    scene black
+    with fade
     "She then grabs another one from her tray and starts chasing me around with it."
     "I run, but all my laughing catches up to me and I eventually double over."
     "She takes it and puts it on top of my head like a hat."
+    scene bg sayori_bedroom_flashback
+    with fade
     s "Woah, Natsuki..."
+    show natsuki 3bk at t11 zorder 2
     n "I didn't go too far, did I?"
     s "...this cupcake makes a really good hat!"
+    show natsuki 1bz at t11 zorder 2
     "We both laugh."
     #PoV is back to normal---
     scene black
     with fade
     scene bg livingroom
     with fade
+    show sayori 1bq at t21 zorder 2
+    show natsuki 4bb at t22 zorder 2
     n "Hey, I never said that last line!"
-    s "You totally did!"
+    show natsuki 4bg at t22 zorder 2
+    s 1br "You totally did!"
+    show sayori 1bq at t21 zorder 2
     mc "I hate to cut the theatrics short, but it's your turn, Sayori."
-    s "Oh yea!"
+    s 2bx "Oh yea!"
     s "Never have I ever gotten a cupcake shoved in my hair!"
+    show sayori 1br at h21 zorder 2
     "Sayori takes a three step lead."
-    n "Sayori, come on, eagle in the nest!"
-    s "What? He's still behind."
-    n "DON'T SAy THAT OUT LOUD!"
+    n 4bb "Sayori, come on, eagle in the nest!"
+    s 1bn "What? He's still behind."
+    show natsuki 1bv at h22 zorder 2
+    show sayori 1bw at t21 zorder 2
+    n "DON'T SAY THAT OUT LOUD!"
+    show natsuki 1bx at t22 zorder 2
     "...I feel like they're conspiring."
+    show sayori 1bg at t21 zorder 2
     mc "What's going on?"
-    n "Okay so..."
-    n "We may or not have come up with a plan to put you in last..."
+    n 1bw "Okay so..."
+    n 1bq "We may or not have come up with a plan to put you in last..."
     n "Because we really wanted to see what you looked like in one of Sayori's dresses."
+    show natsuki 1bs at t22 zorder 2
     "... seriously?"
     "That's the game plan?"
     mc "Well, now I have to win."
-    n "Not if I have anything to say about it!"
+    n 1bp "Not if I have anything to say about it!"
+    show natsuki 1bi at t22 zorder 2
     "Natsuki doesn't know the mistake she's made putting my dignity on the line."
     mc "Alright, let's play that game."
     mc "Never have I ever..."
     mc "Read a hentai doujin!"
+    show sayori 1br at h21 zorder 2
+    show natsuki 1bz at h22 zorder 2
     "All 3 of us step forward."
     "..."
+    show sayori 1bn at t21 zorder 2
+    show natsuki 1bh at t22 zorder 2
     mc "..."
-    n "..."
-    s "..."
+    n 1bi "..."
+    s 1bi "..."
     "A powerfully awkward silence fills the room."
-    s "I was... curious one day, people talk about them in chat rooms all the time, so..."
+    s 3bl "I was... curious one day, people talk about them in chat rooms all the time, so..."
+    show sayori 1bd at t21 zorder 2
     mc "I do it... rarely, but sometimes..."
     "Natsuki refuses to explain herself as I and Sayori do. She instead shoots me a look."
     mc "Desperate times, Desperate measures." 
-    n "Yea, yea."
-    n "Never have I ever slept in a doghouse!"
+    n 4bw "Yea, yea."
+    n 4bt "Never have I ever slept in a doghouse!"
+    show natsuki 1bz at h22 zorder 2
     "Natsuki alone steps forward, beginning to close the gap between her and Sayori."
-    s "Never have I ever won a game of Never Have I Ever!"
+    show natsuki 1ba at t22 zorder 2
+    s 4br "Never have I ever won a game of Never Have I Ever!"
+    show sayori 1br at h21 zorder 2
     "Sayori takes a step forward and completes the game."
     "I don't have the heart to tell her that's probably against the rules."
+    show sayori at thide
+    hide sayori
+    show natsuki 1ba at t11 zorder 2
     "At this point, I'm three steps away from the goal. Natsuki is two steps away."
     mc "Never have I ever taken items from the top shelf of a store!"
     "I step forward."
-    n "Ah come on, that was low!"
+    n 2bb "Ah come on, that was low!"
     mc "You know a lot about low, don't you Natsuki?"
-    n "Oh yeah? Never have I ever looked for coins under a vending machine!"
+    n 2be "Oh yeah? Never have I ever looked for coins under a vending machine!"
+    show natsuki 1bz at h11 zorder 2
     "Damn, that one had exposition to it, too."
     "Natsuki takes her step forward." 
     "I've got to make sure this next one is perfect..."
-    "Never have I ever slept next to Sayori!"
+    mc "Never have I ever slept next to Sayori!"
     "I made sure my wording was perfect as not to imply anything lewd."
+    show natsuki 4by at t11 zorder 2
     "Me and Natsuki are neck and neck..."
+    show natsuki 1bz at h11 zorder 2
     "Until she takes a step forward."
     "I pause."
-    n "Be careful with your wording."
-    n "I've slept next to Sayori too. We've had sleepovers before."
+    n 1by "Be careful with your wording."
+    n 2bl "I've slept next to Sayori too. We've had sleepovers before."
     n "Not in the same bed, but it still counts!"
+    show natsuki 2ba at t11 zorder 2
     "... my own wording trick got me."
     "I stand there, one step from the goal, Natsuki and Sayori having already crossed it."
+    show natsuki 2bz at t11 zorder 2
     "Natsuki puts on a face so smug it's blinding."
-    n "Well, Sayori, you know what that means!"
+    n 4by "Well, Sayori, you know what that means!"
     n "Go pick out your favorite dress!"
     s "I'll be right back!"
+    show natsuki at thide
+    hide sayori
+    scene black
+    with fade
     "Great..."
     "Sayori comes back, dress in hand, and I excuse myself to the restroom to put it on."
     "As soon as I come out, a camera flash blinds my vision."
+    scene bg livingroom
+    with fade
+    show sayori 4br at t21 zorder 2
+    show natsuki 2bl at t22 zorder 2
     mc "Hey, no one said anything about pictures!"
     s "Come on, [player]! Can I just put some make up on you? You'd look so cute!"
     n "Stand still, you're making the camera blurry! Remember, you've gotta wear that the rest of the night!"
-    "{b}Good grief...{/b}"
+    "{b}{i}Good grief...{/i}{/b}"
+    scene black
+    with fade

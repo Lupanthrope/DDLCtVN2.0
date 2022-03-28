@@ -822,6 +822,7 @@ return
 label sayoriroute22:
 
     scene bg bedroom
+    with fade
     #MC wakes up with eye open visual effect.
 
     "I wake up, groggy as I've ever been."
@@ -841,9 +842,8 @@ label sayoriroute22:
     "There's so much purity coming from her. It's enough to intoxicate someone."
     "I smile at my girlfriend, who's still lying there lightly snoring."
 
-    scene black
-
     show sayori_bed
+    with fade
 
     "There's only one word to describe her."
     "Amazing."
@@ -864,7 +864,7 @@ label sayoriroute22:
     "{i}What's going on?{/i}"
     "{i}I'm not even that attractive!{/i}"
     mc "Good morning."
-    s "*{i}giggles{/i}*"
+    s "{i}giggles{/i}"
     s "Good morning to you, too."
     "This position we're in..."
     "It feels so nice."
@@ -887,6 +887,7 @@ label sayoriroute22:
     s "Gotta go back to my place to get my stuff."
 
     scene black
+    with fade
 
     "We don't even have enough time to have breakfast or brush our hair before running off to school."
 

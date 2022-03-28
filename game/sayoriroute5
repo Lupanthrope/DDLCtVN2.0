@@ -6,7 +6,7 @@ label sayoriroute5:
     s "..."
     s "...{i}That's where you'll find...me..."
 
-    call sayoriroute41
+    call sayoriroute51
 return
 
 label sayoriroute51:
