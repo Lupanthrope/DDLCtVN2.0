@@ -1974,7 +1974,8 @@ Sincerely,
     "But if that were the case she'd... Tell me, right?"
     show monika at thide zorder 1
     hide monika
-    "As I ponder this, the rotation continues. I take my turn dejectedly and sit back down, and realize Yuri's once again absent."
+    "As I ponder this, the rotation continues."
+    "I take my turn dejectedly and sit back down, and realize Yuri's once again absent."
     mc "She's sure uh, taking a minute, huh? I guess we can skip her again..."
     show monika 3bl at t11 zorder 2
     m "Yeah. It's a shame. She might've even just left by now."
@@ -2039,8 +2040,8 @@ Sincerely,
     with wipeleft_scene
     stop music fadeout 2.0
     show yuri 4bb at t11 zorder 2
-    "I head over to where the clerk mentioned, and find Yuri sitting alone at a table."
-    "Her arms are on the table, with her hands supporting her head." 
+    "I head over to where the clerk mentioned, and find Yuri sitting alone at a bench nearby."
+    "She's leaning on her knees, with her hands supporting her head." 
     "I walk up behind and give her a tap on the shoulder, which causes her to jump."
     y 3bp "Ah!"
     "She calms down when she notices me."
