@@ -2035,7 +2035,7 @@ Sincerely,
     show natsuki at thide zorder 1
     hide natsuki
     "I walk away and head to the front counter, asking the clerk about whether or not he's seen a tall girl with purple hair pass by."
-    "He mentions to check over by the food section around the other end."
+    "He mentions to check over by the snack bar at the other end of the bowling alley."
     scene bg bowling_alley
     with wipeleft_scene
     stop music fadeout 2.0
