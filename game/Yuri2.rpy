@@ -31,22 +31,22 @@ label Yuri2:
     y "That gives us some time to get ready for school."
     scene bg bedroom
     with wipeleft_scene
-    show yuri yblanketm at t11 zorder 2
+    show yuri blam at t11 zorder 2
     "She gets up, trying to cover herself with the blanket."
     stop music
     play music t5
-    y yblanketp "Oh no!"
+    y blap "Oh no!"
     "Yuri starts panicking over something."
     "Did I do something wrong?"
     mc "What is it?"
-    y yblanketn "I didn’t plan to stay over. I don’t have my school uniform!"
-    show yuri yblanketo at t11 zorder 2
+    y blao "I didn’t plan to stay over. I don’t have my school uniform!"
+    show yuri blao at t11 zorder 2
     "Whew, I'm in the clear."
     "But this is really bad too! What do we do?"
     "Maybe...."
     mc "What if...{w=0.5} I went to your house to grab your school uniform?"
-    y yblanketn "What?!"
-    y yblanketo "Y-You don't need to do that. I'm sure there's another way."
+    y blan "What?!"
+    y blao "Y-You don't need to do that. I'm sure there's another way."
     y "Maybe I can... Uh..."
     y "..."
     "Yuri is drawing a blank, she doesn't want me to go out and run like that, but..."
@@ -54,12 +54,12 @@ label Yuri2:
     "To calm her down, I get closer, and smile."
     mc "Don’t worry, I’ll be back soon."
     "I say this as unsure as she is."
-    y yblanketn "But, my house is so far away, you’re not going to have enough time."
+    y blan "But, my house is so far away, you’re not going to have enough time."
     mc "Don't worry, I’ll be back on time."
     "{i}I hope.{/i}"
     "I get up, putting on a thick jacket and some fuzzy pants."
     "It’s tacky, but when have I ever cared about what I looked like outside?"
-    show yuri yblanketo at t11 zorder 2
+    show yuri blao at t11 zorder 2
     "As I’m about to leave the room, Yuri shuffles over to the closet, covered by the blanket."
     "She starts rummaging through, emerging after a moment with another jacket and her house keys."
     y "I-I don’t want you to get a cold like last time."
@@ -194,9 +194,11 @@ label Yuri2:
     play music t5_yuri
     "I run through the entrance and see the couch, on which I immediately lie down to catch my breath."
     "I hear Yuri’s footsteps and hold the outfit up."
+    show yuri blan at t11 zorder 2
     mc "I...{w=0.25} {i}huff{/i}...{w=0.25} Have it…{w=0.25} {i}puff{/i}."
-    #show yuri (blanket custom) at t11 zorder 2
+    show yuri blad at t11 zorder 2
     y "Oh my gosh! Thank you so much!"
+    show yuri blac at t11 zorder 2
     "She hugs me tightly, my face stuffed between her chest, then she runs upstairs."
     show yuri at thide zorder 1
     hide yuri
@@ -205,9 +207,9 @@ label Yuri2:
     "Scenes from last night start replaying in my mind."
     mc "I still can't believe it."
     mc "Yuri and I... We really did it."
-    show yuri 2b at t11 zorder 2
+    show yuri 2a at t11 zorder 2
     "My thoughts are cut off by Yuri returning downstairs, now dressed in her school uniform."
-    y "Thank you so much [player]!"
+    y 2d "Thank you so much [player]!"
     y 2a "You should go upstairs and get dressed now."
     mc "Yeah, right."
     show yuri at thide zorder 1

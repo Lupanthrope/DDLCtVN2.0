@@ -3,30 +3,37 @@
 init python:
     def dawn(d):
         return im.MatrixColor(d,  im.matrix.tint(0.5, 0.4, 0.6))
+init python:
     def dawn2(d):
         return im.MatrixColor(d,  im.matrix.tint(0.4, 0.3, 0.5))
+
+init python:
     def morning(m):
         return im.MatrixColor(m,  im.matrix.tint(0.8, 0.7, 0.6))
+init python:
     def morning2(m):
         return im.MatrixColor(m,  im.matrix.tint(0.8, 0.6, 0.5))
+
+init python:
     def sunset(s):
         return im.MatrixColor(s,  im.matrix.tint(1.0, 0.8, 0.8))
+init python:
     def sunset2(s):
         return im.MatrixColor(s,  im.matrix.tint(1.0, 0.8, 0.6))
+
+init python:
     def evening(e):
         return im.MatrixColor(e,  im.matrix.tint(0.6, 0.6, 0.7))
+init python:
     def evening2(e):
         return im.MatrixColor(e,  im.matrix.tint(0.4, 0.4, 0.5))
+
+init python:
     def night(n):
         return im.MatrixColor(n,  im.matrix.tint(0.4, 0.4, 0.6))
+init python:
     def night2(n):
         return im.MatrixColor(n,  im.matrix.tint(0.2, 0.2, 0.4))
-    def flashback(n):
-        return im.MatrixColor(n,im.matrix.saturation(0))
-
-
-image bg sayori_bedroom_flashback = flashback(Image("bg/sayori_bedroom.png"))
-image bg corridor_flashback = flashback(Image("bg/corridor.png"))
 
 
 image bg residential_dawn = dawn(Image("bg/residential.png"))
@@ -58,12 +65,6 @@ image bg cafe_in_morning = morning2(Image("mod_assets/cafe_in.png"))
 image bg cafe_in_sunset = sunset2(Image("mod_assets/cafe_in.png"))
 image bg cafe_in_evening = evening2(Image("mod_assets/cafe_in.png"))
 image bg cafe_in_night = night2(Image("mod_assets/cafe_in.png"))
-
-image bg theater_dawn = dawn(Image("mod_assets/theater_out.png"))
-image bg theater_morning = morning(Image("mod_assets/theater_out.png"))
-image bg theater_sunset = sunset(Image("mod_assets/theater_out.png"))
-image bg theater_evening = evening(Image("mod_assets/theater_out.png"))
-image bg theater_night = night(Image("mod_assets/theater_out.png"))
 
 
 image bg club_dawn2:
@@ -799,6 +800,36 @@ image natsuki d5bw = dawn(im.Composite((960, 960), (18, 22), "natsuki/w.png", (0
 image natsuki d5bx = dawn(im.Composite((960, 960), (18, 22), "natsuki/x.png", (0, 0), "natsuki/3b.png"))
 image natsuki d5by = dawn(im.Composite((960, 960), (18, 22), "natsuki/y.png", (0, 0), "natsuki/3b.png"))
 image natsuki d5bz = dawn(im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), "natsuki/3b.png"))
+
+image natsuki dblaa = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/a.png"))
+image natsuki dblab = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/b.png"))
+image natsuki dblac = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/c.png"))
+image natsuki dblad = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/d.png"))
+image natsuki dblae = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/e.png"))
+image natsuki dblaf = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/f.png"))
+image natsuki dblag = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/g.png"))
+image natsuki dblah = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/h.png"))
+image natsuki dblai = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/i.png"))
+image natsuki dblaj = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/j.png"))
+image natsuki dblak = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/k.png"))
+image natsuki dblal = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/l.png"))
+image natsuki dblam = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/m.png"))
+image natsuki dblan = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/n.png"))
+image natsuki dblao = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/o.png"))
+image natsuki dblap = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/p.png"))
+image natsuki dblaq = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/q.png"))
+image natsuki dblar = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/r.png"))
+image natsuki dblas = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/s.png"))
+image natsuki dblat = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/t.png"))
+image natsuki dblau = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/u.png"))
+image natsuki dblav = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/v.png"))
+image natsuki dblaw = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/w.png"))
+image natsuki dblax = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/x.png"))
+image natsuki dblay = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/y.png"))
+image natsuki dblaz = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/z.png"))
+
+image natsuki dbla1 = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep.png"))
+image natsuki dbla2 = dawn(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep2.png"))
 
 
 image yuri d1 = dawn(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
@@ -4362,7 +4393,6 @@ image natsuki n5bz = night(im.Composite((960, 960), (18, 22), "natsuki/z.png", (
 
 image natsuki n6ba = night(im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep2.png"))
 image natsuki n6bb = night(im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep.png"))
-
 
 image yuri n1 = night(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
 image yuri n2 = night(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png"))
