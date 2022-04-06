@@ -4,95 +4,6 @@ label Yuri2:
     $ n_name = "Natsuki"
     $ m_name = "Monika"
 
-#For defintions file: Yuri asset references
-#Mod Assets: BGs
-#Black background
-#image bg black = "mod_assets/black.png"
-
-#Player house
-#image bg bedroom_dirty = "mod_assets/bedroom_dirty.png"
-#image bg livingroom = "mod_assets/livingroom.png"
-#image bg livingroom_night = "mod_assets/livingroom_night.png"
-#image bg livingroom_sunset = "mod_assets/livingroom_sunset.png"
-
-#School
-#image bg school = "mod_assets/school.png"
-
-#Road Shots
-#image bg road = "mod_assets/road.png"
-#image bg road_sunset = "mod_assets/road_sunset.png"
-#image bg road_night = "mod_assets/road_night.png"
-
-#Bookstore
-#image bg central_hub = "mod_assets/central_hub.png"
-#image bg bookstore = "mod_assets/bookstore.png"
-#image bg bookstore_sunset = "mod_assets/bookstore_sunset.png"
-#image bg corner = "mod_assets/corner.png"
-#image bg bowling_alley = "mod_assets/bowling_alley.png"
-
-#Restaurant
-#image bg resturant_front = "mod_assets/resturant_front.png"
-#image bg resturant = "mod_assets/resturant.png"
-
-#Yuri's House
-#image bg yuri_house = "mod_assets/yuri_house.png"
-#image bg yuri_bedroom = "mod_assets/yuri_bedroom.png"
-#image bg yuri_bedroom_night = "mod_assets/yuri_bedroom_night.png"
-#image bg yuri_bathroom = "mod_assets/yuri_bathroom.png"
-
-#Hotel Scene
-#image bg bus = "mod_assets/bus.png"
-#image bg hotel_outside = "mod_assets/hotel_outside.png"
-#image bg hotel_room = "mod_assets/hotel_room.png"
-#image bg frozen_lake = "mod_assets/frozen_lake.png"
-#image bg frozen_lake_night = "mod_assets/frozen_lake_night.png"
-#image bg hotel_lobby = "mod_assets/hotel_lobby.png"
-
-# Mod Assets: Yuri Arm Cut Images (casual)
-#image yuri 2bnc = "mod_assets/yuri_cut/2bnc.png"
-#image yuri 2boc = "mod_assets/yuri_cut/2boc.png"
-#image yuri 2bpc = "mod_assets/yuri_cut/2bpc.png"
-#image yuri 2btc = "mod_assets/yuri_cut/2btc.png"
-#image yuri 2buc = "mod_assets/yuri_cut/2buc.png"
-#image yuri 2bvc = "mod_assets/yuri_cut/2bvc.png"
-#image yuri 2bwc = "mod_assets/yuri_cut/2bnc.png"
-#image yuri 3bnc = "mod_assets/yuri_cut/3bnc.png"
-#image yuri 3boc = "mod_assets/yuri_cut/3boc.png"
-#image yuri 3bpc = "mod_assets/yuri_cut/3bpc.png"
-#image yuri 3btc = "mod_assets/yuri_cut/3btc.png"
-#image yuri 3buc = "mod_assets/yuri_cut/3buc.png"
-#image yuri 3bvc = "mod_assets/yuri_cut/3bvc.png"
-#image yuri 3bwc = "mod_assets/yuri_cut/3bwc.png"
-#image yuri 3by2c = "mod_assets/yuri_cut/3by2c.png"
-#image yuri 3by7c = "mod_assets/yuri_cut/3by7c.png"
-#image yuri 3cwc = "mod_assets/yuri_cut/3cwc.png"
-#image yuri 4bac = "mod_assets/yuri_cut/4bac.png"
-#image yuri 4bbc = "mod_assets/yuri_cut/4bbc.png"
-#image yuri 4bcc = "mod_assets/yuri_cut/4bcc.png"
-#image yuri 4bdc = "mod_assets/yuri_cut/4bdc.png"
-#image yuri 4bec = "mod_assets/yuri_cut/4bec.png"
-#image yuri 4cc = "mod_assets/yuri_cut/4cc.png"
-#image yuri 4fc = "mod_assets/yuri_cut/4fc.png"
-#image yuri 4cnc = "mod_assets/yuri_cut/4cnc.png"
-#image yuri 4fnc = "mod_assets/yuri_cut/4fnc.png"
-
-#Mod Assets: Yuri Arm Cut (Uniform)
-#image yuri 4ac = "mod_assets/yuri_cut/4ac.png"
-#image yuri 4cc = "mod_assets/yuri_cut/4cc.png"
-
-#Mod Assets: Music
-#bird chirpings
-#define audio.t12 = "<loop 0>mod_assets/12.mp3"
-#wind
-#define audio.t13 = "<loop 0>mod_assets/13.mp3"
-#sunset sounds
-#define audio.t14 = "<loop 0>mod_assets/14.mp3"
-#define audio.doorbell = "mod_assets/doorbell.mp3"
-#heartbeat
-#define audio.t15 = "<loop 0>mod_assets/15.mp3"
-#define audio.tbc = "mod_assets/tbc.ogg"
-#define audio.monikasong = "mod_assets/monikasong.ogg"
-
 #Scene 1    
     scene cg yuri_in_bed
     with dissolve_scene_full
@@ -104,7 +15,7 @@ label Yuri2:
     "Did we... Really do that last night?"
     "This has to be a dream."
     "There’s...{w=0.25} No way I did it with someone this gorgeous."
-    "Wait.{w=0.5} What time is it?"
+    "Wait...{w=0.5} What time is it?"
     "I look over to Yuri, still sleeping on the bed."
     "She looks so beautiful."
     "How can I even wake her up?"
@@ -120,22 +31,22 @@ label Yuri2:
     y "That gives us some time to get ready for school."
     scene bg bedroom
     with wipeleft_scene
-    show yuri 1a at t11 zorder 2
-    #show yuri (blanket custom) at t11 zorder 2    
+    show yuri blam at t11 zorder 2
     "She gets up, trying to cover herself with the blanket."
     stop music
     play music t5
-    y "Oh no!"
+    y blap "Oh no!"
     "Yuri starts panicking over something."
     "Did I do something wrong?"
     mc "What is it?"
-    y "I didn’t plan to stay over. I don’t have my school uniform!"
+    y blao "I didn’t plan to stay over. I don’t have my school uniform!"
+    show yuri blao at t11 zorder 2
     "Whew, I'm in the clear."
     "But this is really bad too! What do we do?"
     "Maybe...."
     mc "What if...{w=0.5} I went to your house to grab your school uniform?"
-    y "What?!"
-    y "Y-You don't need to do that. I'm sure there's another way."
+    y blan "What?!"
+    y blao "Y-You don't need to do that. I'm sure there's another way."
     y "Maybe I can... Uh..."
     y "..."
     "Yuri is drawing a blank, she doesn't want me to go out and run like that, but..."
@@ -143,17 +54,20 @@ label Yuri2:
     "To calm her down, I get closer, and smile."
     mc "Don’t worry, I’ll be back soon."
     "I say this as unsure as she is."
-    y "But, my house is so far away, you’re not going to have enough time."
+    y blan "But, my house is so far away, you’re not going to have enough time."
     mc "Don't worry, I’ll be back on time."
     "{i}I hope.{/i}"
     "I get up, putting on a thick jacket and some fuzzy pants."
     "It’s tacky, but when have I ever cared about what I looked like outside?"
+    show yuri blao at t11 zorder 2
     "As I’m about to leave the room, Yuri shuffles over to the closet, covered by the blanket."
     "She starts rummaging through, emerging after a moment with another jacket and her house keys."
     y "I-I don’t want you to get a cold like last time."
     "I smile."
     "Even when things aren’t going well for her she still thinks of others."
     mc "Thanks."
+    show yuri at thide zorder 1
+    hide yuri
     scene bg kitchen
     with wipeleft
     stop music fadeout 5.0
@@ -280,9 +194,11 @@ label Yuri2:
     play music t5_yuri
     "I run through the entrance and see the couch, on which I immediately lie down to catch my breath."
     "I hear Yuri’s footsteps and hold the outfit up."
+    show yuri blan at t11 zorder 2
     mc "I...{w=0.25} {i}huff{/i}...{w=0.25} Have it…{w=0.25} {i}puff{/i}."
-    #show yuri (blanket custom) at t11 zorder 2
+    show yuri blad at t11 zorder 2
     y "Oh my gosh! Thank you so much!"
+    show yuri blac at t11 zorder 2
     "She hugs me tightly, my face stuffed between her chest, then she runs upstairs."
     show yuri at thide zorder 1
     hide yuri
@@ -291,9 +207,9 @@ label Yuri2:
     "Scenes from last night start replaying in my mind."
     mc "I still can't believe it."
     mc "Yuri and I... We really did it."
-    show yuri 2b at t11 zorder 2
+    show yuri 2a at t11 zorder 2
     "My thoughts are cut off by Yuri returning downstairs, now dressed in her school uniform."
-    y "Thank you so much [player]!"
+    y 2d "Thank you so much [player]!"
     y 2a "You should go upstairs and get dressed now."
     mc "Yeah, right."
     show yuri at thide zorder 1
@@ -1428,7 +1344,7 @@ Sincerely,
     y 1bg "None of them seem particularly trustworthy, but perhaps I'm thinking that because I just don't know them enough."
     mc "What do you mean?"
     y 1bh "Well, when introducing a character, the author- I-I mean writer, addresses what you need to know about them with just their design alone."
-    y 2bh "The key features with this art style is in the face. But I can't see their intentions so clearly, which I know was done on purpose by how they contrast with the other characters introduced so far."
+    y 2bh "The key features with this art style is in the face. But I can't see their intentions clearly, which I know was done on purpose by how they contrast with the other characters introduced so far."
     mc "You got all of that just with one level of the game?"
     y 3bn "A-Ah, I'm sorry, was that too much? I shouldn't be talking so confidently."
     y 3bq "I just can't help myself when there's a compelling story."
@@ -1488,7 +1404,8 @@ Sincerely,
     y 3bo "I-It's alright [player]. I was...{w=0.5} Losing myself there."
     "A couple of moments pass while Yuri recovers from the pain."
     stop music fadeout 2.0
-    "My doubts came back to me while waiting. I guess now's as good a time as any to get them out."
+    "My doubts came back to me while waiting."
+    "I guess now's as good a time as any to get them out."
     scene black
     with wipeleft_scene
     hide yuri
@@ -1500,7 +1417,7 @@ Sincerely,
     with wipeleft_scene
     play music t10
     show yuri 4bwc1 at t11 zorder 2
-    "The scars seem to be healing, but it's still visible that there's pain when pressure is applied."
+    "The scars seem to be healing, but it's still very much visible."
     y 4bhc1 "I'm sorry for being such disappointment."
     mc "What?"
     y "Even after showing these to you the first time, I... Still get a ride off of the pain."
@@ -2059,7 +1976,8 @@ Sincerely,
     "But if that were the case she'd... Tell me, right?"
     show monika at thide zorder 1
     hide monika
-    "As I ponder this, the rotation continues. I take my turn dejectedly and sit back down, and realize Yuri's once again absent."
+    "As I ponder this, the rotation continues."
+    "I take my turn dejectedly and sit back down, and realize Yuri's once again absent."
     mc "She's sure uh, taking a minute, huh? I guess we can skip her again..."
     show monika 3bl at t11 zorder 2
     m "Yeah. It's a shame. She might've even just left by now."
@@ -2119,13 +2037,13 @@ Sincerely,
     show natsuki at thide zorder 1
     hide natsuki
     "I walk away and head to the front counter, asking the clerk about whether or not he's seen a tall girl with purple hair pass by."
-    "He mentions to check over by the food section around the other end."
+    "He mentions to check over by the snack bar at the other end of the bowling alley."
     scene bg bowling_alley
     with wipeleft_scene
     stop music fadeout 2.0
     show yuri 4bb at t11 zorder 2
-    "I head over to where the clerk mentioned, and find Yuri sitting alone at a table."
-    "Her arms are on the table, with her hands supporting her head." 
+    "I head over to where the clerk mentioned, and find Yuri sitting alone at a bench nearby."
+    "She's leaning on her knees, with her hands supporting her head." 
     "I walk up behind and give her a tap on the shoulder, which causes her to jump."
     y 3bp "Ah!"
     "She calms down when she notices me."
@@ -3351,7 +3269,7 @@ Sincerely,
     mc "It's been a crazy time with everything, you, Yuri, Natsuki, Sayori."
     mc "And I still see us as friends."
     m 1bd "I..."
-    m 1be "Thank you, [player].
+    m 1be "Thank you, [player]."
     mc "But, I'm not the only one to apologize to."
     m 1bi "I know. I'm going to go up in a little bit."
     m "Give her some time, and mentally prepare myself as well."
@@ -4732,7 +4650,7 @@ Sincerely,
     show yuri 3p at t41 zorder 2
     "Her face immediately changed to one of shock, which was not unexpected."
     show yuri 3p at f41 zorder 3
-    y 3p "W-What?! 
+    y 3p "W-What?!"
     y "[player], you know I can't do that!" 
     y "Not with everyone around...!"
     show yuri 3p at t41 zorder 2

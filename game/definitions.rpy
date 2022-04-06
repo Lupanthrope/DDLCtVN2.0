@@ -1642,6 +1642,67 @@ image sayori jacw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/j
 image sayori jacx = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/x.png")
 image sayori jacy = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/y.png")
 
+        #Blanket
+image sayori blaa = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/a.png")
+image sayori blab = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/b.png")
+image sayori blac = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/c.png")
+image sayori blad = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/d.png")
+image sayori blae = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/e.png")
+image sayori blaf = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/f.png")
+image sayori blag = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/g.png")
+image sayori blah = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/h.png")
+image sayori blai = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/i.png")
+image sayori blaj = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/j.png")
+image sayori blak = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/k.png")
+image sayori blal = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/l.png")
+image sayori blam = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/m.png")
+image sayori blan = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/n.png")
+image sayori blao = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/o.png")
+image sayori blap = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/p.png")
+image sayori blaq = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/q.png")
+image sayori blar = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/r.png")
+image sayori blas = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/s.png")
+image sayori blat = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/t.png")
+image sayori blau = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/u.png")
+image sayori blav = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/v.png")
+image sayori blaw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/w.png")
+image sayori blax = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/x.png")
+image sayori blay = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/y.png")
+
+
+    #Natsuki
+        #Blanket
+image natsuki blaa = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/a.png")
+image natsuki blab = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/b.png")
+image natsuki blac = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/c.png")
+image natsuki blad = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/d.png")
+image natsuki blae = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/e.png")
+image natsuki blaf = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/f.png")
+image natsuki blag = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/g.png")
+image natsuki blah = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/h.png")
+image natsuki blai = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/i.png")
+image natsuki blaj = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/j.png")
+image natsuki blak = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/k.png")
+image natsuki blal = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/l.png")
+image natsuki blam = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/m.png")
+image natsuki blan = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/n.png")
+image natsuki blao = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/o.png")
+image natsuki blap = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/p.png")
+image natsuki blaq = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/q.png")
+image natsuki blar = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/r.png")
+image natsuki blas = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/s.png")
+image natsuki blat = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/t.png")
+image natsuki blau = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/u.png")
+image natsuki blav = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/v.png")
+image natsuki blaw = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/w.png")
+image natsuki blax = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/x.png")
+image natsuki blay = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/y.png")
+image natsuki blaz = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/z.png")
+
+image natsuki bla1 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep.png")
+image natsuki bla2 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep2.png")
+
+
     #Yuri
         #Cut
 
@@ -1847,10 +1908,57 @@ image yuri 4by5c1 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mo
 image yuri 4by6c1 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y6.png")
 image yuri 4by7c1 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y7.png")
 
+        #Blanket
+image yuri blaa = im.Composite((960, 960), (0, 0), "yuri/a.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blab = im.Composite((960, 960), (0, 0), "yuri/b.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blac = im.Composite((960, 960), (0, 0), "yuri/c.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blad = im.Composite((960, 960), (0, 0), "yuri/d.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blae = im.Composite((960, 960), (0, 0), "yuri/e.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blaf = im.Composite((960, 960), (0, 0), "yuri/f.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blag = im.Composite((960, 960), (0, 0), "yuri/g.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blah = im.Composite((960, 960), (0, 0), "yuri/h.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blai = im.Composite((960, 960), (0, 0), "yuri/i.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blaj = im.Composite((960, 960), (0, 0), "yuri/j.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blak = im.Composite((960, 960), (0, 0), "yuri/k.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blal = im.Composite((960, 960), (0, 0), "yuri/l.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blam = im.Composite((960, 960), (0, 0), "yuri/m.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blan = im.Composite((960, 960), (0, 0), "yuri/n.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blao = im.Composite((960, 960), (0, 0), "yuri/o.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blap = im.Composite((960, 960), (0, 0), "yuri/p.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blaq = im.Composite((960, 960), (0, 0), "yuri/q.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blar = im.Composite((960, 960), (0, 0), "yuri/r.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blas = im.Composite((960, 960), (0, 0), "yuri/s.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blat = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blau = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blav = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+image yuri blaw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "mod_assets/yuri/blanket/yuriblanket.png")
+
         #CG
 image cg yuri_in_bed = "mod_assets/yuri/cg/yuri_in_bed.png"
 image cg yuri_on_chest = "mod_assets/yuri/cg/yuri_on_chest.png"
 image cg yuri_against_wall = "mod_assets/yuri/cg/yuri_against_wall.png"
+
+
+    #Monika
+        #Blanket
+image monika blaa = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/a.png")
+image monika blab = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/b.png")
+image monika blac = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/c.png")
+image monika blad = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/d.png")
+image monika blae = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/e.png")
+image monika blaf = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/f.png")
+image monika blag = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/g.png")
+image monika blah = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/h.png")
+image monika blai = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/i.png")
+image monika blaj = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/j.png")
+image monika blak = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/k.png")
+image monika blal = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/l.png")
+image monika blam = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/m.png")
+image monika blan = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/n.png")
+image monika blao = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/o.png")
+image monika blap = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/p.png")
+image monika blaq = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/q.png")
+image monika blar = im.Composite((960, 960), (0, 0), "mod_assets/monika/blanket/monikablanket.png", (0, 0), "monika/r.png")
 
 
 # 2.0 Art PLACEHOLDER, HAVE TO BE REPLACE BEFORE RELEASE. WE DON'T HAVE THE RIGHTS ON THOSE ONE
