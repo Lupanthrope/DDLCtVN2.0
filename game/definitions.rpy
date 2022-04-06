@@ -46,6 +46,8 @@ define audio.t14 = "<loop 0>mod_assets/14.mp3"
 define audio.doorbell = "mod_assets/doorbell.mp3"
 #heartbeat
 define audio.t15 = "<loop 0>mod_assets/15.mp3"
+#rain
+define audio.t16 = "<loop 0>mod_assets/16.mp3"
 
 define audio.t1 = "<loop 22.073>bgm/1.ogg"  #Main theme (title)
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
