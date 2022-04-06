@@ -6,51 +6,6 @@ label Natsuki2:
     $ n_name = "Natsuki"
     $ m_name = "Monika"
 
-#For definitions file: Natsuki asset references
-#Mod assets: BGs
-#Black background
-#image bg black = "mod_assets/black.png"
-
-#Player house
-#image bg bedroom_dirty = "mod_assets/bedroom_dirty.png"
-#image bg livingroom = "mod_assets/livingroom.png"
-#image bg livingroom_night = "mod_assets/livingroom_night.png"
-#image bg livingroom_sunset = "mod_assets/livingroom_sunset.png"
-
-#School
-#image bg school = "mod_assets/school.png"
-
-#Road Shots
-#image bg road = "mod_assets/road.png"
-#image bg road_sunset = "mod_assets/road_sunset.png"
-#image bg road_night = "mod_assets/road_night.png"
-
-#Bookstore
-#image bg central_hub = "mod_assets/central_hub.png"
-#image bg bookstore = "mod_assets/bookstore.png"
-#image bg bookstore_sunset = "mod_assets/bookstore_sunset.png"
-#image bg corner = "mod_assets/corner.png"
-#image bg bowling_alley = "mod_assets/bowling_alley.png"
-
-#Restaurant
-#image bg resturant_front = "mod_assets/resturant_front.png"
-#image bg resturant = "mod_assets/resturant.png"
-
-#Cafe
-#image bg cafe = "mod_assets/cafe.png"
-#image bg cafe_in = "mod_assets/cafe_in.png"
-
-#Movie Theater
-#image bg theater = "mod_assets/theater_out.png"
-#image bg theater_in = "mod_assets/theater_in.png"
-
-#Carnival
-#image bg carnival = "mod_assets/carnival.png"
-
-#Mod Assets: Music
-#bird chirpings
-#define audio.t12 = "<loop 0>mod_assets/12.mp3"
-
 #Scene 1 - Tension(1):
     scene black
     play music t12
