@@ -1586,9 +1586,40 @@ image bg bowling_alley = "mod_assets/bowling_alley.png"
 image bg sayori_bedroom_daydream = "mod_assets/sayori_bedroom_daydream.png"
 image bg park = "mod_assets/park.png"
     #Sayo
+        #BG
+
+image bg pond = "mod_assets/pond.png"
+image bg schoolroof = "mod_assets/schoolroof.png"
+
         #CG
 image sayori_bed = "mod_assets/sayori/cg/bed sayori.png"
 image sayori_bed_one_eye = "mod_assets/sayori/cg/sayori bed one eye.png"
+
+image sayori_grim_fate = im.Composite((1280,720),(0,0), "cg/s_kill_bg.png", (540,-80), "cg/s_kill.png")
+image sayori_grim_fate2 = im.Composite((1280,720),(0,0), "cg/s_kill_bg2.png", (540,-80), "cg/s_kill2.png")
+
+image sayori_grim_flashback:
+   "cg/s_kill.png"
+  ##  pause 0.05
+    #image sayori_grim_fate
+    ##pause 0.05
+    #image white
+    #pause 0.1
+    #image sayori_grim_fate
+    #pause 0.05
+    #image white
+
+
+#image sayori_grim_flashback2:
+#    image white
+ #   pause 0.1
+  #  image sayori_grim_fate2
+  #  pause 0.05
+  #  image white
+  #  pause 0.1
+   ## image sayori_grim_fate2
+   # pause 0.05
+   # image white
 
         #Pyjama
 image sayori pja = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/a.png")

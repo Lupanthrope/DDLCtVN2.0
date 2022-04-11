@@ -786,7 +786,7 @@ label sayoriroute41:
             s 1bh "My...eyes ? N...nope."
         "An American" :
             s 1bc "Whaaat ? No !"
-        "Soccer ball" :
+        "A soccer ball" :
             show sayori 1br at h11 zorder 2
             s "Yes ! Makes me wanna play !"
             $point += 1
@@ -869,52 +869,61 @@ label sayoriroute41:
     s "That was fun, wasn't it?"
 
     if point == 8 :
-        s "And you even got all the right answers !"
+        s 1br "And you even got all the right answers !"
+        show sayori 1bq at t11 zorder 2
         mc "Does that mean I got a nice reward ?"
-        s "*giggle* maybe latter..."
+        s 1bs "*giggle* maybe latter..."
     elif point == 0 :
-        s "Even if you didn't got a single good answer !"
+        s 1bn "Even if you didn't got a single good answer !"
         mc "I totally did that on purpose."
-        s "Suuuuuuure !"
+        s 1bx "Suuuuuuure !"
     elif point < 4 :
-        s "You could have done way better though ! More than half of your answers were wrong !"
+        s 1bc "You could have done way better though ! More than half of your answers were wrong !"
+        show sayori 1bb at t11 zorder 2
         mc "Having fun is the most important part !"
-        s "Guess you're right !"
+        s 1bx "Guess you're right !"
     else :
-        s "You even manage to get more than half of the good answers ! Good job [player] !"
+        s 1br "You even manage to get more than half of the good answers ! Good job [player] !"
+    show sayori 1ba at t11 zorder 2
     mc "Anyway I have to admit, it was a good time."
     mc "You always have good ideas, Sayori."
-    s "Oh, stop. You're the one who planned this whole thing out."
+    s 1bb "Oh, stop. You're the one who planned this whole thing out."
+    show sayori 1bb at t11 zorder 2
     mc "Hey I'm sure you'd do the same thing for me."
-    s "..."
+    s 1bf "..."
     mc "Sayori?"
-    s "[player]..."
-    s "Do you really think I'm thoughtful enough for that?"
+    s 1bk "[player]..."
+    s 1bh "Do you really think I'm thoughtful enough for that?"
+    show sayori 1bf at t11 zorder 2
     mc "W-what are you talking about?"
-    s "You planned out this amazing day for me without hesitating even a bit."
+    s 3bh "You planned out this amazing day for me without hesitating even a bit."
     s "You committed to taking me on a picnic as soon as the idea popped into your head."
     s "I just don't think I have the motivation you do."
-    s "I don't think...I'm as good to you as you are to me."
+    s 4bk "I don't think...I'm as good to you as you are to me."
     "..."
     mc "Sayori, you really don't have to think that way."
     mc "I did this because I love you and wanted to do something special for you."
+    show sayori 4bf at t11 zorder 2
     mc "I-I-I wasn't trying to make you feel bad...I'm sorry if I did."
     "Is it possible that this picnic was too extravagant?"
     mc "But Sayori, you've already done plenty of amazing things for me! For instance, that poem you wrote about me for the Literature Club not too long ago!"
-    s "That's different, [player], that was an assignment."
+    s 4bh "That's different, [player], that was an assignment."
+    show sayori 3bf at t11 zorder 2
     mc "Still, you didn't have to write about me, but you did anyway. I'm touched by that."
-    s "Well to tell you the truth..."
+    s 3bh "Well to tell you the truth..."
     s "You're the only good thing about my life right now."
     s "Of course I'm gonna write about you."
-    s "I have nothing else going for me at all."
+    s 4bv "I have nothing else going for me at all..."
+    show sayori 4bu at t11 zorder 2
     mc "Sayori, if that's how you feel, then I'm in the same boat."
     mc "If I wasn't with you then I have no idea where my life would be right now."
-    s "I think you'd probably be dating someone else."
+    s 4bv "I think you'd probably be dating someone else."
+    show sayori 4bu at t11 zorder 2
     mc "Oh yeah? Like who?"
-    s "Monika, probably."
+    s 2bv "Monika, probably."
     s "She's got so much going for her, and I'm sure that if you were dating her, she'd be thoughtful enough to make you a picnic like this..."
     s "Or throw you surprise birthday parties..."
-    s "Or cook food for you without burning it!"
+    s 4bw "Or cook food for you without burning it!"
     s "[player], why do you even like me?!"
     if sayori_confronted == True:
         s "All I do is mess things up and make everyone mad like with Monika's jacket!"
@@ -925,6 +934,8 @@ label sayoriroute41:
     s "I'm a complete failure, you shouldn't want to be with me!"
     mc "Sayori!"
     mc "Please please please relax!"
+    show sayori at thide
+    hide sayori
     "I pull Sayori toward me and shush her as she sobs into my shoulder."
     s "You shouldn't want me, [player]."
     mc "Yes I should, and I do."
@@ -953,7 +964,7 @@ label sayoriroute41:
     "Agreeing with her, I take her hand and help her up off the floor."
     "Together we clean and pack up our picnic, then head back to my house."
 
-
+return
 
    # {H-scene goes here}
     #{Set-up: arrive home from picnic, Sayori wants to repay MC and also satiate her needs, therefore, sex, naturally}

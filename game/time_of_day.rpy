@@ -3,37 +3,33 @@
 init python:
     def dawn(d):
         return im.MatrixColor(d,  im.matrix.tint(0.5, 0.4, 0.6))
-init python:
     def dawn2(d):
         return im.MatrixColor(d,  im.matrix.tint(0.4, 0.3, 0.5))
-
-init python:
     def morning(m):
         return im.MatrixColor(m,  im.matrix.tint(0.8, 0.7, 0.6))
-init python:
     def morning2(m):
         return im.MatrixColor(m,  im.matrix.tint(0.8, 0.6, 0.5))
-
-init python:
     def sunset(s):
         return im.MatrixColor(s,  im.matrix.tint(1.0, 0.8, 0.8))
-init python:
     def sunset2(s):
         return im.MatrixColor(s,  im.matrix.tint(1.0, 0.8, 0.6))
-
-init python:
     def evening(e):
         return im.MatrixColor(e,  im.matrix.tint(0.6, 0.6, 0.7))
-init python:
     def evening2(e):
         return im.MatrixColor(e,  im.matrix.tint(0.4, 0.4, 0.5))
-
-init python:
     def night(n):
         return im.MatrixColor(n,  im.matrix.tint(0.4, 0.4, 0.6))
-init python:
     def night2(n):
         return im.MatrixColor(n,  im.matrix.tint(0.2, 0.2, 0.4))
+    def flashback(n):
+        return im.MatrixColor(n,im.matrix.saturation(0))
+
+
+image bg sayori_bedroom_flashback = flashback(Image("bg/sayori_bedroom.png"))
+image bg corridor_flashback = flashback(Image("bg/corridor.png"))
+image bg pond_flashback = flashback(Image("mod_assets/pond.png"))
+image bg pond_evening = evening(Image("mod_assets/pond.png"))
+image bg pond_night = night(Image("mod_assets/pond.png"))
 
 
 image bg residential_dawn = dawn(Image("bg/residential.png"))
