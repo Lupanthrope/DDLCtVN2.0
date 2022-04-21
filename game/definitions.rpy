@@ -1005,13 +1005,13 @@ image yuri 1bt = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "yuri/1b
 image yuri 1bu = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
 image yuri 1bv = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
 image yuri 1bw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by1 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y1.png")
-image yuri 1by2 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y2.png")
-image yuri 1by3 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y3.png")
-image yuri 1by4 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y4.png")
-image yuri 1by5 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y5.png")
-image yuri 1by6 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y6.png")
-image yuri 1by7 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y7.png")
+image yuri 1by1 = im.Composite((960, 960), (0, 0), "yuri/y1.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by2 = im.Composite((960, 960), (0, 0), "yuri/y2.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by3 = im.Composite((960, 960), (0, 0), "yuri/y3.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by4 = im.Composite((960, 960), (0, 0), "yuri/y4.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by5 = im.Composite((960, 960), (0, 0), "yuri/y5.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by6 = im.Composite((960, 960), (0, 0), "yuri/y6.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by7 = im.Composite((960, 960), (0, 0), "yuri/y7.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
 
 image yuri 2ba = im.Composite((960, 960), (0, 0), "yuri/a.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 image yuri 2bb = im.Composite((960, 960), (0, 0), "yuri/b.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
@@ -1036,13 +1036,13 @@ image yuri 2bt = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "yuri/1b
 image yuri 2bu = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 image yuri 2bv = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 image yuri 2bw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by1 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y1.png")
-image yuri 2by2 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y2.png")
-image yuri 2by3 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y3.png")
-image yuri 2by4 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y4.png")
-image yuri 2by5 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y5.png")
-image yuri 2by6 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y6.png")
-image yuri 2by7 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y7.png")
+image yuri 2by1 = im.Composite((960, 960), (0, 0), "yuri/y1.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by2 = im.Composite((960, 960), (0, 0), "yuri/y2.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by3 = im.Composite((960, 960), (0, 0), "yuri/y3.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by4 = im.Composite((960, 960), (0, 0), "yuri/y4.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by5 = im.Composite((960, 960), (0, 0), "yuri/y5.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by6 = im.Composite((960, 960), (0, 0), "yuri/y6.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by7 = im.Composite((960, 960), (0, 0), "yuri/y7.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 
 image yuri 3ba = im.Composite((960, 960), (0, 0), "yuri/a.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 image yuri 3bb = im.Composite((960, 960), (0, 0), "yuri/b.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
@@ -1067,13 +1067,13 @@ image yuri 3bt = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "yuri/2b
 image yuri 3bu = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 image yuri 3bv = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 image yuri 3bw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by1 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y1.png")
-image yuri 3by2 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y2.png")
-image yuri 3by3 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y3.png")
-image yuri 3by4 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y4.png")
-image yuri 3by5 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y5.png")
-image yuri 3by6 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y6.png")
-image yuri 3by7 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y7.png")
+image yuri 3by1 = im.Composite((960, 960), (0, 0), "yuri/y1.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by2 = im.Composite((960, 960), (0, 0), "yuri/y2.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by3 = im.Composite((960, 960), (0, 0), "yuri/y3.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by4 = im.Composite((960, 960), (0, 0), "yuri/y4.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by5 = im.Composite((960, 960), (0, 0), "yuri/y5.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by6 = im.Composite((960, 960), (0, 0), "yuri/y6.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by7 = im.Composite((960, 960), (0, 0), "yuri/y7.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 
 image yuri 4ba = im.Composite((960, 960), (0, 0), "yuri/a2.png", (0, 0), "yuri/3b.png")
 image yuri 4bb = im.Composite((960, 960), (0, 0), "yuri/b2.png", (0, 0), "yuri/3b.png")
@@ -1590,6 +1590,10 @@ image bg park = "mod_assets/park.png"
 
 image bg pond = "mod_assets/pond.png"
 image bg schoolroof = "mod_assets/schoolroof.png"
+image bg sayori_hall = "mod_assets/sayori_hall.png"
+
+image bg ending_a = "mod_assets/sayori/endings/a.png"
+image bg ending_b = "mod_assets/sayori/endings/b.png"
 
         #CG
 image sayori_bed = "mod_assets/sayori/cg/bed sayori.png"
