@@ -543,7 +543,7 @@ Sincerely,
             mc "Oh...okay."
             mc "So I assume you wanna get to work on that now?"
             s 1bq "Uh-huh."
-            "I have to admit I'm a little worried about what she was keeping mum about earlier."
+            "I have to admit I'm a little worried about what she was keeping quiet about earlier."
             "But I also admit that handling someone's feelings, especially someone in Sayori's condition, is a pretty foreign concept to me."
             "I decide that the best thing would just be to get this homework finished, and then sleep it off."
             mc "So, what's first on the agenda?"
@@ -665,54 +665,54 @@ Sincerely,
             "It ends up being a lot more fun than I expected!"
             "Despite the circumstances, the sexuality of the situation kinda gets diffused by how much fun we have picking on each other."
             "That is until I notice Sayori has nothing but her bra and panties on, and I sink her aircraft carrier."
-            show sayori 1ux at t11 zorder 2
+            show sayori undx at t11 zorder 2
             s "Ehehe~, it's your choice, [player], what do you wanna see first?"
-            show sayori 1uq at t11 zorder 2
+            show sayori undq at t11 zorder 2
             "Sitting here with nothing but my boxer shorts on, I think she can tell I'm getting very excited."
             "I'm really not super sure how to respond."
             "I saw Sayori nude not super long ago, but this level of playfulness starts to take a toll on my male instincts."
             mc "B-b-b-b..."
             "I'm stuttering like an idiot."
-            s 1ur "Ehehe~! Spit it out!"
-            show sayori 1uq at t11 zorder 2
+            s undr "Ehehe~! Spit it out!"
+            show sayori undq at t11 zorder 2
             mc "Boobs..."
             mc "I MEAN, BRA."
             mc "T-take off your bra, next, please, madame, if you don't mind."
-            s 3us "Pffft, you're so silly, [player]."
-            s 4ul "You'll really get to see how much bigger they've gotten!"    # was 4sx
-            s 4us "As you wish, it's coming off~!"
+            s unds "Pffft, you're so silly, [player]."
+            s undl "You'll really get to see how much bigger they've gotten!"    # was 4sx
+            s unds "As you wish, it's coming off~!"
             "Sayori begins to move her hands toward her bra, but then she stops suddenly."
-            s 2uc "Oh, but first..."    # was 2sc
-            s 1ux "D8." # was 2sx
-            show sayori 1uq at t11 zorder 2
+            s undc "Oh, but first..."    # was 2sc
+            s undx "D8." # was 2sx
+            show sayori undq at t11 zorder 2
             "..."
             "She sunk my battleship."
             mc "No way, you have to take it off before you make your next move!"
-            s 1uj "Hey I came up with the game, so I say this is totally within the rules!"
-            show sayori 1ui at t11 zorder 2
+            s undj "Hey I came up with the game, so I say this is totally within the rules!"
+            show sayori undi at t11 zorder 2
             mc "That's so bogus!"
-            s 1ur "I'm waitiiiing~!"  # was 4ss
+            s undr "I'm waitiiiing~!"  # was 4ss
             "Damn, she really got me with this one."
             mc "Fine, you win, congratulations."
-            show sayori 3uq at t11 zorder 2   # was 4sq
+            show sayori undq at t11 zorder 2   # was 4sq
             "It finally hits me that now I have to take off my boxers and show Sayori my private parts."
             "Which, admittedly, I don't necessarily have a problem with, but regardless, this is awkward."
-            show sayori 3ud at t11 zorder 2   # was 4sq
+            show sayori undd at t11 zorder 2   # was 4sq
             "I slowly stand up and then look at Sayori, biting her lip waiting for me to proceed."
             "The look on her face is getting me very aroused, and I know I won't be able to conceal my excitement from Sayori."
             "I rip off the band-aid, so to speak, then pull down my boxers and show Sayori everything."
-            show sayori 4us at t11 zorder 2   # was 4sq
+            show sayori unds at t11 zorder 2   # was 4sq
             "Sayori begins to clap."
             s "Bravo, [player], bravo! He's glorious! Ahahaha~!"  # was 4ss
             mc "Well, here we are, then."
             mc "Game's over."
             mc "I'm naked, you're almost naked."
             mc "Where do we go from here?"
-            s 2ub "I think..."  # was 2sa
-            s 1ur "It's time to do some math."    # was 2sx
+            s undb "I think..."  # was 2sa
+            s undr "It's time to do some math."    # was 2sx
             mc "What?!?!"
-            s 1ux "Let's get dressed again, [player], we got homework to do."
-            show sayori 1ua at t11 zorder 2
+            s undx "Let's get dressed again, [player], we got homework to do."
+            show sayori unda at t11 zorder 2
             "..."
             "I hate everything about this."
             "I didn't even wanna take things too far tonight, but it's hard to ignore my urges when you're so close to the light at the end of the tunnel!"
@@ -782,6 +782,7 @@ Sincerely,
             stop music fadeout 2.0
 
         "Say goodnight":
+            $ battleship_played=False
             mc "Yeah, no problem..."
             mc "Well then, goodnight, Sayori."
             s 2fc "Actually, I was hoping I could stay over at your place tonight..."

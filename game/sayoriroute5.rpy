@@ -742,7 +742,7 @@ label sayoriroute52:
     "My whole life is flashing before my eyes as I see Sayori ready to throw us away."
     "As it flashes by...I catch a glimpse of the two of us as children, sitting in front of this very pond..."
     
-    scene white
+    scene black
     with fade
     scene bg pond_flashback
     with fade
@@ -777,9 +777,9 @@ label sayoriroute52:
     s "Sing it together?"
     mc "Heheh...never in a million years, Sayori."
 
-    scene white
+    scene black
     with fade
-    scene bg pond_flashback
+    scene bg pond
     with fade
 
     #{back to present day}
@@ -906,37 +906,30 @@ label sayoriroute52:
     show sayori at thide
     hide sayori
     "Sayori very hastily removes her clothes and leaves me almost speechless."
-    show sayori 4ur at h11 zorder 2
+    #show sayori 4ur at h11 zorder 2
+    scene black
+    with fade
     "I've seen her naked body a bunch of times by this point but there's just something so..."
     "{i}Magical{/i} about it this time."
+    scene sayori_pond
+    with fade
     "The sunlight shines off her skin giving her the radiance of an angel."
     "Her smile is so bright it would make Nikola Tesla blush."
     "Her breasts look like something out of a Renaissance painting."
     "To be perfectly honest, I'm not even lost in lust at the moment."
     "I'm simply dumbfounded by the beauty that stands in front of me."
-    show sayori at thide
-    hide sayori
     "I go up to Sayori, lift her chin up toward me, and give her a long kiss."
-    show sayori 4ux at t11 zorder 2
     s "Ehehehe...what was that for?"
-    show sayori 4ua at t11 zorder 2
     mc "To thank you for being you."
-    show sayori 4uq at t11 zorder 2
     "Sayori smiles and hugs me, pressing her nearly bare body against the entirety of my person."
-    show sayori at thide
-    hide sayori
     "I clear my throat."
     "If I wasn't lusting over her before, I certainly am now."
     "I finally take my clothes off as well, and she blushes seeing me."
-    show sayori 1uy at t11 zorder 2
     "I wonder if she's having the same thoughts about my nude body cast in front of the sunset that I was having for her."
-    s 1us "Hehehehe~, your butt is flat."
+    s "Hehehehe~, your butt is flat."
     "Guess not."
     "I laugh, then offer to take Sayori's hand."
-    show sayori 1us at h11 zorder 2
     s "Nope!"
-    show sayori at thide
-    hide sayori
     "Sayori goes to my side and shoves me into the water."
     "My teeth immediately start chattering, and Sayori laughs at the squeal I let out."
     mc "H-h-hey! You did that to me when we were y-y-younger too!"
@@ -1028,7 +1021,7 @@ label sayoriroute52:
     "It's real."
     "{i}It's very real."
 
-    if True :
+    if False :
         call sayoribadending
     else :
         call sayorigoodending
@@ -1086,14 +1079,14 @@ label sayoribadending:
     "I storm upstairs and into my room."
     scene bg bedroom_night
     with wipeleft_scene
-    show sayori 1ua at t11 zorder 2
+    show sayori unda at t11 zorder 2
     "Sayori's sitting on the bed patiently."
     "I instantly notice that she's got some special lingerie panties on."
     mc "So... that's what was in the bag, eh?"
     show monika 2bh at t21 zorder 2
-    show sayori 1ue at t22 zorder 2
+    show sayori unde at t22 zorder 2
     "Sayoris face turns red as she notices Monika behind me and she covers herself with the blanket ."
-    show sayori 1ue at thide
+    show sayori unde at thide
     hide sayori
     show sayori blae at t22 zorder 2
     mc "I... I would probably appreciate that, normally."
@@ -1509,64 +1502,64 @@ label sayorigoodending:
     "I storm upstairs and into my room."
     scene bg bedroom_night
     with wipeleft_scene
-    show sayori 1ua at t11 zorder 2
+    show sayori unda at t11 zorder 2
     "Sayori's sitting on the bed patiently."
     "I instantly notice that she's got some special lingerie panties on."
     mc "So... that's what was in the bag, eh?"
-    show sayori 1uq at t11 zorder 2
+    show sayori undq at t11 zorder 2
     "Sayori smiles and nods happily, but it fades as my expression contorts."
-    show sayori 1ug at t11 zorder 2
+    show sayori undg at t11 zorder 2
     mc "I... I would probably appreciate that, normally."
     mc "Right now, this just feels like a lie..."
     mc "You made this great display about showing yourself in very little..."
     mc "All while hiding something massive."
-    show sayori 4un at t11 zorder 2
+    show sayori undn at t11 zorder 2
     "She tilts her head in confusion, which turns to shock as I reveal the rope."
-    show sayori 1um at t11 zorder 2
+    show sayori undm at t11 zorder 2
     "All color flushes from her face."
-    show sayori 1uw at t11 zorder 2
-    s 1uv "No..."
+    show sayori undw at t11 zorder 2
+    s undv "No..."
     s "How..."
-    show sayori 1uu at t11 zorder 2
+    show sayori undu at t11 zorder 2
     mc "You better explain yourself {i}right now.{/i}"
-    s 1uv "I..."
-    show sayori 1uu at t11 zorder 2
+    s undv "I..."
+    show sayori undu at t11 zorder 2
     "I can tell she's trying her best not to bawl."
     "Her change in her usual tone must be a testament to how much gravity this has for her."
     "My lips start to quiver."
     "My jaws are clenched so tightly it feels like my teeth are about to shatter."
     s "..."
-    s 3uv "I can't say I really even wanted to use that noose."
+    s undv "I can't say I really even wanted to use that noose."
     "She looks off for a second to collect herself."
     "Tears are welling up in her eyes more than mine."
     "I start to loosen up, and I drop the noose."
-    s 4uk "It's odd."
+    s undk "It's odd."
     s "The day I planned to die, was the day my life truly began."
     "Does she mean...?"
-    s 4ug "The night before the festival, something was wrong."
+    s undg "The night before the festival, something was wrong."
     s "I should have been happy. I was finally loved by the person who meant the most to me."
     s "But when I went back inside after we were finally a couple...something started to say things in the back of my head."
     s "Things that all had to do with my death."
-    s 4uk "These voices that told me to die..."
-    s 4up "I hated them!"
-    s 4uh "I thought killing myself would get them to finally go away."
-    s 2uk "To get them out of my head."
+    s undk "These voices that told me to die..."
+    s undp "I hated them!"
+    s undh "I thought killing myself would get them to finally go away."
+    s undk "To get them out of my head."
     s "Of course, I could have just lived with them for your sake."
-    s 2uh "But I also worried that living with this would hurt you, so in my rush, I thought it could solve two problems."
-    s 1uk "So, that night, I tied the noose and planned to wake up early to finally hang myself."
+    s undh "But I also worried that living with this would hurt you, so in my rush, I thought it could solve two problems."
+    s undk "So, that night, I tied the noose and planned to wake up early to finally hang myself."
     s "I was too tired at night to go through with it."
     s "But I slept in."
     s "And then, you woke me up."
-    s 3uk "I was given a reason to stay one more day... one more week... one more month."
+    s undk "I was given a reason to stay one more day... one more week... one more month."
     s "Eventually, I pretty much refused the fact that I tried to kill myself and left the noose in my closet, and it's been there all this time..."
-    s 1ug "Until now."
-    s 1uv "I'm so sorry, [player]."
+    s undg "Until now."
+    s undv "I'm so sorry, [player]."
     s "I should have told you sooner."
     s "I know this sounds pretty stupid now, but I didn't want to hurt you if you found out."
-    show sayori 1uu at t11 zorder 2
+    show sayori undu at t11 zorder 2
     "I feel betrayed, in a sense. I told her she could talk to me about anything at all. So why would she hide this from me? "
     "I finally loosen all the way up, and embrace Sayori."
-    show sayori 1uu at thide
+    show sayori undu at thide
     hide sayori
     mc "Sayori..."
     s "Shh."
@@ -1594,8 +1587,8 @@ label sayorigoodending:
     show sayori 4ut at t11 zorder 2
     mc "Will you do the honors, Sayori?"
     "Sayori looks at me with tears in her eyes and giggles."
-    s 4us "Why yes, [player] I'd love to."
-    show sayori 4us at thide
+    s unds "Why yes, [player] I'd love to."
+    show sayori unds at thide
     hide sayori
     "She pours a little oil over some paper and the rope, strikes a match, and lights the rope on fire."
     "As we watch this wretched thing burn, I finally feel like I won't have to worry about Sayori killing herself anymore."
@@ -1621,19 +1614,19 @@ label sayorigoodending:
     s "Hmmnn...what is it?"
     mc "It's Monday, we have school, remember?"
     s "Ungh, okay, fiiine."
-    show sayori 1uq at h11 zorder 2
+    show sayori undq at h11 zorder 2
     "Sayori stands up quickly, then gives me a kiss on the cheek."
-    s 1ur "If it wasn't for you, I'd never wake up on time."
-    show sayori 1uq at t11 zorder 2
+    s undr "If it wasn't for you, I'd never wake up on time."
+    show sayori undq at t11 zorder 2
     mc "Hey, you've woken up before me a couple times."
-    s 1ux "Exactly. You're the only reason I wake up."
-    show sayori 1ua at t11 zorder 2
+    s undx "Exactly. You're the only reason I wake up."
+    show sayori unda at t11 zorder 2
     mc "Hey, Sayori, if we keep working on getting you better, I promise you'll see you have a lot more to live for than just me."
-    s 1ux "Eheh, you say that like you don't want me to care about you anymore."
-    show sayori 1uq at t11 zorder 2
+    s undx "Eheh, you say that like you don't want me to care about you anymore."
+    show sayori undq at t11 zorder 2
     mc "Don't take it that far. I just want you to find that perfect middle ground. Understand?"
-    s 1ux "Mhmm, I do, [player]. Thank you."
-    show sayori 1ux at thide
+    s undx "Mhmm, I do, [player]. Thank you."
+    show sayori undx at thide
     hide sayori
 
     scene bg kitchen

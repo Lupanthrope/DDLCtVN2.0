@@ -31,6 +31,8 @@ image bg pond_flashback = flashback(Image("mod_assets/pond.png"))
 image bg pond_evening = evening(Image("mod_assets/pond.png"))
 image bg pond_night = night(Image("mod_assets/pond.png"))
 
+image bg theater_evening = evening(Image("mod_assets/theater_out.png"))
+
 
 image bg residential_dawn = dawn(Image("bg/residential.png"))
 image bg residential_morning = morning(Image("bg/residential.png"))
