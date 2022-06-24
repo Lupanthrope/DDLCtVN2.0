@@ -1619,21 +1619,31 @@ label yuriroute:
         jump Yuri2
     elif YuriVar >= 0:
         "I decide to drop it."
+        "Something didn't feel right to me to pry into it more."
         "No reason to make Yuri sad about things."
         "We continue to look at snowflakes for a bit, both of us dead silent."
+        show yuri n1bl
         "Time passes like this, until Yuri rests her head on my shoulder and dozes off."
         "I see no reason to object."
         "I lean my head on her own, close my eyes, and sleep."
         "We both doze off like this."
-        show yuri zorder 1 at thide
-        hide yuri
-        scene black
+        scene bg black
+        with dissolve_scene_full
         "It's only when I finally awake that I notice Yuri is missing."
         "She seems to have let me lay down on the bed."
         "In fact, I can't find her at all."
-        "She must have left already."
-        "Oh well."
+        "She must have left already, and without a word, if she did at all."
+        "The only thing left in the room was silence, just like she wanted."
+        "I get an itching feeling in the back of my mind as I re-process that moment."
+        "Even though she said she didn't want to, there was something more that she wanted to say."
+        "Much more..."
+        "..."
+        "Oh well..."
+        "No sense on dwelling on that sort of thing..."
         stop music fadeout 2.0
+        scene bg ending_d
+        with dissolve_scene_full
+        pause 5.0
         scene black
         with dissolve_scene_full
         return

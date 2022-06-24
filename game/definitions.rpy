@@ -1593,6 +1593,8 @@ image bg sayori_hall = "mod_assets/sayori_hall.png"
 
 image bg ending_a = "mod_assets/sayori/endings/a.png"
 image bg ending_b = "mod_assets/sayori/endings/b.png"
+image bg ending_c = "mod_assets/yuri/endings/c.png"
+image bg ending_d = "mod_assets/yuri/endings/d.png"
 
         #CG
 image sayori_bed = "mod_assets/sayori/cg/bed sayori.png"

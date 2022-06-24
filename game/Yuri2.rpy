@@ -2525,24 +2525,21 @@ Sincerely,
     "Perhaps it was just the neon lighting and the sunset light falling in the right place, or the atmosphere of the area itself."
     "But seeing her standing there, she looked absolutely... breathtaking."
     "It was there I had fully grasped the situation as the feeling hit me."
-    "This was our first planned out and official date."
+    "This was our first, planned out, formal, official date."
     "With both of those ideas taking all thoughts in my mind all at once, I now figured out why I could barely even speak."
     mc "H-Hi Yuri."
     y s2bu "H-Hello, [player]. You look very... handsome."
-    mc "T-Thank you..."
-    mc "You, ah... look wonderful as well, Yuri."
+    mc "Thank you, Yuri. You, ah, look... wonderful as well."
     "We stand there for a few moments, appreciating each other's appearances."
     "I felt the wind breeze past quickly, catching us from our trances."
     y s2bu "Thank you..."
     "We stood there for a bit, before I decide to break the silence."
     mc "So, this place looks great, Yuri. Very fancy I should say."
-    y s1bq "O-Oh, yes."
-    y s1bs "I thought it would be quite nice for a dinner for two."
+    y s1bj "O-Oh, yes. I thought it would be quite nice for a dinner for two."
     "I hold out my arm, and give my most princely smolder I could muster."
     mc "Shall we dine then?"
     show yuri s1bc at t11 zorder 2
-    "Yuri giggles at my poor attempt at a posh accent."
-    "She seems to play along as she hooks onto my arm in an exaggeratedly royal way."
+    "Yuri giggles at my poor attempt at a posh accent, and she seems to play along."
     y s1bd "Yes, lets."
     stop music fadeout 3.0
     scene bg restaurant
@@ -2561,9 +2558,9 @@ Sincerely,
     mc "It has a very nice atmosphere to it."
     y "Yes. It's kind of simple, but I love the food here."
     y "As well as it being relatively close to the library."
-    mc "Oh I see, what a coincidence."
-    y 1ba "I'm somewhat familiar with a few places in this area."
-    y "But I hope eating here is alright..."
+    mc "Oh, I see. That's a really nice touch of coincidence, I have to say."
+    y 1ba "It was. I hope eating here is alright."
+    mc "Oh, it's fine."
     mc "It'll be great, I'm sure."
     "I look through the menu and see quite a nice selection of things."
     "From different seafoods, meats, salads, pasta, and even omelets."
@@ -5347,8 +5344,10 @@ Sincerely,
     "Yuri pushes her face towards mine until our mouths connect."
     y "I love you, [player]."
     y "I love you too, Yuri."
-    scene end
-    with dissolve_scene_full
-    "Thank you for playing DDLCtVN Yuri Route!"
     stop music fadeout 2.0
+    scene bg ending_c
+    with dissolve_scene_full
+    pause 5.0
+    scene bg black
+    with dissolve_scene_full
     return
