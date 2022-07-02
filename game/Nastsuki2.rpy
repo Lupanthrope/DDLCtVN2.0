@@ -1,6 +1,10 @@
 label Natsuki2:
-    $ n_rep = 0
-    $ tens_pick = ""
+    $ karma = 0             #control for direction of the ending
+    $ is_end = False        #control to insure player does not recieve multiple endings in one playthrough
+    $ jerk = False          #1st control for scene 8
+    $ tens_check = ""       #2nd control for scene 8 - Y or S
+    $ date_choice = ""      #control for scene 7 - M, D or C
+    $ end_dir = ""          #control for the direction of the ending - YN or SN
     $ y_name = "Yuri"
     $ s_name = "Sayori"
     $ n_name = "Natsuki"
@@ -136,7 +140,7 @@ label Natsuki2:
         
         "Be honest":
             #Scene 1a
-            $ n_rep += 1
+            $ karma += 1
             n "Honesty is always the best policy, I think."
             mc "Well... um..."
             "Natsuki looks at me expectantly. I can see she's scared of what I might say."
@@ -181,7 +185,7 @@ label Natsuki2:
         
         "Avoid the topic":
             #Scene 1b
-            $ n_rep -= 1
+            $ karma -= 1
             mc "Natsuki..."
             show natsuki 1c
             "She looks at me, clearly attentive to what I'm about to say."
@@ -482,7 +486,6 @@ label Natsuki2:
 
         #scene 1c
         "Sayori":
-            $ tens_pick = "s"
             mc "I can spend time with Sayori today, I'm sure she misses me."
             n 3m "O-okay, I'll go hang out with Yuri then."
             show natsuki 1n
@@ -576,7 +579,6 @@ label Natsuki2:
 
         #scene 1d
         "Yuri":
-            $ tens_pick = "y"
             mc "I can talk to Yuri, I think that'd be best for both of us."
             n 3z "Okay, cool, so then I can go hang out with Sayori!"
             show natsuki at thide
@@ -689,10 +691,11 @@ label Natsuki2:
     "Walking for a bit longer, Natsuki and I finally arrive back home after what felt like the longest literature club meeting of our lives."
     scene black
     with fade
+    pause(1)
 #End scene 1
 
 #Scene 2 - A Momento:
-    scene livingroom
+    scene bg livingroom
     with dissolve_scene_full
     "At home, Natsuki and I are prepared to put the day behind us and look ahead to tomorrow."
     "Or more precisely, ahead to tonight, as at around 5:30, Natsuki decides that she wants to start making dinner."
@@ -719,7 +722,7 @@ label Natsuki2:
     "I remember that I left the bedroom a bit of a mess this morning and I adjourn to it to fix it up."
     scene bg bedroom
     with wipeleft_scene
-    "I walk in and see mementos of our little experience and immediately start to get hormonal." #Uh wtf??? You mean emotional?
+    "I walk in and see mementos of our little experience and immediately start to get hormonal."
     "However, I choose to push the feelings down so I can focus on my chores."
     "Still..."
     "It’s weird knowing I’m not a virgin anymore."
@@ -794,7 +797,7 @@ label Natsuki2:
     "At that moment, Natsuki knees me in the stomach, forcing me to lower the book toward my chest, and she snatches it from me."
     mc "Natsuki!"
     mc "What the hell!"
-    n 1p "Oh my god! [player] I’m so sorry!"
+    n 1h "Oh my god! [player] I’m so sorry!"
     n 1m "I didn’t mean to do that! Are you hurt?"
     show natsuki 1n
     "The wind is a bit knocked out of me, but I regain my composure and take a deep breath and settle myself."
@@ -945,11 +948,967 @@ label Natsuki2:
     scene black
     with fade
     "In {i}our{/i} home."
+    pause(1)
+#End Scene 2
 
+#Scene 3 - Regression
+    scene black
+    play music t16
+    "It's dawn outside."
+    "There's a pitter-patter of rain on the roof."
+    "The lights from the highway flash by."
+    "Faster than the eye can see."
+    "I try to chase the droplets on the window."
+    "I’m too tired to keep up..."
+    "But the noise keeps me up."
+    "The noise..."
+    "The voices."
+    "They're noisy."
+    "And they’re coming from up front."
+    $ y_name = "Voice 1"
+    $ s_name = "Voice 2"
+    y "Katashi, I told you our exit was coming up!"
+    s "I know."
+    y "Then why did we miss it?"
+    s "Maybe because {i}someone{/i} can’t stop talking for five minutes."
+    y "I only-"
+    "I give up on listening in."
+    "This always happens."
+    "They get angry at the slightest thing."
+    "Like when mom forgets to do something around the house."
+    "Or..."
+    "Or when dad comes home barely standing up."
+    "Parents are funny like that."
+    "It’s hitting the top and front of the car."
+    "It’s making more noise."
+    "But it's calmer."
+    "It makes me wanna sleep because of how..."
+    "P-"
+    "Pers..."
+    "Because of how long it lasts."
+    "It’s like a drawing made of stars on the glass."
+    "Almost like if I could reach out and grab it."
+    "I reach out, but to grab nothing in particular."
+    "I'm bored."
+    $ n_name = "???"
+    n "M-Mom?"
+    n "D-Dad?"
+    "The noise stops for a second."
+    "My mother turns around and looks at me."
+    $ y_name = "Mom"
+    y "What is it, sweetie?"
+    n "How long is it going to be ‘til we get home?"
+    "My dad looks away from the road."
+    $ s_name = "Dad"
+    s "As long as the traffic is good, we should be there any s-{nw}"
+    y "{i}OH MY GOD, Katashi!{/i}"
+    "But..."
+    "It was only a second..."
+    "He only took them off for an instant."
+    "This is so..."
+    "Unfair..."
+    $ y_name = "Yuri"
+    $ s_name = "Sayori"
+    $ n_name = "Natsuki"
 
-
-
-    scene end
+    scene bg bedroom_night
+    with dissolve_scene_full
+    "I'm shaken up."
+    "And awake."
+    "All I can feel is the darkness of the room and Natsuki's grip on my body."
+    mc "Natsuki?! What’s wrong?"
+    "She shakes around and hits me with her foot."
+    "She doesn’t seem to hear me."
+    n "Mommy!"
+    "I turn back to the girl in my bed and cradle her comfortingly."
+    mc "Hey, hey."
+    mc "Calm down."
+    mc "Everything is okay."
+    mc "I'm here."
+    "The girl shakes around some more."
+    "I can see an expression of horror on her face."
+    "Her eyes suddenly open, with a shimmering look to them."
+    "..."
+    "She settles down eventually and turns towards me."
+    n "It was..."
+    mc "..."
+    n "It’s all my fault."
+    mc "What is, Natsuki?"
+    "She doesn’t respond at first."
+    "A look of almost disgust appears on her face."
+    "She thinks for a second, and eventually turns around."
+    mc "Uhm..."
+    mc "So-{nw}"
+    n "You probably already guessed."
+    n "I had a nightmare."
+    n "Sorry I woke you up."
+    n "It’s really nothing important... I-"
+    "I’m surprised by how sudden her speech is."
+    "I can’t help but be curious about it."
+    mc "Don't worry about it..."
+    mc "So..."
+    mc "Maybe you wanna talk about it..?"
+    "There’s a pause and I half expect her to say no."
+    n "I..."
+    n "I would like to."
+    n "Please."
+    "Her voice gets really soft."
+    "I scoot closer to hear her better."
+    "A wave of relief flies over her delicate body."
+    n "So..."
+    n "You know how when I was younger, my mom... died in a car crash?"
+    mc "Yeah, I do."
+    n "Well..."
+    n "It was late one night and..."
+    n "My dad, h-he looked away..."
+    n "For {i}one{/i} second..."
+    n "We..."
+    n "We drove into a tree..."
+    "At this moment, Natsuki bursts into tears."
+    "My breath catches in my throat. She was in a car accident?"
+    "I can somewhat tell where this story is going."
+    n "I didn’t remember much from that point on..."
+    n "I was brought to my house."
+    n "My babysitter was there."
+    n "She cried and hugged me, but I couldn't understand why."
+    n "I was scared."
+    n "Then the next day a man with a blue uniform showed up..."
+    n "I think he was a police officer."
+    n "He started talking with my babysitter, and a minute after she was crying again..."
+    n "She started hugging me, and I was scared and confused."
+    n "They told me Papa was fine. But I didn't care about him..."
+    n "I asked where my mom was."
+    n "They wouldn't tell me at first, they just kept saying \'it's okay, your dad will be here soon.\'"
+    n "I got even more scared and a little angry."
+    "In the midst of her story, Natsuki slips her hand into mine. I take it and squeeze it reassuringly."
+    n "I couldn't understand why they wouldn't tell me anything about Mom."
+    n "I guess I must have pushed enough that they finally relented."
+    n "The officer bent down on one knee and told me my mother wasn't coming."
+    n "He explained that she died in the hospital from her injuries."
+    n "And the last thing she said was, \'Tell my princess... {w=0.5}I love her.\'"
+    show natsuki nbla2f at t11 zorder 2
+    "I feel Natsuki’s grip on my hand tighten."
+    "I’m speechless. I can’t think of anything to say. What would one say in this sort of situation, anyway?"
+    "She sniffs and reaches for my box of tissues."
+    n nbla2i "She wanted to give me a present, because my birthday was coming up."
+    n "And she wanted to give me... {w=0.5}That book."
+    show natsuki nbla2f at t11
+    "It all makes sense now. I understand why she didn’t want to talk about it and why she got angry when I had it."
+    "I can sense Natsuki’s waiting for me to say something."
+    "I’m still trying to process all this. It’s very surreal for me to think about."
+    "How would I feel if I lost a family member in an accident like that? Let alone a parent."
+    "And at such a young age."
+    "It’s moments like these when I begin to question the existence of a fair and all-loving deity watching us from the clouds."
+    "What god would find it appropriate to rip away something so crucial to a young girl so violently, so maliciously?"
+    "It just seems so sensless."
+    "But I can’t get lost in my personal feelings on death and religion. Natsuki needs me now."
+    "I shake my sorrow off and summon the will to speak."
+    mc "I still don’t understand why you said it’s all your fault."
+    mc "From what you told me, it wasn’t anyone’s."
+    "Natsuki pushes my arm away."
+    n nbla2h "It {i}is{/i}. I was selfish and it cost me everything."
+    mc "Is that what you think?"
+    "She doesn't respond."
+    n nbla2i "What?"
+    mc "I think that's a dumb way of thinking."
+    show natsuki nbla2a at t11
+    "Natsuki stiffens and gives me a scathing look."
+    mc "Let me explain."
+    mc "You had no way of knowing that would happen."
+    mc "And, if anything."
+    show natsuki nbla2b at t11
+    mc "It was your father's fault for not keeping his eyes on the road."
+    mc "Ad the driver, he's liable for whatever happens."
+    mc "But he lost just as much as you."
+    mc "That's what I think."
+    show natsuki nbla2d at t11
+    "We’re silent again for a few moments, sitting on my bed, shoulder-to-shoulder."
+    "It’s been quite a day so far. But, on the positive side, I think I’m beginning to know even more about Natsuki than before." 
+    "These... {w=0.15}\"complications\" seem to be drawing us closer together."
+    "I wonder if she’s ever mentioned this to someone else."
+    "My guess would be Yuri, but they haven’t been on best terms lately."
+    "I think for a few seconds while the mood settles down."
+    "A thought occurs to me."
+    "Has her father..."
+    mc "Hey, Natsuki."
+    show natsuki nbla2a at t11
+    mc "Did you father ever get violent in front of your mother?"
+    "Natsuki shook her head."
+    n nbla2c "No."
+    n "He would have never."
+    n "He did get angry sometimes, but..."
+    n nbla2b "Never to the point of hitting me or my mother."
+    n "Well, after my mom died he started drinking again."
+    n "Heavily."
+    n nbla2c "He didn't take proper care of me, and it lasted up until recently."
+    n "At first my babysitter would come pretty often."
+    n "She'd stay late, despite my father's threats to stop paying her."
+    n "Eventually she stopped coming, which is when I learnt he fired her."
+    n "\'I won't pay someone who can't leave when they're told to\' he said."
+    show natsuki nbla2d at t11
+    "Natsuki takes a deep breath, and continues her story."
+    n nbla2c "Well..."
+    n "It just got worse afterwards."
+    n nbla2b "He lost his job, and had to be a part-time mechanic for a whie."
+    n "He would come home late, reeking of beer."
+    n "If I didn't maker dinner for him, or if it wasn't good enough, he'd call me names."
+    n "He'd throw my food out and make me go to sleep without it."
+    "My jaw tightens. The more I hear about Natsuki’s dad, the less respect I have for him."
+    "And I didn’t have much in the first place."
+    n nbla2a "And then, for after I learned how to cook and clean like Mom used to, things calmed down a bit."
+    n "He'd still yell sometimes, but not as much."
+    n "Then one day..."
+    n nbla2d "I had to stay late at school for a class project."
+    n nbla2c "I lost track of time and didn't start heading home until it was dark out."
+    n "Even at thirteen, I knew I was in trouble because I wasn’t home in time to cook dinner or clean anything and Papa would be waiting for me."
+    n "When I got there, he was angrier than I had ever seen him."
+    n nbla2e "{i}That{/i} was the first time he ever hit me."
+    n "He slapped me across the face and accused me of sneaking around with a boy."
+    show natsuki nbla2g at t11
+    "She gestures across her face, indicating where he slapped."
+    n "I tried telling him I wasn't and that I was sorry that I was late."
+    n "He wouldn't listen."
+    n nbla2e "It was just another night of no food and early bed."
+    n "It went on for years."
+    n "He was so controlling. The only time I got away from him was when I went to school."
+    n "And summer was the worst."
+    show natsuki nbla2b at t11
+    "She pauses and leans against me, nesting her head between my shoulder and chin."
+    n nbla2c "But then, a girl in my class found me on the roof of the school and told me about a club..."
+    n "I didn’t care what kind of club it was, all that mattered is that it would be small enough that I could fit in and meant more time away from Papa."
+    show natsuki nbla2b at t11
+    mc "Any chance that girl was Sayori?"
+    "I can feel Natsuki give a half-hearted chuckle."
+    n nbla2c "Of course, stupid. We just weren’t super good friends yet."
+    n "But I joined anyways and started going to the meetings everyday."
+    n "The only one I recognized was Monika."
+    n nbla2a "We’ve been friends since middle school. But I never took her as the type to take an interest in literature."
+    n "I mostly kept to myself at first. But Sayori and Monika tried really hard to get me invested with the club and getting me comfortable with them."
+    mc "What about Yuri?"
+    n nbla2d "She was there too, we all have been since the beginning."
+    n "But she was just as quiet and bashful then as she is now. So it wasn't easy."
+    n "Long story short, though, I ended up feeling like I found the one place I truly belong and where I was accepted for who I am."
+    n "..."
+    n nblau "And then {i}you{/i} came along."
+    mc "Hard to see that as any sort of compliment."
+    n nblan "Hush, let me finish."
+    mc "Okay."
+    n nblaq "Yeah, I was upset."
+    n "I wasn't expecting a boy."
+    n "I though having one would ruin the club."
+    show natsuki nblas
+    mc "How so?"
+    n nblat "Well, Sayori talked about you a lot. She said she was bringing {i}someone{/i}, but she didn’t say it would be you."
+    n "If I didn’t know any better, I would’ve thought you were her boyfriend."
+    n nblau "And if you weren’t it would only be a matter of time before someone tried fighting over you."
+    n nblat "But, I guess I did think you were kind of cute, in your own clueless way."
+    "I decide to take that as a compliment."
+    n nblar "Then Monika decided to start sharing poems."
+    n "I figured you’d just treat me like a kid like everyone else."
+    n nblas "Then..."
+    n nblaq "Then I read your poem. It wasn’t what I was expecting."
+    n "It was almost like you wrote it for me."
+    n nblan "And, well, the rest is history."
+    n nblal "I can’t thank Monika enough for forcing us to get to know each other."
+    show natsuki nblaj at t11
+    mc "Yeah, me too."
+    "I look at the clock, it’s now almost 1:00."
+    mc "We should probably go back to bed, school’s in another few hours."
+    n nblak "Okay, yeah."
+    show natsuki at thide
+    hide natsuki
+    "We shuffle back into our original positions and I hit the light."
+    n "Hey, [player]."
+    mc "Yeah?"
+    "I yawn my reply and Natsuki sounds exhausted too."
+    n "Thank you for... listening."
+    "Through my fatigue, I work up a weary smile even though I know she can’t see it."
+    mc "Of course, I love you, Natsuki. I’d do anything for you."
+    n "Anything, huh? Bold words."
+    n "But..."
+    n "I just want you to do one thing."
+    mc "What is it?"
+    n "Promise me you won't ever leave."
+    "The words leave my mouth before I even think about the question."
+    mc "I promise. I will never leave you alone if I can help it."
+    n "Hmph, good enough."
+    n "Good night, [player]."
+    mc "Good night, Natsuki."
+    scene black
     with fade
-    "Thank you for playing DDLCtVN Natsuki Route!"
+    pause(1)
+#End Scene 3
+
+#Scene 4 - Tension (2)
+    scene bg corridor
+    with dissolve_scene_full
+    "It's another day at school."
+    "After all the drama and philosophical thoughts of yesterday, I’m actually glad for the subtle routine of academic study for once."
+    "Natsuki and I made it to school on time, and Sayori even caught up with us along the way."
+    "Words cannot express how relieved I am to see her in her usual state of good cheer and childish naïvete."
+    "She was a welcome addition to the trek, even if she spent most of her time speaking with Natsuki about some sort of science project."
+    "I guess it’s easy to take the little things for granted when they happen every day."
+    "Maybe the low times are just fate’s way of putting the simple and dull in perspective; to make us appreciate them more."
+    "I let that thought sink in."
+    "It seems my way of thinking and expressing myself has gotten more philosophical and poetic as of late, I’ve noticed."
+    "It could be the literature club rubbing off on me, I suppose."
+    "But I’m more inclined to believe that it’s the people in it rather than the club itself."
+    "Particularly a certain short-haired, endearing girl I’ve been spending a lot of time with."
+    "But I’m sure Monika and Sayori also had a hand in that."
+    "Yuri too."
+    "I arrive outside of the clubroom and open the door to enter."
+    scene bg club_day
+    with wipeleft_scene
+    "The scene in front of me is comforting in its familiarity."
+    "Monika’s at her desk, reading a small book with what appears to be classic poetry."
+    "Yuri’s sitting alone, nose deep in another book." 
+    "This one is different from the last one, I notice, but I don’t linger on it."
+    "Instead, my vision shifts to Natsuki in the back, rummaging around in the closet, evidently looking for her manga."
+    "Everything looks safe; normal."
+    "Wait."
+    "My eyes drift to the spot where Sayori usually sits, but it's missing a Sayori."
+    "Okay, I {i}know{/i} she was here today. Why isn't she at the club?"
+    "I turn towards Monika and her eyes meet mine. She glances at Sayori’s desk and then moves her gaze back to me."
+    "I get the message, so I shuffle over to her desk."
+    show monika 2d at t11 zorder 2
+    m "[player], have you seen Sayori today?"
+    "I nod."
+    m 1d "When?"
+    mc "When Natsuki and I were walking to school. Sayori met up with us and went to class."
+    mc "She hasn't said anything to you?"
+    "Monika sets down her book and closes her eyes."
+    m 1g "No, unfortunately."
+    m 1f "Did she seem ill or something?"
+    mc "No, I don't think so."
+    m 2f "Hmm..."
+    "Monika falls quiet for a moment and appears to be deep in thought."
+    m 2o "I wonder..."
+    "A moment passes and then she opens her eyes and gives the most serious look I’ve ever seen from her."
+    m 3g "Listen, [player]. I'm really concerned by Sayori's continued absence. It isn't like her."
+    "I nod, because to be honest, so am I."
+    m 1p "She won’t talk to me. I’ve tried."
+    m 1i "So I’m going to have to ask you to check up on her."
+    "I should’ve done that when she first started not showing up, I think to myself."
+    "But, with Natsuki and everything that happened yesterday, I just didn’t think much about it."
+    "I kick myself a bit, because Sayori deserves better than that."
+    m 1g "After today’s meeting, can you go to her house and see how she’s doing?"
+    mc "Of course, but if she won’t talk to you what makes you think she’ll talk to me?"
+    show monika 1m at t11 zorder 2
+    "Monika gives me a weary smile."
+    m 1e "I {i}know{/i} she will."
+    m 2e "You've been her friend longer than I have."
+    m 2m "And..."
+    m 2p "Well..."
+    m 1r "Let’s just say I have my suspicions and leave it at that."
+    "I want to ask what she means by that, but I can guess Monika won’t elaborate."
+    "I have no choice but to nod in agreement and understanding."
+    m 3h "Let me know how it goes. You have my number."
+    mc "Okay, will do."
+    show monika at thide
+    hide monika
+    "With our exchange concluded, I step away from Monika’s desk as she turns her gaze towards the window, apparently still lost in thought."
+    scene bg closet
+    with wiperight
+    "It’s nearing the end of the meeting and I’m busy putting away Natsuki’s manga for the day."
+    "We barely made it through one chapter this time around."
+    "My heart was in the right place, but my mind kept drifting to Sayori."
+    "What am I going to say when I see her?"
+    "How could Monika be so sure she’ll talk to me?"
+    "What exactly was going on with her? And how does the club factor into that?"
+    "Even Natsuki could tell my mind was somewhere else."
+    "She asked once and I declined to talk about it. I assured her that I was simply tired and I guess she bought it."
+    "I’m putting the last box back in place when I hear Natsuki and Yuri talking behind me."
+    "I perk up my ears, surprised to hear from Yuri at all."
+    "I can barely hear what's being said, but it seems to be something about poetry."
+    "From what I can tell, it seems like Natsuki is asking Yuri to keep trading poems with each other."
+    "I’m more than a little surprised by that."
+    "Given how often they fight, I got the impression they didn’t like each other and that Yuri didn’t like me by association."
+    "Or maybe Natsuki just feels bad about those past disagreements and is offering an olive branch of sorts."
+    "As I back out of the closet, Yuri replies."
+    "Again, I'm too far away to make out the exact words, but I can hear the tone."
+    "It's not very pleasant and sharp. The only word I hear is Yuri spitting out my name venemously."
+    "Uh-oh."
+    scene bg club_day
+    with wipeleft_scene
+    "I turn around on a dime and I see Yuri grabbing her stuff off the desk before hotly marching out of the clubroom."
+    "Natsuki is staring after her and I can see the smaller girl struggling between expressions of confusion, fury, and dolor."
+    "Monika is still seated at her desk and evidently watched Yuri leave in a huff as well."
+    "She turns her gaze from the closed door and raises an inquisitive eyebrow at Natsuki and me."
+    "I don’t fully understand what happened between Yuri or Natsuki either, so I’m no help and I avert my gaze with a half-hearted shrug."
+    "Natsuki growls and whips her head away, catching me in her sight. She’s visibly distraught and frustrated."
+    show natsuki 1n at t11 zorder 2
+    n 1n "So..."
+    n 1m "What did you overhear?"
+    mc "Not much"
+    "I can see she’s calming down slightly. Her hands are still balled up in fists, but her expression is softening."
+    "She’s still frustrated, but not necessarily angry."
+    "I wait for her to explain what happened."
+    "Or, rather, what was said."
+    "My patience is rewarded a few breaths later."
+    n 2s "I just..."
+    n 2m "I just asked her if we could start sharing poems again and she got really upset."
+    n 1m "I know we’ve had our disagreements in the past, but…"
+    "She pauses and looks down at her feet."
+    n 3r "Apparently she thinks that since I have a boyfriend now I’m somehow rubbing it in her nose."
+    "I'm silent for the time being. That explains Yuri's issue with me, I guess."
+    n 4s "I was just trying to be friendly."
+    mc "It was a nice gesture."
+    "Natsuki looks back up at me."
+    n 4m "Look, I may not say this a lot, but I like Yuri."
+    n 2m "Before you, she and Monika were the closest thing I had to having friends."
+    n 2u "Seeing her like this..."
+    n 1m "It makes me feel sad."
+    n 1q "And maybe even a little guilty."
+    show natsuki 4s at t11 zorder 2
+    "She pauses to place her hands on her hips."
+    n 4r "But she won’t even give me a chance to explain I still want to be friends."
+    "I can only imagine where this is going."
+    "Natsuki suddenly gives me a flirty look."
+    "That all but confirms my hunch."
+    n 1k "Hey, [player], do you think you could talk to her?"
+    n 1c "She might be more willing to listen to you if you approached her first."
+    n 1i "...{w=0.25} Alone, obviously."
+    "I hesitate. This seems like a really bad idea."
+    "Natsuki isn't relenting."
+    n "I can really make it worth your time."
+    "Her voice is heavy with seduction."
+    "Damn, she's really not making this easy."
+    "On one hand, Monika asked me to check up on Sayori, and my instinct tells me that's the right thing to do."
+    "But if I patch things up with Yuri and Natsuki, it'll make Natsuki happy."
+    "Plus, it might even make the club feel whole again."
+    "After all, Sayori usually springs right back. Thats her talent..."
+    "Right?"
+
+    menu:
+        "Right?"
+        
+        "Check on Sayori":
+            #Send to scene 5a
+            $ tens_check = "S"
+            call Natsuki5a
+        
+        "Check on Yuri":
+            #Send to scene 5b
+            $ tens_check = "Y"
+            call Natsuki5b
+    
+    jump Natsuki3
+    
+#End Scene 4
+
+
+label Natsuki5a:
+    #Start Scene 5a
+    "It's a tough call, but I have to be there for Sayori if she needs me."
+    "We've been friends since elementary school."
+    "If something was up with me, I'd want her to be the first to check up on me."
+    mc "I-"
+    mc "I'm sorry, Natsuki, but I already promised Monika I'd check up on Sayori."
+    mc "She was absent from the club again today and that worries me."
+    "I’m confused by Natsuki’s reaction. She looks like she was just splashed with cold water."
+    n 4o "M-Monika?"
+    n 4p "Sayori?"
+    "She repeats the name and a look of pure rage crosses her face."
+    show natsuki 4f at t11 zorder 2
+    "I'm taken aback at the sudden change."
+    n 4g "Fine."
+    "She spits the word like acid and I instinctively recoil."
+    n 4h "I’ll try to talk to Yuri myself then."
+    show natsuki at thide
+    hide natsuki
+    "I open my mouth to counter, but Natsuki has already turned on her heel and is rapidly heading out of the clubroom, leaving me and Monika behind."
+    "I glance at the other person in the room and she gives me a puzzled look?"
+    mc "I’m gonna just get my things and then go check on Sayori."
+    "It's unbelievably awkward."
+    "It feels like I made the wrong choice."
+    "But I know what is best for Sayori."
+    "It's my job to take care of her."
+    "Always has been."
+    "I discreetly rush out of the classroom."
+    scene black
+    with fade
+    scene bg residential_day
+    with fade
+    "After a few minutes, I arrive in front of her house."
+    "I take a deep breath and enter."
+    "I enter her room."
+    scene bg sayori_bedroom
+    with wipeleft_scene
+    mc "Sayori?"
+    "A slight moan lets me know she's here."
+    "I go towards her bed. She's atop it, resting."
+    "I don't want to approach her too abruptly."
+    mc "Hi Sayori. {w=0.5}...How was your day?"
+    "After a small pause, Sayori turna aroumd, and sits up on the edge of her bed."
+    show sayori 1bk at t11 zorder 2
+    s "Alright, I guess."
+    mc "Well, it doesn't look like it."
+    mc "Considering you didn't come to the Literature Club."
+    "Sayori looks down at her feet, embarrassed."
+    s "Ehh..."
+    s 1bg "W-why would you ask that..."
+    mc "Well, if you couldn't tell..."
+    mc "I care about you."
+    mc "A lot."
+    show sayori at thide
+    hide sayori
+    "Sayori turns away from me and looks out her bedroom window."
+    s "I thought you already knew {i}why{/i}."
+    "Am I supposed to know the answer?"
+    
+    menu:
+        "Am I supposed to know the answer?"
+
+        "Tell the Truth":
+            #Scene 5a-I
+            $ karma += 1
+            show sayori 1bi at t11 zorder 2
+            mc "I don't."
+            s 1bk "{i}Oh{/i}."
+            "Or at least I don't remember."
+            mc "T-that's why I'm here."
+            s 1bl "Heheh..."
+            s 1by "You can't know me perfectly..."
+            s 1bd "...{w=0.25}Right?"
+            mc "..."
+            s 1be "What?"
+            mc "Let's get serious here."
+            mc "Sayori, I {i}really{/i} care about you."
+            mc "I need you to tell me what's the matter."
+            s 1bk "..."
+            mc "It's important."
+            s 2bl "You know, [player], there have been some things I haven't told you."
+            s 2bk "A-about myself."
+            s 1bk "It wasn't so much of an issue before, but lately it's been getting worse and worse and worse."
+            s 2bk "I've even thought about s-"
+            s 2bv "..."
+            s 1bk "S-sad things."
+            mc "Why..."
+            mc "Why didn't you tell me before...?"
+            "Does she not trust me?"
+            "I can't fathom the thought of not being trusted by her, but then again, I shouldn't jump to conclusions."
+            "I should just let her finish."
+            s 4bh "Are you okay [player], I hope I'm not boring you with my-{nw}"
+            mc "No you're not. Please, continue."
+            s 1bf "Alright..."
+            s 1bl "Well, the thing is, [player], I've been dealing with really bad depression since..."
+            s 1bk "Well, a long time now."
+            show sayori 1bt at t11 zorder 2
+            "Sayori pauses briefly as if to give me a chance to react, but it’s hard for me to take it."
+            "I mean, how does one viably react to hearing something like that?"
+            "To find out that your bubbly, sunshiny childhood best friend has been dealing with something like this for so long…"
+            "It's a hard pill to swallow."
+            "Sure, I’ve noticed Sayori hasn’t been all there as of late, but I never expected something this serious to be the root of it all."
+            "Sayori gives up her attempts at getting a reply from the apparent mute standing in front of her and continues to speak."
+            s 2bl "Are you impressed with how well I've hid it from you until now?"
+            s 2bd "Admit it, because I would be, too."
+            s 3be "But recently it's been harder and harder for me to keep it locked away like I;ve wanted."
+            s 1bv "A-and I think a big reason for that is..."
+            s 3bf "Well, it's because of you and Natsuki."
+            mc "W-what?"
+            "I manage to produce words for the first time in what feels like many minutes and that's all I have to offer."
+            "For some reason, I feel a heavy sense of embarrassment becuase of this."
+            s 1bk "S-seeing you and Natsuki together, it's... probably the most conflicted I've ever been in my life."
+            s 4bh "Don't get me wrong, I mean, I'm so happy to see both of my best friends so happy, but every time I see Natsuki holding your hand..."
+            s 2bv "Or seeing her hug and kiss you..."
+            s 1by "Even just seeing you sit on the floor with her, resting her head on your shoulder reading manga together..."
+            "Sayori pauses, like she's afraid to continue this thought."
+            s 1bt "To me, [player], all my life I've thought of you as my special \'what if?:\'"
+            s 2bl "As we grew up I would think so myself, \'What id [player] and I started dating?\'"
+            s "\'What if [player] and I got married?\'"
+            s 4bt "\'What if [player] and I had a nice house together?\'"
+            s 2bd "And that \'what if?\' stuck with me up until I got you to join the Literature Club."
+            s 1be "When I introduced you to my clubmates, and when you started getting close to Natsuki."
+            s 1bv "I realized that I might miss my chance to act on my \'what if?\'"
+            s 2bu "And when that happened..."
+            "Sayori starts sobbing lightly then feebly falls down onto the edge of her bed."
+            s 2bv "When that happened, I lost my \'what if?\', and the rain clouds started pouring in."
+            s 1bv "And [player]..."
+            s 4bw "That was the worst rain cloud I've ever had!"
+            s 4bv "When I realized that you had Natsuki and didn't need me anymore..."
+            s 1bu "I started to feel so worthless knowing the most important, special person I've ever known pretty soon would have no use for me."
+            s "And the same goes knowing Natsuki, my best friend in the club before you probably wouldn't want anything to do with me anymore."
+            s 1bw "All because I brought you to the Literature Club and blew it."
+            "Sayori continues to cry, and I take a seat next to her."
+            "I'm getting choked up myself at this point."
+            "Nobody ever waked up thinking they're going to heat this kind of stuff from their best friend."
+            show sayori 1bu at t11 zorder 2
+            mc "Sayori, please, don't say things like that."
+            mc "You are the furthest thing from useless to me as anything or anyone could be."
+            mc "I mean, who would I go to whenever I needed a good laugh or a big smile?"
+            mc "Who would I go to when I'm feeling kinda lonely and want some company?"
+            s 1bi "Natsuki."
+            s "You have Natsuki now."
+            s "Natsuki could do all those things for you, and more."
+            "I pause. I have trouble responding to this."
+            "She's right, to a very minimal extent, but she seems well beyond convinced at this point that she's lost all value as a human being."
+            "To the point where I struggle to find the right words to sway her thoughts in the other direction."
+            mc "Sayori..."
+            show sayori 1be at t11 zorder 2
+            mc "Do you trust me?"
+            show sayori 1bg at t11 zorder 2
+            "Sayori pauses for a few moments before looking at me and nodding her head, \'yes.\'"
+            mc "Then you need to trust me when I tell you this..."
+            show sayori 1bv at t11 zorder 2
+            mc "{i}You'll always be my dearest friend{/i}."
+            mc "You will always be one of the most important people in my life, and I would be crushed if I ever lost you somehow."
+            mc "Nobody, not Natsuki, not Yuri, and not Monika could ever do or say anything to change my mind."
+            s 2bv "[player], I..."
+            s 1bk "I need time to think."
+            s 1bg "Can you please, just..."
+            s 1bk "Leave me be for a little while?"
+            "I almost feel like I messed up, like I didn't say the right words, but as self-loathing thoughts start floating into my mind, Sayori speaks up once more."
+            s 1bt "Thank you."
+            "Sayori then pulls me in for a hug, and I reciprocate."
+            "In a vacuum, this is a harmless platonic gesture, but something tells me that Natsuki would not be happy knowing what I’m doing right now."
+            "However at this point, Natsuki’s jealousy is far down on my list of concerns."
+            "My best friend needs my support, and I will give it to her however I can."
+            scene black
+            with fade
+            return
+
+
+        "Lie to Sayori":
+            #Scene 5a-II
+            $ jerk = True
+            $ karma -= 2
+            mc "Well... Of course I know why..."
+            mc "I-I just wanted to check, t-thats all!"
+            s 1be "..."
+            s 1bg "Sure."
+            s 1bd "I-it's really good to have friends that {i}really{/i} care about me."
+            "{i}Gulp{/i}"
+            "This was a bad idea."
+            mc "Y-yeah, it is."
+            s 2bf "Thank you anyways."
+            "I don't respond, not knowing how to or simply being being afraid to say something stupid."
+            "I lied, now I gotta assume the consequences."
+            "..."
+            "Just kidding, I definitley won't."
+            show sayori 1bb at t11 zorder 2
+            mc "Oh, Natsuki is {i}calling{/i} me. I think I'd better go!"
+            s 2bd "Oh, alright."
+            s 2bt "{i}Sayonara{/i}, [player]."
+            "Well, that was quick and cold."
+            "Natsuki will be so very pissed. Lying to her isn't an option, she'll see right through me."
+            scene black
+            with fade
+            pause(1)
+            return
+    #End Scene 5a
+
+
+label Natsuki5b:
+    #Start Scene 5b
+    "Damn, Natsuki really doesn't make it easy on me."
+    mc "I, uh, well..."
+    "Natsuki stares at me, clearly waiting for my response."
+    mc "I sorta promised Monika I'd check in on Sayori."
+    "Natsuki blinks and looks confused."
+    n 1c "Sayori?"
+    "She pauses then takes a look around the room."
+    "Her gaze then settles back on me."
+    n 1q "That's right, she wasn't here at the club today."
+    "She frowns."
+    n 2q "But she came to school, we walked with her."
+    show natsuki 2s at t11 zorder 2
+    "I nod."
+    mc "Yeah, that's the part that really worried me."
+    mc "I think she might be avoiding us."
+    mc "Like, collectively."
+    "The smaller girl pauses and thinks for a moment."
+    "And then she responds."
+    n 2k "What if I check on Sayori for you while you see if you can talk some sense into Yuri?"
+    show natsuki 2j at t11 zorder 2
+    mc "Yuri? Check oh her? I hesitate. Yuri and I haven't exactly been the best of friends since we met, but..."
+    "Uh, do I really have a choice?"
+    "Er, I suppose so."
+    mc "But do you think she'll listen to whatever I have to say?"
+    "Natsuki firmly places her arms on her sides and shoots me a determined look."
+    n 4e "She'd better."
+    "Despite her assertive stance, a flash of uncertainty crosses her delicate features."
+    n 4c "Or, I hope so anyways."
+    show natsuki 4g at t11 zorder 2
+    "Holding back a resigned sigh, I nod."
+    "Natsuki smiles and her moment of weakness passes as quickly as it arrived."
+    n 3l "And don't worry about Sayori. I'll make sure she's fine as fresh cheese by tonight."
+    show natsuki 3j at t11 zorder 2
+    "Her chest swells with pride and confidence."
+    "Before I'm able to mention she used the wrong idiom, her eyes narrow and she speaks one more time."
+    n 1e "What are you waiting for, A letter of recommendation? Go!"
+    mc "Alright! Sheesh..."
+    "I prepare to take my leave and head for the library wherein Yuri most likely searched for solitude before Natsuki speaks up one more time."
+    n 1d "By the way, when you do talk to her, be assertive."
+    n "Don't be a wimp."
+    mc "H-hey, don't call me a wimp!"
+    n 1b "Then don't {i}be{/i} a wimp!"
+    scene black
+    with fade
+    scene bg bookstore
+    with fade
+    "Finally."
+    "It took me forever to find the library around here."
+    "Admittedly, I've never really had to use it all that much."
+    "But I fiugred Yuri had to be here."
+    "If not... {w=0.25}well..."
+    "A glimpse of purple catched me eye from one of the rows of shelves."
+    "Gee, I wonder who that could be."
+    mc "Yuri, you here?"
+    "Silence greets me for a few seconds before a faint voice follows it."
+    y "Don't shout in a library."
+    y "And go away, please."
+    "Leave it to Yuri to treat an empty storeroom for books like some sort of mausoleum."
+    mc "Sorry, no can do."
+    "I wait for a few moments of silence, listening for any sort of reply."
+    "When none came, I headed for the row I saw the trail of hair dissapear in."
+    "The horror section, I notice."
+    "Unsurprisingly, no one's there when I reach it."
+    mc "C'mon, Yuri, don't make me play hide and seek. I just want to talk to you."
+    "Silence, then..."
+    y "Why? Shouldn't you and your- your... {w=0.25}your {i}girlfriend{/i} be sucking each other's faces of somewhere?"
+    mc "Sounds pretty disgusting when you put it that way."
+    y "G-good."
+    "A pause punctuates her reply."
+    y "S-sorry."
+    mc "No need to apoloigize."
+    mc "Could you please show yourself? I'd rather talk to your face to face."
+    "I see Yuri put her book down."
+    "She starts walking over to me, head at a low angle."
+    show yuri 4c at t11 zorder 2
+    y "{i}sniff{/i}"
+    y 4b "S-sorry, [player]."
+    y "I-I've been in a bad mood this week."
+    y "{i}Anyway...{/i}"
+    y 4a "Why did you come here?"
+
+    menu:
+
+        "Tell Yuri the Truth":
+            #Scene 5b-I - Truth
+            $ jerk = True
+            "I should just tell her the truth."
+            "That's what any good friend would do."
+            mc "I came here because Natsuki was worried about you."
+            show yuri 3g at t11 zorder 2
+            "Her head jerks up, suddenly angry."
+            "Her eye twitches slightly."
+            y 1r "Oh so you only care about me when y-your {i}girlfriend{/i} is worried?"
+            mc "What? No, I-{nw}"
+            y 3v "That's so shallow, [player]."
+            y 1w "We're done here."
+            show yuri at thide
+            hide yuri
+            "Ouch."
+            "She turns around, sobbing, and leaves."
+            scene black
+            with fade
+        
+        "Tell Yuri I was Worried":
+            #Scene 5b-II - Hope
+            $ karma += 1
+            "No harm in a little lie."
+            mc "I came here because I was worried about you."
+            y 4c "Really?"
+            mc "Y-yeah, you haven't been yourself lately."
+            mc "And I was concerned about you."
+            y 4b "Oh... {w=0.5}I s-see."
+            "{i}What else should I be saying?{/i}"
+            mc "Um..."
+            show yuri 3e at t11 zorder 2
+            "Yuri gives me a curious look as if I actually have something profound to say."
+            mc "Yuri, we're friends, right?"
+            y 1h "Yes, I suppose we could use that term by this point."
+            show yuri 1g at t11 zorder 2
+            mc "W-well, I hope you know that as your friend, I'm willing to listen when something is bothering you."
+            y 1h "Oh? And what led you to that decision?"
+            y "As far as I can recall you haven't exactly shown me the friendliest of concern since we've known each other."
+            show yuri 1g at t11 zorder 2
+            "Crap, she might be onto me."
+            "I do wish I could magically come across the right words to say in this situation, because things are getting more awkward with each passing breath."
+            mc "I'm sorry you feel that way, but if you're willing to give me a chance to prove that I care then I'll do what I can to change your mind."
+            "Yuri looks skeptical, and I can't blame her."
+            "Even I don't feel sincere in what I'm saying."
+            y 1k "{i}Sigh{/i} Well if the offer is on the table, I might as well take advantage of it to air my grievances."
+            y "Though I don't believe the device of communication is ideal."
+            "{i}D-does she mean me?{/i}"
+            y 2j "Truthfully, I've felt quite irritated being stuck around you and Natsuki so consistently."
+            y 2q "The way you act toward one another, the public displays of affection, they manage to make everyone exceedingly uncomfortable."
+            "{i}Make \'everyone\' uncomfortable, or just you?{/i}"
+            mc "Uh, well, I'm sorry about that, Yuri. If you want, I can tell Natsuki to be a little less forward with me during clubtime."
+            mc "D-does that sound like a reasonable compromise?"
+            "Why did I say that? Does talking to Yuri just make me use more big words?"
+            "Yuri seems to plaster a smile on her face before scoffing lightly."
+            y 1j "You don't seem to get it, [player], do you."
+            show yuri 1i at t11 zorder 2
+            mc "Know what, Yuri, I guess I don't."
+            "That came out sounding crabbier than I'd intended, causing Yuri to obtain a sour expression."
+            y 1r "I believe you and Natsuki have a toxic relationship, and at some point in the future, it's going to hurt everyone around you."
+            y "Including yourselves."
+            "She did not just say what I think she said."
+            mc "So... let me get this straight."
+            mc "I save Natsuki from her home life, I care for her, we tend to a house together, and we also happen to share some affection for one another around our friends."
+            mc "And you see that as toxic?"
+            "Yuri scrunches her nose for a moment, telling me that I may have been on point, or at the very least struck a nerve."
+            y 1l "[player], trust me, I've seen this plenty of times in my books."
+            y "When two people get attatched too soon, everything starts to fall apart at the seams."
+            mc "Well, newsflash, Yuri, this isn't one of your books."
+            mc "It's real life, with your real friends, and this is a {i}real{/i} relationship you're bashing on."
+            mc "Maybe if you stepped back into reality one of these days, you;d realize how insane you're acting."
+            "Yuri has a deep look of disdain for me now."
+            "She takes a few shallow breaths out of frustration, then slams her book down onto the table before storming out of the room."
+            show yuri at thide
+            hide yuri
+            "Once the heavy air of our tension is lifted from the library, I sit down in a chair beside me and think about what just happened."
+            "I can't believe I snapped at Yuri like that."
+            "I mean, I wasn't in the wrong, I don't think. She was saying things that were crossing a line."
+            "She has no right to talk about me and Natsuki's relationship that way."
+            "I slouch in the chair underneath me and try to find a way to relax, if only for a few minutes."
+            "Pretty soon I find myself growing weary of the library and decide to walk out."
+            scene black
+            with fade
+
+    scene bg club_day
+    with fade
+    "After the encounter with Yuri, I go back to the Club."
+    "Once I get there, I notice that the doors are closed, and all of the lights are off."
+    "Nobody is around, not even Natsuki."
+    "Suddenly I hear footsteps behind me."
+    mc "Who's the-{nw}"
+    n "{b}{i}NYAH!!!{/b}{/i}" 
+    with vpunch
+    "We both tumble to the ground."
+    mc "Ow... What was that for?"
+    n "Hehe~ I just wanted to surprise you, idiot."
+    "She's still on top of me, a few seconds after she tackled me."
+    mc "Hey get off me! My leg is sore now."
+    "I crawl to my feet while Natsuki jumps up quickly."
+    show natsuki 5y at t11 zorder 2
+    n "Weakling."
+    show natsuki 5j
+    "She helps me up, with a mocking expression on her face."
+    mc "Thanks."
+    n "Don't mention it."
+    n 2b "Want to get some coffee? I'm hungry and tired."
+    show natsuki 2a at t11 zorder 2
+    mc "You're always hungry Natsuki, but sure."
+    mc "Where do you want to go?"
+    n 1g "..."
+    n 1d "How about that little cafe by our house?"
+    show natsuki 1a at t11 zorder 2
+    "My heart jumps a beat when she says {i}our{/i} house."
+    n 4b "Something wrong?"
+    n "You turned pale and kinda spaced out for a second there."
+    show natsuki 4g at t11 zorder 2
+    mc "No, I'm good."
+    "I'm sure she noticed my hesitation."
+    mc "Just hungry. Let's go to that cafe."
+    show natsuki at thide
+    hide natsuki
+    scene black
+    with fade
+    scene bg road_sunset
+    with wipeleft_scene
+    show natsuki s1j at t11 zorder 2
+    n s1l "How was-{nw}"
+    mc "How was-{nw}"
+    n s1k "You can go first."
+    mc "No, you can. You spoke first."
+    n s1l "Okay then. How was your day?"
+    show natsuki s1j at t11 zorder 2
+    mc "Mine was decent, some stressful parts as you know. Tired mainly."
+    mc "How was yours?"
+    n s2q "Pretty crappy to be completely honest."
+    n s2m "I'm just happy that you're with me."
+    show natsuki s1n at t11 zorder 2
+    "She looks up at me, and pulls me into a sideways hug."
+    show natsuki at thide
+    hide natsuki
+    "I hug her back, and she rests her head on my shoulder."
+    pause(2.0)
+    scene bg cafe_in
+    with wipeleft_scene
+    "We stay like that for a few minutes while we walk into the coffee shop."
+    "We get there, and it's not busy."
+    "An older couple is in the back, and there is only one server."
+    show natsuki s1c at t11 zorder 2
+    n "Want to get a table for us? I'll get our orders."
+    mc "Alright. Can you get me a decaf coffee and a muffin? Thanks."
+    n s4d "Sure thing. Get a good table near the window."
+    show natsuki at thide
+    hide natsuki
+    "Natsuki walks off, and I go get us a small table near the window."
+    "I put our bags down and take a seat."
+    "The cafe is warm inside, but the chairs are still cold."
+    show natsuki s1d at t11 zorder 2
+    n "Here you go [player]. They ran out of lids so it has an open top."
+    show natsuki s1a at t11 zorder 2
+    "She sets the coffe and muffin down in front of me."
+    mc "Thanks, Nat, I really appreciate it. No sweat about the lid either."
+    "She sits down across from me, and starts sipping her hot chocolate."
+    mc "Nothing to eat, Natsuki? I thought you were hungry."
+    n s2d "I was really hoping I could get some of that muffin there."
+    show natsuki s2a at t11 zorder 2
+    "She smiles cutely and looks at me."
+    mc "Oh sure."
+    mc "Do you want my coffee too.?"
+    n s4e "I don't want your backwash."
+    show natsuki s4g at t11 zorder 2
+    mc "Oh fine, guess we won't be kissing again anytime soon."
+    n s1p "Nooo, I didn't mean it!"
+    show natsuki s1n at t11 zorder 2
+    mc "Mhm, that's what I thought."
+    "We share a laugh, then sit in silence while I drink in my coffee and she eats my muffin."
+    show natsuki at thide
+    hide natsuki
+    show black
+    with fade
+    pause(1)
+    scene bg cafe_in
+    with fade
+    show natsuki s4a at t11 zorder 2
+    "As soon as it started, it ends."
+    mc "Hey, we've been here for 30 minutes. Want to head out?"
+    mc "We're finished with our stuff."
+    n s4d "Yeah sure, can you get our stuff while I get the trash?"
+    mc "On it captain!"
+    show natsuki at thide
+    hide natsuki
+    "She smirks as she walks away."
+    scene bg road_sunset
+    with wipeleft_scene
+    "I meet her outside the coffee shop after everything is closed up." 
+    show natsuki s5c at t11 zorder 2
+    n "Ready to go?"
+    show natsuki s5a at t11 zorder 2
+    mc "You know it. Let's go home."
+    mc "The sun is starting to set and I'm pretty tired."
+    n s2d "I completely agree. Let's go."
+    show natsuki s1a at t11 zorder 2
+    "We walk home is silence, with Natuski leaning into me the whole time there."
+    show natsuki at thide
+    hide natsuki
+    scene black
+    with fade
+    scene bg kitchen_night
+    with fade
+    "We get home right as the sun starts to go below the horizon."
+    show natsuki n4k at t11 zorder 2
+    n "I'm really tired. Want to just head to bed?"
+    show natsuki n4i at t11 zorder 2
+    mc "Yeah sure, let's do it."
+    mc "Tomorrow is the weekend, so let's make it count."
+    show natsuki at thide
+    hide natsuki
+    scene bg bedroom_night
+    with wipeleft_scene
+    "We go up to the bedroom, and start getting ready for bed."
+    "I slide in, then Natsuki turns off the light and cuddles next to me."
+    mc "Good night, Natsuki."
+    "I say as I embrace her."
+    n "Good night, [player]."
+    scene black
+    with fade
+    pause(1)
     return
+    
+    #End scene 5b

@@ -772,7 +772,49 @@ image natsuki 5bz = im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), 
 image natsuki 6ba = im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep2.png")
 image natsuki 6bb = im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep.png")
 
+image natsuki blaa = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/a.png")
+image natsuki blab = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/b.png")
+image natsuki blac = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/c.png")
+image natsuki blad = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/d.png")
+image natsuki blae = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/e.png")
+image natsuki blaf = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/f.png")
+image natsuki blag = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/g.png")
+image natsuki blah = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/h.png")
+image natsuki blai = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/i.png")
+image natsuki blaj = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/j.png")
+image natsuki blak = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/k.png")
+image natsuki blal = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/l.png")
+image natsuki blam = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/m.png")
+image natsuki blan = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/n.png")
+image natsuki blao = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/o.png")
+image natsuki blap = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/p.png")
+image natsuki blaq = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/q.png")
+image natsuki blar = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/r.png")
+image natsuki blas = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/s.png")
+image natsuki blat = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/t.png")
+image natsuki blau = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/u.png")
+image natsuki blav = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/v.png")
+image natsuki blaw = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/w.png")
+image natsuki blax = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/x.png")
+image natsuki blay = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/y.png")
+image natsuki blaz = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/z.png")
+
+image natsuki bla2a = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bta.png")
+image natsuki bla2b = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btb.png")
+image natsuki bla2c = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btc.png")
+image natsuki bla2d = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btd.png")
+image natsuki bla2e = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bte.png")
+image natsuki bla2f = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btf.png")
+image natsuki bla2g = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btg.png")
+image natsuki bla2h = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bth.png")
+image natsuki bla2i = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bti.png")
+
+image natsuki bla1 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep.png")
+image natsuki bla2 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep2.png")
+
 image natsuki 7a = "mod_assets/nEnd.png"
+
+image natsuki 8a = "mod_assets/natsuki/buffsuki.png"
 
 # Natsuki legacy
 image natsuki 1 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/1t.png")
@@ -1574,6 +1616,20 @@ image bg hotel_room = "mod_assets/hotel_room.png"
 image bg ballroom = "mod_assets/ballroom.png"
 image bg hotel_lobby = "mod_assets/hotel_lobby.png"
 
+#Subway
+image bg subway_afternoon = "mod_assets/subway_afternoon.png"
+image bg subway_night_lights = "mod_assets/subway_night_lights.png"
+
+#Station
+image bg station_day = "mod_assets/station_day.png"
+image bg station_night = "mod_assets/station_night.png"
+
+#Graveyard
+image bg cemetery = "mod_assets/cemetery.png"
+
+#Christmas tree
+image bg christmas_tree = "mod_assets/christmastree.png"
+
 image yuri_note = "mod_assets/yuri_ch1_note.png"
 transform noteposition :
     xalign 0.5
@@ -1595,6 +1651,10 @@ image bg ending_a = "mod_assets/sayori/endings/a.png"
 image bg ending_b = "mod_assets/sayori/endings/b.png"
 image bg ending_c = "mod_assets/yuri/endings/c.png"
 image bg ending_d = "mod_assets/yuri/endings/d.png"
+image bg ending_e = "mod_assets/natsuki/endings/e.png"
+image bg ending_f = "mod_assets/natsuki/endings/f.png"
+image bg ending_g = "mod_assets/natsuki/endings/g.png"
+image bg ending_h = "mod_assets/natsuki/endings/h.png"
 
         #CG
 image sayori_bed = "mod_assets/sayori/cg/bed sayori.png"
