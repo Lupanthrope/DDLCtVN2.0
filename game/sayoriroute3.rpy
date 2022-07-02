@@ -1176,7 +1176,7 @@ label sayoriroute32:
             "We come to a set of doors labeled 'Reading Room'"
             s "In here!"
 
-            scene bg reading room
+            scene bg reading_room
             with wipeleft
 
             "We walk in a quiet room."

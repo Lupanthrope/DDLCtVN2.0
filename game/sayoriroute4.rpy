@@ -28,22 +28,22 @@ label sayoriroute41:
     "I fake the idea that this action disturbed me from my slumber. After all, having Sayori realize that I watched her sleep... not the best idea."
     scene bg bedroom
     with fade
-    show sayori 4uo at t11 zorder 2
+    show sayori undo at t11 zorder 2
     mc "Wh-what...?"
     "I say, trying my best to sound drowsy."
-    s 4ur "Good morning, [player]!"
-    show sayori 4uq at t11 zorder 2
+    s undr "Good morning, [player]!"
+    show sayori undq at t11 zorder 2
     "Sayori sounds full of energy already."
     "I didn't take her for a morning person, she was almost always late for school..."
     "Although maybe that has something to do with how things are changing."
     mc "Good morning, Sayori."
     mc "Can I go back to sleep now?"
-    s 3ux "Ehehe, that's funny, I was thinking sort of the same thing..."
-    show sayori 3ua at t11 zorder 2
+    s undx "Ehehe, that's funny, I was thinking sort of the same thing..."
+    show sayori unda at t11 zorder 2
     "That's kind of shocking. Although, actually, no it isn't."
-    s 1uc "I really don't want to get out of bed..."
+    s undc "I really don't want to get out of bed..."
     s "... so maybe we can just, you know, lay here together?"
-    show sayori 1ud at t11 zorder 2
+    show sayori undd at t11 zorder 2
     mc "Is {i}cuddling{/i} the word you're looking for?"
     "I stop to think."
     "Should I really go through with this?"
@@ -52,7 +52,7 @@ label sayoriroute41:
             "Normally, I would despise saying that word."
             "But, strangely, offering to do it with Sayori doesn't at all phase me."
             "In contrast to how I would normally act, Sayori's ecstatic about the idea."
-            show sayori 4ur at h11 zorder 2
+            show sayori undr at h11 zorder 2
             s "Yay! I'd love to!"
             show sayori at thide
             hide sayori
@@ -120,7 +120,7 @@ label sayoriroute41:
             s "Going back to bed, so we can cuddle like this again! I can't wait for that!"
         "Refuse.":
             mc "Sorry, Sayori, but we've got things to do today."
-            show sayori 1uk at t11 zorder 2
+            show sayori undk at t11 zorder 2
             "She looks sad at first, so I decide to cheer her up."
 
     scene black
@@ -607,34 +607,46 @@ label sayoriroute41:
     show sayori at thide
     hide sayori
     s "Wow, it's pitch black!"
+    show sayori blio at t11 zorder 2
     mc "Ahaha, perfect. Now, hold my hand, we're going outside."
-    s "Wait, what?! Is that safe?"
+    s blim "Wait, what?! Is that safe?"
     mc "Hey you said you'd play along!"
     mc "Besides, don't you trust me?"
+    show sayori blig at t11 zorder 2
     "Sayori hesitates just a bit more this time around but she produces an answer."
-    s "Alright, fine, I trust you."
+    s blix "Alright, fine, I trust you."
+    show sayori blia at t11 zorder 2
     mc "Perfect! Let's go!"
     "With Sayori's eyes covered, I grab her hand and lead her to the kitchen with the picnic bag, hoping not to shake it around too much so's to not give away the surprise."
     "Finally, we approach my front door then exit my house."
     scene bg residential_day
     with wipeleft_scene
+    show sayori blio at t22 zorder 2
     "With Sayori's arm interlocked with mine we gingerly walk toward the park close to our neighborhood."
     "I haven't been there in a long time other than just passing through to get to the store or something, and I haven't been there with Sayori in an even longer time."
     "Sayori still seems nervous about walking outdoors with her eyes closed."
     "Honestly, now that we're actually doing it I can't really blame her, but I trust myself enough to not let her--"
+    show sayori blip at s22 zorder 2
     s "WHOA!"
     mc "Oh gosh, Sayori!"
     "Sayori seems to have tripped over a crack in the cement but I was able to pull her back to her foot before she could faceplant."
+    show sayori blih at h22 zorder 2
     s "[player], this is really difficult!"
+    show sayori blig at t22 zorder 2
     mc "Hang tight, we're almost there."
     "We make a right turn and then walk another quarter of a mile before we arrive at the park."
     scene bg park
     with wipeleft_scene
+    show sayori blio at t11 zorder 2
     "I lead us to a nice patch in the middle of the grass, and Sayori takes notice."
-    s "Hey, are we on grass now?"
+    s blic "Hey, are we on grass now?"
     mc "Uh-huh. Just stand right here, and don't take the mask off until I say so, okay?"
-    s "*Sigh*"
-    s "Okay..."
+    s blig "*Sigh*"
+    s blih "Okay..."
+
+    show sayori blih at thide
+    hide sayori
+
     "She seems to be losing some patience, but I think it'll be worth it."
     "I unpack the bag, pull out the blanket, spread across the ground, then individually place the sandwiches, the salad, the rice, and a non-alcoholic beverage around the fabric terrain."
 

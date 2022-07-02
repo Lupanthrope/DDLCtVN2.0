@@ -1,12 +1,13 @@
 label yuriroute:
     $ YuriVar = 0
     scene bg club_day
-    with dissolve_scene_half
+    with wipeleft_scene
     play music t3
     "It's the day after the festival."
     "I walk into the literature club and the usual scene greets me."
     "Yuri's sitting at her desk, reading a book."
-    "Natsuki and Sayori are talking about something. Monika's late again."
+    "Natsuki and Sayori are talking about something."
+    "Monika's late again."
     "I walk over to Yuri."
     show yuri 1q zorder 2 at t11
     "She's completely oblivious to my appearance."
@@ -38,9 +39,8 @@ label yuriroute:
     "She stares into the distance."
     y 3o "Do we absolutely need to talk about that?"
     mc "I don't really want to either..."
-    mc "But seeing as how our member count remained at 5, I don't think Monika will ignore it."
+    mc "But seeing as how our member count remained at five, I don't think Monika will ignore it."
     "As if on cue, Monika walks in the room."
-
     show yuri 2e zorder 3 at t32
     show monika 3k zorder 2 at l31
     m "Sorry, everyone!"
@@ -106,9 +106,10 @@ label yuriroute:
     "It's a day that ALL of us would probably like to forget..."
     "And the looks on Sayori, Natsuki, and Yuri's faces reflect my idea..."
     "But if Monika's insistent to bring it up, I guess I have no choice but to remember..."
+    stop music fadeout 2.0
 
     scene bg house_morning
-    with dissolve_scene_half
+    with dissolve_scene_full
     play music t2
     "It's Monday, and time for the school festival."
     "I've got all the decorations me and Yuri set up."
@@ -142,7 +143,7 @@ label yuriroute:
     "Sayori says something that stops me in my tracks."
     s m1b "So... you and Yuri are dating now, huh?"
     "I stop."
-    mc "I-Wha- How did you know that?"
+    mc "I- Wha- How did you know that?"
     s m4r "Duh, it's obvious, [player]!"
     s m4d "But don't worry, I'm not jealous."
     s m1q "I'm happy for you two."
@@ -165,7 +166,8 @@ label yuriroute:
     s "Wow, Natsuki, these are really good!"
     n "Thanks!"
     n "I just hope everyone else will enjoy them!"
-    mc "It's impressive how the icing's done. Something like this must have taken a lot of time, effort, or both."
+    mc "It's impressive how the icing's done."
+    mc "Something like this must have taken a lot of time, effort, or both."
     n m2q "Well, duh! I've got a lot of practice with this kind of thing."
     n m2m "It's really not that hard once you get to know it."
     "Yuri and Monika come over, getting a taste, and they seem to enjoy it."
@@ -202,13 +204,13 @@ label yuriroute:
     "I realize by the now apparent emptiness behind me that I didn’t bring my bookbag with me."
     "Great."
     mc "I mean... I did..."
-    m m3d "Well... that isn’t very good."
+    m m3d "Well... that isn’t good."
     m "Anyone have a poem they can lend [player]?"
     m "He seems to have forgotten his..."
     m m2m "You know, the main event of the day and everything..."
     "Monika guilt trips me."
-    "Hey, I didn't do it on purpose!"
-    "Sayori steps in... in my defense?"
+    mc "Hey, I didn't do it on purpose!"
+    "Sayori steps in... In my defense?"
     show monika at t21
     show sayori at f22
     s m4p "Hey, don’t be so mean to him!"
@@ -218,7 +220,7 @@ label yuriroute:
     m m5b "Sayori! That's not something you should feel proud of!"
     show monika at t21
     show sayori at f22
-    s m5b "B--But!! I just... I forgot, eheheh..."
+    s m5b "B-but! I just... I forgot, eheheh..."
     show monika at f21
     show sayori at t22
     m m5b "Well, you can’t do that!"
@@ -256,8 +258,8 @@ label yuriroute:
     show natsuki at t32
     m "I’m sorry, Natsuki, I thought you were confident enough to read, but I guess not!"
     "I really haven’t seen this side of Monika before."
-    "It seems rather... angry, to say the least."
-    "Natsuki isn’t having any of that."
+    "She seems rather... angry, to say the least."
+    "But Natsuki isn’t having any of that."
     show monika at t31
     show sayori at t33
     show natsuki at f32
@@ -312,6 +314,7 @@ label yuriroute:
     show monika m5b at t31
     "I turn to the other club members."
     "Welp, here goes nothing..."
+    stop music fadeout 2.0
     mc "GUYS!"
     mc "You’re making a mockery of your own club!"
     mc "Stop your bickering!"
@@ -321,11 +324,10 @@ label yuriroute:
     show monika m1o at t31
     "Natsuki opens her mouth to defend herself, but she takes one look at me and closes it."
     "At this point, the crowd mostly dissipates."
-    "It’s noticeable that still not one signature is on our signup sheet."
+    "It’s noticeable that there's still not one signature on our sign-up sheet."
 
-    stop music fadeout 2.0
-    pause 1.5
-    scene bg club_day with dissolve_scene_full
+    scene bg club_day 
+    with dissolve_scene_full
     play music t8
 
     show monika 3o at f11
@@ -412,7 +414,8 @@ label yuriroute:
     show sayori at t43
     show natsuki at t42
     show yuri at t44
-    "Monika takes a look at everyone, processing this. She seems to connect this idea."
+    "Monika takes a look at everyone, processing this."
+    "She seems to connect this idea."
     m 1p "I... guess it’s settled then."
     m "No more members, huh?"
     m "Okay, everyone."
@@ -463,6 +466,7 @@ label yuriroute:
     "Yuri looks at me."
     "I smile."
     "She returns it, and we all leave the club."
+    show yuri 1t zorder 2 at t11
     show natsuki zorder 1 at thide
     show sayori zorder 1 at thide
     show monika zorder 1 at thide
@@ -470,18 +474,18 @@ label yuriroute:
     hide sayori
     hide monika
     "Me and Yuri leave together."
-    show yuri lt zorder 2 at t11
     y 1t "[player], am I going to your house this Sunday?"
     mc "I'd love to have you!"
     show yuri 1c zorder 2 at t11
     "She blushes."
     "I'm so ready for Sunday."
+    stop music fadeout 2.0
     scene black
     with dissolve_scene_full
+    
 
     scene bg class_day
     with wipeleft_scene
-    stop music fadeout 1.0
     play music t5_yuri
     "It's 7th hour, and I'm ready for it to be over, so literature club can begin already."
     "Speaking of literature club, I'm worried about Yuri."
@@ -491,23 +495,25 @@ label yuriroute:
     "I walk into the room."
     "My literature class is fun, but it drags on when you're waiting for school to end."
     "I walk to my desk, only to be surprised by who's sitting in the back of the room."
+    show yuri 1g zorder 2 at t11
     "It's Yuri, reading a book I don't think I've seen before."
     "I walk up and tap her on the shoulder."
     "She looks up from her book, at me."
-    show yuri 1e zorder 2 at t11
-    y 4e "Eh? [player]?"
+    show yuri 1n zorder 2 at t11
+    y "Eh? [player]?"
     y "You're in this class?"
-    y 4a "Here I thought you didn't have a taste for literature..."
+    y 4a "Here I thought you didn't have a liking for literature..."
     y "This is a third-year class."
     mc "Well, I'm {i}not{/i} that into literature, but I skipped first-year."
-    mc "The way it sounded, that class would be worse than taking a higher-level one."
+    mc "The way it sounded, that class would be worse than taking a higher level one."
     mc "So, I'm here."
     mc "How have we not noticed each other before?"
     "She stops to think."
     y 4b "Well, we likely did, it's just that we didn't acknowledge each other."
     y "After all, we weren't familiar with each other at the time."
     mc "That makes sense."
-    "Come to think of it, I do remember Yuri being here. At least, it seems."
+    "Come to think of it, I do remember Yuri being here."
+    "At least, it seems."
     "It's one of those things where now you think you remember it, even if in reality you don't."
     "Except now I have no idea whether or not I do."
     "I'll take her word for it."
@@ -532,7 +538,7 @@ label yuriroute:
     "I was just about to nod off when Yuri questions me."
     y "[player]?"
     y 1l "You're falling asleep."
-    mc "Yea, I was trying to."
+    mc "Yeah, I was trying to."
     show yuri 2n at t11
     "She looks shocked."
     "I've kind of forgotten that she's not Sayori, and wouldn't be used to this from me."
@@ -554,10 +560,13 @@ label yuriroute:
         "Accept Yuri's help.":
 
             $ YuriVar += 1
-            mc "Sure, why not. You can start by telling me what this project is."
+            stop music fadeout 2.0
+            mc "Sure, why not."
+            mc "We can start by telling me what this project is."
+            play music t6
             "Her shock only increases."
-            y 2q "You don't know?"
-            y "[player], how much of this class did you sleep through?"
+            y "You don't know?"
+            y 1t "[player], how much of this class did you sleep through?"
             mc "Most of it, actually."
             mc "School is tiring, alright?"
             "The look of concern she gives is worrying to me."
@@ -572,7 +581,7 @@ label yuriroute:
             mc "\"Explain the overarching themes of the current novel\", it says."
             y "Mmm-hmm."
             y 2f "Did you read the book, [player]?"
-            mc "... No."
+            mc "...No."
             y 3k "That might be a bit of an issue."
             y "Here, let me give a quick rundown..."
             "With that, she begins to explain the important parts, characters, and themes of the book."
@@ -582,12 +591,12 @@ label yuriroute:
             "And her confidence in every word she states..."
             "It's truly different."
             "By the time she's done, I could only stare."
-            y 2n "D-Did I do something wrong?"
+            y 2n "D-did I do something wrong?"
             y "Why are you staring like that?"
             mc "Oh, you didn't do anything, don't worry about that."
             mc "I just... you seemed so confident talking about the book."
             mc "I'm impressed..."
-            y 2q "Oh... T-Thank you."
+            y 2q "Oh... T-thank you."
             y "Books are a lot easier to talk about because I know them cover-to-cover, almost literally."
             y "Trying to talk about myself... or other people..."
             y "It's a different story."
@@ -606,30 +615,33 @@ label yuriroute:
             "I don't think I've ever been awake for the final bell."
             "I was just about walk out when Yuri looks at me apprehensively."
         "Refuse.":
+            stop music fadeout 2.0
             mc "Yuri, I'll be fine."
             mc "Honestly."
+            play music t6
             mc "A C is a passing grade, anyway."
             mc "Focus on your paper, your grade's important."
             show yuri 2w zorder 2 at t11
             "She looks at me worriedly, and begins to open her mouth to speak."
             "In the end, she goes back to writing her own paper."
-            "She starts to write the first paragraph effortlessly. I decide that now is the time to check out."
+            "She starts to write the first paragraph effortlessly."
+            "I decide that now is the time to check out."
             "I put my head down and doze off."
             "I wake up to an emptied classroom and Yuri tapping me on the shoulder."
 
     show yuri 4b zorder 2 at t11
-    y 4b "Uhh... Do you want to... walk to the literature club together?"
+    y 4b "Umm... do you want to... walk to the literature club together?"
     mc "Sure!"
     show yuri zorder 1 at thide
     hide yuri
     "And with that we make our way to the literature club, walking and talking together."
     "When we walk in, the usual scene greets us..."
+    stop music fadeout 2.0
     scene black
     with dissolve_scene_full
 
     scene bg livingroom_sunset
     with wipeleft_scene
-    stop music fadeout 1.0
     play music t5
     "It's Sunday, and time for Yuri to show up."
     "This is our first \"date\" since the one we had the day before the festival."
@@ -638,45 +650,49 @@ label yuriroute:
     "The anticipation doesn't let me wait, and I'm watching the door expectantly."
     "Lucky for me, Yuri shows up rather quickly."
     "I go to answer the knock at the door."
-    show yuri s2bl zorder 2 at t11
-    y s2bl "Hello, [player]."
-    y s2ba "N-nice to see you, again."
+    show yuri s1ba zorder 2 at t11
+    y "Hello, [player]."
+    y s1bq "N-nice to see you, again."
     mc "Nice to see you too, Yuri."
     mc "Please, come in."
-    y s2bb "Thank you."
+    y s1bs "Thank you."
     "She's holding our book, as usual."
     "She steps inside and begins to walk upstairs."
     mc "We're almost done, huh?"
-    y s2bf "Yes, I suppose we are."
-    y "Only about 30 pages."
+    y s2bb "Yes, I suppose we are."
+    y "Only about 30 pages left."
     y s3bj "We certainly got a lot done last w-week, huh?"
     mc "You're not wrong."
     mc "Anyway, let's get to it, huh?"
-    y "Sure."
+    y s1bs "Sure."
+    scene bg bedroom_sunset
+    with wipeleft_scene
+    show yuri s1bg zorder 2 at t11
     "She sits on my bed."
     "I sit to the right of her."
     "We're positioned parallel to how we were that first day of the literature club."
     "Yuri seems a bit more... comfortable, this time."
     "We get started on reading, slowly getting into usual routine."
+    show yuri s2bo zorder 2 at t11
     "I begin to notice that as we get closer to the end, Yuri begins to tear up."
     "The scene is fairly emotional, but I've never been one to cry about these kinds of things."
-    "I attempt to comfort her by putting my arm around her, in a bit of a side-hug."
+    "I attempt to comfort her by putting my arm around her, in a bit of a side hug."
     "She's confused at first, but calms down a bit and goes back to reading."
     "By the last 2 pages of the novel, she's lightly sobbing."
     "I turn to her."
     mc "Yuri..."
     y s4bc "Oh... [player]."
     y "I'm s-sorry, sometimes these books get to me, you know?"
-    y s4bd "It seems stupid when I say it out loud, but sometimes a good story can really twist your emotions around..."
+    y s4bb "It seems stupid when I say it out loud, but sometimes a good story can really twist your emotions around..."
     mc "Don't worry, I get what you mean."
     mc "I just wanted to make sure you're alright, that's all."
     mc "I agree that this part of the book is really sad."
-    y s3bw "Y-you wanted to check on me?"
-    y s2bu "I... I'm alright. Don't worry."
+    y s3bt "Y-you wanted to check on me?"
+    y s2bs "I... I'm alright. Don't worry."
     mc "Of course I did."
     mc "I want to make sure you're okay."
     mc "I l- I care about you, you know?"
-    y s1bq "I... thank you, [player]."
+    y s1bq "I... Thank you, [player]."
     y s2bs "That's extremely sweet."
     "I smile at her, and through light tears, she smiles back."
     "We finish the book, and with that it's over."
@@ -688,68 +704,76 @@ label yuriroute:
         "Tell her you liked it.":
 
             $ YuriVar += 1
-            mc "It was good. I enjoyed it, thank you for showing it to me."
+            mc "It was good."
+            mc "I enjoyed it, thank you for showing it to me."
             y s2bc "That's really good to hear."
-            y s3be "I... I want to do this again, sometime."
+            y s3bs "I... I want to do this again, sometime."
             mc "I do, as well."
             mc "I hope you have another book like that, because I can't wait to read it."
             y "Well, I do have quite a few."
-            y s2bf "I'll pick a good one out tonight."
-            y s1bj "For now, is there something you wanted to do before I left?"
+            y s2bc "I'll pick a good one out tonight."
+            y s1ba "For now, is there something you wanted to do before I left?"
             y "There's still quite a few hours left."
             mc "Hmm... We could watch something on TV."
             mc "You like horror, right?"
             y s2bd "Sure, I love horror movies."
             y "What's on?"
             mc "Well, let's see."
-            "I grab the remote and turned on the TV."
-            "I started to flip though the channels when I got to D/V/D, and Yuri stopped me."
-            y s1bb "Ooh, that's a good one. Would you like to watch this?"
+            "I grab the remote and turn on the TV and start to flip though the channels."
+            "After a little while, I got to a channel playing a film called {i}D/V/D{/i}, and Yuri stopped me."
+            y s1bb "Ooh, that's a good one."
+            y "Would you like to watch this?"
             mc "Sure, I don't mind."
             "We missed a few minutes, but overall, it's nothing important."
             "Yuri seems to enjoy it, but I'm terrified."
             "I eventually get to a point where I end up laying in Yuri's lap, cowering."
             y s1bn "Ah! [player]!"
             "I realize what I did and quickly move away."
-            y s2bk "I guess it's my turn to ask... are you okay?"
-            mc "I'm f-fine. I was just a bit scared, for a second. I'm g-good now, honestly."
-            y s2bq "Iactuallyreallylikedthatbythewaysoyoucangobackifyouwant.-{fast}-{nw}"
-            mc "... What? You said that a bit quick, Yuri."
-            y s3bk "I... I didn't really mind."
-            y s2bo "You just startled me, is all."
+            y s2bk "I-I guess it's my turn to ask... Are you okay?"
+            mc "I'm f-fine. I was just a bit scared, for a second."
+            mc "I'm g-good now, honestly..."
+            y s2bq "{size=-5}I actually really liked that by the way, so you can go back if you want...{/size}{nw}"
+            mc "...What? You said that a bit quick, Yuri."
+            y s3bq "I... I didn't really mind."
+            y "You just startled me, is all."
             y "Y-you can move back if you want."
             mc "Well, if you think so."
+            show yuri s3bu
             "I move back, and Yuri puts her hand on top of my head."
             "We stay in this state, getting back into the movie, and I can tell she's enjoying this."
             "I am, as well."
             "Her content sighs really make something about this feel... good."
             "After a little while, the movie ends, and we stay like this until Yuri finally begins to shift."
-            y s2bl "Sorry, but I have to leave now."
-            y s2bk "I feel bad, but I should be home before things get dark."
+            y s2bt "Sorry, but I have to leave now."
+            y "I feel bad, but I should be home before things get dark."
             y "I-if that's alright."
             mc "Don't worry about it."
             mc "Hey, I'm glad you came over."
             mc "I'll see you tomorrow!"
-            y s2bi "Bye, [player]."
+            y s2bs "Bye, [player]."
         "Tell her you disliked it.":
             mc "It was alright."
-            mc "I still don't like books very much, though."
+            mc "I still don't like books very much though."
             y s1bv "Well, okay."
-            y s2bw "I guess I can't force you to like something, anyway."
+            y s2bw "I guess I can't force you to like something anyway."
             y "At least we tried, huh?"
-            mc "That's a good way to look at it. Hey, you want to do something else? The day is still young."
+            mc "That's a good way to look at it."
+            mc "You want to do something else?"
+            mc "The day is still young."
             y s1bv "Well, I don't really know."
             y "There's nothing else for us to do."
-            mc "Hmm. Yeah, you're right. We could watch some TV."
+            mc "Hmm, let's see..."
+            mc "We could watch some TV."
             "Yuri seems disappointed, but hides this feeling in her voice."
             y s3bt "Oh, a-alright."
             y s2bq "That works, I guess."
             "I grab the remote and turn the TV on."
             "I turn it to some action movie, and sit and watch with Yuri for the next few hours."
             "Right when the credits roll, the sun begins to set, and Yuri gets ready to leave."
-            y s2bi "Goodbye, [player]."
+            y s2bt "I have to get going now, actually."
+            y "Goodbye, [player]."
             y "Even if you didn't like it, thank you for reading with me."
-            y s2bj "It means a lot."
+            y s2bs "It means a lot."
 
     "We say our goodbyes and Yuri leaves."
     show yuri zorder 1 at thide
@@ -758,84 +782,105 @@ label yuriroute:
     "I might not be as shy as Yuri, yet I still lack the confidence even after all this time."
     "That sucks."
     "At least she doesn't mind."
+    stop music fadeout 2.0
     scene black
     with dissolve_scene_full
 
     scene bg livingroom
     with wipeleft_scene
+    play music t6
     "It's Sunday again, and my excitement could not be higher."
     "Yuri spent nearly all of Monday, Tuesday and Wednesday talking about last week."
     "And Thursday and Friday of how she's excited for today."
     "I hear a knock on my door."
     "I get up and go to answer it and see Yuri, with a book in her hand."
-    show yuri 1bq zorder 2 at t11
-    y 1bq "Hi [player]."
-    y 2bk "Ready to hang out together again?"
+    show yuri 1bc zorder 2 at t11
+    y "Hi, [player]."
+    y 2bb "Ready to hang out together again?"
     mc "Of course!"
     mc "Come on in."
     "Yuri's being her usual self."
-    y 1bb "So, I brought another book for us to read..."
-    mc "Great. How about you take a seat over there?"
+    y 1ba "So, I brought another book for us to read..."
+    mc "Oh great, sounds like fun."
+    mc "Here, have a seat."
     y "Thanks."
     "I point over to my couch and she sits down."
     "I'm about to sit down as well when she asks me a question."
-    y 3be "This might sound odd, but do you have things to make tea here?"
+    y 3bf "This might sound odd, but do you have things to make tea here?"
     mc "You could check the kitchen, right over here."
+    y "Oh okay then."
     scene bg kitchen
-    show yuri 3be zorder 1 at t11
+    with wipeleft_scene
+    show yuri 3bg zorder 2 at t11
     "I lead her to the kitchen."
     "She slowly and delicately opens each cabinet until she finds the tea set."
     "I didn't even know I had it, but I've also never looked."
     "I grab the kettle and fill it with water."
     "I normally use it for cooking, as an easy way to heat up water, but this {i}is{/i} it's intended purpose."
-    "We're preparing tea for the both of us with teacups that I never even knew I had."
-    "Once the tea is finished, she pours some for us and goes back to the couch."
+    mc "Oooh, that smells nice."
+    y 1bc "It's dandelion tea."
+    y 1bb "It has a sweet scent, with a bit of a tart taste."
+    y 1ba "I thought it would be a nice addition to our reading session today."
+    mc "I see, I'm sure it will be."
+    "Once the tea is finished, she pours some for us and we go back to the couch."
+    scene bg livingroom
+    with wipeleft_scene
+    show yuri 1bc zorder 2 at t11
     "I take a seat next to her, putting my teacup on a nearby table."
     "She begins to scoot closer to me."
     "She settles in, I hold the book, and we pick up where we left off."
     "It's only one or two pages in when I start to hear steady rainfall, and Yuri pipes up."
-    y 1bc "This is perfect. Tea, rain, a good book, and... my b-boyfriend next to me..."
+    y "This is perfect. Tea, rain, a good book..."
+    y 1bu "And my... b-boyfriend next to me..."
     "She has a hard time calling me her boyfriend."
     mc "You're right, this is great."
     mc "What a way to spend a day together, huh?"
     y 1bd "Yes. Thanks for inviting me, [player]."
     mc "Thanks for coming, Yuri."
     mc "This is half your effort, too."
-    y 2bj "I-I guess."
-    y "Should we continue?"
+    y 2bq "I-I suppose."
+    y 2bs "Should we continue?"
+    show yuri 1bu zorder 2 at t11
     "I smile, nod, and turn back to our current read."
     "I get invested in the book, but Yuri seems to be gauging my reaction to it."
     "I figure it's a chapter she read already, so I turn the page of my own volition."
     "I notice that as I get to certain parts, or to certain characters, she seems to get nervous."
     "Almost as if she wants to know how I react to their actions."
     "It seems she might identify with this character a bit."
-    "I've not even noticed how much worse the storm has gotten until the power goes out."
+    "I've not even noticed how much worse the storm has gotten until the power suddenly goes out."
     scene bg livingroom_night
-    y n3bp "EEK!"
+    show yuri n3bp zorder 2 at t11
+    y "EEK!"
     "I resist the urge to laugh at Yuri's shock, take out my phone, and turn on its light."
     "Yuri looks at me in disappointment."
     y n1bt "Looks like we won't get much reading done now, huh?"
     mc "Well, I don't mind holding this up."
     mc "As long as I point it at the book, we'd be fine."
-    y n2bu "G-Good idea."
+    y n2bs "G-good idea."
     y "I-I don't know how I d-didn't think about that."
     "Yuri stutters still, although less from nervousness and more from the temperature."
-    "The power outage must have blown the AC out."
+    "The power outage must have blown the heater out."
     "I get an idea."
     mc "Wait h-here, I'll be r-right back."
     mc "I'm going to get some blankets."
-    "I start to go upstairs and into the closet."
+    y "O-okay then. Be careful."
+    show yuri at thide zorder 1
+    hide yuri
+    "I go upstairs to the linen closet."
     "I look and see that I only have one blanket."
-    "It makes sense, but It doesn't help me much."
+    "It makes sense, but it doesn't help me much."
     "I walk back down with it."
-    mc "Well, h-here you go."
-    "I hand her the blanket."
+    show yuri n2bt at t11 zorder 2
+    y "Did you manage to find any?"
+    mc "Yep I g-got them, h-here you go."
+    "I hand Yuri the blanket."
+    y n2bs "Oh, thank you."
     "She puts it on, then looks at it and back to me."
-    y n2be "Where's yours?"
+    y n2bt "Where's yours?"
     mc "I o-only have the o-one."
-    mc "I don't m-m-mind though, I'm not all t-that cold."
+    mc "I don't m-mind though, I'm not all t-that cold."
     "As if my body wanted to call me out on my lying, I sneeze immediately after."
-    y n2bf "Bless you."
+    y n2bs "Bless you."
     mc "T-thanks."
     "She takes the cover off herself, and holds it out to me."
     y n4bc "Here, seriously, take it."
@@ -847,9 +892,10 @@ label yuriroute:
         "Share the blanket.":
 
             $ YuriVar += 1
+            stop music fadeout 2.0
             mc "Maybe we could share it?"
             "I get more silent with each word, but somehow Yuri hears me over the rain."
-            y n1bp "Wh-what?"
+            y n1bp "W-what?"
             "I knew it was a bad thing to say, but she seems completely flustered by it."
             "I almost try to salvage the situation when she does it herself."
             y n3bv "I... I wouldn't mind..."
@@ -857,41 +903,44 @@ label yuriroute:
             "We both put our arms above it and get back to how we were."
             y n3bw "[player]..."
             mc "Hmm?"
-            y "This is... really romantic."
-            y "I never thought I would do this with anyone, ever."
-            y "Thank you."
+            play music t9
+            y n3bs "This is... really romantic."
+            y n3bu "I never thought I would do this with anyone, ever."
+            y n3bs "Thank you."
             mc "You never thought you would do this with anyone?"
             y "Not really."
             y "It's weird to get someone to even talk to me as much as you do, much less this..."
             y "It's great."
-            y "It's always been that nobody would speak to me other than to get homework, or things of that nature."
-            y "It's good to have someone who I can speak my mind with and feel comfortable around, you know?"
+            y n3bv "It's always been that nobody would speak to me other than to get homework, or things of that nature."
+            y n3bm "It's good to have someone who I can speak my mind with and feel comfortable around, you know?"
             "I never really considered that Yuri has so much pent up loneliness, but I guess it comes with keeping so much to yourself."
             mc "I'm glad I could be that for you, Yuri."
             mc "Plus, reading like this is fun regardless."
-            y "Haha, we were reading, weren't we?"
+            y n3bc "Haha, we were reading, weren't we?"
             y "Let's go back to that, huh?"
             "And we do."
             "We get to the end of the chapter, when, as if the universe timed it, the rain stops."
             "She closes the book and checks the time."
-            y "Well, I guess that means I'm leaving."
+            y n1bs "Well, I guess that means I'm leaving."
             mc "See you here Sunday, then?"
         "Refuse to take it.":
-            "T-take it Yuri, seriously."
+            mc "T-take it Yuri, seriously."
             mc "I won't sneeze on you, I promise."
+            show yuri n4bb
             "She seems to think about it for a moment."
-            y "Okay, but I'd hate to see you sick."
+            y n2bt "Okay, but I'd hate to see you sick."
             "If you need it, tell me, alright?"
             mc "Okay."
+            show yuri n2bv at t11 zorder 2
             "With that, she takes one last distraught look at me and turns back to the book."
             "I do the same."
             "It's only when the chapter is finally coming to a close when the rain stops and she's ready to leave."
-            y "Ahh, so the rain stopped."
+            y n1bs "Ahh, so the rain stopped."
             y "I supposed I should go home now."
             mc "Alright then. Well, I hope you enjoyed yourself."
             "I walk Yuri to the door."
-            y " I did, very much so!"
-            y "Thank you, [player]."
+            y n1bc "I did, very much so!"
+            y n1bs "Thank you, [player]."
             mc "You're welcome."
             mc "Same thing next Sunday?"
     y n2bs "Of course."
@@ -904,14 +953,12 @@ label yuriroute:
     y n2bc "Y-yeah!"
     y n2bd "See you then."
     "With that, she leaves."
+    stop music fadeout 2.0
     scene black
     with dissolve_scene_full
 
-
-
     scene bg livingroom
     with wipeleft_scene
-    stop music fadeout 1.0
     play music t5_yuri
     "It's just like any other Sunday, me waiting patiently for Yuri to show up."
     "We've done this quite a few times now, and it's starting to set in as commonplace."
@@ -941,23 +988,27 @@ label yuriroute:
     mc "Well, alright."
     mc "I'll get today's activity set up."
     "I start to walk away when I hear Yuri pipe up."
-    y 1bv "Aren't we going to read today?"
+    y 1bf "Aren't we going to read today?"
     "She asks, pointing to her book."
     mc "Well, reading is an interest of yours that you showed me, right?"
     mc "There's an interest of mine I want to show you."
     mc "We're going to play some video games!"
     y 2be "Video games?"
     y "I've never played those before..."
-    y "Always thought they were for kids..."
+    y 2bq "I always thought they were for kids..."
     mc "Not at all!"
     mc "Trust me, it'll be fun."
     mc "I'll be right back, alright?"
     "She looks concerned, but she quietly accepts this and goes to sit down."
-
+    scene bg bedroom
+    with wipeleft_scene
     "I go upstairs and grab the wires, console, controller, and a couple of games."
     "I also remember to fix up my hair."
     "I don't know which one I should show Yuri, though."
     "If I pick correctly, it might make her more interested in the hobby..."
+    scene bg livingroom
+    with wipeleft_scene
+    show yuri 1ba at t11 zorder 2
     "I go downstairs and see her sitting on the couch, waiting."
     "I hook up the wires to the television and grab the games."
     y 2bf "So, what game are we playing, then?"
@@ -967,11 +1018,12 @@ label yuriroute:
     "All the games will be really fun, but I know that one of them is the one that Yuri wants to play the most."
     menu:
         "But which?"
-        "An Ultra-violent shooter.":
-
+        "An Ultra-Violent shooter.":
+            $ game = "other_game"
             "I grab {i}Damned{/i}'s box and pop the disk in the tray."
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
+            with wipeleft_scene
             show yuri e1bg zorder 2 at t11
             "While she does pay attention, she doesn't seem to enjoy it."
             y e1bg "I'm not really liking this too much, [player]."
@@ -988,11 +1040,11 @@ label yuriroute:
             "What was I thinking, choosing a game she clearly didn't enjoy?"
             "I'll definitely have to pick a different one next time."
         "A Player vs Player game.":
-
-
+            $ game = "other_game"
             "I grab {i}Rumble III{/i}'s box and pop the disk in the tray."
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
+            with wipeleft_scene
             show yuri e1bg zorder 2 at t11
             "While she does pay attention, she doesn't seem to enjoy it."
             y e1bg "I'm not really liking this too much, [player]."
@@ -1009,10 +1061,11 @@ label yuriroute:
             "What was I thinking, choosing a game she clearly didn't enjoy?"
             "I'll definitely have to pick a different one next time."
         "A Co-Op game.":
-
+            $ game = "other_game"
             "I grab {i}Wormhole 2{/i}'s box and pop the disk in the tray."
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
+            with wipeleft_scene
             show yuri e1bg zorder 2 at t11
             "While she does pay attention, she doesn't seem to enjoy it."
             y e1bg "I'm not really liking this too much, [player]."
@@ -1028,20 +1081,23 @@ label yuriroute:
             hide yuri
             "What was I thinking, choosing a game she clearly didn't enjoy?"
             "I'll definitely have to pick a different one next time."
-        "A story-driven game.":
-
+        "A Story-Driven game.":
+            $ game = "correct_game"
             $ YuriVar == 4
             mc "Here, let's play this."
             "I grab {i}Gone Nuclear: Vegas Blues{/i}."
             "A game with this much story and intricacy might be just what Yuri'll like."
             "I pop the disk in, dim the lights, and sit on the couch."
             scene bg livingroom_evening
+            with wipeleft_scene
             show yuri e1bh zorder 2 at t11
             "After a half hour of playing through the game, I look to Yuri."
             "She's absolutely mesmerized."
-            mc "You seem to be enjoying this."
-            y e1bh "I didn't realize games could be so complex."
-            y "I always thought the only appeal was just to shoot everything, but this is much different..."
+            show yuri e1bf
+            mc "You seem to be enjoying this, Yuri."
+            y e1bc "Yes, I didn't realize games could be so complex."
+            y e1bj "I always thought the only appeal was just to shoot everything, but this is much different..."
+            show yuri e1bi
             "I smile and get back into the game."
             "Once I get to an important plot point, I ask Yuri for her input."
             mc "What should I do here?"
@@ -1067,9 +1123,12 @@ label yuriroute:
             y e2bo "[player]..."
             "I turn to her."
             "She's so shy about it it's way too cute."
+            show yuri e2bu
+            stop music fadeout 2.0
             "When our eyes finally meet, I smile at her, and she smiles back at me."
             "I begin to play again, asking her what to do at each important moment."
             "Eventually, she vocalizes her opinion on our current situation."
+            play music t9
             y e2bq "[player]... this is the best feeling ever."
             y "Me, you, together, sitting like this."
             y "Something feels so... great. I love it."
@@ -1081,6 +1140,7 @@ label yuriroute:
             show yuri e1bp zorder 1 at face
             y e1bp "I can't take it anymore!"
             scene black
+            with dissolve_scene_full
             "Before I can process the fact that Yuri's voice has raised for the first time I've heard, she kisses me on the lips."
             "Even in my shock, I return it."
             "We sit like this, for a little bit."
@@ -1092,7 +1152,8 @@ label yuriroute:
             "I can feel my heart pounding in my chest."
             "I can tell Yuri's enjoying this."
             "It's been what feels like forever when our lips finally part..."
-            scene bg bedroom_evening
+            scene bg livingroom_evening
+            with wipeleft_scene
             show yuri e1bs zorder 2 at t11
             "The millisecond they do, the world comes back to me."
             mc "Yuri... that..."
@@ -1112,15 +1173,16 @@ label yuriroute:
             mc "Everything makes me happy too, Yuri, and you most of all."
             mc "I'm so thankful you came over, and that what happened that very first Sunday did take place."
             mc "Thank you for it."
-            y e1be "M-Me?"
+            y e1bn "M-me?"
             mc "Yes you, silly."
             mc "You're the one who admitted to me."
-            y e1bg "Ah, I guess..."
+            y e1bq "Ah, I guess..."
             "She has trouble accepting that she's partially responsible for this."
             "She notices the time."
             show yuri zorder 1 at thide
             hide yuri
             "She waves and says goodbye one last time before walking out."
+    stop music fadeout 2.0
     scene black
     with dissolve_scene_full
 
@@ -1129,7 +1191,7 @@ label yuriroute:
     stop music fadeout 1.0
     play music t3
     "It's Sunday, and for some reason I feel particularly off."
-    "I'm excited for Yuri's visit, but I feel ill;"
+    "I'm excited for Yuri's visit, but I feel ill."
     "It's only when I start sneezing that I figure out why."
     "I've developed a cold."
     "Great."
@@ -1143,19 +1205,21 @@ label yuriroute:
     y "Who's there to take care of you?"
     mc "Uhh... Me?"
     mc "There's no one else here, but I don't mind taking care of myself."
-    y "O-oh."
-    y s2bl "It's just that you seem a bit too sick for you to take care of yourself, and I don't really mind helping..."
+    y s1bo "O-oh."
+    y "It's just that you seem a bit too sick for you to take care of yourself, and I don't really mind helping..."
     "I think about this for a moment."
     "On the one hand, I did warn her, and she is insisting."
     "But on the other, it's still mean of me to willingly go along with this."
     "She doesn't need to be sick like this!"
     menu:
         "I guess I might as well—"
-        "Let Yuri in.":
+        "Let Yuri in":
             $ YuriVar += 1
-            mc "Alright, fine. Just try not to get sick, alright?."
-            y s1bf "I'm not the one to be worried about here, [player]."
+            mc "Alright, fine."
+            mc "Just try not to get sick, alright?."
+            y s1bt "I'm not the one to be worried about here, [player]."
             y "You should lay down in a b-bed somewhere."
+            mc "Yeah, that sounds good..."
             scene bg bedroom_sunset
             with wipeleft_scene
 
@@ -1170,53 +1234,58 @@ label yuriroute:
             "Before I can tell here where the medicine actually is, she leaves."
             "While she's downstairs, I hear the sound of a knife being removed from its rack."
             "A few minutes later, she arrives back with some kind of pink liquid in a dosage cup."
-            mc "... Oh lord, this stuff."
-            mc "God, it tastes the absolute worst."
             show yuri s2bl zorder 2 at t11
+            mc "...Oh lord, this stuff."
+            mc "God, it tastes the absolute worst."
             y s2bl "Ah, true, the taste does tend to be rather intolerable."
-            y "Sorry about that."
-            y s2bk "I could try something else, if you don't want that..."
+            y s2bw "Sorry about that."
+            y s2bt "I could try something else, if you don't want that..."
             mc "Nah, I appreciate it, Yuri."
             mc "It's really nice that you're doing this."
             mc "Thank you."
             "She seems almost shocked by my words."
-            y s1bj "O-of course!"
+            y s1bq "O-of course."
             y "I need to do that kind of thing now anyway, you're my boyfriend."
-            y s3bi "Plus, I d-don't really like to see you in such a state, so I would do a lot to help you..."
+            y s3bq "Plus, I d-don't really like to see you in such a state, so I would do a lot to help you..."
             mc "I suppose, yes, you would."
-            y s2bh "One thing I have to ask, why was this so high up?"
-            y s1bg "I had to use a longer knife as a point of leverage to get it down."
+            y s2bf "One thing I have to ask, why was this so high up?"
+            y "I had to use a longer knife as a point of leverage to get it down."
             mc "Ah."
             mc "I have absolutely no idea."
             mc "Hey, you got it down, though."
             mc "Good job!"
             "She smiles and pulls up a chair, sitting next to me."
+            show yuri s2bk
             "Her smile slowly fades."
             "After a few seconds, she begins to put her hand near to mine."
             mc "Is there something wrong, Yuri?"
-            y s1bl "Ah, n-no."
-            y s1bq "Just wanted to r-rest my hand, I guess."
+            y s1bn "Ah, n-no!"
+            y s2bq "Just wanted to r-rest my hand, I guess."
             "I ponder for all of two seconds why she would rest her hand in such a position..."
             "Until I realize that the reason she gave isn't the real one."
             "I follow her lead and grab her hand."
-            y "[player]!"
-            y "I-I..."
+            y s2bp "[player]!"
+            y s2bq "I-I..."
+            show yuri s2bu
             "She attempts to object, but ends up calming down and accepting it."
+            show yuri s2bs
             "We sit like this for a bit, and for the last few moments she actually grows the courage to look at me in the eyes."
             "A sneeze then comes out of nowhere and ruins the moment."
             y s2bn "Oh, [player], I'm sorry, I didn't even think to get you anything to clean your nose with."
             y "Where do you keep your tissue paper?"
             mc "Right there, over on my desk."
             "I pray to every god I can think of that she doesn't put two and two together with the lotion right next to it..."
-            "but seeing the way her faces changes when she grabs it, I'm thinking none of them answered."
+            "But seeing the way her faces changes when she grabs it, I'm thinking none of them answered."
             "When she returns it to me, I blow my nose and throw the tissue in a nearby trash can."
-            y s1bf "So, uhh..."
+            y s1bt "So, uhh..."
             mc "Can we both agree you never saw that?"
-            y s1bg "Yeah, t-that works."
+            y s1bq "Yeah, t-that works."
             "She cuts the tension by grabbing the remote for my TV."
             y s2bf "Is there something you wanted to watch, [player]?"
             mc "Nope."
             mc "You can pick if you like."
+            y s2bb "Oh okay then."
+            show yuri s2bi
             "Hearing this, she flips over to {i}The Nightmare Door{/i}."
             "Standard, run-of-the-mill horror-tv sort of affair, but it's not a particularly bad show."
             "I think about how Yuri would pick this kind of thing."
@@ -1228,7 +1297,8 @@ label yuriroute:
             mc "Oh, I just..."
             mc "Spaced out."
             mc "I'm sorry, I didn't mean to make you uncomfortable."
-            y s3bh "...Oh, a-alright."
+            y s3bs "...Oh, a-alright."
+            show yuri s3bi
             "Afterwards, she turns back to the TV."
             "We sit like this for a bit until my hand meets hers and they interlock once more."
             y s2ba "[player]... I hope you know, I don't mind if I get sick."
@@ -1237,11 +1307,12 @@ label yuriroute:
             mc "But don't get sick."
             mc "You'd make me feel really bad about it."
             y "Don't worry."
-            y s2bb "I won't."
+            y s2bc "I won't."
             "She returns to the show, as do I."
             "It's only when the sun finally starts to set that she releases my hand."
             "Something feels like it's missing the second she does."
-            y s2bw "Well, It's time for me to leave. Goodbye, [player]."
+            y s2bw "Well, it's time for me to leave, it seems."
+            y s1bs "Goodbye, [player]."
             mc "Bye, Yuri. I hope I didn't make you sick..."
             y "Don't worry about me, [player]."
             y "I'll be alright, promise."
@@ -1249,64 +1320,66 @@ label yuriroute:
             "And with that, she walks downstairs."
             "Right before the door opens and closes behind her, I hear her sneeze."
             "Great."
-        "Tell her to come back next week.":
+        "Tell her to come back next week":
             mc "Yuri, I won't let you get sick."
             mc "Now go."
             mc "I'll see you tomorrow, alright?"
-            y s1bf "I-if you say so."
-            y "Just..."
+            y s1bt "I-if you say so."
+            y s1bv "Just..."
             y s1bl "Feel better, alright?"
             y "I hate to see you sick like this."
             mc "I'll be fine. Goodbye, Yuri."
+            show yuri s1bw
             "She looks at me once more."
             "She tries to hide it, but I can see the worry in her eyes."
             show yuri zorder 1 at thide
             hide yuri
             "When she walks off, I feel kinda bad."
             "I guess we'll both have to live with it, though."
+    stop music fadeout 2.0
     scene black
     with dissolve_scene_full
 
     scene bg livingroom_night
     with wipeleft_scene
-    stop music fadeout 1.0
     play music t5_yuri
     "It's Sunday."
-    "Technically, our 6 month anniversary."
+    "Technically, Yuri and I's 6 month anniversary."
     "It's not something you normally hear people celebrating..."
     "But I feel really good about it."
     "Yuri shows up at my door."
     show yuri n1bg zorder 2 at t11
     y n1bg "H-Hello, [player]."
     "I show her in."
-    "I notice she's not... really as enthused, as she normally is to see me."
+    "I notice she's not really as enthused as she normally is to see me."
     "Have I done something wrong?"
     "..."
     "Whatever."
     mc "Good to see you again, Yuri."
     mc "We've hung out 10 times, huh?"
     y n3bm "Yeah. It's a b-bit amazing."
-    y n2bl "Didn't expect to get this far."
+    y n2bj "Didn't expect to get this far."
     mc "I expect to get farther."
     y "I-I hope so."
     "We stand for a bit, awkward silence filling the room."
     "Things have been rather odd today."
     "I decide to dismiss it and head upstairs."
     "I motion her to follow me."
-    "She does, apprehensively."
-    "We arrive."
+    "She does, although a bit apprehensively."
     scene bg bedroom_night
+    with wipeleft_scene
+    show yuri n2bl zorder 2 at t11
     "We're again standing around awkwardly."
     "I choose to break the silence."
     mc "So... what would you like to do?"
-    show yuri n2bl zorder 2 at t11
+    show yuri n2bg
     "She looks at the floor."
     "She takes a look outside..."
     "And speaks up."
     y n2bl "The snow outside... it's really pretty this time of year."
     y n2bm "Forget TV or books."
     y "Would you like..."
-    y n3bj "-ah, no, that sounds silly, huh?"
+    y n3bj "Ah... no, that sounds silly, huh?"
     mc "What does?"
     y n2bi "Well, I was kind of thinking we could..."
     y n2bh "Watch the snow together..."
@@ -1317,10 +1390,10 @@ label yuriroute:
     y n3ba "You think so?"
     mc "It's with you!"
     mc "Of course it will be!"
-    y n2be "...!"
+    y n2bn "...!"
     "Yuri seems startled by my words."
     "She is at first, at least."
-    show yuri n3bw at t11
+    show yuri n2bw at t11
     "Her expression eventually becomes more somber."
     "..."
     "Wait... why?"
@@ -1335,8 +1408,8 @@ label yuriroute:
     "..."
     "Maybe it's just something about Yuri."
     "She walks over and sits down."
+    show yuri n3bw
     "The blanket is wrapped around the two of us."
-
     "Yuri and I are sitting there, looking out the window."
     "It's a bit awkward not having anything to put our backs against, but we make it work."
     "I have my arm around her, as she sort of leans into me."
@@ -1351,26 +1424,27 @@ label yuriroute:
     y n2bl "Each and every snowflake out there is different from the last."
     y n2bk "And yet, we hardly notice the difference."
     y "All they are to us is white little dots, forming a pile."
-    y "That's all we ever care about them for. The piles they form."
+    y "That's all we ever care about them for."
+    y "The piles they form."
     mc "That's... true."
     y n2bl "Not only that, but the ones who don't form a pile simply melt away."
     y "Unnoticed, uncared for."
     y n2bm "A beautiful, great creation of nature, with such a story to tell..."
-    y n2bl "gone in the blink of an eye."
+    y n2bl "Gone in the blink of an eye."
     "Wow, that's... sad."
     "For Yuri, even."
     "This isn't something she came up with on the fly, is it?"
     "Wow, if it is, impressive."
     "But something in me doubts that."
     mc "Oddly poetic, Yuri..."
-    mc "have you thought about this before?"
+    mc "Have you thought about this before?"
     y n3bl "I... a little bit."
+    stop music fadeout 2.0
     "She stops."
     "Looks down, as if considering whether or not to tell me something."
     "I notice her open and close her mouth a couple times."
     "What's she holding back?"
     "My question is answered when she finally does speak up."
-    stop music fadeout 1.0
     play music t10
     y n3bw "Do you ever feel like that's you, [player]?"
     y "That you would never be... important?"
@@ -1427,26 +1501,32 @@ label yuriroute:
         mc "That's what the blanket is for."
         mc "Don't you want to be under it with me?"
         y n2bp "Well, I didn't mean it that way, sorry!"
-        y n3bp "I just... I'm fine with the sweater on."
+        y n3bq "I just... I'm fine with the sweater on."
         mc "Yuri."
-        y "Y-yes?"
+        y n3bn "Y-yes?"
         mc "I'll let you keep the sweater on."
+        show yuri n3bw
         "At once, she breathes a sigh of relief."
         mc "But, there's just one thing."
-        y n2bq "What is it?"
+        y n2bt "What is it?"
         mc "Roll up your sleeves for me."
-        y n2bp "H-huh?"
+        y n2bp "H-Huh?"
         mc "Roll up your sleeves."
         mc "Can you do that?"
-        y n2bo "I- do I have to?"
+        y n2bo "I... Do I have to?"
         mc "I don't see why you wouldn't."
         "Yuri's silent, yet solemn."
         "She knows why I'm asking, she's bright."
         "But she doesn't WANT to."
-        y n2bw "... okay."
+        y n2bw "...Okay."
+        scene bg black
+        with dissolve_scene_full
         "For a moment, it felt like time stopped."
         "But it was not the power of the world."
         "Yuri lifted her sleeves, as slow as she could."
+        scene bg bedroom_night
+        with dissolve_scene_full
+        show yuri n4bwc1 zorder 2 at t11
         "A litter of cuts line her arms, up and down."
         mc "Yuri."
         "I have no idea what to say other than this."
@@ -1454,64 +1534,63 @@ label yuriroute:
         "She's at first reluctant to speak, some kind of shame hanging over her like a dark cloud."
         "She realizes her situation and calms down a bit."
         "After a few minutes, she talks to me again."
-        y n3bw "The... the feeling never really goes away, [player]."
+        y "The... the feeling never really goes away, [player]."
         y "It gets better, but it remains."
         y "Every moment I spend alone feels more and more like it'll stay that way."
         y "..."
-        y n2bv "We're going to break up, [player]."
+        y n3bvc1 "We're going to break up, [player]."
         y "I don't want it to happen."
         y "Not in the slightest."
         y "But it will."
-        y n2bl "And when it does, I'm going to be alone again."
-        y "It's all temporary."
-        y n2bj "My friendships, with Monika, Sayori, Natsuki?"
+        y n3bvc1 "And when it does, I'm going to be alone again."
+        y n3blc1 "It's all temporary."
+        y n3bjc1 "My friendships, with Monika, Sayori, Natsuki?"
         y "All temporary."
         y "And the most permanent relationship of them all?"
         y "That's temporary, too."
-        y n2bv "Not as much, but there are so many ways it can just end."
+        y n3bvc1 "Not as much, but there are so many ways it can just end."
         y "That's all."
         y "Never find anyone again."
-        y n2bw "Rest of my life, alone."
+        y n5bbc2 "Rest of my life, alone."
         "I think about this for a moment."
         "Yuri really does believe this, doesn't she?"
         "That she'll forever be alone..."
         "I still don't think she's giving me enough credit."
         mc "What makes you think I'll leave you?"
-        y n2bu "Maybe you find someone better."
+        y n5bac2 "Maybe you find someone better."
         mc "Yeah?"
         mc "Who's better than you, Yuri?"
-        y n4bc "Plenty..."
+        y n5bcc2 "Plenty..."
         mc "That's completely wrong."
         mc "Yuri, do you remember the first Sunday we spent together?"
-        y "Y... Yes?"
+        y n5bbc2 "Y... Yes?"
         mc "Do you remember who confessed?"
-        y "I... I did."
+        y n5bac2 "I... I did."
         "Oh... crap, she's right."
         "Uhh..."
         mc "You confessed... first."
-        mc "Do you know who did, directly after?"
-        y n4ba "... You did, [player]."
+        mc "Do you know who did directly after?"
+        y "...You did, [player]."
         mc "Alright."
         mc "Say I didn't completely and seriously love you until the day I die."
         mc "Which I do."
         mc "What would be the reason for me to say that otherwise?"
-        y "Maybe..."
-        y "I mean.... you could..."
+        y n1bv "Maybe..."
+        y "I mean.... You could..."
         "She seems to be lost for anything to combat that with."
         "I smile."
         y "You..."
-        y n3bw "I... I guess you're right."
-        y n2bt "You... you really love me that much, [player]?"
+        y n3bwc1 "I... I guess you're right."
+        y n3btc1 "You... you really love me that much, [player]?"
         mc "Yuri, I have no idea why you doubted it."
         mc "I love you enough to never speak to another girl again, if it makes you feel better."
         mc "I love you so much I'd get bandages and put them over each and every one of these wounds."
-        y "[player]... I...."
+        y "[player]... I..."
         "I don't let her finish."
-        show yuri zorder 1 at thide
-        hide yuri
-        scene black
-        "I instead turn toward her, and pull her head toward mine ‘till our lips connect. "
-        "She's EXTREMELY shocked at first, but slowly and surely falls into it."
+        scene bg black
+        with dissolve_scene_full
+        "I instead turn toward her, and pull her head toward mine until our lips connect. "
+        "She's extremely shocked at first, but slowly and surely falls into it."
         "It's a bit... odd, at first, but slowly we develop a rhythm."
         "I really had no idea what to do going in."
         "But for someone without experience, Yuri's a strangely good kisser."
@@ -1529,11 +1608,9 @@ label yuriroute:
         "When the kiss breaks, it feels like it's been only 2 seconds and we both want more."
         "We both stare at each other for all of 30 seconds, catching our breath, before going right back to making out again."
         "On about our fifth break, Yuri looks at me."
-        stop music fadeout 2.0
-        scene bg bedroom_night
-        show yuri n2bs zorder 2 at t11
-        play music t6
         y "[player]... You give me confidence, you know that?"
+        y "And... I want us to get closer."
+        y "More than we have before..."
         "She goes back in to kiss me, sticking her hand... underneath my pants."
         "{i}Gulp.{/i}"
         stop music fadeout 2.0
@@ -1542,25 +1619,34 @@ label yuriroute:
         jump Yuri2
     elif YuriVar >= 0:
         "I decide to drop it."
+        "Something didn't feel right to me to pry into it more."
         "No reason to make Yuri sad about things."
         "We continue to look at snowflakes for a bit, both of us dead silent."
+        show yuri n1bl
         "Time passes like this, until Yuri rests her head on my shoulder and dozes off."
         "I see no reason to object."
         "I lean my head on her own, close my eyes, and sleep."
         "We both doze off like this."
-        show yuri zorder 1 at thide
-        hide yuri
-        scene black
-        "It's only when I finally awake that i notice Yuri is missing."
-        scene bg bedroom
+        scene bg black
+        with dissolve_scene_full
+        "It's only when I finally awake that I notice Yuri is missing."
         "She seems to have let me lay down on the bed."
         "In fact, I can't find her at all."
-        "She must have left already."
-        "Oh well."
+        "She must have left already, and without a word, if she did at all."
+        "The only thing left in the room was silence, just like she wanted."
+        "I get an itching feeling in the back of my mind as I re-process that moment."
+        "Even though she said she didn't want to, there was something more that she wanted to say."
+        "Much more..."
+        "..."
+        "Oh well..."
+        "No sense on dwelling on that sort of thing..."
         stop music fadeout 2.0
+        scene bg ending_d
+        with dissolve_scene_full
+        pause 5.0
         scene black
         with dissolve_scene_full
-        jump Yuri2
+        return
     else:
         hide yuri
         scene black
