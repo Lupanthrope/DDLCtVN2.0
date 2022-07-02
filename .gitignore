@@ -12,6 +12,7 @@ README.html
 log.txt
 *.rpyc
 *.rpa
+!scripts.rpa
 various ressources
 game/python-packages
 game/cache
