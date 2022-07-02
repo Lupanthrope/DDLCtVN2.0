@@ -49,6 +49,7 @@ label sayoriroute41:
     "Should I really go through with this?"
     menu:
         "Agree to it.":
+            $SayoriVar += 1
             play music t6
             "Normally, I would despise saying that word."
             "But, strangely, offering to do it with Sayori doesn't at all phase me."
@@ -122,6 +123,7 @@ label sayoriroute41:
             mc "And that is?"
             s "Going back to bed, so we can cuddle like this again! I can't wait for that!"
         "Refuse.":
+            $SayoriVar -= 1
             mc "Sorry, Sayori, but we've got things to do today."
             show sayori undk at t11 zorder 2
             "She looks sad at first, so I decide to cheer her up."
@@ -495,6 +497,7 @@ label sayoriroute41:
     mc "Alright, I think that's good."
 
     if distraction == "Monika":
+        $SayoriVar -= 1
         scene bg livingroom
         with wipeleft_scene
         "I sit in the living room catching my breath after that panic picnic preparation and wait for Sayori to come back."
@@ -541,6 +544,7 @@ label sayoriroute41:
         show sayori 1bq at h11 zorder 2
 
     elif distraction == "Natsuki":
+        $SayoriVar += 1
         mc "I wonder how much longer they have on those cupcakes."
         scene bg livingroom
         with wipeleft_scene
@@ -889,6 +893,7 @@ label sayoriroute41:
     s "That was fun, wasn't it?"
 
     if point == 8 :
+        $SayoriVar += 1
         s 1br "And you even got all the right answers !"
         show sayori 1bq at t11 zorder 2
         mc "Does that mean I got a nice reward ?"
@@ -903,6 +908,7 @@ label sayoriroute41:
         mc "Having fun is the most important part !"
         s 1bx "Guess you're right !"
     else :
+        $SayoriVar += 1
         s 1br "You even managed to get more than half of the good answers ! Good job [player] !"
     show sayori 1ba at t11 zorder 2
     mc "Anyway I have to admit, it was a good time."

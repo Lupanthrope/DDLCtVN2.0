@@ -157,6 +157,7 @@ label sayoriroute31:
     menu:
         "But which one would we like to see?"
         "Comedy":
+            $SayoriVar += 1
             mc "Ooh!"
             mc "How about this one?"
 
@@ -326,6 +327,7 @@ label sayoriroute31:
             s "I love you."    
     
         "Romance":
+            $SayoriVar += 1
             "I take a moment to scan the posters."
             "I see one for a romantic movie that came out just last week."
             "My rep could be ruined if I actually pay money to go watch this, but at this point, being the only guy in an all girls literature club, I think I'm pretty secure with my masculinity."
@@ -641,6 +643,7 @@ label sayoriroute31:
             "We make our way to my bedroom and flop onto the bed."
 
         "Horror" :
+            $SayoriVar -= 1
             "Hm...."
             "How about..."
             "No, no, that's lame."
@@ -1084,6 +1087,7 @@ label sayoriroute32:
     
     menu :
         "Go with Sayori":
+            $SayoriVar += 1
             mc "Sure thing Sayori, where do you want to go?"
 
             s 1n "I'm not quite sure..."
@@ -1151,6 +1155,7 @@ label sayoriroute32:
             "Before I have time to ask questions, the bell rings."
             "Sayori and I hug, and go to our separate classes."
         "Choose to rest":
+            $SayoriVar -= 1
             "I hope this doesn't upset Sayori too much"
             "But personal health is important..."
             "Probably?"
@@ -1399,6 +1404,7 @@ label sayoriroute32:
             "And with that, I head back home to wrap up my day."
 
         "Confront Sayori" :
+            $SayoriVar += 1
             play music t6
             $sayori_confronted = True
             mc "Yeah I hear you, I'll go talk to her as soon as I can."

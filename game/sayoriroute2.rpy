@@ -1,4 +1,5 @@
 label sayoriroute2:
+    stop music fadeout 0.5
     scene black
     s "..."
     s "..."
@@ -11,6 +12,7 @@ label sayoriroute2:
 
 
 label sayoriroute21:
+    $SayoriVar = 0
     scene bg bedroom
     with wipeleft
     play music t5_sayori
@@ -370,6 +372,7 @@ Sincerely,
     $flag = False
     menu:
         "Smooth":
+            $SayoriVar += 1
             mc "Sayori."
             show sayori 1fa at t11 zorder 2
             mc "I think you look nice today."
@@ -483,6 +486,7 @@ Sincerely,
         "But what do I do?"
 
         "Make sure everything is fine":
+            $SayoriVar += 1
             $flag = True
             mc "Hey Sayori..."
             s 1fc "Yeah?"

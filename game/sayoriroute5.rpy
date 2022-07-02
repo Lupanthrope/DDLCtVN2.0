@@ -1024,7 +1024,7 @@ label sayoriroute52:
 
     stop music fadeout 1.5
 
-    if False :
+    if SayoriVar < 5 :
         call sayoribadending
     else :
         call sayorigoodending
