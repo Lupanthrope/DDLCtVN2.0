@@ -49,6 +49,7 @@ label sayoriroute41:
     "Should I really go through with this?"
     menu:
         "Agree to it.":
+            play music t6
             "Normally, I would despise saying that word."
             "But, strangely, offering to do it with Sayori doesn't at all phase me."
             "In contrast to how I would normally act, Sayori's ecstatic about the idea."
@@ -80,10 +81,12 @@ label sayoriroute41:
             "Erm..."
             "Anyway, the point is that \"enjoying the moment\" isn't all too difficult."
             "I only hope Sayori likes it as much as I do."
+            stop music fadeout 1.5
             s "[player]?"
             mc "Yes, that's me."
             s "Is it weird to say I don't want this to end?"
             "Well, that answers that question."
+            play music t9
             mc "No. Actually, I completely agree."
             "And I wasn't lying to her. Barring hunger and thirst, if staying like this was an option, I would take it."
             "Except it does get kind of boring. Maybe I could actually try talking with Sayori about things."
@@ -198,6 +201,7 @@ label sayoriroute41:
     menu:
         "Who do I call?"
         "Monika":
+            play music t8
             "She seems like the most trustworthy of the bunch."
             "I give the club president a phone call and she picks up."
             m "Hello?"
@@ -257,6 +261,7 @@ label sayoriroute41:
             $ distraction = "Monika"
 
         "Yuri":
+            play music t8
             "Yuri seems like a romantic person, I'm sure she's willing to help."
             "Wait, am I mixing up romance with romanticism?"
             "Whatever, I'm sure Yuri will do fine anyway."
@@ -383,6 +388,7 @@ label sayoriroute41:
 
 
         "Natsuki":
+            play music t8
             "She isn't exactly the most agreeable person but she is Sayori's best friend so she should be able to keep her occupied."
             "I call her up, and in a moment she answers."
             n "[player]? What's going on?"
@@ -544,6 +550,7 @@ label sayoriroute41:
         "..."
         scene black
         with dissolve
+        play music t8
         mc "URNGKH!"
         "I realize I was asleep, and I've now been awoken by...a cupcake?"
         "There's icing all over my face and a cupcake inside of my mouth."
@@ -553,6 +560,7 @@ label sayoriroute41:
         with fade
         show sayori 1br at t11 zorder 2
         s "Ahahahaha~!"
+        play music t2
         s "You should've seen the look on your face!"
         s "Wait, I can show you!"
         show sayori 1bq at t11 zorder 2
@@ -895,7 +903,7 @@ label sayoriroute41:
         mc "Having fun is the most important part !"
         s 1bx "Guess you're right !"
     else :
-        s 1br "You even manage to get more than half of the good answers ! Good job [player] !"
+        s 1br "You even managed to get more than half of the good answers ! Good job [player] !"
     show sayori 1ba at t11 zorder 2
     mc "Anyway I have to admit, it was a good time."
     mc "You always have good ideas, Sayori."
@@ -903,6 +911,7 @@ label sayoriroute41:
     show sayori 1bb at t11 zorder 2
     mc "Hey I'm sure you'd do the same thing for me."
     s 1bf "..."
+    play music t9
     mc "Sayori?"
     s 1bk "[player]..."
     s 1bh "Do you really think I'm thoughtful enough for that?"
@@ -975,7 +984,8 @@ label sayoriroute41:
     #{It's assumed she means, "go home", but perhaps she means "go" in another way (Oof)}
     "Agreeing with her, I take her hand and help her up off the floor."
     "Together we clean and pack up our picnic, then head back to my house."
-
+    
+    stop music fadeout 1.5
 return
 
    # {H-scene goes here}

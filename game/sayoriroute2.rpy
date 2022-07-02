@@ -152,6 +152,8 @@ label sayoriroute21:
     scene bg class_day
     with wipeleft_scene
 
+    play music t5
+
     "Math."
     "One of my {i}favorite{/i} hours of the day."
     "I usually just sleep through the hour, but a big test is coming up next week, and my grades in this class need a face lift."
@@ -215,6 +217,8 @@ Just wait patiently for the time to come, I promise it'll be worth it."""
     "I can't begin to imagine the hell the teacher would give Sayori and I if she caught us passing notes."
     "And especially what we're talking about in them!" 
     "{i}*Shrudder*{/i}"
+
+    stop music fadeout 1.5 
 
     scene bg corridor
     with wipeleft_scene
@@ -745,6 +749,7 @@ Sincerely,
             s 1bv "Especially tonight."
             s "I don't know what I did to deserve you."
             s 1bv "All I did was tie you down like an emotional anchor."
+            play music t10
             show sayori 1bu at t11 zorder 2
             mc "Sayori stop."
             mc "You aren't a burden."
@@ -785,6 +790,7 @@ Sincerely,
             $ battleship_played=False
             mc "Yeah, no problem..."
             mc "Well then, goodnight, Sayori."
+            play music t8
             s 2fc "Actually, I was hoping I could stay over at your place tonight..."
             show sayori 2fb at t11 zorder 2
             mc "Alright then, but let's stop by your place so you can get changed."
@@ -816,6 +822,7 @@ Sincerely,
             mc "Uh, yeah. Sure."
             stop music fadeout 2.0
 
+    stop music fadeout 1.5
     scene black
     with dissolve_scene_full
 return
@@ -840,6 +847,7 @@ label sayoriroute22:
     "I feel so warm inside seeing her so comfortable. And I'm the reason for that."
     "If that doesn't make a person feel good, I don't know what would."
     "I observe Sayori and appreciate the light she's radiating."
+    play music t2
     "There's so much purity coming from her. It's enough to intoxicate someone."
     "I smile at my girlfriend, who's still lying there lightly snoring."
 
@@ -974,6 +982,7 @@ label sayoriroute22:
     n "Slacking off again?"
     mc "No, I'm just tapping out for the day."
     n 1d "If that's what you tell yourself."
+    play music t5b
     n "But rumor has it you didn't write a poem today."
     "Of course she overheard..."
     mc "Yeah?"
@@ -994,6 +1003,7 @@ label sayoriroute22:
     $flag = False
     menu :
         "Tell the truth" :
+            stop music fadeout 2.0
             $flag = True
             mc "Well, uh..."
             show natsuki 1a at t11 zorder 2
@@ -1056,6 +1066,7 @@ label sayoriroute22:
     "Yuri is visibly angry."
     y "That's unbelievably rude!"
     y "[player]'s and Sayori's personal life is none of your business!"
+    play music t8
     y "It doesn't matter how intimate they became, it's-"
     n 1f "And there you go."
     n "Ruining my fun again."
@@ -1212,5 +1223,5 @@ label sayoriroute22:
     hide sayori
     "Actually I just thought of that but why ruin Sayori's fun?"
     "I love cuddles."
-
+    stop music fadeout 1.5
 return

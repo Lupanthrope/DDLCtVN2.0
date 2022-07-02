@@ -106,6 +106,7 @@ label sayoriroute31:
     mc "Alright, when should I pick you up?"
 
     s 1bc "Let's see..."
+    play music t6
     s 1bx "There's one movie that I really want to go see that has a screening at 8. So we can have supper and head out by 6:30?"
 
     mc "Works for me, see you then, Sayori."
@@ -294,6 +295,7 @@ label sayoriroute31:
             show sayori 4bh at t11 zorder 2
             s "Hey, uh, before we get to sleep..."
             s 3bc "I want to thank you for the wonderful evening."
+            play music t9
             s 3br "I really had fun."
             s "I felt at ease watching that movie with you."
 
@@ -854,6 +856,8 @@ label sayoriroute31:
             "Sayori slurs her appreciation."
             "Within the next few seconds, she's fast asleep."
             "I finally settle down and get my rest as well."
+
+    stop music fadeout 1.5
 return
 
 label sayoriroute32:
@@ -1103,6 +1107,8 @@ label sayoriroute32:
 
             "Sayori leads me to a bench under a lone tree in the middle of our school campus."
             "I've never really been here due to my unfortunate love of indoors..."
+            
+            play music t2
             "And free library Wi-Fi..."
 
             show sayori 1x at t11 zorder 2
@@ -1345,6 +1351,7 @@ label sayoriroute32:
 
     menu:
         "Don't confront Sayori":
+            play music t6
             mc "...I know you probably want your jacket back, Monika."
             mc "But if it could at least wait until tomorrow,"
             mc "Sayori is legitimately happy today, and I don't want to wreck that by starting an argument."
@@ -1392,6 +1399,7 @@ label sayoriroute32:
             "And with that, I head back home to wrap up my day."
 
         "Confront Sayori" :
+            play music t6
             $sayori_confronted = True
             mc "Yeah I hear you, I'll go talk to her as soon as I can."
             m "I'll come with you"
@@ -1407,6 +1415,7 @@ label sayoriroute32:
             mc "Yeah, it's nothing too-"
             show sayori 3b at t21 zorder 1
             show monika 1i at f22 zorder 2
+            stop music fadeout 2.0
             m 1i "No it's not really okay, Sayori."
             mc "Uhh, Monika?"
             show monika 2h at t22 zorder 1
@@ -1442,6 +1451,7 @@ label sayoriroute32:
             s 3l "That's right..."
             show sayori 3l at t21 zorder 1
             show monika 4i at f22 zorder 2
+            play music t10
             m "So? How come you haven't returned it yet?"
             show monika 4h at t22 zorder 1
             show sayori 3h at f21 zorder 2
@@ -1540,6 +1550,7 @@ label sayoriroute32:
             with wipeleft
 
             "As we make it back to our houses, I turn to Sayori"
+            play music t10
             mc "Are you okay? I know Monika laid into you pretty hard back there."
             show sayori 1g at t11 zorder 2
             s "I-I'm fine. I guess I'm just a little shaken up. I don't know how I forgot it wasn't my jacket."
@@ -1552,6 +1563,8 @@ label sayoriroute32:
             "I sigh and open my door, heading inside."
             "Today has been rough, and I still have things to do. I can't worry about Sayori all the time."
             "For now, it's dinner and homework."
+
+    stop music fadeout 1.5
 return
 
 
@@ -1652,7 +1665,7 @@ label sayoriroute33:
     show natsuki 5bz at t22 zorder 2
     "Oh, is {i}that{/i} how she wants to play it?"
     mc "Scared? Me?"
-    mc "Keep Dreaming. I'm in."    
+    mc "Keep dreaming. I'm in."    
     show sayori 4br at h21 zorder 2
     show natsuki 5bl at t22 zorder 2
     s "Yaaaaay!"
@@ -1963,3 +1976,7 @@ label sayoriroute33:
     "{b}{i}Good grief...{/i}{/b}"
     scene black
     with fade
+    
+    stop music fadeout 1.5
+
+return

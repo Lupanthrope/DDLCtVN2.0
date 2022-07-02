@@ -499,6 +499,7 @@ label sayoriroute51:
         mc "W-wait, really?"
         show natsuki 12bb at t11 zorder 2
         "Natsuki nods."
+        play music t10
         n 12bc "This place is special to me. It's where the best friendship I've ever had started."
         n "Before I joined the club, I'd come up here to read manga, then one day, out of nowhere, Sayori showed up."
         n "I had actually recognized her from a time we met at the vending machines."
@@ -634,7 +635,7 @@ label sayoriroute51:
     s "Congrats."
     s "You win."
     show sayori pja at t11 zorder 2
-
+    stop music fadeout 1.5
 return
 
 label sayoriroute52:
@@ -1021,6 +1022,8 @@ label sayoriroute52:
     "It's real."
     "{i}It's very real."
 
+    stop music fadeout 1.5
+
     if False :
         call sayoribadending
     else :
@@ -1117,7 +1120,7 @@ label sayoribadending:
     mc "Sayori wait."
     show sayori blaj at f22 zorder 2
     s "No, it's obvious no one thinks I can do anything."
-    s "Everything you said or did tonight was in pity wasn't it?"
+    s "Everything you said or did tonight was out of pity wasn't it?"
     show sayori blaj at thide
     hide sayori
     show monika 2bh at t11 zorder 2
@@ -1386,6 +1389,7 @@ label sayoribadending:
     "Maybe it was never meant to be."
     "There's no more 'over the rainbow' for Sayori."
     "Only rainclouds."
+    stop music fadeout 1.5
     pause(1)
     scene bg ending_b
     with fade
@@ -1825,6 +1829,7 @@ label sayorigoodending:
     s "Thanks to all of you, I think I've reached a point where I can finally..."
     s "Find myself...over the rainbow."
     show sayori 4t at f44 zorder 3
+    stop music fadeout 1.5
     pause(1)
     scene bg ending_a
     with fade
