@@ -814,6 +814,8 @@ image natsuki bla2 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanke
 
 image natsuki 7a = "mod_assets/nEnd.png"
 
+image natsuki 8a = "mod_assets/natsuki/buffsuki.png"
+
 # Natsuki legacy
 image natsuki 1 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/1t.png")
 image natsuki 2 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/2r.png", (0, 0), "natsuki/1t.png")
@@ -1614,6 +1616,20 @@ image bg hotel_room = "mod_assets/hotel_room.png"
 image bg ballroom = "mod_assets/ballroom.png"
 image bg hotel_lobby = "mod_assets/hotel_lobby.png"
 
+#Subway
+image bg subway_afternoon = "mod_assets/subway_afternoon.png"
+image bg subway_night_lights = "mod_assets/subway_night_lights.png"
+
+#Station
+image bg station_day = "mod_assets/station_day.png"
+image bg station_night = "mod_assets/station_night.png"
+
+#Graveyard
+image bg cemetery = "mod_assets/cemetery.png"
+
+#Christmas tree
+image bg christmas_tree = "mod_assets/christmastree.png"
+
 image yuri_note = "mod_assets/yuri_ch1_note.png"
 transform noteposition :
     xalign 0.5
@@ -1635,6 +1651,10 @@ image bg ending_a = "mod_assets/sayori/endings/a.png"
 image bg ending_b = "mod_assets/sayori/endings/b.png"
 image bg ending_c = "mod_assets/yuri/endings/c.png"
 image bg ending_d = "mod_assets/yuri/endings/d.png"
+image bg ending_e = "mod_assets/natsuki/endings/e.png"
+image bg ending_f = "mod_assets/natsuki/endings/f.png"
+image bg ending_g = "mod_assets/natsuki/endings/g.png"
+image bg ending_h = "mod_assets/natsuki/endings/h.png"
 
         #CG
 image sayori_bed = "mod_assets/sayori/cg/bed sayori.png"
