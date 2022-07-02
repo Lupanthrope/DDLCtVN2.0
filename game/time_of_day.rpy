@@ -3,37 +3,35 @@
 init python:
     def dawn(d):
         return im.MatrixColor(d,  im.matrix.tint(0.5, 0.4, 0.6))
-init python:
     def dawn2(d):
         return im.MatrixColor(d,  im.matrix.tint(0.4, 0.3, 0.5))
-
-init python:
     def morning(m):
         return im.MatrixColor(m,  im.matrix.tint(0.8, 0.7, 0.6))
-init python:
     def morning2(m):
         return im.MatrixColor(m,  im.matrix.tint(0.8, 0.6, 0.5))
-
-init python:
     def sunset(s):
         return im.MatrixColor(s,  im.matrix.tint(1.0, 0.8, 0.8))
-init python:
     def sunset2(s):
         return im.MatrixColor(s,  im.matrix.tint(1.0, 0.8, 0.6))
-
-init python:
     def evening(e):
         return im.MatrixColor(e,  im.matrix.tint(0.6, 0.6, 0.7))
-init python:
     def evening2(e):
         return im.MatrixColor(e,  im.matrix.tint(0.4, 0.4, 0.5))
-
-init python:
     def night(n):
         return im.MatrixColor(n,  im.matrix.tint(0.4, 0.4, 0.6))
-init python:
     def night2(n):
         return im.MatrixColor(n,  im.matrix.tint(0.2, 0.2, 0.4))
+    def flashback(n):
+        return im.MatrixColor(n,im.matrix.saturation(0))
+
+
+image bg sayori_bedroom_flashback = flashback(Image("bg/sayori_bedroom.png"))
+image bg corridor_flashback = flashback(Image("bg/corridor.png"))
+image bg pond_flashback = flashback(Image("mod_assets/pond.png"))
+image bg pond_evening = evening(Image("mod_assets/pond.png"))
+image bg pond_night = night(Image("mod_assets/pond.png"))
+
+image bg theater_evening = evening(Image("mod_assets/theater_out.png"))
 
 
 image bg residential_dawn = dawn(Image("bg/residential.png"))
@@ -66,6 +64,7 @@ image bg cafe_in_sunset = sunset2(Image("mod_assets/cafe_in.png"))
 image bg cafe_in_evening = evening2(Image("mod_assets/cafe_in.png"))
 image bg cafe_in_night = night2(Image("mod_assets/cafe_in.png"))
 
+image bg yuri_house_sunset = sunset2(Image("mod_assets/yuri_house.png"))
 
 image bg club_dawn2:
     choice:
@@ -259,14 +258,9 @@ image bg club_day2_sunset = sunset2(Image("bg/club-skill.png"))
 image bg club_day2_evening = evening2(Image("bg/club-skill.png"))
 image bg club_day2_night = night2(Image("bg/club-skill.png"))
 
-image bg carnival_sunset = sunset(Image("mod_assets/carnival.png"))
 
-image bg living_room_dawn = dawn(Image("mod_assets/livingroom.png"))
-image bg living_room_morning = morning(Image("mod_assets/livingroom.png"))
-image bg living_room_sunset = sunset(Image("mod_assets/livingroom.png"))
-image bg living_room_night = night(Image("mod_assets/livingroom.png"))
 
-image bg central_hub_sunset = sunset(Image("mod_assets/central_hub.png"))
+
 
 
 
@@ -1737,46 +1731,6 @@ image natsuki m5bx = morning(im.Composite((960, 960), (18, 22), "natsuki/x.png",
 image natsuki m5by = morning(im.Composite((960, 960), (18, 22), "natsuki/y.png", (0, 0), "natsuki/3b.png"))
 image natsuki m5bz = morning(im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), "natsuki/3b.png"))
 
-image natsuki mblaa = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/a.png"))
-image natsuki mblab = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/b.png"))
-image natsuki mblac = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/c.png"))
-image natsuki mblad = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/d.png"))
-image natsuki mblae = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/e.png"))
-image natsuki mblaf = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/f.png"))
-image natsuki mblag = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/g.png"))
-image natsuki mblah = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/h.png"))
-image natsuki mblai = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/i.png"))
-image natsuki mblaj = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/j.png"))
-image natsuki mblak = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/k.png"))
-image natsuki mblal = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/l.png"))
-image natsuki mblam = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/m.png"))
-image natsuki mblan = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/n.png"))
-image natsuki mblao = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/o.png"))
-image natsuki mblap = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/p.png"))
-image natsuki mblaq = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/q.png"))
-image natsuki mblar = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/r.png"))
-image natsuki mblas = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/s.png"))
-image natsuki mblat = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/t.png"))
-image natsuki mblau = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/u.png"))
-image natsuki mblav = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/v.png"))
-image natsuki mblaw = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/w.png"))
-image natsuki mblax = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/x.png"))
-image natsuki mblay = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/y.png"))
-image natsuki mblaz = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/z.png"))
-
-image natsuki mbla2a = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bta.png"))
-image natsuki mbla2b = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btb.png"))
-image natsuki mbla2c = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btc.png"))
-image natsuki mbla2d = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btd.png"))
-image natsuki mbla2e = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bte.png"))
-image natsuki mbla2f = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btf.png"))
-image natsuki mbla2g = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btg.png"))
-image natsuki mbla2h = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bth.png"))
-image natsuki mbla2i = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bti.png"))
-
-image natsuki mbla1 = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep.png"))
-image natsuki mbla2 = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep2.png"))
-
 
 image yuri m1 = morning(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
 image yuri m2 = morning(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png"))
@@ -2852,6 +2806,74 @@ image yuri s4bc = sunset(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0),
 image yuri s4bd = sunset(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png"))
 image yuri s4be = sunset(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png"))
 
+#Yuri Cut (sunset)
+image yuri s3bac1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/a.png"))
+image yuri s3bbc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/b.png"))
+image yuri s3bcc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/c.png"))
+image yuri s3bdc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/d.png"))
+image yuri s3bec1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/e.png"))
+image yuri s3bfc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/f.png"))
+image yuri s3bgc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/g.png"))
+image yuri s3bhc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/h.png"))
+image yuri s3bic1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/i.png"))
+image yuri s3bjc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/j.png"))
+image yuri s3bkc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/k.png"))
+image yuri s3blc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/l.png"))
+image yuri s3bmc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/m.png"))
+image yuri s3bnc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/n.png"))
+image yuri s3boc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/o.png"))
+image yuri s3bpc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/p.png"))
+image yuri s3bqc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/q.png"))
+image yuri s3brc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/r.png"))
+image yuri s3bsc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/s.png"))
+image yuri s3btc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/t.png"))
+image yuri s3buc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/u.png"))
+image yuri s3bvc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/v.png"))
+image yuri s3bwc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/w.png"))
+image yuri s3by1c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y1.png"))
+image yuri s3by2c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y2.png"))
+image yuri s3by3c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y3.png"))
+image yuri s3by4c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y4.png"))
+image yuri s3by5c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y5.png"))
+image yuri s3by6c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y6.png"))
+image yuri s3by7c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y7.png"))
+
+image yuri s4bac1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/a.png"))
+image yuri s4bbc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/b.png"))
+image yuri s4bcc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/c.png"))
+image yuri s4bdc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/d.png"))
+image yuri s4bec1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/e.png"))
+image yuri s4bfc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/f.png"))
+image yuri s4bgc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/g.png"))
+image yuri s4bhc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/h.png"))
+image yuri s4bic1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/i.png"))
+image yuri s4bjc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/j.png"))
+image yuri s4bkc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/k.png"))
+image yuri s4blc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/l.png"))
+image yuri s4bmc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/m.png"))
+image yuri s4bnc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/n.png"))
+image yuri s4boc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/o.png"))
+image yuri s4bpc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/p.png"))
+image yuri s4bqc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/q.png"))
+image yuri s4brc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/r.png"))
+image yuri s4bsc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/s.png"))
+image yuri s4btc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/t.png"))
+image yuri s4buc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/u.png"))
+image yuri s4bvc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/v.png"))
+image yuri s4bwc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/w.png"))
+image yuri s4by1c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y1.png"))
+image yuri s4by2c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y2.png"))
+image yuri s4by3c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y3.png"))
+image yuri s4by4c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y4.png"))
+image yuri s4by5c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y5.png"))
+image yuri s4by6c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y6.png"))
+image yuri s4by7c1 = sunset(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y7.png"))
+
+image yuri s5bac2 = sunset(im.Composite((960, 960), (0, 0), "yuri/a2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri s5bbc2 = sunset(im.Composite((960, 960), (0, 0), "yuri/b2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri s5bcc2 = sunset(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri s5bdc2 = sunset(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri s5bec2 = sunset(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
 
 image monika s1 = sunset(im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png"))
 image monika s2 = sunset(im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png"))
@@ -3016,6 +3038,7 @@ image monika s4bo = sunset(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png"
 image monika s4bp = sunset(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/p.png"))
 image monika s4bq = sunset(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/q.png"))
 image monika s4br = sunset(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/r.png"))
+
 
 
 
@@ -3740,6 +3763,7 @@ image yuri e4bb = evening(im.Composite((960, 960), (0, 0), "yuri/b2.png", (0, 0)
 image yuri e4bc = evening(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), "yuri/3b.png"))
 image yuri e4bd = evening(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png"))
 image yuri e4be = evening(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png"))
+
 
 
 
@@ -4488,7 +4512,6 @@ image natsuki nbla2i = night(im.Composite((960, 960), (0, 0), "mod_assets/natsuk
 image natsuki nbla1 = night(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep.png"))
 image natsuki nbla2 = night(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep2.png"))
 
-
 image yuri n1 = night(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
 image yuri n2 = night(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png"))
 image yuri n3 = night(im.Composite((960, 960), (0, 0), "yuri/2l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png"))
@@ -4674,6 +4697,74 @@ image yuri n4bc = night(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), 
 image yuri n4bd = night(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png"))
 image yuri n4be = night(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png"))
 
+#Cut Yuri Night
+image yuri n3bac1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/a.png"))
+image yuri n3bbc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/b.png"))
+image yuri n3bcc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/c.png"))
+image yuri n3bdc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/d.png"))
+image yuri n3bec1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/e.png"))
+image yuri n3bfc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/f.png"))
+image yuri n3bgc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/g.png"))
+image yuri n3bhc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/h.png"))
+image yuri n3bic1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/i.png"))
+image yuri n3bjc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/j.png"))
+image yuri n3bkc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/k.png"))
+image yuri n3blc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/l.png"))
+image yuri n3bmc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/m.png"))
+image yuri n3bnc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/n.png"))
+image yuri n3boc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/o.png"))
+image yuri n3bpc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/p.png"))
+image yuri n3bqc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/q.png"))
+image yuri n3brc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/r.png"))
+image yuri n3bsc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/s.png"))
+image yuri n3btc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/t.png"))
+image yuri n3buc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/u.png"))
+image yuri n3bvc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/v.png"))
+image yuri n3bwc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/w.png"))
+image yuri n3by1c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y1.png"))
+image yuri n3by2c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y2.png"))
+image yuri n3by3c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y3.png"))
+image yuri n3by4c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y4.png"))
+image yuri n3by5c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y5.png"))
+image yuri n3by6c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y6.png"))
+image yuri n3by7c1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y7.png"))
+
+image yuri n4bac1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/a.png"))
+image yuri n4bbc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/b.png"))
+image yuri n4bcc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/c.png"))
+image yuri n4bdc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/d.png"))
+image yuri n4bec1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/e.png"))
+image yuri n4bfc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/f.png"))
+image yuri n4bgc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/g.png"))
+image yuri n4bhc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/h.png"))
+image yuri n4bic1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/i.png"))
+image yuri n4bjc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/j.png"))
+image yuri n4bkc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/k.png"))
+image yuri n4blc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/l.png"))
+image yuri n4bmc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/m.png"))
+image yuri n4bnc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/n.png"))
+image yuri n4boc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/o.png"))
+image yuri n4bpc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/p.png"))
+image yuri n4bqc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/q.png"))
+image yuri n4brc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/r.png"))
+image yuri n4bsc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/s.png"))
+image yuri n4btc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/t.png"))
+image yuri n4buc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/u.png"))
+image yuri n4bvc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/v.png"))
+image yuri n4bwc1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/w.png"))
+image yuri n4by1c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y1.png"))
+image yuri n4by2c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y2.png"))
+image yuri n4by3c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y3.png"))
+image yuri n4by4c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y4.png"))
+image yuri n4by5c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y5.png"))
+image yuri n4by6c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y6.png"))
+image yuri n4by7c1 = night(im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/y7.png"))
+
+image yuri n5bac2 = night(im.Composite((960, 960), (0, 0), "yuri/a2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri n5bbc2 = night(im.Composite((960, 960), (0, 0), "yuri/b2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri n5bcc2 = night(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri n5bdc2 = night(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
+image yuri n5bec2 = night(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "mod_assets/yuri/cut/3cutb.png"))
 
 image monika n1 = night(im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png"))
 image monika n2 = night(im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png"))
