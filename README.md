@@ -1,6 +1,17 @@
 # DDLCtVN2.0
 DDLC the Normal VN 2.0
 
+# Installing the mod (for player)
+
+Installation :
+
+  1. Download DDLC from Steam (it's free) or anywhere else. The mod was tested with the Steam version though
+  2. Download the latest release archive that should contains 2 folders (gui and mod_Assets) and 1 file (scrips.rpa)
+  3. Extract the content of the archive in the game/ folder of you DDLC installation. The folder already contains a file name scripts.rpa, replace it by ours
+  4. Enjoy !
+
+# Installting the mod (for modders)
+
 Installation :
 
 Get yourself the DDLCtVN 1.5 :
