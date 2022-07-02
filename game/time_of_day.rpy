@@ -260,7 +260,14 @@ image bg club_day2_night = night2(Image("bg/club-skill.png"))
 
 
 
+image bg carnival_sunset = sunset(Image("mod_assets/carnival.png"))
 
+image bg living_room_dawn = dawn(Image("mod_assets/livingroom.png"))
+image bg living_room_morning = morning(Image("mod_assets/livingroom.png"))
+image bg living_room_sunset = sunset(Image("mod_assets/livingroom.png"))
+image bg living_room_night = night(Image("mod_assets/livingroom.png"))
+
+image bg central_hub_sunset = sunset(Image("mod_assets/central_hub.png"))
 
 
 
@@ -1730,6 +1737,46 @@ image natsuki m5bw = morning(im.Composite((960, 960), (18, 22), "natsuki/w.png",
 image natsuki m5bx = morning(im.Composite((960, 960), (18, 22), "natsuki/x.png", (0, 0), "natsuki/3b.png"))
 image natsuki m5by = morning(im.Composite((960, 960), (18, 22), "natsuki/y.png", (0, 0), "natsuki/3b.png"))
 image natsuki m5bz = morning(im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), "natsuki/3b.png"))
+
+image natsuki mblaa = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/a.png"))
+image natsuki mblab = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/b.png"))
+image natsuki mblac = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/c.png"))
+image natsuki mblad = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/d.png"))
+image natsuki mblae = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/e.png"))
+image natsuki mblaf = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/f.png"))
+image natsuki mblag = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/g.png"))
+image natsuki mblah = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/h.png"))
+image natsuki mblai = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/i.png"))
+image natsuki mblaj = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/j.png"))
+image natsuki mblak = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/k.png"))
+image natsuki mblal = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/l.png"))
+image natsuki mblam = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/m.png"))
+image natsuki mblan = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/n.png"))
+image natsuki mblao = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/o.png"))
+image natsuki mblap = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/p.png"))
+image natsuki mblaq = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/q.png"))
+image natsuki mblar = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/r.png"))
+image natsuki mblas = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/s.png"))
+image natsuki mblat = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/t.png"))
+image natsuki mblau = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/u.png"))
+image natsuki mblav = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/v.png"))
+image natsuki mblaw = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/w.png"))
+image natsuki mblax = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/x.png"))
+image natsuki mblay = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/y.png"))
+image natsuki mblaz = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/z.png"))
+
+image natsuki mbla2a = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bta.png"))
+image natsuki mbla2b = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btb.png"))
+image natsuki mbla2c = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btc.png"))
+image natsuki mbla2d = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btd.png"))
+image natsuki mbla2e = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bte.png"))
+image natsuki mbla2f = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btf.png"))
+image natsuki mbla2g = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2btg.png"))
+image natsuki mbla2h = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bth.png"))
+image natsuki mbla2i = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "natsuki/2bti.png"))
+
+image natsuki mbla1 = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep.png"))
+image natsuki mbla2 = morning(im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanket/natsukiblanket.png", (0, 0), "mod_assets/natsleep2.png"))
 
 
 image yuri m1 = morning(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
