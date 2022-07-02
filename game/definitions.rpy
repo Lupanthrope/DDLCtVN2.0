@@ -244,7 +244,7 @@ image sayori 1r = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "say
 image sayori 1s = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/s.png")
 image sayori 1t = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/t.png")
 image sayori 1u = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/u.png")
-image sayori 1v = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 1v = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/v.png")
 image sayori 1w = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/w.png")
 image sayori 1x = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/x.png")
 image sayori 1y = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/y.png")
@@ -271,7 +271,7 @@ image sayori 2r = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "say
 image sayori 2s = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/s.png")
 image sayori 2t = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/t.png")
 image sayori 2u = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/u.png")
-image sayori 2v = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 2v = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/v.png")
 image sayori 2w = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/w.png")
 image sayori 2x = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/x.png")
 image sayori 2y = im.Composite((960, 960), (0, 0), "sayori/1l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/y.png")
@@ -298,7 +298,7 @@ image sayori 3r = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "say
 image sayori 3s = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/s.png")
 image sayori 3t = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/t.png")
 image sayori 3u = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/u.png")
-image sayori 3v = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 3v = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/v.png")
 image sayori 3w = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/w.png")
 image sayori 3x = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/x.png")
 image sayori 3y = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/1r.png", (0, 0), "sayori/y.png")
@@ -325,7 +325,7 @@ image sayori 4r = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "say
 image sayori 4s = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/s.png")
 image sayori 4t = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/t.png")
 image sayori 4u = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/u.png")
-image sayori 4v = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 4v = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/v.png")
 image sayori 4w = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/w.png")
 image sayori 4x = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/x.png")
 image sayori 4y = im.Composite((960, 960), (0, 0), "sayori/2l.png", (0, 0), "sayori/2r.png", (0, 0), "sayori/y.png")
@@ -357,7 +357,7 @@ image sayori 1br = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "s
 image sayori 1bs = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/s.png")
 image sayori 1bt = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/t.png")
 image sayori 1bu = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/u.png")
-image sayori 1bv = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 1bv = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/v.png")
 image sayori 1bw = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/w.png")
 image sayori 1bx = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/x.png")
 image sayori 1by = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/y.png")
@@ -383,7 +383,7 @@ image sayori 2br = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "s
 image sayori 2bs = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/s.png")
 image sayori 2bt = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/t.png")
 image sayori 2bu = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/u.png")
-image sayori 2bv = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 2bv = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/v.png")
 image sayori 2bw = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/w.png")
 image sayori 2bx = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/x.png")
 image sayori 2by = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/y.png")
@@ -409,7 +409,7 @@ image sayori 3br = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "s
 image sayori 3bs = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/s.png")
 image sayori 3bt = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/t.png")
 image sayori 3bu = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/u.png")
-image sayori 3bv = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 3bv = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/v.png")
 image sayori 3bw = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/w.png")
 image sayori 3bx = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/x.png")
 image sayori 3by = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/y.png")
@@ -435,7 +435,7 @@ image sayori 4br = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "s
 image sayori 4bs = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/s.png")
 image sayori 4bt = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/t.png")
 image sayori 4bu = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/u.png")
-image sayori 4bv = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 4bv = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/v.png")
 image sayori 4bw = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/w.png")
 image sayori 4bx = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/x.png")
 image sayori 4by = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/y.png")
@@ -814,6 +814,9 @@ image natsuki bla2 = im.Composite((960, 960), (0, 0), "mod_assets/natsuki/blanke
 
 image natsuki 7a = "mod_assets/nEnd.png"
 
+image natsuki 8a = "mod_assets/natsuki/buffsuki.png"
+
+
 # Natsuki legacy
 image natsuki 1 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/1t.png")
 image natsuki 2 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/2r.png", (0, 0), "natsuki/1t.png")
@@ -1045,13 +1048,13 @@ image yuri 1bt = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "yuri/1b
 image yuri 1bu = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
 image yuri 1bv = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
 image yuri 1bw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by1 = im.Composite((960, 960), (0, 0), "yuri/y1.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by2 = im.Composite((960, 960), (0, 0), "yuri/y2.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by3 = im.Composite((960, 960), (0, 0), "yuri/y3.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by4 = im.Composite((960, 960), (0, 0), "yuri/y4.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by5 = im.Composite((960, 960), (0, 0), "yuri/y5.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by6 = im.Composite((960, 960), (0, 0), "yuri/y6.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
-image yuri 1by7 = im.Composite((960, 960), (0, 0), "yuri/y7.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png")
+image yuri 1by1 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y1.png")
+image yuri 1by2 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y2.png")
+image yuri 1by3 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y3.png")
+image yuri 1by4 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y4.png")
+image yuri 1by5 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y5.png")
+image yuri 1by6 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y6.png")
+image yuri 1by7 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/1br.png", (0, 0), "yuri/y7.png")
 
 image yuri 2ba = im.Composite((960, 960), (0, 0), "yuri/a.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 image yuri 2bb = im.Composite((960, 960), (0, 0), "yuri/b.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
@@ -1076,13 +1079,13 @@ image yuri 2bt = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "yuri/1b
 image yuri 2bu = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 image yuri 2bv = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
 image yuri 2bw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by1 = im.Composite((960, 960), (0, 0), "yuri/y1.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by2 = im.Composite((960, 960), (0, 0), "yuri/y2.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by3 = im.Composite((960, 960), (0, 0), "yuri/y3.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by4 = im.Composite((960, 960), (0, 0), "yuri/y4.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by5 = im.Composite((960, 960), (0, 0), "yuri/y5.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by6 = im.Composite((960, 960), (0, 0), "yuri/y6.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
-image yuri 2by7 = im.Composite((960, 960), (0, 0), "yuri/y7.png", (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png")
+image yuri 2by1 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y1.png")
+image yuri 2by2 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y2.png")
+image yuri 2by3 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y3.png")
+image yuri 2by4 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y4.png")
+image yuri 2by5 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y5.png")
+image yuri 2by6 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y6.png")
+image yuri 2by7 = im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y7.png")
 
 image yuri 3ba = im.Composite((960, 960), (0, 0), "yuri/a.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 image yuri 3bb = im.Composite((960, 960), (0, 0), "yuri/b.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
@@ -1107,13 +1110,13 @@ image yuri 3bt = im.Composite((960, 960), (0, 0), "yuri/t.png", (0, 0), "yuri/2b
 image yuri 3bu = im.Composite((960, 960), (0, 0), "yuri/u.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 image yuri 3bv = im.Composite((960, 960), (0, 0), "yuri/v.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
 image yuri 3bw = im.Composite((960, 960), (0, 0), "yuri/w.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by1 = im.Composite((960, 960), (0, 0), "yuri/y1.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by2 = im.Composite((960, 960), (0, 0), "yuri/y2.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by3 = im.Composite((960, 960), (0, 0), "yuri/y3.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by4 = im.Composite((960, 960), (0, 0), "yuri/y4.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by5 = im.Composite((960, 960), (0, 0), "yuri/y5.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by6 = im.Composite((960, 960), (0, 0), "yuri/y6.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
-image yuri 3by7 = im.Composite((960, 960), (0, 0), "yuri/y7.png", (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png")
+image yuri 3by1 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y1.png")
+image yuri 3by2 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y2.png")
+image yuri 3by3 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y3.png")
+image yuri 3by4 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y4.png")
+image yuri 3by5 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y5.png")
+image yuri 3by6 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y6.png")
+image yuri 3by7 = im.Composite((960, 960), (0, 0), "yuri/2bl.png", (0, 0), "yuri/2br.png", (0, 0), "yuri/y7.png")
 
 image yuri 4ba = im.Composite((960, 960), (0, 0), "yuri/a2.png", (0, 0), "yuri/3b.png")
 image yuri 4bb = im.Composite((960, 960), (0, 0), "yuri/b2.png", (0, 0), "yuri/3b.png")
@@ -1570,14 +1573,15 @@ define audio.monikasong = "mod_assets/monikasong.ogg"
 
 #Art
 
-    #BG
+#Cafe
 image bg cafe = "mod_assets/cafe.png"
 image bg cafe_in = "mod_assets/cafe_in.png"
 
+#Theater
 image bg theater = "mod_assets/theater_out.png"
 image bg theater_in = "mod_assets/theater_in.png"
 
-#Player house
+#Player House
 image bg bedroom_dirty = "mod_assets/bedroom_dirty.png"
 image bg livingroom_sunset = "mod_assets/livingroom_sunset.png"
 
@@ -1585,7 +1589,7 @@ image bg livingroom_sunset = "mod_assets/livingroom_sunset.png"
 image bg school = "mod_assets/school.png"
 image bg school courtyard = "mod_assets/courtyard.png" # Wretched Team - Kimagure After
 
-#Road Shots
+#Road
 image bg road = "mod_assets/road.png"
 image bg road_sunset = "mod_assets/road_sunset.png"
 image bg road_night = "mod_assets/road_night.png"
@@ -1607,12 +1611,30 @@ image bg yuri_bedroom = "mod_assets/yuri_bedroom.png"
 image bg yuri_bedroom_night = "mod_assets/yuri_bedroom_night.png"
 image bg yuri_bathroom = "mod_assets/yuri_bathroom.png"
 
-#Hotel Scene
+#Hotel
 image bg bus = "mod_assets/bus.png"
 image bg hotel_outside = "mod_assets/hotel_outside.png"
 image bg hotel_room = "mod_assets/hotel_room.png"
-image bg ballroom = "mod_assets/ballroom.png"
 image bg hotel_lobby = "mod_assets/hotel_lobby.png"
+
+#Subway
+image bg subway_afternoon = "mod_assets/subway_afternoon.png"
+image bg subway_night_lights = "mod_assets/subway_night_lights.png"
+
+#Station
+image bg station_day = "mod_assets/station_day.png"
+image bg station_night = "mod_assets/station_night.png"
+
+#Graveyard
+image bg cemetery = "mod_assets/cemetery.png"
+
+#Christmas tree
+image bg christmas_tree = "mod_assets/christmastree.png"
+
+image bg ending_e = "mod_assets/natsuki/endings/e.png"
+image bg ending_f = "mod_assets/natsuki/endings/f.png"
+image bg ending_g = "mod_assets/natsuki/endings/g.png"
+image bg ending_h = "mod_assets/natsuki/endings/h.png"
 
 image yuri_note = "mod_assets/yuri_ch1_note.png"
 transform noteposition :
@@ -1625,49 +1647,9 @@ image bg bowling_alley = "mod_assets/bowling_alley.png"
 image bg sayori_bedroom_daydream = "mod_assets/sayori_bedroom_daydream.png"
 image bg park = "mod_assets/park.png"
     #Sayo
-        #BG
-
-image bg pond = "mod_assets/pond.png"
-image bg schoolroof = "mod_assets/schoolroof.png"
-image bg sayori_hall = "mod_assets/sayori_hall.png"
-
-image bg ending_a = "mod_assets/sayori/endings/a.png"
-image bg ending_b = "mod_assets/sayori/endings/b.png"
-image bg ending_c = "mod_assets/yuri/endings/c.png"
-image bg ending_d = "mod_assets/yuri/endings/d.png"
-
         #CG
 image sayori_bed = "mod_assets/sayori/cg/bed sayori.png"
 image sayori_bed_one_eye = "mod_assets/sayori/cg/sayori bed one eye.png"
-
-image sayori_pond = "mod_assets/sayori/cg/sayori_pond.png"
-
-
-image sayori_grim_fate = im.Composite((1280,720),(0,0), "cg/s_kill_bg.png", (540,-80), "cg/s_kill.png")
-image sayori_grim_fate2 = im.Composite((1280,720),(0,0), "cg/s_kill_bg2.png", (540,-80), "cg/s_kill2.png")
-
-image sayori_grim_flashback:
-   "cg/s_kill.png"
-  ##  pause 0.05
-    #image sayori_grim_fate
-    ##pause 0.05
-    #image white
-    #pause 0.1
-    #image sayori_grim_fate
-    #pause 0.05
-    #image white
-
-
-#image sayori_grim_flashback2:
-#    image white
- #   pause 0.1
-  #  image sayori_grim_fate2
-  #  pause 0.05
-  #  image white
-  #  pause 0.1
-   ## image sayori_grim_fate2
-   # pause 0.05
-   # image white
 
         #Pyjama
 image sayori pja = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/a.png")
@@ -1691,7 +1673,7 @@ image sayori pjr = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png
 image sayori pjs = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/s.png")
 image sayori pjt = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/t.png")
 image sayori pju = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/u.png")
-image sayori pjv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori pjv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/v.png")
 image sayori pjw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/w.png")
 image sayori pjx = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/x.png")
 image sayori pjy = im.Composite((960, 960), (0, 0), "mod_assets/sayori/pj/pj.png", (0, 0), "sayori/y.png")
@@ -1718,38 +1700,10 @@ image sayori jacr = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/j
 image sayori jacs = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/s.png")
 image sayori jact = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/t.png")
 image sayori jacu = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/u.png")
-image sayori jacv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori jacv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/v.png")
 image sayori jacw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/w.png")
 image sayori jacx = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/x.png")
 image sayori jacy = im.Composite((960, 960), (0, 0), "mod_assets/sayori/jacket/jac.png", (0, 0), "sayori/y.png")
-
-        #Underwear
-image sayori unda = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/a.png")
-image sayori undb = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/b.png")
-image sayori undc = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/c.png")
-image sayori undd = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/d.png")
-image sayori unde = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/e.png")
-image sayori undu = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/f.png")
-image sayori undg = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/g.png")
-image sayori undh = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/h.png")
-image sayori undi = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/i.png")
-image sayori undj = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/j.png")
-image sayori undk = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/k.png")
-image sayori undl = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/l.png")
-image sayori undm = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/m.png")
-image sayori undn = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/n.png")
-image sayori undo = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/o.png")
-image sayori undp = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/p.png")
-image sayori undq = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/q.png")
-image sayori undr = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/r.png")
-image sayori unds = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/s.png")
-image sayori undt = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/t.png")
-image sayori undu = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/u.png")
-image sayori undv = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "mod_assets/sayori/v2.png")
-image sayori undw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/w.png")
-image sayori undx = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/x.png")
-image sayori undy = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/y.png")
-image sayori undz = im.Composite((960, 960), (0, 0), "mod_assets/sayori/undies/un.png", (0, 0), "sayori/z.png")
 
         #Blanket
 image sayori blaa = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/a.png")
@@ -1773,39 +1727,11 @@ image sayori blar = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/
 image sayori blas = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/s.png")
 image sayori blat = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/t.png")
 image sayori blau = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/u.png")
-image sayori blav = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori blav = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/v.png")
 image sayori blaw = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/w.png")
 image sayori blax = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/x.png")
 image sayori blay = im.Composite((960, 960), (0, 0), "mod_assets/sayori/blanket/sayoriblanket.png", (0, 0), "sayori/y.png")
 
-    #Blindfold
-
-image sayori blia = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/a.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blib = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/b.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blic = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/c.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blid = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/d.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blie = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/e.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blif = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/f.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blig = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/g.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blih = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/h.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blii = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/i.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blij = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/j.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blik = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/k.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blil = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/l.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blim = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/m.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blin = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/n.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blio = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/o.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blip = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/p.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blik = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/q.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blir = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/r.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blis = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/s.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blit = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/t.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori bliu = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/u.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori bliv = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "mod_assets/sayori/v2.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori bliw = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/w.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori blix = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/x.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori bliy = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/y.png", (0, 0), "mod_assets/sayori/blf.png")
-image sayori bliz = im.Composite((960, 960), (0, 0), "sayori/1bl.png", (0, 0), "sayori/1br.png", (0, 0), "sayori/z.png", (0, 0), "mod_assets/sayori/blf.png")
 
     #Natsuki
         #Blanket
@@ -2153,7 +2079,7 @@ image sayori 1fr = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 1fs = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/s.png")
 image sayori 1ft = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/t.png")
 image sayori 1fu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/u.png")
-image sayori 1fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 1fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/v.png")
 image sayori 1fw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/w.png")
 image sayori 1fx = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/x.png")
 image sayori 1fy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/y.png")
@@ -2179,7 +2105,7 @@ image sayori 2fr = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 2fs = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/s.png")
 image sayori 2ft = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/t.png")
 image sayori 2fu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/u.png")
-image sayori 2fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 2fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/v.png")
 image sayori 2fw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/w.png")
 image sayori 2fx = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/x.png")
 image sayori 2fy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/1l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/y.png")
@@ -2205,7 +2131,7 @@ image sayori 3fr = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 3fs = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/s.png")
 image sayori 3ft = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/t.png")
 image sayori 3fu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/u.png")
-image sayori 3fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 3fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/v.png")
 image sayori 3fw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/w.png")
 image sayori 3fx = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/x.png")
 image sayori 3fy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/1r.png", (0, 0), "sayori/y.png")
@@ -2231,15 +2157,12 @@ image sayori 4fr = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 4fs = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/s.png")
 image sayori 4ft = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/t.png")
 image sayori 4fu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/u.png")
-image sayori 4fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 4fv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/v.png")
 image sayori 4fw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/w.png")
 image sayori 4fx = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2r.png", (0, 0), "sayori/x.png")
 image sayori 4fy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/formal/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2br.png", (0, 0), "sayori/y.png")
 
 # Underwear
-
-
-
 image sayori 1ua = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/a.png")
 image sayori 1ub = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/b.png")
 image sayori 1uc = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/c.png")
@@ -2261,7 +2184,7 @@ image sayori 1ur = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 1us = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/s.png")
 image sayori 1ut = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/t.png")
 image sayori 1uu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/u.png")
-image sayori 1uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 1uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/v.png")
 image sayori 1uw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/w.png")
 image sayori 1ux = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/x.png")
 image sayori 1uy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/y.png")
@@ -2287,7 +2210,7 @@ image sayori 2ur = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 2us = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/s.png")
 image sayori 2ut = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/t.png")
 image sayori 2uu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/u.png")
-image sayori 2uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 2uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/v.png")
 image sayori 2uw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/w.png")
 image sayori 2ux = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/x.png")
 image sayori 2uy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/1l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/y.png")
@@ -2313,7 +2236,7 @@ image sayori 3ur = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 3us = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/s.png")
 image sayori 3ut = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/t.png")
 image sayori 3uu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/u.png")
-image sayori 3uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 3uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/v.png")
 image sayori 3uw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/w.png")
 image sayori 3ux = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/x.png")
 image sayori 3uy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/1r.png", (0, 0), "sayori/y.png")
@@ -2339,7 +2262,7 @@ image sayori 4ur = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayo
 image sayori 4us = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/s.png")
 image sayori 4ut = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/t.png")
 image sayori 4uu = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/u.png")
-image sayori 4uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "mod_assets/sayori/v2.png")
+image sayori 4uv = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/v.png")
 image sayori 4uw = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/w.png")
 image sayori 4ux = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/undies/2r.png", (0, 0), "sayori/x.png")
 image sayori 4uy = im.Composite((960, 960), (0, 0), "mod_assets/placeholder/sayori/undies/2l.png", (0, 0), "mod_assets/placeholder/sayori/formal/2br.png", (0, 0), "sayori/y.png")
