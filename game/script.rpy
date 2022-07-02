@@ -16,8 +16,8 @@ label start:
                 "Please, select a character."
                 "Sayori":
                     call sayoriroute2 from _call_Sayori2
-                "Natsuki":
-                    call Natsuki2 from _call_Natsuki2
+                #"Natsuki":
+                #    call Natsuki2 from _call_Natsuki2
                 "Yuri":
                     call Yuri2 from _call_Yuri2      
                 #"Monika":

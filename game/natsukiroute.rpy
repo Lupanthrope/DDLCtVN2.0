@@ -1651,7 +1651,7 @@ label natsukiroute:
         stop music fadeout 2.0
         scene black
         with dissolve_scene_full
-        jump Natsuki2
+        #jump Natsuki2
     elif NatsukiVar >= 0:
         "Until five minutes ago, I was really happy that I got to see Natsuki today as well."
         "But she sent me a message where she told me that she can't come today."
@@ -1660,7 +1660,7 @@ label natsukiroute:
         scene black
         with dissolve_scene_full
         stop music fadeout 2.0
-        jump Natsuki2
+        #jump Natsuki2
     else:
         hide natsuki
         scene black
