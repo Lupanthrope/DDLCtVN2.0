@@ -233,29 +233,29 @@ label sayoriroute31:
             "..."
             "The kiss on the cheek I give Sayori felt instinctual."
 
-            show sayori 4bm at h11 zorder 2
+            show sayori jacm at h11 zorder 2
             "She falls silent almost instantly, and turns a beet red."
 
-            s 4bh "[player]..."
-            show sayori 4be at t11 zorder 2
+            s jach "[player]..."
+            show sayori jace at t11 zorder 2
 
             mc "S- sorry..."
             mc "I... couldn't help it."
 
-            s 1bc "It's fine.."
+            s jacc "It's fine.."
             s "Thank you.."
-            s 1bx "But please."
-            s 3bwink "Keep it down for the men in front!"
+            s jacx "But please."
+            s jacwink "Keep it down for the men in front!"
 
             $ y_name = "Greasy Guy"
             y "You tell him, sister!"
             $ y_name = "Yuri"
 
-            show sayori 4br at t11 zorder 2
+            show sayori jacr at t11 zorder 2
 
-            "Their entire group erupts in laughter, as if they were a bunch of drunken knights singing some sort of song in a bar,"
+            "Their entire group erupts in laughter, as if they were a bunch of drunken knights singing some sort of song in a bar."
 
-            show sayori 4br at thide zorder 2
+            show sayori jacr at thide zorder 2
             hide sayori
 
             "Well, that also is what's happening in the movie now."
