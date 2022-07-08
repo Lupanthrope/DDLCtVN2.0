@@ -10,6 +10,7 @@ label sayoriroute4:
 return
 
 label sayoriroute41:
+    play music t12
     scene bg bedroom
     with fade
     "As my eyes slowly open, I stretch slightly and take a deep breath."
@@ -25,7 +26,10 @@ label sayoriroute41:
     "I close my eyes and continue to enjoy the feeling."
     "Soon enough, I feel Sayori begin to stir against me."
     "She pokes my face a few times, probably to see if I'm awake or not."
-    "I fake the idea that this action disturbed me from my slumber. After all, having Sayori realize that I watched her sleep... not the best idea."
+    "I fake the idea that this action disturbed me from my slumber."
+    stop music fadeout 1.5
+    "After all, having Sayori realize that I watched her sleep... not the best idea."
+    play music t2
     scene bg bedroom
     with fade
     show sayori undo at t11 zorder 2
@@ -42,15 +46,14 @@ label sayoriroute41:
     show sayori unda at t11 zorder 2
     "That's kind of shocking. Although, actually, no it isn't."
     s undc "I really don't want to get out of bed..."
-    s "... so maybe we can just, you know, lay here together?"
+    s "...so maybe we can just, you know, lay here together?"
     show sayori undd at t11 zorder 2
     mc "Is {i}cuddling{/i} the word you're looking for?"
     "I stop to think."
-    "Should I really go through with this?"
     menu:
+        "Should we waste more time in bed together?"
         "Agree to it.":
             $SayoriVar += 1
-            play music t6
             "Normally, I would despise saying that word."
             "But, strangely, offering to do it with Sayori doesn't at all phase me."
             "In contrast to how I would normally act, Sayori's ecstatic about the idea."
@@ -117,21 +120,26 @@ label sayoriroute41:
             mc "Hmm... what else? Just video games and food all day?"
             s "Maybe we can go see a movie when it gets late?"
             mc "Yeah..."
-            "I don't have the heart to tell Sayori that all the movies that are out right now look awful, especially because she probably has one in mind."
-            "I wouldn't mind seeing it with Sayori though."
+            "I don't have the heart to tell Sayori that I don't really feel like seeing a movie again so soon."
+            "But I guess if it makes Sayori happy I don't have any reason to say no."
             s "And then, we can do the best part!"
             mc "And that is?"
+            stop music fadeout 1.5
             s "Going back to bed, so we can cuddle like this again! I can't wait for that!"
-        "Refuse.":
+            play music t2
+        "Turn her down.":
             $SayoriVar -= 1
-            mc "Sorry, Sayori, but we've got things to do today."
+            mc "Sorry, Sayori, but we should probably get out of bed before we lose too much of our Sunday."
             show sayori undk at t11 zorder 2
-            "She looks sad at first, so I decide to cheer her up."
+            "She looks sad at first, so I decide to cheer her up with a quick cheek pinch."
+            show sayori undd
+            "That seemed to improve her mood a bit."
 
     scene black
     with fade
-
-    "Upon Sayori and myself finally deciding to get out of bed, we go about our morning routine of brushing our teeth..."
+    
+    
+    "Upon Sayori and myself deciding to get out of bed, we go about our morning routine of brushing our teeth..."
     "(At the same time)"
 
     "Using the bathroom..."
@@ -198,12 +206,13 @@ label sayoriroute41:
     with wipeleft_scene
 
     "I need to make a phone call to somebody and get them to distract Sayori for a little while."
+    stop music fadeout 1.5
     "Now...who to call..."
 
     menu:
         "Who do I call?"
         "Monika":
-            play music t8
+            play music t5
             "She seems like the most trustworthy of the bunch."
             "I give the club president a phone call and she picks up."
             m "Hello?"
@@ -216,10 +225,10 @@ label sayoriroute41:
             m "So, why'd you call?"
             mc "*Ahem* Well I kinda need your help with something at the moment. Are you busy?"
             mc "I-I mean I'd understand if you are, m-maybe I should ask someone else, s-sorry for bother--"
-            m "Whoa, hey, [player], calm down! I don't have anything going on right now. So what can I help you with~?"
+            m "Whoa, hey, [player], calm down! I don't have anything going on right now. So what can I help you with?"
             "Phew, that's a relief."
             mc "So, I want to surprise Sayori today by taking her to a picnic in the park, but I don't want her to see me preparing all the food."
-            m "Hehe~, now is that because you want it to be a surprise or because you don't want her to eat anything prematurely?"
+            m "Hehe, now is that because you want it to be a surprise or because you don't want her to eat anything prematurely?"
             mc "It's Sayori and food. You do the math."
             mc "S-so, I just need you to go to her house, then call her acting like there's something important you need her help with."
             m "Then you want me to distract her for about an hour while you make all the picnic goodies, right?"
@@ -263,7 +272,7 @@ label sayoriroute41:
             $ distraction = "Monika"
 
         "Yuri":
-            play music t8
+            play music t6
             "Yuri seems like a romantic person, I'm sure she's willing to help."
             "Wait, am I mixing up romance with romanticism?"
             "Whatever, I'm sure Yuri will do fine anyway."
@@ -358,26 +367,30 @@ label sayoriroute41:
             show sayori at thide
             hide sayori
             "Sayori walks out the door."
+            stop music fadeout 1.5
             "Part of me wonders what Yuri has planned to keep her occupied for such a long time..."
             #{daydream sequence; maybe some kind of screen effect to emphasize}
             scene bg sayori_bedroom_daydream
             with fade
             show sayori 4bc at t21 zorder 2
             show yuri 1bc at t22 zorder 2 
+            play music t5
             s "Say, Yuri, I'm feeling kind of weird."
             s "Is there something in this tea you gave me?"
             show sayori 4be at t21 zorder 2
             y 1bd "Oh no, of course not!"
             y "It's just the tea itself."
+            stop music
             y 1bb "It's chamomile. You should be falling asleep in approximately eight seconds."
             "..."
             show sayori 4bp at s21 zorder 2
             "..."
             #show sayori at thide
             hide sayori
+            play sound fall
             "..."
             #[Show sprite of Sayori falling with a thud sound effect]
-            show yuri 3by1 at t11 zorder 2
+            show yuri 3by1 at t22 zorder 2
             y "Hehehehe..."
             #(Then they have lesbian sex) => nice chipping
             #{end daydream}
@@ -385,15 +398,16 @@ label sayoriroute41:
             with fade
             "My mind goes to weird places sometimes..."
             "Oh well. To the kitchen!"
+            play music t6
             $ distraction = "Yuri"
 
 
 
         "Natsuki":
-            play music t8
+            play music t6
             "She isn't exactly the most agreeable person but she is Sayori's best friend so she should be able to keep her occupied."
             "I call her up, and in a moment she answers."
-            n "[player]? What's going on?"
+            n "{i}[player]? What's going on?{/i}"
             mc "Why are you talking so quietly?"
             "Seriously, she sounds like a mouse."
             n "Uh, no reason."
@@ -405,14 +419,15 @@ label sayoriroute41:
             n "Sure, I'll help you out. What do you need me to do?"
             mc "Great! I just need you to go to her house and tell her you wanna see her, then she'll go over there."
             n "Hm..."
-            n "Hey, I'll do you one better. I'll ask her if she wants to bake something with me, then we can bake at her house and you can take some goodies with you on your picnic."
+            n "Hey, I'll do you one better."
+            n "I'll ask her if she wants to bake something with me, then we can bake at her house and you can take some goodies with you on your picnic."
             mc "Natsuki, you're a genius!"
             n "I'm the best, don't you forget it."
             mc "Well actually Sayori's the best, it's why I'm doing all this for her."
             n "Grrr..."
             mc "I-I mean, you're both equally the best."
             n "That's more like it. Now, just give me a minute to gather my baking supplies and go over to Sayori's house."
-            mc "Sure thing. Aaaaaand, BREAK!"
+            mc "Sure thing. Aaaaaand, {i}break!{/i}"
             n "Pffft, dork."
             "And with that she hangs up the phone."
             "{i}This should be awesome. And having some of Natsuki's cupcakes should make our picnic that much sweeter."
@@ -550,11 +565,11 @@ label sayoriroute41:
         with wipeleft_scene
         "I go to the living room and lie down, then close my eyes to rest."
         mc "I think this is going well. I just hope she comes back soon."
+        stop music fadeout 1.5
         "..."
         "..."
         scene black
         with dissolve
-        play music t8
         mc "URNGKH!"
         "I realize I was asleep, and I've now been awoken by...a cupcake?"
         "There's icing all over my face and a cupcake inside of my mouth."
@@ -563,8 +578,8 @@ label sayoriroute41:
         scene bg livingroom
         with fade
         show sayori 1br at t11 zorder 2
+        play music t6
         s "Ahahahaha~!"
-        play music t2
         s "You should've seen the look on your face!"
         s "Wait, I can show you!"
         show sayori 1bq at t11 zorder 2
@@ -604,7 +619,7 @@ label sayoriroute41:
     mc "Uh...one sec."
     scene bg bedroom
     with wipeleft_scene
-    "I run to my bedroom and grab a sleeping mask, then bring it back to Sayori."
+    "I run to my bedroom and grab a sleeping mask I have lying around, then bring it back to Sayori."
     scene bg livingroom
     with wipeleft_scene
     show sayori 1bn at t11 zorder 2
@@ -633,18 +648,18 @@ label sayoriroute41:
     "Finally, we approach my front door then exit my house."
     scene bg residential_day
     with wipeleft_scene
-    show sayori blio at t22 zorder 2
+    show sayori blio at t11 zorder 2
     "With Sayori's arm interlocked with mine we gingerly walk toward the park close to our neighborhood."
     "I haven't been there in a long time other than just passing through to get to the store or something, and I haven't been there with Sayori in an even longer time."
     "Sayori still seems nervous about walking outdoors with her eyes closed."
     "Honestly, now that we're actually doing it I can't really blame her, but I trust myself enough to not let her--"
-    show sayori blip at s22 zorder 2
+    show sayori blip at s11 zorder 2
     s "WHOA!"
     mc "Oh gosh, Sayori!"
     "Sayori seems to have tripped over a crack in the cement but I was able to pull her back to her foot before she could faceplant."
-    show sayori blih at h22 zorder 2
+    show sayori blih at h11 zorder 2
     s "[player], this is really difficult!"
-    show sayori blig at t22 zorder 2
+    show sayori blig at t11 zorder 2
     mc "Hang tight, we're almost there."
     "We make a right turn and then walk another quarter of a mile before we arrive at the park."
     scene bg park
@@ -691,7 +706,7 @@ label sayoriroute41:
     s 4bh "[player]..."
     s 4bk "I...don't know what to say..."
     s 4bh "You did...all of this...for me?"
-    s "A-and...our friend actually wanted to help?"
+    s "A-and...[distraction] actually wanted to help?"
     s 4bk "I...I don't...I don't deserve all this..."
     show sayori 4bu at t11 zorder 2
     "Sayori starts to sob lightly."
@@ -740,8 +755,10 @@ label sayoriroute41:
         mc "O-oh."
 
     s 1bx "Come on, let's play."
-    s 1br "Do your best !"
+    stop music fadeout 1.5
+    s 1br "Do your best!"
     "Let's go..."
+    play music t4
 
     $point = 0
 
@@ -750,111 +767,111 @@ label sayoriroute41:
         s "Something red, mine got stuck in a tree once!"
         "A kite" :
             show sayori 1br at h11 zorder 2
-            s "Congrats !"
+            s "Congrats!"
             $point += 1
         "A cherry" :
-            s 1bx "Nope !"
+            s 1bx "Nope!"
         "Your bow tie" :
-            s 1bc "I'm not that tall !"
+            s 1bc "I'm not that tall!"
         "Some lipstick" :
-            s 1bx "Uh uh !"
+            s 1bx "Nuh-uh!"
 
     show sayori 1bx at t11 zorder 2
     menu :
         s "A fruit that I'd be terrified of if I were a doctor!"
         "A banana" :
-            s 1bx "Wrong !"
+            s 1bx "Wrong!"
         "A cherry" :
-            s 1bx "Still Nope !"
+            s 1bx "Still nope!"
         "An apple" :
             show sayori 1br at h11 zorder 2
-            s "Yay !!"
+            s "Yay!!"
             $point += 1
         "A pineapple" :
-            s 1bn "Is that even a fruit ?"
+            s 1bn "Is that even a fruit?"
 
     show sayori 1bx at t11 zorder 2
     menu :
         s "Something heavy and good luck pushing that!"
         "Your butt" :
-            s 1bj "You meanie !"
+            s 1bj "You meanie!"
         "The Eiffel tower" :
-            s 1bx "Ow I would love to see it ! But nope !"
+            s 1bx "How I would love to see it! But {i}non!{/i} Ahaha!"
         "A big rock" :
             show sayori 1br at h11 zorder 2
-            s "Got it !"
+            s "Got it!"
             $point += 1
         "A black hole" :
-            s 1bc "Way too complicated !"
+            s 1bc "Way too complicated!"
 
     show sayori 1bx at t11 zorder 2
     menu :
-        s "Something tall and I want to climb it latter!"
-        "A big tree" :
+        s "Something big I'd like to climb!"
+        "A tall tree" :
             show sayori 1br at h11 zorder 2
-            s "We have a winner here !"
+            s "We have a winner here!"
             $point += 1
-        "The Eiffel tower ?" :
-            s 1bx "Still nope !"
+        "The Eiffel tower?" :
+            s 1bx "Still nope!"
         "A building" :
-            s 1bx "Good guess but no !"
-        "My d...*gulp*" :
-            s 1bp "We're in public [player] !"         
+            s 1bx "Good guess but no!"
+        "My d... *gulp*" :
+            s 1bp "We're in public, [player]!"         
 
     show sayori 1bx at t11 zorder 2
     menu :
-        s "Something round !"
+        s "Something round!"
         "The moon" :
-            s 1bx "Very poetic, but nope !"
-        "Your br...beautiful eyes ?" :
-            s 1bh "My...eyes ? N...nope."
+            s 1bx "Very poetic, but nope!"
+        "Your br...beautiful eyes?" :
+            s 1bh "My...eyes? N...nope."
         "An American" :
-            s 1bc "Whaaat ? No !"
+            s 1bc "Whaaat? No!"
         "A soccer ball" :
             show sayori 1br at h11 zorder 2
-            s "Yes ! Makes me wanna play !"
+            s "Yes! Makes me wanna play!"
             $point += 1
 
     show sayori 1bx at t11 zorder 2
     menu :
-        s "Something really fast !"
+        s "Something really fast!"
         "A plane" :
             show sayori 1br at h11 zorder 2
-            s "Wooosh ! Yes !"
+            s "{i}Wooosh!{/i} Yes!"
             $point += 1
         "My heartbeat when I see you" :
-            s 1bs "Aaaaw. Unfortunately, nope !"
+            s 1bs "Aaawww. Unfortunately, nope!"
         "The light" :
-            s 1bc "Is that that fast ?"
-        "My boredom in Math classes" :
-            s 1br "Haha it is really boring yes ! But no !"
+            s 1bc "Is that that fast?"
+        "My boredom in math" :
+            s 1br "Haha it is really boring, yes! But no!"
 
     show sayori 1bx at t11 zorder 2
     menu :
-        s "Something cute that is definitely not me ! *giggle*"
+        s "Something cute that is definitely not me! Ehehe~!"
         "Yuri" :
-            s 1br "I'll tell her ! But nope !"
+            s 1br "I'll tell her you said that! But nope!"
         "Can't think of anything else than you" :
-            s 1bs "Aaw. You sly flatterer ! Doesn't count !"
+            s 1bs "Aaw, you flirt. Doesn't count!"
         "A rabbit" :
             show sayori 1br at h11 zorder 2
-            s "Those ears are melting my heart ! Good answer !"
+            s "Those ears are melting my heart! Good answer!"
             $point += 1
-        "Eevee" :
-            s 1bx "Oh ! We could play latter ! But nope !"
+        "Natsuki" :
+            s 1br "Don't let her catching you say that! And wrong!"
 
     s 1bx "Last but not least..."
 
     menu :
-        s "What you loved to play with ! It's a living thing !"
-        "YOUR BOOBS !!" :
-            s 1bp "THEY ARE NOT ALIVE !"
-        "A...living...controller ?" :
-            s 1bm "Eww like in that movie ? Gross ! Nope !"
+        s "Something you love to play with! It's a living thing!"
+        "Your boobs?" :
+            s 1bp "THEY ARE NOT ALIVE!"
+        "A...living...controller?" :
+            s 1bm "Eww like in that movie? Gross! Nope!"
         "A cat" :
-            s 1bx "I love cats too ! But no !"
+            s 1bx "I love cats too! But no!"
         "You" :
-            s 1bs "...correct *giggle*"
+            s 1bs "...correct. Ehehe~!"
             $point += 1
 
 
@@ -894,32 +911,33 @@ label sayoriroute41:
 
     if point == 8 :
         $SayoriVar += 1
-        s 1br "And you even got all the right answers !"
+        s 1br "And you even got all the right answers!"
         show sayori 1bq at t11 zorder 2
-        mc "Does that mean I got a nice reward ?"
-        s 1bs "*giggle* maybe latter..."
+        mc "Does that mean I got a nice reward?"
+        s 1bs "Ehehe~! Maybe later..."
     elif point == 0 :
-        s 1bn "Even if you didn't got a single good answer !"
+        s 1bn "Even if you didn't got a single good answer!"
         mc "I totally did that on purpose."
         s 1bx "Suuuuuuure !"
     elif point < 4 :
-        s 1bc "You could have done way better though ! More than half of your answers were wrong !"
+        s 1bc "You could have done way better though! More than half of your answers were wrong!"
         show sayori 1bb at t11 zorder 2
-        mc "Having fun is the most important part !"
-        s 1bx "Guess you're right !"
+        mc "Having fun is the most important part!"
+        s 1bx "Guess you're right!"
     else :
         $SayoriVar += 1
-        s 1br "You even managed to get more than half of the good answers ! Good job [player] !"
+        s 1br "You even managed to get more than half of the good answers! Good job, [player]!"
+        stop music fadeout 2.0
     show sayori 1ba at t11 zorder 2
-    mc "Anyway I have to admit, it was a good time."
+    mc "I have to admit, it was a good time."
     mc "You always have good ideas, Sayori."
     s 1bb "Oh, stop. You're the one who planned this whole thing out."
     show sayori 1bb at t11 zorder 2
     mc "Hey I'm sure you'd do the same thing for me."
     s 1bf "..."
-    play music t9
     mc "Sayori?"
     s 1bk "[player]..."
+    play music t10
     s 1bh "Do you really think I'm thoughtful enough for that?"
     show sayori 1bf at t11 zorder 2
     mc "W-what are you talking about?"
@@ -982,7 +1000,7 @@ label sayoriroute41:
     "I want her to relax, I really do."
     "I stroke her along the length of her back to calm her down, and I kiss her on the top of her head."
     "I whisper to her..."
-    mc "You can do this, Sayori. I believe in you."
+    mc "{i}You can do this, Sayori. I believe in you.{/i}"
     "Sayori squeezes me tighter."
     "We lie there for what feels like hours, with nothing but the sound of animals and kids playing in the park."
     "As we do so, she speaks up for the first time in quite some time."
