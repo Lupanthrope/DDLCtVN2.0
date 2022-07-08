@@ -52,7 +52,7 @@ label sayoriroute21:
 
     show sayori pjx at t11
     s "Oh, hey, [player]."
-    s "I was just-"
+    s "I was just--"
     s pjm "Oh my god... Are those chocolate chip?"
     s pjr "That's my favorite!"
     show sayori pjq at t11 zorder 2
@@ -100,13 +100,12 @@ label sayoriroute21:
     mc "Yeah, I'd love to hear about it."
     s "I dreamt that I was in the arctic."
     s "I was wearing my normal school uniform, but I wasn't cold at all."
-    s "I looked around and then, suddenly, out of nowhere"
+    s "I looked around and then, suddenly, out of nowhere..."
 
     show sayori at h11 zorder 2
     s 4n "A bunch of penguins came appeared and started to walk toward me!"
-    s "Then the leader of the penguins"
-    s "Who was like, my height"
-    s 4o "Came up to me and introduced himself as Reginald and he talked with a British accent, and he told me"
+    s "Then the leader of the penguins, who was like, my height..."
+    s 4o "Came up to me and introduced himself as Reginald and he talked with a British accent, and he told me..."
     s "{i}You, Mistress Sayori, are worthy to be our queen!{/i} "
     show sayori at h11 zorder 2 
     s 4x "I told him that just \"Sayori\" was fine, and that I was super happy."
@@ -126,10 +125,10 @@ label sayoriroute21:
     s "Then, he officially named me \"Queen of The Penguins\"."
     s "So, how 'bout them apples? You're officially dating a queen!"
     show sayori 1a at t11 zorder 2
-    "I really don't want to take this happy moment from her, so I had to come up with a response and change the topic."
+    "I really don't want to take this happy moment from her, so I have to come up with a response and change the topic."
     mc  "That's so cool, my girlfriend is the Queen of The Penguins..."
-    "...Does that make me the King?"
-    "As we get to school, I remember that I had to ask Sayori something important."
+    "...Does that make me the king?"
+    "As we get to school, I remember that I have to ask Sayori something important."
     show sayori at thide zorder 1
     hide sayori
 
@@ -162,8 +161,8 @@ label sayoriroute21:
     "I can't help but let my mind wander a little."
     "God, my first ever actual official date."
     "Never in my life would I ever imagine it would be with Sayori..."
-    "Never in my life would I ever imagine doing a lot of the things i've done with Sayori.."
-    "Especially.."
+    "Never in my life would I ever imagine doing a lot of the things I've done with Sayori..."
+    "Especially..."
     "{i}Huh?{/i} A Note?"
     "It's from Sayori, she slid it under my elbow while I was distracted by myself."
     "I turn to look at her."
@@ -218,7 +217,7 @@ Just wait patiently for the time to come, I promise it'll be worth it."""
     "We go back to listening to the teacher as quickly as possible."
     "I can't begin to imagine the hell the teacher would give Sayori and I if she caught us passing notes."
     "And especially what we're talking about in them!" 
-    "{i}*Shrudder*{/i}"
+    "{i}*Shudder*{/i}"
 
     stop music fadeout 1.5 
 
@@ -231,16 +230,16 @@ Just wait patiently for the time to come, I promise it'll be worth it."""
     show sayori 1x at t11 zorder 2
     s "So where were you planning on taking us again?"
     mc "Hmmm."
-    "How shall I give the big reveal?"
-
+    
     menu:
+        "How shall I give the big reveal?"                                                              
         "Playful":
             "I take a brief second to think about how to word it."
             mc "Well..."
             mc "It's a place..."
-            mc "Where you can drink-"
+            mc "Where you can drink--"
             s 4n "The bar!"
-            mc "What? It's n-"
+            mc "What? It's not--"
             s 1j "[player], we're too young for that!"
             mc "No, it's not the bar, Sayori."
             mc "You didn't let me finish."
@@ -250,16 +249,17 @@ Just wait patiently for the time to come, I promise it'll be worth it."""
             s 4r "I get it now!"
             s 1wink "..."
             s 5d "..."
-            "She whispers"
+            "She whispers."
             s 3c "It's the cafe, right?"
             "I whisper back."
             mc "It's the cafe."
 
-        "Upfront":
-            mc "It's the cafe."
+        "Up front":
+            mc "I was going to take you the cafe."
             s 1r "Oh, cool!"
             s 4r "I've always thought that was a cute place!"
             s 3r "Can't wait for tonight!"
+            "I'm glad she's happy with my choice."
 
 
     show sayori at thide zorder 1
@@ -294,9 +294,9 @@ Sincerely,
     s 4p "Aww, what!"
     s "Why?"
     mc "Monika said it was just personal stuff."
-    mc "We can ask her what it was next time we run into her"
+    mc "We can ask her what it was next time we run into her."
     s 4k "True."
-    s "I hope everything is ok with her."
+    s "I hope everything is okay with her."
     mc "So what now?"
     s 1b "Believe it or not, this actually works out for me. "
     s 5a "I could use the extra time to get ready for our date tonight."
@@ -307,7 +307,7 @@ Sincerely,
     s 1r "Of course! Let's go!"
     show sayori at thide zorder 1
     hide sayori
-    stop music fadeout 1.5
+    
 
 
     scene bg house
@@ -322,7 +322,7 @@ Sincerely,
     show sayori at thide zorder 1
     hide sayori
     "We give each other a small kiss before we return to our homes to change and get ready."
-
+    stop music fadeout 1.5
 
     scene black
     with dissolve_scene_full
@@ -371,6 +371,7 @@ Sincerely,
     "Is that perfume?"
     $flag = False
     menu:
+        "I wanna comment on it, but how?"
         "Smooth":
             $SayoriVar += 1
             mc "Sayori."
@@ -382,13 +383,15 @@ Sincerely,
             s "That's why I decided to wear this old thing."
             s 1fl "I haven't worn it since the Homecoming incident."
             mc "Homecoming incident?"
-            "What does she mean by -"
+            "What does she mean by--"
             "{i}Oh.{/i}"
             "{i}That.{/i}"
             "I still have no idea how they were able to get a live squid in there..."
             s 1fx "I also convinced Yuri to give me some exotic perfume she never used."
             s "She's really into aromatherapy or something, and said this stuff would be perfect for a date."
-            s 1fc "I think it was called Jazz Man?"
+            s 1fc "I think it was called jazz man?"
+            mc "Do... Do you mean jasmine?"
+            s 1fq "Yeah, that!"
 
         "Normal":
             "I take a light whiff of the air."
@@ -400,7 +403,9 @@ Sincerely,
             s "And I wanted to try out a perfume Yuri gave me."
             s "She told me she never got to try it out, and just gave it to me!"
             s "She said it was some exotic flower."
-            s 1fh "Jazz man, or something like that?"
+            s 1fo "Jazz man, or something like that?"
+            mc "Do... Do you mean jasmine?"
+            s 1fq "Yeah, that!"
 
         "Observant":
             $ flag = True
@@ -418,7 +423,7 @@ Sincerely,
             mc "What's the scent?"
             s 2fc "Yuri said something about a jazz man?"
             mc "Jasmine?"
-            s "Yeah, that!"
+            s 1fq "Yeah, that!"
     
     s 3fx "So."
     s "Do you like it?"
@@ -434,7 +439,7 @@ Sincerely,
         "Soon after, the waitress arrives with our drinks."
     
     mc "So how's your day going?"
-    s 4fx "My day was great!"
+    s 4fx "My day was... Great!"
     "Something about the way she said that..."
     "I don't want to pursue it, for fear of ruining the moment."
     s "I've been waiting for this all day!"
@@ -446,14 +451,14 @@ Sincerely,
     mc "It sure does."
     show sayori 1fq at t11 zorder 2
     "We sit in silence for a moment."
-    mc "Back then"
+    mc "Back then..."
     mc "Did you think we'd end up in this relationship?"
     show sayori 1fm at t11 zorder 2
     s 1fe "Honestly, I thought you were probably going to end up with Monika or Yuri."
     s 1fc "But ever since we started dating..."
     show sayori 3fq at t11 zorder 2
     "..."
-    s 4fs "Those rainclouds haven't been looking so dark lately..."
+    s 4fs "Those rainclouds haven't been looking so dark..."
 
 
     scene bg cafe_in_night
@@ -485,7 +490,7 @@ Sincerely,
     menu:
         "But what do I do?"
 
-        "Make sure everything is fine":
+        "Make sure everything is fine.":
             $SayoriVar += 1
             $flag = True
             mc "Hey Sayori..."
@@ -499,8 +504,10 @@ Sincerely,
             show sayori 1fg at t11 zorder 2
             mc "Something about the way you said some things earlier..."
             mc "It didn't sit right with me."
-            s 1fx "Don't worry about me [player]."
+            s 1fx "Don't worry about me, [player]."
             s "I was just nervous was all."
+            s 1fl "First date and everything..."
+            s 1fk "..."
             show sayori 1fd at t11 zorder 2
             "If there's one thing I learned about her in the past few weeks of being closer with her, it's that not everything is as it seems..."
             mc "Tell me what's really wrong."
@@ -539,7 +546,7 @@ Sincerely,
             scene bg bedroom
             with wipeleft_scene
 
-            "I wait about a half hour before Sayori enters my house like any other Sunday."
+            "I wait about a half hour before Sayori enters my house like she does every Sunday."
             show sayori 1br at t11 zorder 1
             play music t5_sayori
             s "Hey, [player]!"
@@ -669,7 +676,7 @@ Sincerely,
 
             "We begin playing Battleship."
             "True to the rules we've established, each time I get a ship sunk, I take something off."
-            "And every time Sayori loses a ship, she also takes something off"
+            "And every time Sayori loses a ship, she also takes something off."
             "It ends up being a lot more fun than I expected!"
             "Despite the circumstances, the sexuality of the situation kinda gets diffused by how much fun we have picking on each other."
             "That is until I notice Sayori has nothing but her bra and panties on, and I sink her aircraft carrier."
@@ -736,8 +743,8 @@ Sincerely,
 
             "A couple of hours go by, and Sayori and I have mercifully completed a majority of the math homework we needed to finish."
             "{i}You wouldn't believe how much doing math completely kills your sex drive{/i}."
-            "She and I make some instant meals together and eat them by candlelight that evening."
-            "Eventually, we end up in bed at around 10: 30, as I let the TV in my room run to lull us to sleep."
+            "She and I made some instant meals together and elegantly ate them by candlelight that evening."
+            "We end up in bed at around 10:30, and I let the TV in my room run to lull us to sleep."
             mc "You ready to call it a night, Sayori?"
             stop music fadeout 6.0
             show sayori 1bh at t11 zorder 2
@@ -756,10 +763,9 @@ Sincerely,
             play music t10
             show sayori 1bu at t11 zorder 2
             mc "Sayori stop."
-            mc "You aren't a burden."
+            mc "You aren't an anchor or whatever you're trying to say."
             mc "If I was in any way unhappy with us being in a relationship, I wouldn't be here."
             mc "Trust me."
-            play music t10
             mc "I love you."
             "Even though I'm not yet used to saying that to Sayori.."
             "It feels right."
@@ -790,7 +796,7 @@ Sincerely,
             mc "Special."
             stop music fadeout 2.0
 
-        "Say goodnight":
+        "Say goodnight.":
             $ battleship_played=False
             mc "Yeah, no problem..."
             mc "Well then, goodnight, Sayori."
@@ -842,7 +848,7 @@ label sayoriroute22:
     if flag :
         "I had a very good time with Sayori yesterday, and we even got some homework done."
         "I remember our little game, at which point I lift my head up off my pillow and look at the floor."
-        "There, I see our game of Battleship, still scattered across the floor."
+        "There, I see our game of Battleship, still scattered across the mats."
         "I should clean that up soon."
         "But, not right now. Right now, all I ought to do is appreciate my surroundings."
         "Specifically, I should appreciate the ball of sunshine huddled into my shoulder, with her arms wrapped around mine like it's a teddy bear."
@@ -851,7 +857,7 @@ label sayoriroute22:
     "I feel so warm inside seeing her so comfortable. And I'm the reason for that."
     "If that doesn't make a person feel good, I don't know what would."
     "I observe Sayori and appreciate the light she's radiating."
-    play music t2
+    play music t9
     "There's so much purity coming from her. It's enough to intoxicate someone."
     "I smile at my girlfriend, who's still lying there lightly snoring."
 
@@ -861,7 +867,7 @@ label sayoriroute22:
     "There's only one word to describe her."
     "Amazing."
     "I never realized how cute Sayori looked until now."
-    "I mean, I always knew she was cute,"
+    "I mean, I always knew she was cute..."
     "But I wasn't conscious of it until now."
     s "Mmfff..."
     "Sayori stirs."
@@ -877,7 +883,7 @@ label sayoriroute22:
     "{i}What's going on?{/i}"
     "{i}I'm not even that attractive!{/i}"
     mc "Good morning."
-    s "{i}giggles{/i}"
+    s "Ehehe~"
     s "Good morning to you, too."
     "This position we're in..."
     "It feels so nice."
@@ -897,6 +903,7 @@ label sayoriroute22:
     s "About that.."
     mc "Please don't tell me..."
     s "Yup."
+    stop music fadeout 1.5
     s "Gotta go back to my place to get my stuff."
 
     scene black
@@ -917,7 +924,7 @@ label sayoriroute22:
 
     show monika 1i at t21 zorder 2
     show sayori 1f at t22 zorder 2
-
+    play music t5
     m "So the reason I had to put the club on hiatus was--"
     s 1c "Oh!"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     s 1x "Hi, [player]!"
@@ -930,11 +937,11 @@ label sayoriroute22:
     show sayori 1x at t11 zorder 1
 
     "Monika hurries off to go talk with Yuri about something, leaving me and Sayori alone."
-    mc "Sayori.."
+    mc "Sayori..."
     s "Yes?"
-    mc "I forgot to write a poem today.."
-    s 4c "Uh oh!"
-    s "I would give you mine for the day, but.."
+    mc "I forgot to write a poem today..."
+    s 4c "Uh-oh!"
+    s "I would give you mine for the day, but..."
     s 5b"It's pretty personal to me."
     mc "Wait, how did you write one?"
     s 1c "Huh?"
@@ -946,13 +953,13 @@ label sayoriroute22:
     s 1x "Oh!"
     s 1r "I got that done in class before I got here!"
     mc "I guess I don't have a poem today then."
-    s 1x "It's ok, the others will probably understand."
-    show sayori 1a at t22 zorder 2
-    "I half expect one of the girls"
-    "Specifically the one with the pink hair who shall remain anonymous"
+    s 1x "It's okay, the others will probably understand."
+    show sayori 1a at t11 zorder 2
+    "I half expect one of the girls..."
+    "Specifically the one with the pink hair who shall remain anonymous..."
     "To mockingly yell something along the lines of \"Yeah we will!\""
     "..."
-    "So that didn't happen."
+    "Though that didn't happen."
     "We all get ready to share our poems, at least those of us who wrote one."
 
     show sayori at thide zorder 1
@@ -985,9 +992,8 @@ label sayoriroute22:
 
     n "Slacking off again?"
     mc "No, I'm just tapping out for the day."
-    n 1d "If that's what you tell yourself."
-    play music t5b
-    n "But rumor has it you didn't write a poem today."
+    n 1y "If that's what you wanna tell yourself."
+    n 5y "But rumor has it you didn't write a poem today."
     "Of course she overheard..."
     mc "Yeah?"
     mc "What about it?"
@@ -999,25 +1005,27 @@ label sayoriroute22:
     n 1d "A little birdie also told me Sayori slept over at your place the last couple nights..."
     "I break out in a cold sweat."
     n "So tell me..."
-    n "What exactly {i}were{/i} you doing last night?"
-    mc "I.."
-    "I'm put on the spot."
+    n 1t "What exactly {i}were{/i} you doing last night?"
+    mc "I..."
+    "I'm put on the spot and I don't love it."
     "I don't even know how to properly respond to that."
 
     $flag = False
     menu :
-        "Tell the truth" :
+        "I guess that I'll..."
+        "Tell the truth." :
             stop music fadeout 2.0
             $flag = True
             mc "Well, uh..."
             show natsuki 1a at t11 zorder 2
             mc "Sayori and I have just wanted to spend a lot of time together lately."
+            show natsuki 1k
             mc "We've been getting really...close."
             "I lower my voice as much as possible."
             "I don't want anyone else hearing this..."
             "At least not yet."
             "I lean in, and so does Natsuki."
-            mc "One thing kinda just.."
+            mc "One thing kinda just..."
             mc "Led to another, and, we..."
             "Natsuki steps back."
 
@@ -1032,36 +1040,38 @@ label sayoriroute22:
 
             n "I..."
             n "I won't tell anyone."
-            "It's strange, getting such a response from Natuski."
+            "It's strange, getting such a response from Natsuki."
             "I'm used to her general brash attitudes."
             "She whispers something."
-            n "No offense, but I gotta do this."
-            n "Everyone else will get suspicious."
+            n 1t "No offense, but I gotta do this."
+            n "Everyone else will get suspicious if I don't."
             "Suspicious?"
-            "What does she-"
+            "What does she--"
 
-        "Avoid the question" :
+        "Avoid the question." :
             "Oh boy."
             "I'm not in the mood today."
             mc "What's it to you?"
             n 4l "I just wanna hear if the talk of the town is true at all."
-            n "Did you and Sayori do...{b}that{/b}?"
+            n "Did you and Sayori do...{i}that{/i}?"
             "She said the last bit a little louder than the rest."
             "Perhaps intentionally..."
             "I turn red."
-            mc "I-I uh.."
-            mc "We were just.." 
+            mc "I-I uh..."
+            mc "We were just..." 
+            stop music fadeout 2.0
             "I surrender."
+    play music t7
     n 1z "Ha!"
     n 1y "I knew it!"
     n "You and Sayori were totally making out last night!"
 
     if flag : 
-        "Oh. So that's what she meant. "
+        "Oh, so that's what she meant. "
         "My face turns beet red."
         "The other girls turn towards us."
         mc "I-It's not what you guys think! We only had a sleepover, we've been doing that since we were kids!"
-        n 1d "Suuuuurrreee. Is that what they're calling it now-a-days? A sleepover?"
+        n 1d "Suuuuurrreee. Is that what they're calling it nowadays? A sleepover?"
 
     show natsuki 1z at t21
     show yuri 2r at t22
@@ -1070,15 +1080,13 @@ label sayoriroute22:
     "Yuri is visibly angry."
     y "That's unbelievably rude!"
     y "[player]'s and Sayori's personal life is none of your business!"
-    play music t8
-    y "It doesn't matter how intimate they became, it's-"
-    n 1f "And there you go."
-    n "Ruining my fun again."
-    n 1d "I wasn't serious, I was just teasing him!"
+    y "It doesn't matter how intimate they became, it's--"
+    n 1f "And theeeere the purple princess goes, ruining my fun again."
+    n 1e "I wasn't serious, I was just teasing him!"
     n "Maybe you need to learn how to take a joke."
     #Yuri-saltsanity
     #what do you mean-jan
-    y "Maybe you need to shut up and act your age once in a while."
+    y "Maybe you need to be quiet and act your age once in a while."
     show natsuki 1p at t21
     "I start to stand up."
     "I don't feel too good..."
@@ -1086,12 +1094,13 @@ label sayoriroute22:
 
     show natsuki 1o at t31 zorder 2
     show yuri 2r at t32 zorder 2
-    show monika 4b at t33 zorder 2
+    show monika 4l at t33 zorder 2
 
     m "Ladies! Ladies!"
     m "That's enough!"
     m "You should {i}not{/i} be talking like this, about anyone!"
-    m 4k "Especially in front of their faces!"
+    m 4n "Especially in front of their faces!"
+    stop music fadeout 1.5
     "Due to my sensory overload, I completely forgot Sayori was involved."
 
     show natsuki 1s at t41 zorder 2
@@ -1111,23 +1120,23 @@ label sayoriroute22:
     hide monika
     show sayori 1v at t11 zorder 2
 
-    s "Hey.."
+    s "Hey..."
     s "Can we please leave?"
     mc "But what about everyone else?"
-    s "They'll cool down eventually.."
-    s "They'll understand why we left..."     
-    s "But please, we need to go.."
+    s "They'll cool down eventually."
+    s "They'll understand why we left."     
+    s "But please, we need to go."
     "I nod as I take Sayori's hand in mine and leave the clubroom."
 
     scene bg corridor
     with wipeleft
 
-    "We both walk together, still holding each others' hands."
+    "We both walk together, still holding each other's hands."
     "She just stares down at her feet as we walk."
     mc "Sayori."
-    show sayori 1k at t33 zorder 2
+    show sayori 1k at t11 zorder 2
     "Sayori just grumbles."
-    mc "Sayori~"
+    mc "Sayori~!"
     "I say it with a more playful tone, but she just grumbles a little louder."
     "I sigh."
     mc "Sayori, I know that what happened in the club is bothering you."
@@ -1135,12 +1144,13 @@ label sayoriroute22:
     mc "It wasn't really any one person's fault."
     mc "It was just a dumb tease that went overboard a little."
     "Sayori barely squeaks out a response."
-    s 1e "[player], i-it was because of me."
+    s 1u "[player], i-it was because of me."
     s "I showed Natsuki my poem and she knew it was about you."
     s "She teased me a little bit, too, but I should have known that would have eventually caused her to go to you and tease you, too."
-    mc "I may not know if that was 100 percent true or not."
+    mc "I may not know if that was a hundred percent true or not."
     mc "But even if it was, it wasn't your fault."
     mc "Besides, Yuri seemed to like it quite a bit."
+    show sayori 1e
     mc "I never got to read your poem, you know."
     "She slowly unfolds a little piece of paper she kept in one of her blazer pockets and hands it to me slowly."
     show sayori 1e at thide zorder 2
@@ -1165,7 +1175,7 @@ label sayoriroute22:
 
     It doesn't matter, because when I see his smile,
     his beautiful...
-    ..Face.
+    ...Face.
     It makes me feel warm inside.
 
     I just want to see him.
@@ -1176,11 +1186,12 @@ label sayoriroute22:
         )
 
     call showpoem(s21_poem3, music=False)
-
+    
+    play music t9
     "I start to tremble."
-    "I knew she made this for me."
-    "I just.."
-    mc "I just.."
+    "I know she made this for me."
+    "I just..."
+    mc "I just..."
     "I can't control myself as my lips meet hers."
 
     scene black
@@ -1199,33 +1210,38 @@ label sayoriroute22:
     s "..."
     s "I..."
     "We're both at a loss for words for what seems like hours."
-    s 1g "Take me home.."
+    s 1y "Take me home.."
     "She says that in a way I can only say as \"whimsical.\""
     "We both know, and want, what comes later."
+    stop music fadeout 1.5
     "And we both know it's my house."
 
     scene bg livingroom evening
     with wipeleft
-
+    
+    play music t8
     "When we get home, we're both pretty much burnt out."
     "Neither of us have changed out of our school clothes."
     "I flop down onto my couch with an audible thump."
-    mc "Bluh.."
+    mc "Bluh..."
     "Sayori joins me and we wrap a blanket around ourselves to get comfortable."
     mc "So what do you want to do now that we're home?"
-    show sayori 1c at t22
-    s "I dunno~"
+    show sayori 1c at t11
+    s 1q "I dunno~"
     s "Got any ideas?"
     mc "Wanna sleep on the couch?"
+    show sayori 1b
     "Sayori looks confused."
     s 1h "What for?"
     mc "I dunno, just thought it'd be fun, you know?"
     s 1n "Oooh! I see what you mean!"
-    s 1r "Easy cuddles, yeah?"
+    s 1r "Easy cuddles, right?"
     mc "Exactly!"
     show sayori 1r at thide
     hide sayori
-    "Actually I just thought of that but why ruin Sayori's fun?"
-    "I love cuddles."
+    "Actually I hadn't even thought of that until Sayori brought it up, but why kill her enthusiasm?"
+    "Besides, I love cuddling."
+    "As much as I hate that word..."
+    "It's tremendous as long as it's with Sayori."
     stop music fadeout 1.5
 return
