@@ -17,11 +17,11 @@ label sayoriroute51:
     
     scene bg bedroom
     with fade
-
+    
+    play music t12
     "I open my eyes after an eventful night, and eight well-earned hours of sleep."
-    "After what Sayori and I did yesterday, the sheets are noticeably...wetter."
     "I don't see Sayori next to me, so I assume she's in the bathroom and will walk back in at any moment, meaning I should probably just wait for her..."
-    "...Unfortunately, my bodily functions have other plans."
+    "...unfortunately, my bodily functions have other plans."
     "I suddenly have to use the bathroom like a wild dog."
     "I stand up, then power walk to the bathroom at the end of the hall, which in this scenario is quite a harrowing journey."
     scene black
@@ -36,13 +36,13 @@ label sayoriroute51:
     "Regardless, I finish using the bathroom, then leave."
     scene bg bedroom
     with wipeleft_scene
-    "I go back to my room to see if Sayori returned from wherever she was while I was doing my business."
-    "She isn't."
+    "I go back to my room to see if Sayori has returned from wherever she was while I was doing my business."
+    "She hasn't."
     mc "Huh."
     mc "Sayori?"
     "I call her name out, expecting a response, but get none."
     mc "Sayoriii!"
-    "I do the same, slightly louder, but receive the same emptiness."
+    "I do the same, slightly louder, but receive the same silence."
     "I'm certainly confused, but I realize, she must've gone home to get something."
     "In that case, I expect she'll be back in the next 20 minutes."
     "I decide to adjourn to the kitchen to make us some breakfast for when Sayori comes back."
@@ -66,9 +66,10 @@ label sayoriroute51:
     "I still haven't heard from Sayori and she hasn't come back."
     "I think I should call her."
     "I decide to go stand outside and get some fresh air, which is certainly needed after last night."
+    "Plus, maybe Sayori will be on her way back as I'm calling her."
+    stop music fadeout 1.5
     scene bg residential_day
     with wipeleft_scene
-    "Plus, maybe Sayori will be on her way back as I'm calling her."
     "On the porch, I call her phone."
     "It's ringing, but she doesn't pick up."
     "I listen more closely, then I hear something faint in the distance."
@@ -82,7 +83,8 @@ label sayoriroute51:
     scene bg house
     with fade
     "{i}I'm at Sayori's front door."
-    "My heart drops, because I see Sayori's phone sitting on her porch, but no Sayori."
+    "My heart drops, because I see Sayori's phone sitting on her porch..."
+    "But no Sayori."
     "With no regard for the safety of my own phone, I drop it, then barge into Sayori's house."
     "I walk inside and start yelling her name."
     mc "Sayori!"
@@ -101,6 +103,7 @@ label sayoriroute51:
     "Anything..."
     scene bg house
     with wipeleft_scene
+    play music t13
     "I have an idea, then I run back outside."
     "I spot where I dropped my phone on the concrete."
     "I pick it up and see that the screen is shattered."
@@ -109,32 +112,34 @@ label sayoriroute51:
     "I turn it on and unlock it, and thankfully the touchscreen is still responsive."
     "As long as that's the case, I can deal with this phone issue much later."
     "Right now, I'm in desperate need of help, and I know just who to call."
-
+    
     if distraction == 'Monika':
         mc "Pick up, pick up, pick up..."
-        m "{i}Hello?"
+        m "Hello?"
         mc "Monika!"
-        m "{i}Hey, [player], is everything--"
+        m "Hey, [player], is everything--"
         mc "Monika, is Sayori with you?!"
-        m "{i}N-no, I'm sorry, she's not. You haven't seen her?"
+        m "N-no, I'm sorry, she's not. You haven't seen her?"
         mc "Not since last night. When I woke up this morning she was gone, and she left her phone at home, and Monika I'm really scared--"
-        m "{i}Hey, hey, [player], please try to relax, okay? I'm sure she's fine."
-        m "{i}Listen, do you want me to help you find her?"
-        mc "Yeah I'd really appreciate that, Monika."
-        m "{i}Okay, I'll be over there in a few minutes, just stay where you are."
-        m "{i}We're going to find her. Everything will be okay."
+        m "Hey, hey, [player], please try to relax, okay? I'm sure she's fine."
+        m "Listen, do you want me to help you find her?"
+        mc "Yeah I'd really appreciate that."
+        m "Okay, I'll be over there in a few minutes, just stay where you are."
+        m "We're going to find her. Everything will be okay."
         mc "Th-thank you, Monika."
 
         scene black
         with fade
         
-        "About eight minutes later, Monika's in the neighborhood."
+        "A few minutes later, Monika's in the neighborhood."
+        "I wish she'd gotten here as fast as she did yesterday given the circumstances, but I choose to withhold my frustration."
+        "She still got here remarkably fast."
 
         scene bg house
         with fade
 
         show monika 1bd at t11 zorder 2
-        m "I got here as fast as I could, [player]."
+        m "Hey, [player]."
         m "Tell me, where do you think Sayori could've gone to?"
         show monika 1bc at t11 zorder 2
         mc "I-I'm really not sure. If anywhere I thought she'd be at her house, or with you talking about the club."
@@ -170,7 +175,10 @@ label sayoriroute51:
         "This change in her demeanor really makes me feel closer to her as a friend."
         "Up to this point, she's always just struck me as the president of the club, and someone who's in a league above me, but I'm starting to realize now..."
         "She's only human, like me. She's capable of being a friend."
+        stop music fadeout 1.5
         "I'm grateful to her for that at this moment, so I owe her the whole truth."
+        play music t9
+        show monika 1bf
         mc "Monika, yesterday, on our picnic, Sayori started to feel really down on herself."
         mc "She thought that me doing all of that for her was proof that I'm better to her than she is to me, and it made her feel insecure."
         mc "All I could do was convince her otherwise, because when she has those kinds of thoughts, I feel responsible for making sure she doesn't have them anymore."
@@ -187,16 +195,16 @@ label sayoriroute51:
         "But I know I can trust Monika to be supportive."
         m 1bg "[player]..."
         m 2bb "I don't think you realize how great of a person you are."
-        m "Sayori's lucky to have you."
+        m 2be "Sayori's lucky to have you."
         show monika 2ba at t11 zorder 2
         mc "*sniffle* Thank you, Monika."
         mc "I'm just at a loss for what to do now."
         mc "Without her phone on her, and without anyone seeing her, she might as well have fallen off the face of the earth."
-        m 2bb "I know you don't want to, but I think it'd be best for you if you went home for a little while."
+        m 2bg "I know you don't want to, but I think it'd be best for you if you went home for a little while."
         m "Just try getting your mind off things, and I'll go look for her."
         m "I'll call you if anything comes up, okay?"
-        show monika 2bj at t11 zorder 2
-        "I can't find it in myself to go home at a time like this, but I feel compelled to trust Monika's judgement."
+        show monika 2be at t11 zorder 2
+        "I can't find it in myself to go home at a time like this, but I feel compelled to trust Monika's judgment."
         mc "O-okay, Monika. I'll talk to you soon."
         m 4bk "See you later, [player], I'll do my best."
         m "And hey, who knows, maybe Sayori will be at home now!"
@@ -210,27 +218,27 @@ label sayoriroute51:
         "I pick up the phone and dial her number with shaking hands."
         "The phone barely has time to ring before she picks up."
         mc "Hey Yuri." 
-        y "{i}Hey [player], what's the matter?"
+        y "Hey [player], what's the matter?"
         "I guess even Yuri can read my voice right now."
         mc "Sayori ran away."
-        y "{i}What do you mean?"
+        y "What do you mean?"
         mc "Well, when I woke up this morning she was gone, I checked my house and hers, and all I could find was her phone that she left on her front porch." 
-        y "{i}I didn't realize Sayori would do something like that."
-        mc "I didn't either. She seemed to be working through her d- problems, pretty well."
-        y "{i}Why did you call me, of all people?"
+        y "I-I...never imagined Sayori would do something like that."
+        mc "I didn't either. She seemed to be working through her dep--problems, pretty well."
+        y "Why did you call me, of all people?"
         mc "Well, you helped me out a lot with the picnic, and you're so reliable during meetings."
-        y "{i}O-oh, well, thank you, [player]. Do you want my help looking for her?"
+        y "O-oh, well, thank you, [player]. Do you want my help looking for her?"
         mc "If you wouldn't mind, that would help me a lot right now."
-        y "{i}I'll be there as quickly as I can."
+        y "I'll be there as quickly as I can."
         mc "Thank you so much."
-        y "{i}No problem, see you soon."
+        y "No problem, see you soon."
         "Yuri hangs up the phone."
 
         scene bg livingroom
         with wipeleft_scene
 
     
-        "About 10 anxious minutes go by before I hear the doorbell ring."
+        "About ten anxious minutes go by before I hear the doorbell ring."
         "I open the door and greet Yuri, before stepping out onto the porch with her."
 
         scene bg residential_day
@@ -264,6 +272,7 @@ label sayoriroute51:
 
         scene bg cafe_in
         with wipeleft_scene
+        stop music fadeout 1.5
 
         "Stepping inside, the store is fairly empty, with only a few people sitting around the small tables."
         "We look around and Yuri even checks the bathroom, but Sayori is nowhere to be found."
@@ -272,7 +281,7 @@ label sayoriroute51:
         show yuri 1be at t11 zorder 2
         "My breath catches a little with disappointment, and the worry on Yuri's face grows."
         show yuri 1bt at t11 zorder 2
-        mc "H- have any other ideas?"
+        mc "H-have any other ideas?"
         "Yuri notices my voice shaking."
         y 1bb "I'm sure we'll find her soon. It might be a long shot, but there's this bookstore I go to sometimes, and I've taken her there with me once. Maybe she went there for some reason?"
         mc "Yeah..."
@@ -287,8 +296,7 @@ label sayoriroute51:
         show yuri 1bb at t11 zorder 2
         y "Well, this is the place."
         show yuri 1ba at t11 zorder 2
-        mc "After you, h- haha"
-        "I shakily laugh"
+        mc "After you..."
         "Yuri gives me a faint but worried smile and start looking inside, with me following her."
         y 1bb "I'll check this side, you check from the other."
         show yuri 1ba at t11 zorder 2
@@ -310,12 +318,14 @@ label sayoriroute51:
         mc "What?! We can't stop looking now, what if she got lost?"
         y 2bt "I'm not sure she could have gotten lost..."
         show yuri 2bw at t11 zorder 2
-        mc "Well, what if she-"
-        "I notice how much Yuri is starting to worry"
-        y 2bv "I- I'm sorry I wasn't of much help today."
+        stop music fadeout 1.5
+        mc "Well, what if she--"
+        "I notice how much Yuri is starting to worry."
+        play music t9
+        y 2bv "I-I'm sorry...that I wasn't of much help today."
         show yuri 2bw at t11 zorder 2
         mc "No, you helped me a lot. It would have taken me forever to look through the entire bookstore alone."
-        y 3by6 "Still, I've just been useless all day. I only sped up some stuff a little."
+        y 3bq "Still, I've just been useless all day. I only sped up some stuff a little."
         y "You should have asked Monika or Natsuki for help, I'm sure they would have thought of something better."
         show yuri 3be at t11 zorder 2
         mc "At least you thought of something, all I did was worry."
@@ -335,15 +345,15 @@ label sayoriroute51:
         y 2bf "All I'm saying is that these things can take a lot of time to work through, I know what it's like."
         show yuri 2be at t11 zorder 2
         mc "Sorry, but you and Sayori aren't the same person! Plus, I've been helping her through it this whole time. She's better than that."
-        y 1bv "Y- You're right. I'm sorry."
+        y 1bv "Y-you're right. I'm sorry."
         y "I really haven't been any help after all."
         show yuri 1bw at t11 zorder 2
         "I sigh."
         mc "No, I'm sorry. I shouldn't have blown up on you like that."
         mc "You've been a big help to me just by being here."
-        y 2by6 "Th- thanks." 
+        y 2bu "I'm...relieved to hear you say that." 
         show yuri 2be at t11 zorder 2
-        mc "I think we should get going now, it's getting dark."
+        mc "I think we should get going now. It's getting dark, like you said."
         y 1bf "Right."
         show yuri 2bw at t11 zorder 2
         scene black
@@ -362,7 +372,7 @@ label sayoriroute51:
         y 1bb "Well, I should get going right now. I have some things to do at home as well."
         show yuri 1ba at t11 zorder 2
         mc "Sure, I'll see you tomorrow."
-        y 1by6 "Hopefully Sayori will be back by then."
+        y 1bh "Hopefully Sayori will be back by then."
         show yuri 1be at t11 zorder 2
         mc "I really hope so."
         show yuri 1be at thide
@@ -402,7 +412,8 @@ label sayoriroute51:
         scene bg school
         with wipeleft_scene
 
-        "About ten minutes later I've walked the familiar walk from my neighborhood to our school, and see Natsuki standing by the front gate."
+        stop music fadeout 1.5
+        "About ten minutes later I've walked the familiar walk from my neighborhood to our school, and inside see Natsuki standing by some lockers."
         show natsuki 1bk at t11 zorder 2
         n "H-hey, I'm glad you came."
         mc "I should be saying that to you."
@@ -413,7 +424,7 @@ label sayoriroute51:
         n "I want her to be okay, I don't owe you anything."
         show natsuki 1bg at t11 zorder 2
         mc "If you insist."
-        mc "S-so, uh, I guess let's go in and start looking."
+        mc "S-so, uh, I guess let's start looking."
         n 1bk "Y-yeah."
 
         show natsuki at thide
@@ -474,7 +485,7 @@ label sayoriroute51:
         mc "I don't think she's at school."
         mc "We've checked pretty much everywhere."
         n "Um..."
-        n 3bo "N-not everywhere!"
+        n 3bu "N-not everywhere!"
         show natsuki at thide
         hide natsuki
         scene bg corridor
@@ -485,6 +496,7 @@ label sayoriroute51:
 
         scene bg schoolroof
         with wipeleft_scene
+        play music t13
         "Natsuki opens the door out to the roof and starts looking around, and only after she's already walked across the entire surface is when I humor her and walk out there myself."
         show natsuki 1bb at t11 zorder 2
         n "Sayori!"
@@ -496,9 +508,11 @@ label sayoriroute51:
         n 12bc "It's...because..."
         n "This is where Sayori and I became friends."
         show natsuki 12bd at t11 zorder 2
+        stop music fadeout 1.5
         mc "W-wait, really?"
         show natsuki 12bb at t11 zorder 2
         "Natsuki nods."
+        play music t9
         n 12bc "This place is special to me. It's where the best friendship I've ever had started."
         n "Before I joined the club, I'd come up here to read manga, then one day, out of nowhere, Sayori showed up."
         n "I had actually recognized her from a time we met at the vending machines."
@@ -537,6 +551,7 @@ label sayoriroute51:
         "It stings to have not gotten anywhere, but at a time like this, where both Natsuki and I are in distress, it's best for us to take a break."
 
 #{PATHS RECONVERGE HERE}
+    stop music fadeout 1.5
     if distraction == "Natsuki" or distraction == "Monika" :
         scene bg livingroom
         with wipeleft_scene
@@ -568,7 +583,7 @@ label sayoriroute51:
     "I should have helped her sooner."
     "But now I can't help but feel like it's my fault she's missing."
     "I drop my phone on my bed beside me, then slam my head against my pillow multiple times."
-    mc "God dammit, god dammit, god dammit!"
+    mc "Dammit, dammit, dammit!"
     "I'm a miserable creature."
     "I stop hurting myself only to hear my ears ringing..."
     "Then when that ringing stops, I hear...a different ringing."
@@ -602,7 +617,8 @@ label sayoriroute51:
     "I take a deep breath, and I exit my house."
     scene bg residential_day
     with wipeleft_scene
-    "In a sheer moment my mind recalibrates itself to how it was when I was 11 years old."
+    play music t12
+    "In a sheer moment my mind recalibrates itself to how it was when I was eleven years old."
     "I take a turn out of my street, then walk a block down."
     "I take a right at the big sakura tree (it's not in season, but I still very distinctly remember the tree itself)."
     "Then I walk down the rocky path that leads to the pond."
@@ -624,16 +640,15 @@ label sayoriroute51:
     "Besides, if she was sleepwalking, would she have gone out of her way to leave her phone on her porch?"
     "I put these thoughts aside as I get closer to her, then I stand to her right and see her face."
     "She's drowning in her own sweat, or tears, or both."
-    "Her bare feet are colored dirt brown and concrete black from walking around all day with no shoes."
-    "Her hair is a complete mess, and she doesn't have her bow on."
+    "Her bare feet are colored dirt brown and concrete black from walking around all day with no shoes, not to mention her hair is a total mess."
     "{i}What the hell did you put yourself through today, Sayori?"
     "I have to imagine the look of terror I have on my face is alarming."
     "Sayori finally turns her head up toward me."
     "She puts on a smile, then tilts her head."
-    show sayori pjx at t11 zorder 2
+    show sayori pjd at t11 zorder 2
     s "Congrats."
     s "You win."
-    show sayori pja at t11 zorder 2
+    show sayori pjk at t11 zorder 2
 
 return
 
@@ -654,6 +669,7 @@ label sayoriroute52:
     "I've never seen her look so...drained."
     s "[player]..."
     mc "Yeah, Sayori?"
+    stop music fadeout 1.5
     s "...would you please let go of me?"
     "I feel like an arrow has gone through my heart hearing this."
     "I do as she asks, but I feel like I've reached a new level of worthlessness."
@@ -681,6 +697,7 @@ label sayoriroute52:
     mc "Sayori, will you please explain why you did this?"
     s pju "..."
     s pjv "...I feel like I'm at the end of my rope, [player]."
+    play music t10
     s pjk "You've let me drag you down for too long."
     s "Compared to what you've done to make me happy, I've done nothing."
     s "I'm more worthless than the dirt on my feet right now."
@@ -712,11 +729,10 @@ label sayoriroute52:
     mc "The picnic, the games we've played, the endless hours we've spent with each other have all been for you, because I love you until the day I die."
     mc "But it's still not enough to get rid of those damned rainclouds."
     s pjh "[player]...you have nothing to be ashamed of."
-    s "There's nobody and nothing that can make the rainclouds go away."
+    s pjt "There's nobody and nothing that can make the rainclouds go away."
     s "They're here to stay."
-    s pjk "So if you'd rather spend the rest of your life with a clear conscience and without someone like me weighing you down, then..."
-    s pjh "I think you should go now, and leave me."
-    show sayori pjg at t11 zorder 2
+    s pjv "So if you'd rather spend the rest of your life with a clear conscience and without someone like me weighing you down, then..."
+    s pjk "I think you should go now, and leave me."
     "{i}What is she saying all of a sudden?"
     mc "Sayori, are you... breaking up with me?"
     s pjf "..."
@@ -726,9 +742,9 @@ label sayoriroute52:
     s pjw "Now go, before I keep ruining your life!"
     show sayori pjv at t11 zorder 2
     mc "Sayori--"
-    s pjp "I SAID GO!"
+    s pjw "I SAID GO!"
     mc "Sayori!"
-    s "Get out of my head, get out of my head, get out of my head..."
+    s pjp "Get out of my head, get out of my head, get out of my head..."
     mc "SAYORI!"
     s pju "--!"
     mc "We can't end things like this."
@@ -775,11 +791,12 @@ label sayoriroute52:
     s "Okay!"
     s "And then do you think we could maybe..."
     s "Sing it together?"
+    stop music fadeout 1.5
     mc "Heheh...never in a million years, Sayori."
 
     scene white
     with fade
-    scene bg pond_flashback
+    scene bg pond
     with fade
 
     #{back to present day}
@@ -787,40 +804,41 @@ label sayoriroute52:
     "..."
     "The truth is, even though I didn't like the movie a whole lot, I remember the song really well."
     "To this day, I remember the words."
-    "In fact, there are times where I feel like I'm always hearing that song in my sleep."
+    "In fact, there are times where I feel like I'm always hearing that song while I sleep at night."
     "I told Sayori I'd never sing it with her in a million years."
     "Well, given everything that we've been through since that day, and everything we've been through these last few months..."
     "It's already felt like a million years have passed."
 
-    "..."
-    mc "...somewhere...over the rainbow..."
-    mc "Way up high..."
-    show sayori pjh at t11 zorder 2
-    mc "There's a land that I heard of..."
-    mc "Once in a lullabye..."
-    show sayori pjg at t11 zorder 2
+    play music otr
+    mc "{i}...somewhere...over the rainbow...{/i}"
+    mc "{i}Way up high...{/i}"
+    show sayori pju at t11 zorder 2
+    mc "{i}There's a land that I heard of...{/i}"
+    show sayori pjv
+    mc "{i}Once in a lullabye...{/i}"
+    show sayori pju at t11 zorder 2
 
     "..."
 
     $s_name = "Both"
   
-    s pje "Somewhere...over the rainbow..."
-    s "Skies are blue..."
-    s pjc "And the dreams that you dare to dream..."
-    s "Really do come true..."
+    s pje "{i}Somewhere...over the rainbow...{/i}"
+    s "{i}Skies are blue...{/i}"
+    s pjt "{i}And the dreams that you dare to dream...{/i}"
+    s "{i}Really do come true...{/i}"
 
-    s pjc "Someday I'll wish upon a star and wake up where the clouds are far behind me..."
-    s "Where troubles melt like lemon drops, away above the chimney tops..."
-    s pjr "That's where you'll find me..."
+    s pjr "{i}Someday I'll wish upon a star and wake up where the clouds are far behind me...{/i}"
+    s "{i}Where troubles melt like lemon drops, away above the chimney tops...{/i}"
+    s pjs "{i}That's where you'll find me...{/i}"
 
     $s_name = "Sayori"
 
     s pjq "..."
-    s pjx "You...said...you'd never sing that song with me."
+    s pjt "You...said...you'd never sing that song with me."
     s "I...didn't even think you'd remember it..."
     show sayori pjt at t11 zorder 2
     mc "Sayori, of course I remember it."
-    s pjx "Because it's a really popular movie song?"
+    s pjl "Because it's a really popular movie song?"
     show sayori pjt at t11 zorder 2
     mc "No...because that song reminds me of you..."
     mc "That song is a memory for me."
@@ -845,8 +863,9 @@ label sayoriroute52:
     mc "AHHHHHHHHH!!!!!!"
     s "Ehehehe~! [player]!"
     s "You're so silly!"
-    mc "I LOVE YOU SAYORIIIIII!"
-    s "I LOVE YOU TOOOO!"
+    mc "I LOVE YOU SAYORIIIIII!!"
+    $ allCapsPlayer = player.upper()
+    s "I LOVE YOU TOOOOO, [allCapsPlayer]!!"
     s "Ahahahaha~!"
     mc "*ahem* Ow, my throat."
     mc "Yeah, not doing that again."
@@ -861,7 +880,7 @@ label sayoriroute52:
     "It's true what they say, as cheesy as it is."
     "{i}You don't know what you've got until it's gone."
     mc "Sayori, do you remember the last time we were here together?"
-    mc "We were like 15 or something, right?"
+    mc "We were like fifteen or something, right?"
     s "Oh yeah! We were taking walks by ourselves and then ran into each other here."
     mc "That's right! I guess neither of us could resist coming to see this place."
     s "It's always been special to me."
@@ -873,25 +892,28 @@ label sayoriroute52:
     "I smile warmly."
     mc "Yeah."
     "I hold Sayori's hand then walk over to the edge of the pond with her."
-    show sayori pjx at t22 zorder 2
+    show sayori pjx at t11 zorder 2
     s "Hey, [player]?"
-    show sayori pja att22 zorder 2
+    show sayori pja at t11 zorder 2
     mc "Yeah?"
-    s pjx "That time we were here when we were 15, do you remember when you dared me to go swimming in the pond even though I didn't have a swimsuit?"
-    show sayori pja at t22 zorder 2
+    s pjx "That time we were here when we were fifteen, do you remember when you dared me to go swimming in the pond even though I didn't have a swimsuit?"
+    show sayori pja at t11 zorder 2
     mc "W-what? That isn't what happened! You're the one who dared me!"
     s pjr "I'm pretty sure it was the other way around. I called you a pervert because I thought you just wanted me to get my clothes wet!"
-    show sayori pjq at t22 zorder 2
-    mc "N-no way! I didn't!...wait, did I?"
+    show sayori pjq at t11 zorder 2
+    mc "N-no way! I didn't!"
+    mc "..."
+    mc "Wait, did I?"
     mc "No, I'm almost certain you dared me."
     s pjr "Hehehe~, well whoever dared who doesn't really matter."
     s pjx "What I'm wondering is..."
-    s "Do you wanna go skinny dipping now?"
+    s pjwink "Do you wanna go skinny dipping?"
     show sayori pja at t11 zorder 2
     "..."
     "I think I'm lightheaded."
-    mc "B-but Sayori, people might see us! Children live in the neighborhood!"
-    s pjc "Come on, [player], it'd be so much fun!"
+    mc "B-but Sayori, people might see us!"
+    mc "Children live in this neighborhood!"
+    s pjq "Come on, [player], it'd be so much fun!"
     s "What have you got to lose?"
     show sayori pja at t11 zorder 2
     mc "Well, money by virtue of a fine if we're caught, to start."
@@ -906,7 +928,7 @@ label sayoriroute52:
     show sayori at thide
     hide sayori
     "Sayori very hastily removes her clothes and leaves me almost speechless."
-    show sayori 4ur at h11 zorder 2
+    show sayori undr at h11 zorder 2
     "I've seen her naked body a bunch of times by this point but there's just something so..."
     "{i}Magical{/i} about it this time."
     "The sunlight shines off her skin giving her the radiance of an angel."
@@ -917,26 +939,28 @@ label sayoriroute52:
     show sayori at thide
     hide sayori
     "I go up to Sayori, lift her chin up toward me, and give her a long kiss."
-    show sayori 4ux at t11 zorder 2
+    show sayori undx at t11 zorder 2
     s "Ehehehe...what was that for?"
-    show sayori 4ua at t11 zorder 2
+    show sayori unda at t11 zorder 2
     mc "To thank you for being you."
-    show sayori 4uq at t11 zorder 2
+    show sayori undq at t11 zorder 2
     "Sayori smiles and hugs me, pressing her nearly bare body against the entirety of my person."
     show sayori at thide
     hide sayori
     "I clear my throat."
     "If I wasn't lusting over her before, I certainly am now."
     "I finally take my clothes off as well, and she blushes seeing me."
-    show sayori 1uy at t11 zorder 2
+    show sayori undy at t11 zorder 2
     "I wonder if she's having the same thoughts about my nude body cast in front of the sunset that I was having for her."
-    s 1us "Hehehehe~, your butt is flat."
+    s unds "Hehehehe~, your butt is flat."
     "Guess not."
     "I laugh, then offer to take Sayori's hand."
-    show sayori 1us at h11 zorder 2
+    show sayori unds at h11 zorder 2
     s "Nope!"
     show sayori at thide
     hide sayori
+    scene sayori_pond
+    with fade
     "Sayori goes to my side and shoves me into the water."
     "My teeth immediately start chattering, and Sayori laughs at the squeal I let out."
     mc "H-h-hey! You did that to me when we were y-y-younger too!"
@@ -952,7 +976,7 @@ label sayoriroute52:
     "We start splashing each other, then make our way further into the pond and start swimming normally."
     scene black
     with fade
-    "This goes on for about 20 minutes before we decide we'll need to leave the water and dry off while the sun is still out."
+    "This goes on for about twenty minutes before we decide we'll need to leave the water and dry off while the sun is still out."
     "We leave the water and lie next to each other on the grass hoping to dry off as much as possible."
     scene bg pond_night
     with fade
@@ -964,6 +988,7 @@ label sayoriroute52:
     mc "It's a new day, Sayori."
     s "Yeah..."
     s "It is."
+    stop music fadeout 2.0
     mc "We should go home and get changed."
     mc "And you should call [distraction] to let her know you're safe. I'm sure she's worried sick about you."
     s "I will."
@@ -971,9 +996,9 @@ label sayoriroute52:
     with fade
     "Sayori and I start walking. Our clothes are pretty damp as we weren't able to completely dry off but it can't be helped."
     "As I reach my front door the exhaustion of the day hits me harder than a truck hitting a cute schoolgirl at the beginning of an isekai series."
-    show sayori 1bx at t11 zorder 2
+    show sayori pjwink at t11 zorder 2
     s "Hey, [player], I'm going to go take a shower, and then I have a special surprise for you~"
-    show sayori 1by at t11 zorder 2
+    show sayori pjy at t11 zorder 2
     mc "O-oh, g-great."
     "There's just too much sexual energy emanating from the two of us right now, I don't know why I even act surprised."
     "Sayori walks inside and goes to shower."
@@ -1011,6 +1036,7 @@ label sayoriroute52:
     "Finally after pulling for a few moments, the object begins to see the light of day."
     "I don't fully register what it is until it's on the floor in front of me."
     "..."
+    play music td
     "What the hell...?"
     "{i}What the hell??"
     "Is this a nightmare?"
@@ -1028,7 +1054,7 @@ label sayoriroute52:
     "It's real."
     "{i}It's very real."
 
-    if True :
+    if SayoriVar < 5 :
         call sayoribadending
     else :
         call sayorigoodending
@@ -1064,6 +1090,7 @@ label sayoribadending:
     show monika 2bh at t11 zorder 2
     mc "At my house, waiting for me to get her some clothes."
     m 2bi "Let's go."
+    stop music fadeout 1.5
     show monika 2bh at t11 zorder 2
 
     scene black
@@ -1074,9 +1101,9 @@ label sayoribadending:
     with wipeleft_scene
     #"Visions of Sayori hanging from the ceiling still taint my mind."
     "Nothing feels real anymore."
-    "When was she planning on using this.."
+    "When was she planning on using this...?"
     "I can't even bring myself to even properly address the noose."
-    "I practically break down my own front door"
+    "I practically break down my own front door."
     scene bg livingroom_night
     with wipeleft_scene
     "My emotions are too strong now to even really register the trail of flower petals leading up to my bedroom door."
@@ -1086,20 +1113,20 @@ label sayoribadending:
     "I storm upstairs and into my room."
     scene bg bedroom_night
     with wipeleft_scene
-    show sayori 1ua at t11 zorder 2
+    show sayori unda at t11 zorder 2
     "Sayori's sitting on the bed patiently."
     "I instantly notice that she's got some special lingerie panties on."
-    mc "So... that's what was in the bag, eh?"
+    mc "So...that's what was in the bag, eh?"
     show monika 2bh at t21 zorder 2
-    show sayori 1ue at t22 zorder 2
+    show sayori unde at t22 zorder 2
     "Sayoris face turns red as she notices Monika behind me and she covers herself with the blanket ."
-    show sayori 1ue at thide
+    show sayori unde at thide
     hide sayori
     show sayori blae at t22 zorder 2
     mc "I... I would probably appreciate that, normally."
     mc "Right now, this just feels like a lie..."
     show monika 2bi at f21 zorder 3
-    m "You could've asked for help, instead you decided to hide this nad make things worse for you down the line."
+    m "You could've asked for help, instead you decided to hide this and make things worse for you down the line."
     m "You couldn't even do the simple task of returning my jacket on time."
     m "[player] tries so hard to make you happy and {i}this{/i} is how you repay him?!?"
     show monika 2bh at t21 zorder 2
@@ -1116,19 +1143,20 @@ label sayoribadending:
     show sayori blaj at f22 zorder 3
     s "Fine then."
     s "You want me to be open? I'll be open."
+    play music t10
     s "No matter how hard I try, no matter who I talk to, it always ends the same way."
     s "So why bother?"
-    s "All I do is fuck over everyone else's feelings. So why even try to feign happiness?"
+    s "All I do is destroy everyone else's feelings. So why even try to feign happiness?"
     s "[player], thanks for tonight, but I'm going home."
     show sayori blai at t22 zorder 2
     mc "Sayori wait."
-    show sayori blaj at f22 zorder 2
+    show sayori blav at f22 zorder 2
     s "No, it's obvious no one thinks I can do anything."
     s "Everything you said or did tonight was in pity wasn't it?"
-    show sayori blaj at thide
+    show sayori blav at thide
     hide sayori
     show monika 2bh at t11 zorder 2
-    "Sayori runs off down the stairs with tears streaming down her cheeks"
+    "Sayori runs off down the stairs with tears streaming down her cheeks."
     mc "Sayori come back!"
     m 2bi "Let her go, [player]. She's not worth it."
     show monika 2bh at t11 zorder 2
@@ -1146,7 +1174,7 @@ label sayoribadending:
     with wipeleft_scene
     "As I reach the front door, I see that Sayori is nowhere to be found,"
     "She probably went home in the time it took me to get past Monika."
-    mc "FUCK!"
+    mc "{i}Damn it!{/i}"
     scene bg residential_night
     with wipeleft_scene
     "I run across the street, too anxious to think straight."
@@ -1154,30 +1182,33 @@ label sayoribadending:
     scene bg house_night
     with wipeleft_scene
     "I pound on Sayori's door a few times before I hear her voice from the other side of the door."
-    s "I CAN'T DO THIS ANYMORE, [player]!"
-    s "{i}EVERY SINGLE TIME{i} I START TO GET MY SHIT TOGETHER, I MESS UP SOMEHOW AND RUIN EVERYTHING!"
-    mc "Sayori, listen-"
-    s "NO! I know what you're about to say, I don't want to hear it."
+    s "I CAN'T DO THIS ANYMORE, [allCapsPlayer]!"
+    s "{i}EVERY SINGLE TIME{i} I START TO GET MY ACT TOGETHER, I MESS UP SOMEHOW AND RUIN EVERYTHING!"
+    mc "Sayori, listen--"
+    s "NO! I know what you're about to say, and I don't want to hear it."
     s "I'm just...tired."
     s "Leave. Now."
-    mc "Sayori, if I leave now I'm not coming back. If you don't want my support just tell me. I want you to be happy, and if that means that I have to make you cry a couple of times to get there I will."
+    mc "Sayori, if I leave now I'm not coming back."
+    mc "If you don't want my support just tell me."
+    mc "It will kill me to lose you, but I want you to be happy, and if that means that I have to make you cry a couple of times to get there I will."
     s "It's not that I don't want you with me, I just don't think it's worth it anymore."
     s "Please, I'm begging you, just go."
-    mc "Fine then, I'll see you at school then, ok?"
-    s "Sure."
-    mc "I turn around and head back home, hoping that she'll be feeling better by tomorrow."
+    mc "Fine then, I'll see you at school then, okay?"
+    s "S-sure."
+    stop music fadeout 1.5
+    "I turn around and head back home, hoping that she'll be feeling better by tomorrow."
     scene bg residential_night
     with wipeleft_scene
-    "Since it's getting late and I'm exhausted, I decide to go to sleep for the night."
+    "Since it's getting late and I'm exhausted, I decide to skip the shower go to sleep for the night in my own filth."
     scene bg bedroom_night
     with wipeleft_scene
     "I get to my room and climb into bed, only to feel like someone's watching me and that I forgot something important."
     "I flip myself over, only to see a furious Monika looming over my bed."
     show monika 2bi at t11 zorder 2
-    m "What the fuck was that all about?!?"
+    m "What the hell was that all about?!?"
     m "[player], do you realize what you did??"
     show monika 2bh at t11 zorder 2
-    mc "Do I realize what I did?"
+    mc "'Do {i}I{/i} realize what {i}I{/i} did?'"
     mc "Yes, Monika, I did what I had to so I could go help my best friend."
     m 2bi "And were you not listening? There's a reason I was telling you she isn't worth this!"
     show monika 2bh at t11 zorder 2
@@ -1219,7 +1250,10 @@ label sayoribadending:
     with wipeleft_scene
 
     "The day passes by uneventfully, save the few awkward hours where I share a class with Sayori."
-    "As classes finally end, I head over to the clubroom."
+    "One of which was math, and apparently that test we were supposed to be prepared for turned out to be today of all days."
+    "And of course, I bombed it."
+    "As if I needed another reason to loathe this day..."
+    "As classes finally end, I dreafully head over to the clubroom."
 
     scene bg club_day
     with wipeleft_scene
@@ -1238,7 +1272,7 @@ label sayoribadending:
     show natsuki 1b at t11 zorder 2
     n "Sayori was acting weird today. What happened?"
     show natsuki 1g at t11 zorder 2
-    mc "...What makes you think I'd know?"
+    mc "...what makes you think I'd know?"
     n 1b "You're her boyfriend. That's the kind of thing you should keep track of."
     show natsuki 1g at t11 zorder 2
     "I excuse Natsuki's flawed logic for a moment."
@@ -1271,14 +1305,14 @@ label sayoribadending:
     scene bg corridor
     with fade
     "Everything is crumbling right before my eyes."
-    "My relationship, my friendships, the literature club, and I can't do a thing about it."
+    "My relationship, my friendships, the Literature Club, and I can't do a thing about it."
     "I have to go fix this however I can."
     "Sayori's behavior yesterday was alarming, but I think I can get through to her."
     "I just regret letting my emotions take over. I should've been stronger for her."
     "But it isn't too late. I still have time to fix this."
     "I love Sayori, as much as she says she doesn't want me to."
     "I have to be there for her, and I'll be damned if I don't at least try."
-    "After leaving literature club early, I make my way back to my neighborhood with the assumption that Sayori is at her house."
+    "After leaving Literature Club early, I make my way back to my neighborhood with the assumption that Sayori is at her house."
     scene bg residential_day
     with wipeleft_scene
 
@@ -1296,6 +1330,7 @@ label sayoribadending:
     mc "Sayori, I'm sorry for how I behaved yesterday. And I'm sorry for the way Monika acted."
     s "..."
     s "Please go."
+    play music t10
     mc "Sayori, please, I can't just let you close yourself off from everyone."
     mc "Natsuki is worried about you. Doesn't that matter to you?"
     mc "Me and Yuri are worried about you. And deep down I'm sure Monika is, too."
@@ -1335,9 +1370,9 @@ label sayoribadending:
     "The next day, I go to school and things are more or less the same. However, Sayori didn't show up to our first class. She eventually showed up, but after lunch."
     scene bg club_day
     with wipeleft_scene
-    "Literature club was cold and quiet, and nobody wanted to talk. It's obvious when Sayori isn't around that things are much more glum."
+    "Literature Club was cold and quiet, and nobody wanted to talk. It's obvious when Sayori isn't around that things are much more glum."
     show natsuki 4x at t11 zorder 2
-    "Natsuki and I wordlessly exchange a look of disdain and concern as we both leave literature club."
+    "Natsuki and I wordlessly exchange a look of disdain and concern as we both leave for the day."
     scene bg residential_day
     with wipeleft_scene
     "I return to my neighborhood to check up on Sayori once again."
@@ -1371,9 +1406,8 @@ label sayoribadending:
     s "I had my chance to do that. And I blew it."
     s "There's no happy ending for me."
     s "And if you insist on constantly trying to fix me, then you're going to deprive yourself of your own happy ending."
-    s pjj "So leave right now, and start over without me."
+    s pjv "So leave right now, and start over without me."
     s "I'm a hopeless case."
-    show sayori pji at t11 zorder 2
     "..."
     "I don't want to adhere to her demands whatsoever."
     "But the look in her eyes, the tone of her voice, the sheer hopelessness portrayed by her body language..."
@@ -1499,17 +1533,18 @@ label sayorigoodending:
     "Nothing feels real anymore."
     "When was she planning on using this...?"
     "I can't even bring myself to even properly address the noose."
-    "I practically break down my own front door"
+    "I practically break down my own front door."
     scene bg livingroom_night
     with fade
     "My emotions are too strong now to even really register the trail of flower petals leading up to my bedroom door."
     "I trample over her romantic gesture during my stampede to my room."
     "Nothing matters but making it to Sayori."
     "Nothing matters {i}but{/i} Sayori."
+    stop music fadeout 1.5
     "I storm upstairs and into my room."
     scene bg bedroom_night
     with wipeleft_scene
-    show sayori unda at t11 zorder 2
+    show sayori undd at t11 zorder 2
     "Sayori's sitting on the bed patiently."
     "I instantly notice that she's got some special lingerie panties on."
     mc "So... that's what was in the bag, eh?"
@@ -1537,69 +1572,75 @@ label sayorigoodending:
     "My jaws are clenched so tightly it feels like my teeth are about to shatter."
     s "..."
     s undv "I can't say I really even wanted to use that noose."
+    play music t10
     "She looks off for a second to collect herself."
     "Tears are welling up in her eyes more than mine."
     "I start to loosen up, and I drop the noose."
     s undk "It's odd."
     s "The day I planned to die, was the day my life truly began."
+    show sayori undk at thide
+    hide sayori
     "Does she mean...?"
-    s undg "The night before the festival, something was wrong."
+    show sayori blag at t11 zorder 2
+    s blag "The night before the festival, something was wrong."
     s "I should have been happy. I was finally loved by the person who meant the most to me."
     s "But when I went back inside after we were finally a couple...something started to say things in the back of my head."
     s "Things that all had to do with my death."
-    s undk "These voices that told me to die..."
-    s undp "I hated them!"
-    s undh "I thought killing myself would get them to finally go away."
-    s undk "To get them out of my head."
+    s blak "These voices that told me to die..."
+    s blaw "I hated them!"
+    s blah "I thought killing myself would get them to finally go away."
+    s blak "To get them out of my head."
     s "Of course, I could have just lived with them for your sake."
-    s undh "But I also worried that living with this would hurt you, so in my rush, I thought it could solve two problems."
-    s undk "So, that night, I tied the noose and planned to wake up early to finally hang myself."
+    s blah "But I also worried that living with this would hurt you, so in my rush, I thought it could solve two problems."
+    s blak "So, that night, I tied the noose and planned to wake up early to finally hang myself."
     s "I was too tired at night to go through with it."
     s "But I slept in."
     s "And then, you woke me up."
-    s undk "I was given a reason to stay one more day... one more week... one more month."
+    s blak "I was given a reason to stay one more day... one more week... one more month."
     s "Eventually, I pretty much refused the fact that I tried to kill myself and left the noose in my closet, and it's been there all this time..."
-    s undg "Until now."
-    s undv "I'm so sorry, [player]."
+    s blag "Until now."
+    s blav "I'm so sorry, [player]."
     s "I should have told you sooner."
     s "I know this sounds pretty stupid now, but I didn't want to hurt you if you found out."
-    show sayori undu at t11 zorder 2
+    show sayori blau at t11 zorder 2
     "I feel betrayed, in a sense. I told her she could talk to me about anything at all. So why would she hide this from me? "
     "I finally loosen all the way up, and embrace Sayori."
-    show sayori undu at thide
+    show sayori blau at thide
     hide sayori
     mc "Sayori..."
     s "Shh."
-    s "I'm sorry... really..."
+    s "I'm sorry...really..."
     s "You're gonna ask for me to promise to never try again, aren't you..."
-    s "I... I wanna do that..."
+    s "I...I wanna do that..."
     s "I wanna do what will help you feel better..."
     "Sayori's utterly bawling. She can barely speak through the tears."
     s "But I can't."
     s "I wanna be better so bad."
     s "I wish the dark clouds would just blow away."
-    s "It's just that... I can't do that... I can't make you feel better."
-    s "I can't even make myself feel better... so what's the point of trying...?"
-    mc "... But I promise to always be there to try my best... to chase those clouds away myself."
+    s "It's just that...I can't do that...I can't make you feel better."
+    s "I can't even make myself feel better...so what's the point of trying...?"
+    mc "...but I promise to always be there to try my best...to chase those clouds away myself."
     mc "I refuse to let you succumb to the rain ever again."
     "Sayori starts to tremble in my arms."
     "I realize that I may have blown things a little out of proportion." 
     "After all, if she was going to use that noose, she had every opportunity to use it today."
     "Instead she chose to give me, and above all herself, a chance."
-    mc "Now, how about instead of fucking like the sex crazed animals we are, we burn this rope so that we never have to lay eyes on it again?"
-    s "Yeah, I think it's time to accept and move on from this near-catastrophe."
+    mc "Now, how about we put off that treat you were about to give me, and we burn this rope so that we never have to lay eyes on it again?"
+    s "Yeah, I think it's time to accept and move on from this awfulness."
     "We go to the backyard and get everything set up; oil, matches, paper, and some rocks to attempt to keep sparks from hitting the grass and burning down the house." 
     scene bg residential_night 
     with wipeleft_scene
-    show sayori undt at t11 zorder 2
+    show sayori blad at t11 zorder 2
     mc "Will you do the honors, Sayori?"
     "Sayori looks at me with tears in her eyes and giggles."
-    s unds "Why yes, [player] I'd love to."
-    show sayori unds at thide
+    s blas "Why yes, [player] I'd love to."
+    show sayori blaq at thide
     hide sayori
     "She pours a little oil over some paper and the rope, strikes a match, and lights the rope on fire."
     "As we watch this wretched thing burn, I finally feel like I won't have to worry about Sayori killing herself anymore."
-    "As the last of the rope turns to ash, I notice that this entire time, Sayori was almost naked."
+    "And as the last of the rope turns to ash, I notice that this entire time..."
+    "Sayori was actually smiling."
+    stop music fadeout 1.5
 
     scene black 
     with fade
@@ -1608,32 +1649,34 @@ label sayorigoodending:
     "I'd never had a more physically, emotionally, mentally, and spiritually exhausting day in my life before yesterday happened."
     "A lot of events took place that I'd care to not relive, but the fact of the matter is, Sayori and I took steps toward putting her depression down for good."
     "The keyword there is 'steps.'"
-    "I'd be foolish to think I can heal her myself, in the span of like a day, no less."
+    "I'd be foolish to think I can heal her myself, in the span of a few months, let alone one day."
     "Once Sayori is more comfortable, I'll talk to her about finally going to therapy and getting prescriptions in order to help mend her depression."
     
     scene bg bedroom
     with fade
-
+    
+    play music t12
     "It's about time I stop trying to act like a superhero, and simply act as a boyfriend, and only do everything {i}within{/i} my power to make Sayori's life easier."
     "I sit up from my bed and stand next to it, then tap Sayori on the shoulder."
     mc "Sayori."
     "She opens her eyes and groans."
     s "Hmmnn...what is it?"
-    mc "It's Monday, we have school, remember?"
+    mc "It's Monday. We have school, remember?"
     s "Ungh, okay, fiiine."
-    show sayori 1uq at h11 zorder 2
+    show sayori undq at h11 zorder 2
+    play music t2
     "Sayori stands up quickly, then gives me a kiss on the cheek."
-    s 1ur "If it wasn't for you, I'd never wake up on time."
-    show sayori 1uq at t11 zorder 2
+    s undr "If it wasn't for you, I'd never wake up on time."
+    show sayori undq at t11 zorder 2
     mc "Hey, you've woken up before me a couple times."
-    s 1ux "Exactly. You're the only reason I wake up."
-    show sayori 1ua at t11 zorder 2
+    s undx "Exactly. You're the only reason I wake up."
+    show sayori unda at t11 zorder 2
     mc "Hey, Sayori, if we keep working on getting you better, I promise you'll see you have a lot more to live for than just me."
-    s 1ux "Eheh, you say that like you don't want me to care about you anymore."
-    show sayori 1uq at t11 zorder 2
+    s undl "Eheh, you say that like you don't want me to care about you anymore."
+    show sayori undq at t11 zorder 2
     mc "Don't take it that far. I just want you to find that perfect middle ground. Understand?"
-    s 1ux "Mhmm, I do, [player]. Thank you."
-    show sayori 1ux at thide
+    s undx "Mhmm, I do, [player]. Thank you."
+    show sayori undx at thide
     hide sayori
 
     scene bg kitchen
@@ -1665,7 +1708,7 @@ label sayorigoodending:
     show sayori 1q at t11 zorder 2
     "My lying skills seem to have gotten worse since last week."
     s 2n "Oh yeah, the weirdest thing happened to me today at lunch."
-    s "I got all my food, then I got money of out my purse to pay, and then the lunch lady said"
+    s "I got all my food, then I got money of out my purse to pay, and then the lunch lady said..."
     s 2c "{i}\"Don't worry about it, hun. It's taken care of.\""
     mc "Wait, so you didn't have to pay for your lunch?"
     s 4r "Nope! I don't know why, but I was pretty happy."
@@ -1673,6 +1716,7 @@ label sayorigoodending:
     show sayori 1q at t11 zorder 2
     mc "Yeah, that must be the case."
     "That's pretty peculiar, but I think Sayori's giving the lunch lady a little too much credit."
+    stop music fadeout 1.5
     "Not to say she isn't a nice person, but I have a feeling there's some other reason for that."
     scene bg club_day
     with wipeleft_scene
@@ -1687,6 +1731,7 @@ label sayorigoodending:
     show yuri 1d at l42 zorder 2 
     show monika 1b at l41 zorder 2
     $m = "Everyone"
+    play music t3
     m "SURPRISE!"
     $m = "Monika"
     s "Whoa!!"
@@ -1792,6 +1837,7 @@ label sayorigoodending:
     mc "But Sayori, that's a game with no winners, and we've reached game over."
     mc "It's time for you to be your true self. You don't need to jump through hoops for us like you think you do."
     show sayori 4e at f44 zorder 3
+    stop music fadeout 2.0
     s "[player]...thank you for saying that. It means the world to me."
     s "Monika, Natsuki, Yuri...you're all the most amazing friends a girl could want."
     show sayori 2k at f44 zorder 3
@@ -1800,6 +1846,7 @@ label sayorigoodending:
     s "I have to be true to myself, and to each of you."
     s "So...here's the real truth."
     show sayori 1c at f44 zorder 3
+    play music t9
     s "I...have depression."
     show sayori 1b at t44 zorder 2
     show monika 1c at t41 zorder 2
@@ -1827,12 +1874,20 @@ label sayorigoodending:
     show natsuki 1j at t43 zorder 2
     show yuri 1c at t42 zorder 2
     show sayori 4x at f44 zorder 3
+    show monika 1j at thide zorder 2
+    hide monika
+    show natsuki 1j at thide zorder 2
+    hide natsuki
+    show yuri 1c at thide zorder 2
+    hide yuri
+    show sayori 4x at t11 zorder 3
     s "The point is, [player] helped me to see things differently."
-    s "And thanks to him, the rainclouds finally parted. I don't know for how long, but..."
-    s "Thanks to all of you, I think I've reached a point where I can finally..."
-    s "Find myself...over the rainbow."
-    show sayori 4t at f44 zorder 3
-    pause()
+    s "And thanks to him, the rainclouds finally parted."
+    s 2l "I don't know for how long, but..."
+    s 1r "Thanks to all of you, I think I've reached a point where I can finally..."
+    s 1s "Find myself..."
+    s 1q "Over the rainbow."
+    $ renpy.pause(3)
     scene bg ending_a
     with fade
     $renpy.pause()
