@@ -1427,7 +1427,8 @@ label sayoribadending:
     "Maybe it was never meant to be."
     "There's no more 'over the rainbow' for Sayori."
     "Only rainclouds."
-    pause(1)
+    window hide
+    $ renpy.pause(1)
     scene bg ending_b
     with fade
     $renpy.pause()
@@ -1887,6 +1888,7 @@ label sayorigoodending:
     s 1r "Thanks to all of you, I think I've reached a point where I can finally..."
     s 1s "Find myself..."
     s 1q "Over the rainbow."
+    window hide
     $ renpy.pause(3)
     scene bg ending_a
     with fade
