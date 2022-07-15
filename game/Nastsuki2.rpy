@@ -61,7 +61,7 @@ label Natsuki2:
 
     scene bg kitchen
     with wiperight
-    stop music
+    stop music fadeout 5.0
 
     "Turns out I had more than I thought. Bread, eggs, cinnamon, butter, flour, and a few other things."
     "Natsuki really outdid herself."
@@ -69,6 +69,9 @@ label Natsuki2:
     "Right now, I've got a massive plate with two huge slices of french toast, scrambled eggs, and hash browns on it. And right next to the plate, I have a large glass of fresh orange juice."
     "Natsuki has a nearly identical plate as well, on the other side of the table."
     "I don't think I've eaten this well since... well, ever really."
+
+    play music t6
+
     show natsuki 4y at t11 zorder 2
     n 4y "Don't just stare at it. Eat it, dork."
     show natsuki 2j
@@ -224,6 +227,8 @@ label Natsuki2:
     she lets me take the lead the rest of the way."
     "I tell her that she'll learn the route pretty quickly since there are very few turns and it's mostly straight for half a mile after that."
 
+    stop music fadeout 4.0
+
     scene bg school
     with wipeleft_scene
     "We arrive a few minutes before the bell rings, indicating the start of a new school day."
@@ -246,6 +251,9 @@ label Natsuki2:
     show natsuki 4i
     "I beckon her, and she steps closer with an impatient expression."
     show natsuki 4b
+
+    play music t5_natsuki
+
     "I kiss her without warning."
     "I can sense her tensing for a moment before she relaxes and reciprocates the gesture."
     "It's not very long, nor is it particularly intense, but the passion and warmth is there."
@@ -267,6 +275,8 @@ label Natsuki2:
     hide natsuki
     "With that, she turns away and walks briskly into the school building and I'm left with a horde of faceless students on all sides."
 
+    stop music fadeout 1.0
+
     scene bg class_day
     with wipeleft_scene
     "Classes are over for the day."
@@ -276,6 +286,7 @@ label Natsuki2:
     "{i}My girlfriend{/i}."
     "It's still kind of strange to think of her like that."
     scene bg corridor
+    with wipeleft
     "We talked in science class. Not about anything in particular. Just talked."
     "And later, during lunch, we ate together."
     "Even after all that, I still find myself craving her company. It's like when she's gone, I'm missing a part of myself."
@@ -294,6 +305,9 @@ label Natsuki2:
     "I shake the heavy thoughts from my head as I reach the clubroom door."
     "I wonder if I should wait for Natsuki before I go inside. I don't really want to bring a lot of attention to ourselves."
     "However, the decision is made for me when Natsuki approaches me from my right."
+
+    play music t5
+
     show natsuki 4d at r11 zorder 2
     n "Hey~!"
     mc "Hey! How was your day?"
@@ -377,6 +391,9 @@ label Natsuki2:
     show yuri at thide
     hide yuri
     show natsuki 1o at t11 zorder 2
+
+    stop music fadeout 1
+
     n "[player], wait, don't--!"
     show natsuki at thide
     hide natsuki
@@ -427,6 +444,9 @@ label Natsuki2:
     m 2g "Hey, hey, relax."
     show monika 2h
     "Monika grabs me by the arm to pull me back to my previous spot and calm me down."
+
+    play music t8
+
     m 2d "Look, she's being very vague. But essentially, she's worried about the impact you and Natsuki's relationship will have on club affairs."
     m "I don't want you to think I'm trying to get between you and Natsuki, but I think it'd be best to take things a little more subtly while the club is in session."
     show monika 2c
@@ -689,6 +709,9 @@ label Natsuki2:
     scene bg house
     with wipeleft_scene
     "Walking for a bit longer, Natsuki and I finally arrive back home after what felt like the longest literature club meeting of our lives."
+
+    stop music fadeout 2
+
     scene black
     with fade
     pause(1)
@@ -697,6 +720,8 @@ label Natsuki2:
 #Scene 2 - A Momento:
     scene bg livingroom
     with dissolve_scene_full
+
+    play music t12
     "At home, Natsuki and I are prepared to put the day behind us and look ahead to tomorrow."
     "Or more precisely, ahead to tonight, as at around 5:30, Natsuki decides that she wants to start making dinner."
     mc "What do we have? I haven’t shopped in a little while."
@@ -739,10 +764,16 @@ label Natsuki2:
     "I’m scared I’d punch the son of a bitch in his mouth."
     "I finish picking up our dirty clothes, then I frustratingly attempt to make the bed."
     "Once these tasks are completed and the room is more liveable, I decide to take a break. I leave my bedroom and reunite with Natsuki."
+
+    stop music fadeout 1
+
     scene bg kitchen
     with wipeleft_scene
     "She’s in the kitchen cutting vegetables and boiling some water on the stove."
     "I have to give her credit, she’s doing a whole lot with very little at the moment."
+
+    play music t6 fadein 2
+
     mc "What are you working on?"
     show natsuki 1b at t11 zorder 2
     n "Trying to make some noodles with steamed veggies."
@@ -777,6 +808,9 @@ label Natsuki2:
     "Extracting the curious item, I see that it’s a large leather-bound book, which appears to be several decades old."
     "I open the front cover, and written in very well-preserved calligraphy, it reads, {i}The Shimizu Family Cookbook.{/i}"
     "Huh. I wonder what’s inside."
+
+    play sound "sfx/pageflip.ogg"
+
     "I very delicately flip through the pages of the book, as it seems any careless motion can tear one of these ancient pages."
     "It’s filled with dozens of noodle, rice, meat, and seafood dishes, as well as lots of desserts."
     "I notice that the handwriting has some variation, implying that this has been written in by multiple people."
@@ -791,9 +825,18 @@ label Natsuki2:
     "Natsuki turns toward me and smiles."
     show natsuki 1a at t11 zorder 2
     n 2l "Dinner’s almost rea--{nw}"
+
+    stop music fadeout 1
+
     show natsuki 1v at d11
     n "HEY!"
     "She notices the book in my hand, then dashes toward me, and instinctively I pull it away and above her head so she can’t reach."
+
+    play sound "sfx/slap.ogg"
+
+    hide natsuki
+    show natsuki 1v at d11 zorder 2
+
     "At that moment, Natsuki knees me in the stomach, forcing me to lower the book toward my chest, and she snatches it from me."
     mc "Natsuki!"
     mc "What the hell!"
@@ -842,6 +885,9 @@ label Natsuki2:
     mc "I couldn’t ask you to do much more than this, you did an incredible job here."
     mc "I just..."
     show natsuki 42h at t11
+
+    play music t9 fadein 2
+
     mc "Natsuki, I’m worried about you."
     mc "You seem really tense about this cookbook thing."
     mc "And... you got very distant when I brought up your mom earlier."
@@ -891,6 +937,9 @@ label Natsuki2:
     n 1q "Everything was... going fine, but..."
     n "It was late at night, and my parents were both tired and cranky from being on the road."
     n 1u "One thing... {w=0.25}led to another, and eventually..."
+
+    stop music fadeout 1
+
     n 1q "We crashed."
     n 1u "My Mama..."
     n 42d "..."
@@ -908,6 +957,9 @@ label Natsuki2:
     mc "It's okay, Nats..."
     mc "You can stop there for tonight."
     mc "I don't want you to feel too hurt."
+
+    play music t10
+
     mc "But I’ll be here to comfort you tonight, and every night for the foreseeable and unforeseeable future."
     n "[player]..."
     mc "Yeah?"
@@ -947,6 +999,10 @@ label Natsuki2:
     "She and I are going to continue to thrive in this home..."
     scene black
     with fade
+
+    stop music fadeout 2
+    pause 1.5
+
     "In {i}our{/i} home."
     pause(1)
 #End Scene 2
@@ -954,6 +1010,15 @@ label Natsuki2:
 #Scene 3 - Regression
     scene black
     play music t16
+
+
+    scene black
+
+    # As the previous scene ends on a black I need this pause to make the scene transition more "obvious".
+    pause 2
+
+    play music t16
+
     "It's dawn outside."
     "There's a pitter-patter of rain on the roof."
     "The lights from the highway flash by."
@@ -1001,6 +1066,10 @@ label Natsuki2:
     "My dad looks away from the road."
     $ s_name = "Dad"
     s "As long as the traffic is good, we should be there any s-{nw}"
+
+    stop music
+    play sound "sfx/smack.ogg"
+
     y "{i}OH MY GOD, Katashi!{/i}"
     "But..."
     "It was only a second..."
@@ -1032,6 +1101,9 @@ label Natsuki2:
     "She settles down eventually and turns towards me."
     n "It was..."
     mc "..."
+
+    play music t10
+
     n "It’s all my fault."
     mc "What is, Natsuki?"
     "She doesn’t respond at first."
@@ -1085,12 +1157,18 @@ label Natsuki2:
     n "I guess I must have pushed enough that they finally relented."
     n "The officer bent down on one knee and told me my mother wasn't coming."
     n "He explained that she died in the hospital from her injuries."
+
+    stop music fadeout 1
+
     n "And the last thing she said was, \'Tell my princess... {w=0.5}I love her.\'"
     show natsuki nbla2f at t11 zorder 2
     "I feel Natsuki’s grip on my hand tighten."
     "I’m speechless. I can’t think of anything to say. What would one say in this sort of situation, anyway?"
     "She sniffs and reaches for my box of tissues."
     n nbla2i "She wanted to give me a present, because my birthday was coming up."
+
+    play music t10 fadein 2
+
     n "And she wanted to give me... {w=0.5}That book."
     show natsuki nbla2f at t11
     "It all makes sense now. I understand why she didn’t want to talk about it and why she got angry when I had it."
@@ -1127,6 +1205,9 @@ label Natsuki2:
     "These... {w=0.15}\"complications\" seem to be drawing us closer together."
     "I wonder if she’s ever mentioned this to someone else."
     "My guess would be Yuri, but they haven’t been on best terms lately."
+
+    stop music fadeout 2
+
     "I think for a few seconds while the mood settles down."
     "A thought occurs to me."
     "Has her father..."
@@ -1147,6 +1228,9 @@ label Natsuki2:
     n "\'I won't pay someone who can't leave when they're told to\' he said."
     show natsuki nbla2d at t11
     "Natsuki takes a deep breath, and continues her story."
+
+    play music t10 fadein 2
+
     n nbla2c "Well..."
     n "It just got worse afterwards."
     n nbla2b "He lost his job, and had to be a part-time mechanic for a whie."
@@ -1215,6 +1299,9 @@ label Natsuki2:
     "I look at the clock, it’s now almost 1:00."
     mc "We should probably go back to bed, school’s in another few hours."
     n nblak "Okay, yeah."
+
+    stop music fadeout 6
+
     show natsuki at thide
     hide natsuki
     "We shuffle back into our original positions and I hit the light."
@@ -1259,6 +1346,9 @@ label Natsuki2:
     "I arrive outside of the clubroom and open the door to enter."
     scene bg club_day
     with wipeleft_scene
+
+    play music t5
+
     "The scene in front of me is comforting in its familiarity."
     "Monika’s at her desk, reading a small book with what appears to be classic poetry."
     "Yuri’s sitting alone, nose deep in another book." 
@@ -1327,6 +1417,9 @@ label Natsuki2:
     "As I back out of the closet, Yuri replies."
     "Again, I'm too far away to make out the exact words, but I can hear the tone."
     "It's not very pleasant and sharp. The only word I hear is Yuri spitting out my name venemously."
+
+    stop music fadeout 1
+
     "Uh-oh."
     scene bg club_day
     with wipeleft_scene
@@ -1346,6 +1439,9 @@ label Natsuki2:
     "Or, rather, what was said."
     "My patience is rewarded a few breaths later."
     n 2s "I just..."
+
+    play music t9
+
     n 2m "I just asked her if we could start sharing poems again and she got really upset."
     n 1m "I know we’ve had our disagreements in the past, but…"
     "She pauses and looks down at her feet."
@@ -1362,9 +1458,15 @@ label Natsuki2:
     show natsuki 4s at t11 zorder 2
     "She pauses to place her hands on her hips."
     n 4r "But she won’t even give me a chance to explain I still want to be friends."
+
+    stop music fadeout 2
+
     "I can only imagine where this is going."
     "Natsuki suddenly gives me a flirty look."
     "That all but confirms my hunch."
+
+    play music t5_natsuki
+
     n 1k "Hey, [player], do you think you could talk to her?"
     n 1c "She might be more willing to listen to you if you approached her first."
     n 1i "...{w=0.25} Alone, obviously."
@@ -1378,6 +1480,8 @@ label Natsuki2:
     "Plus, it might even make the club feel whole again."
     "After all, Sayori usually springs right back. Thats her talent..."
     "Right?"
+
+    stop music fadeout 2
 
     menu:
         "Right?"
@@ -1427,6 +1531,9 @@ label Natsuki5a:
     "I discreetly rush out of the classroom."
     scene black
     with fade
+
+    play music t12
+
     scene bg residential_day
     with fade
     "After a few minutes, I arrive in front of her house."
@@ -1439,7 +1546,7 @@ label Natsuki5a:
     "I go towards her bed. She's atop it, resting."
     "I don't want to approach her too abruptly."
     mc "Hi Sayori. {w=0.5}...How was your day?"
-    "After a small pause, Sayori turna aroumd, and sits up on the edge of her bed."
+    "After a small pause, Sayori turns around, and sits up on the edge of her bed."
     show sayori 1bk at t11 zorder 2
     s "Alright, I guess."
     mc "Well, it doesn't look like it."
@@ -1469,10 +1576,16 @@ label Natsuki5a:
             mc "T-that's why I'm here."
             s 1bl "Heheh..."
             s 1by "You can't know me perfectly..."
+
+            stop music fadeout 4
+
             s 1bd "...{w=0.25}Right?"
             mc "..."
             s 1be "What?"
             mc "Let's get serious here."
+
+            play music t9
+
             mc "Sayori, I {i}really{/i} care about you."
             mc "I need you to tell me what's the matter."
             s 1bk "..."
@@ -1505,6 +1618,9 @@ label Natsuki5a:
             s 3be "But recently it's been harder and harder for me to keep it locked away like I;ve wanted."
             s 1bv "A-and I think a big reason for that is..."
             s 3bf "Well, it's because of you and Natsuki."
+
+            stop music fadeout 1
+
             mc "W-what?"
             "I manage to produce words for the first time in what feels like many minutes and that's all I have to offer."
             "For some reason, I feel a heavy sense of embarrassment becuase of this."
@@ -1514,7 +1630,7 @@ label Natsuki5a:
             s 1by "Even just seeing you sit on the floor with her, resting her head on your shoulder reading manga together..."
             "Sayori pauses, like she's afraid to continue this thought."
             s 1bt "To me, [player], all my life I've thought of you as my special \'what if?:\'"
-            s 2bl "As we grew up I would think so myself, \'What id [player] and I started dating?\'"
+            s 2bl "As we grew up I would think so myself, \'What if [player] and I started dating?\'"
             s "\'What if [player] and I got married?\'"
             s 4bt "\'What if [player] and I had a nice house together?\'"
             s 2bd "And that \'what if?\' stuck with me up until I got you to join the Literature Club."
@@ -1522,6 +1638,9 @@ label Natsuki5a:
             s 1bv "I realized that I might miss my chance to act on my \'what if?\'"
             s 2bu "And when that happened..."
             "Sayori starts sobbing lightly then feebly falls down onto the edge of her bed."
+
+            play music t10
+
             s 2bv "When that happened, I lost my \'what if?\', and the rain clouds started pouring in."
             s 1bv "And [player]..."
             s 4bw "That was the worst rain cloud I've ever had!"
@@ -1563,6 +1682,9 @@ label Natsuki5a:
             "In a vacuum, this is a harmless platonic gesture, but something tells me that Natsuki would not be happy knowing what I’m doing right now."
             "However at this point, Natsuki’s jealousy is far down on my list of concerns."
             "My best friend needs my support, and I will give it to her however I can."
+
+            stop music fadeout 2
+
             scene black
             with fade
             return
@@ -1574,6 +1696,9 @@ label Natsuki5a:
             $ karma -= 2
             mc "Well... Of course I know why..."
             mc "I-I just wanted to check, t-thats all!"
+
+            stop music fadeout 2
+
             s 1be "..."
             s 1bg "Sure."
             s 1bd "I-it's really good to have friends that {i}really{/i} care about me."
@@ -1600,6 +1725,9 @@ label Natsuki5a:
 
 label Natsuki5b:
     #Start Scene 5b
+
+    play music t5_natsuki fadein 2
+
     "Damn, Natsuki really doesn't make it easy on me."
     mc "I, uh, well..."
     "Natsuki stares at me, clearly waiting for my response."
@@ -1642,6 +1770,9 @@ label Natsuki5b:
     n "Don't be a wimp."
     mc "H-hey, don't call me a wimp!"
     n 1b "Then don't {i}be{/i} a wimp!"
+
+    stop music fadeout 2
+
     scene black
     with fade
     scene bg bookstore
@@ -1707,6 +1838,9 @@ label Natsuki5b:
             #Scene 5b-II - Hope
             $ karma += 1
             "No harm in a little lie."
+
+            play music t9
+
             mc "I came here because I was worried about you."
             y 4c "Really?"
             mc "Y-yeah, you haven't been yourself lately."
@@ -1764,6 +1898,9 @@ label Natsuki5b:
             "She has no right to talk about me and Natsuki's relationship that way."
             "I slouch in the chair underneath me and try to find a way to relax, if only for a few minutes."
             "Pretty soon I find myself growing weary of the library and decide to walk out."
+
+            stop music fadeout 2
+
             scene black
             with fade
 
@@ -1775,9 +1912,15 @@ label Natsuki5b:
     "Suddenly I hear footsteps behind me."
     mc "Who's the-{nw}"
     n "{b}{i}NYAH!!!{/b}{/i}" 
+
+    play sound "sfx/fall.ogg"
+
     with vpunch
     "We both tumble to the ground."
     mc "Ow... What was that for?"
+
+    play music t5_natsuki
+
     n "Hehe~ I just wanted to surprise you, idiot."
     "She's still on top of me, a few seconds after she tackled me."
     mc "Hey get off me! My leg is sore now."
@@ -1804,6 +1947,9 @@ label Natsuki5b:
     mc "Just hungry. Let's go to that cafe."
     show natsuki at thide
     hide natsuki
+
+    stop music fadeout 2
+
     scene black
     with fade
     scene bg road_sunset
@@ -1813,7 +1959,11 @@ label Natsuki5b:
     mc "How was-{nw}"
     n s1k "You can go first."
     mc "No, you can. You spoke first."
-    n s1l "Okay then. How was your day?"
+    n s1l "Okay then. {nw}"
+
+    play music t2
+
+    n s1l "Okay then.{fast} How was your day?"
     show natsuki s1j at t11 zorder 2
     mc "Mine was decent, some stressful parts as you know. Tired mainly."
     mc "How was yours?"
@@ -1887,6 +2037,9 @@ label Natsuki5b:
     "We walk home is silence, with Natuski leaning into me the whole time there."
     show natsuki at thide
     hide natsuki
+
+    stop music fadeout 2
+
     scene black
     with fade
     scene bg kitchen_night

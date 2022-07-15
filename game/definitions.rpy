@@ -38,16 +38,16 @@ define b_w = "mod_assets/b_w.png"
 # Music
 #Mod Music
 #bird chirpings
-define audio.t12 = "<loop 0>mod_assets/12.mp3"
+define audio.t12 = "<loop 6.526>mod_assets/12.mp3"
 #wind
-define audio.t13 = "<loop 0>mod_assets/13.mp3"
+define audio.t13 = "<loop 4.209>mod_assets/13.mp3"
 #sunset sounds
-define audio.t14 = "<loop 0>mod_assets/14.mp3"
+define audio.t14 = "<loop 10.303>mod_assets/14.mp3"
 define audio.doorbell = "mod_assets/doorbell.mp3"
 #heartbeat
 define audio.t15 = "<loop 0>mod_assets/15.mp3"
 #rain
-define audio.t16 = "<loop 0>mod_assets/16.mp3"
+define audio.t16 = "<loop 5.480>mod_assets/16.mp3"
 define audio.otr = "<loop 0>mod_assets/otr.ogg"
 
 define audio.t1 = "<loop 22.073>bgm/1.ogg"  #Main theme (title)
@@ -1556,20 +1556,6 @@ default natsuki_23 = None
 #Variable
 define pickedCorrectYuriGame = False
 define sayori_confronted = False
-
-#Sound
-
-# bird chirpings
-define audio.t12 = "<loop 0>mod_assets/12.mp3"
-#wind
-define audio.t13 = "<loop 0>mod_assets/13.mp3"
-#sunset sounds
-define audio.t14 = "<loop 0>mod_assets/14.mp3"
-define audio.doorbell = "mod_assets/doorbell.mp3"
-#heartbeat
-define audio.t15 = "<loop 0>mod_assets/15.mp3"
-define audio.tbc = "mod_assets/tbc.ogg"
-define audio.monikasong = "mod_assets/monikasong.ogg"
 
 #Art
 

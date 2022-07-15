@@ -2,6 +2,9 @@ label Natsuki3:
 #Start Scene 6 - Out of Water
     scene bg bedroom
     with wipeleft_scene
+
+    play music t12
+
     "The light seeps through the crack in my blinds to wake me from my blissful slumber."
     "I try to remember if there's anything I'd planned to do today."
     "Looking though my phone reveals that it is devoid of any notifications, proving that today was completely free."
@@ -19,7 +22,7 @@ label Natsuki3:
     mc "To stick to your real name."
     n 1be "And what did you do?"
     mc "Not that."
-    n 1by "No wsay you're sorry."
+    n 1by "Now say you're sorry."
     "I really don’t know why I’m relenting to her, but she seems to be getting entertained by this all the same."
     show natsuki 2ba
     mc "I apologize, mistress."
@@ -60,7 +63,7 @@ label Natsuki3:
     "Instead of biting back, Natsuki looks down at the ground despondently."
     n 1bn "I-I'm sorry."
     n 2bs "I just... had another bad dream."
-    "oh, no."
+    "Oh, no."
     mc "I’m sorry, I didn’t mean to be rude."
     mc "Was it another dream about..."
     mc "A-About your-{nw}"
@@ -68,10 +71,13 @@ label Natsuki3:
     "I prepare to ask what this dream was about, but she doesn’t grant me the opportunity."
     n 1bt "Um, well, I’ll see you downstairs in a few minutes."
     mc "Y-yeah, sure thing."
+
+    stop music fadeout 1
+
     scene bg kitchen
     with wipeleft_scene
     "Once I finish making the bed and Natsuki gets out of the bathroom, I take the opportunity to brush my teeth."
-    "With htat done, I go downstairs to see Natsuki working on another delightful breakfast."
+    "With that done, I go downstairs to see Natsuki working on another delightful breakfast."
     "She's cracking eggs and dropping them into a skillet."
     "Natsuki has a little pep in her step; it seems she's moved past the bad dream at least somewhat."
     "That said, though, I want her to be more open with me and let me know when things aren't going well for her."
