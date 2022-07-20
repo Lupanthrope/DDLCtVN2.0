@@ -1036,7 +1036,7 @@ label sayoriroute52:
     "Finally after pulling for a few moments, the object begins to see the light of day."
     "I don't fully register what it is until it's on the floor in front of me."
     "..."
-    play music td
+    play music tdt
     "What the hell...?"
     "{i}What the hell??"
     "Is this a nightmare?"

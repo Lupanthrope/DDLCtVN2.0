@@ -1679,7 +1679,7 @@ label ch4_exclusive_monika:
             mc "I guess that makes the festival our first date, huh?"
             m "Yeah! Ahaha... I'll... see you there, [player]."
             "She walks off, probably the happiest I’ve ever seen her."
-            show monika zorder 1 at thide
+            show monika 1bb zorder 1 at thide
             hide monika
             "Likewise, I’m probably the happiest I’ve ever been."
             "Something inside me always feared what happened if I asked her, but she asked me instead."

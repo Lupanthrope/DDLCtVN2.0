@@ -78,7 +78,8 @@ define audio.t9 = "<loop 3.172>bgm/9.ogg"   #Emotional (My Feelings)
 define audio.t9g = "<loop 1.532>bgm/9g.ogg" #207% speed
 define audio.t10 = "<loop 5.861>bgm/10.ogg"   #Confession (My Confession)
 define audio.t10y = "<loop 0>bgm/10-yuri.ogg"
-define audio.td = "<loop 36.782>bgm/d.ogg"
+define audio.td = "<loop 36.782>bgm/d.ogg"  #Sayori "happy" moment
+define audio.tdt = "<loop 26.226>mod_assets/d_t.ogg" #Sayori "happy" moment with 
 
 define audio.m1 = "<loop 0>bgm/m1.ogg"
 define audio.mend = "<loop 6.424>bgm/monika-end.ogg"
@@ -1634,6 +1635,10 @@ image bg bowling_alley = "mod_assets/bowling_alley.png"
 image bg sayori_bedroom_daydream = "mod_assets/sayori_bedroom_daydream.png"
 image bg park = "mod_assets/park.png"
     #Sayo
+
+        #Music
+
+
         #BG
 
 image bg pond = "mod_assets/pond.png"
