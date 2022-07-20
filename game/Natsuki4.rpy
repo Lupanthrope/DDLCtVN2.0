@@ -885,7 +885,7 @@ label Natsuki42:
     show natsuki 1bh at f22 zorder 3
     n "D-do you mean it, Sayori?"
     show natsuki at t22 zorder 2
-    show sayori 1bq at f12 zorder 3
+    show sayori 1bq at f21 zorder 3
     s "Yeah!"
     show sayori at t21 zorder 2
     show natsuki 2bm at f22 zorder 3

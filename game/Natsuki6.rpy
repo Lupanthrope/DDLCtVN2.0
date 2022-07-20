@@ -15,18 +15,18 @@ label Natsuki6:
         # Sayori Ending
         if ((end_dir == "SN") and (is_end == False)):
             $ is_end = True
-            call Natsuki 62
+            call Natsuki62
             
         # Yuri Ending
-        elif:
-            if ((end_dir == "YN") and (is_end == False)):
-            $ is_end = True
-            call Natsuki63
-            
-        # Good Ending (failsafe)
         else:
-            $ is_end = True
-            call Natsuki64
+            if ((end_dir == "YN") and (is_end == False)):
+                $ is_end = True
+                call Natsuki63
+                
+            # Good Ending (failsafe)
+            else:
+                $ is_end = True
+                call Natsuki64
 
     "Thank you for playing DDLCtVN Natsuki Route!"
     return
