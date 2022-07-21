@@ -8,7 +8,8 @@ label sayoriroute5:
 
     call sayoriroute51
     call sayoriroute52
-    call credit
+    call credit_sequence
+    "Thank you for playing DDLCtVN Sayori Route!"
 return
 
 label sayoriroute51:
@@ -1427,11 +1428,10 @@ label sayoribadending:
     "Maybe it was never meant to be."
     "There's no more 'over the rainbow' for Sayori."
     "Only rainclouds."
-    window hide
-    $ renpy.pause(1)
+    pause(1)
     scene bg ending_b
     with fade
-    $renpy.pause()
+    pause(5)
     scene black
     with fade
 
@@ -1731,10 +1731,10 @@ label sayorigoodending:
     show natsuki 1l at l43 zorder 2
     show yuri 1d at l42 zorder 2 
     show monika 1b at l41 zorder 2
-    $m = "Everyone"
+    $ m_name = "Everyone"
     play music t3
     m "SURPRISE!"
-    $m = "Monika"
+    $ m_name = "Monika"
     s "Whoa!!"
     mc "What the--?!"
     show sayori 4g at t44 zorder 2
@@ -1889,15 +1889,11 @@ label sayorigoodending:
     s 1s "Find myself..."
     s 1q "Over the rainbow."
     window hide
-    $ renpy.pause(3)
+    $ renpy.pause(2)
     scene bg ending_a
     with fade
-    $renpy.pause()
+    pause(5)
     scene black
     with fade
-return
 
-
-label credit:
-    "Fin"
-return
+    return
