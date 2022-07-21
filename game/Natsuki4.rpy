@@ -18,7 +18,7 @@ label Natsuki4:
     "From the hallway I walk into the living room, the sound of sizzling rising in volume with each step."
     "I take a glance at the sofa to the right of me before walking into the kitchen and notice something a little peculiar."
     "One of the couches has a blanket on top of it, sloppily. However, when I saw Natsuki on the couch yesterday, I never saw her with a blanket."
-    "Did... did she deliberately get herself a blanket so she could sleep on the couch?"
+    "Did...did she deliberately get herself a blanket so she could sleep on the couch?"
     scene bg kitchen
     with wipeleft_scene
     show natsuki 4s at t11 zorder 2
@@ -142,7 +142,7 @@ label Natsuki4:
     mc "Ahaha, trust me, I take pride in it."
     mc "But you still didn't answer my question."
     n 4d "Ehehe, yes, it's natural."
-    n 3j "If I ever dyed my hair my dad would be so pissed."
+    n 3j "If I ever dyed my hair my dad would've been so pissed."
     mc "Yeesh, I'd imagine."
     n 1c "Yeah...but luckily I don't have to worry about him anymore, right?"
     "Natsuki's making a little joke, because the answer is obviously yes."
@@ -240,12 +240,12 @@ label Natsuki41:
     scene bg club_day
     with wipeleft_scene
     "However, walking inside, I sense some heaviness in the air."
-    "I look across the room at Monika standing next to Sayori, who... doesn't look particularly great."
+    "I look across the room at Monika standing next to Sayori, who...doesn't look particularly great."
     "Even from a distance, I can tell, she has bags under her eyes, and she's got tears running down her cheeks, not to mention, her hair looks especially messy today."
-    "Wait, I just noticed... no bow?"
+    "Wait, I just noticed...no bow?"
     "She's worn that big red bow nearly every day for the last decade, I wonder why she doesn't have it on today."
     "Man, I guess she's just had a bad morning so far, she must not have wanted to go through the trouble of putting that thing in her hair."
-    "But... I know what Natsuki told me this morning."
+    "But...I know what Natsuki told me this morning."
     "I don't want to betray her so soon after learning her concerns."
     "I decide to leave it alone for now. Natsuki needs me to keep her head in check, so I'll let Monika continue to help Sayori with her problem."
     "Though I am really concerned for her..."
@@ -315,7 +315,7 @@ label Natsuki41:
     "..."
     "My soul shakes hearing Monika of all people say something like that to me."
     "I'm not angry, but surprised."
-    mc "W-what... w-why do you say that?"
+    mc "W-what...w-why do you say that?"
     "I think I've feigned ignorance with Monika one too many times over the last several weeks, because she now sees through my crap."
     m "Look at your supposed best friend over there."
     m "I mean, she's been crying her eyes out all day, strands of her hair are all over the floor next to her because before you walked in, she was pulling it out of her scalp out of frustration..."
@@ -352,7 +352,12 @@ label Natsuki41:
     hide monika
     "I waste no more time, and I stand up from the floor and walk to the desk Sayori sits in."
     "As she senses me approach, I notice her reach into her bag and haphazardly place her bow on her head."
-    "With me, it seems like no matter how bad of shape she's in, she wants to keep up appearances."
+    
+    if sayori_play == True:
+        "Seems like she wants to keep her promise to always have her bow on when I'm around, like she told me the other day."
+    else:
+        "With me, it seems like no matter how bad of shape she's in, she wants to keep up appearances."
+        
     mc "Hey, Sayori."
     "Sayori looks at me blankly for a couple of seconds, then looks away."
     show sayori 1k at t11 zorder 2
@@ -452,6 +457,7 @@ label Natsuki41:
     "A fact I had to remind myself of in the last two nanoseconds."
     show natsuki 1o at f21 zorder 2
     n "Sayori...I'm going to {i}freaking--{/i}"
+    show natsuki 1o at t21
     mc "Natsuki, wait!"
     "I stand up and get between Sayori and Natsuki."
     show sayori 1v at t22
@@ -460,12 +466,12 @@ label Natsuki41:
     show sayori at thide
     hide sayori
     show natsuki 4o at t11
-    n 4o "[player]... how... could you let this happen?"
+    n 4o "[player]...how...could you let this happen?"
     n 42a "How could you let her do that?"
     n 42b "How?"
     n 42c "How..."
     n 42c "H..."
-    n 42i "{i}HOWHOWHOWHOWHOWHOWWWW!?!?!?!?!{/i}"
+    n scream "{i}HOWHOWHOWHOWHOWHOWWWW!?!?!?!?!{/i}"
     show natsuki at thide
     hide natsuki
     "Natsuki starts pounding her fists into my chest repeatedly as she continuously asks me how I let this happen."
@@ -474,7 +480,7 @@ label Natsuki41:
     "Sayori didn't mean this."
     "Natsuki couldn't handle this."
     "And I can say, with certainty..."
-    "{i}All of this could have been prevented.{/i}"
+    "{i}It's all my fault.{/i}"
     "What have I done?"
     scene black
     with fade
@@ -591,7 +597,7 @@ label Natsuki41:
     "But hearing it straight from the girl I hurt the most..."
     "It's a tough pill to swallow."
     "As I stand in the middle of my foyer, marinating in all my unforgivable mistakes, I get a text from Monika."
-    m "{i}I called Sayori. She didnt answer but she said we shouldn't expect to see her at literature club again.{/i}"
+    m "{i}I called Sayori. She didnt pick up but she texted me saying we shouldn't expect to see her at literature club again.{/i}"
     m "{i}Looks like we lost our vice president.{/i}"
     "Yet another layer of crap on top of everything going on today."
     stop music fadeout 1.5
@@ -800,6 +806,9 @@ label Natsuki42:
     mc "..."
     n "..."
     s "..."
+    $ m_name = "Bird"
+    m "..."
+    $ m_name = "Monika"
     show sayori 1ba at f21 zorder 3
     s "Well, anyway, do you guys wanna watch the movie now?"
     show sayori at t21 zorder 2
@@ -837,7 +846,7 @@ label Natsuki42:
     s "Yeah! You tried stealing my money when it fell on the ground! Ahaha!"
     show sayori at t21 zorder 2
     show natsuki 5bt at f22 zorder 3
-    n "I... I did?"
+    n "I...I did?"
     n 2bs "How come I don't remember that at all?"
     show natsuki at t22 zorder 2
     "I think I know why."
@@ -852,7 +861,7 @@ label Natsuki42:
     n 5bk "I always wondered what you were doing on the roof, anyway."
     show natsuki at t22 zorder 2
     show sayori 5ba at f21 zorder 3
-    s "Um... would you believe me if I told you I was just doing literature club scouting and got lucky?"
+    s "Um...would you believe me if I told you I was just doing literature club scouting and got lucky?"
     show sayori at t21 zorder 2
     show natsuki 4bb at f22 zorder 3
     n "I'm gonna have to say no to that one."
@@ -958,7 +967,7 @@ label Natsuki42:
     stop music fadeout 2.5
     "{i}On Sayori's bed...{/i}"
     show natsuki 4bo at t22
-    show sayori 1bv at t21
+    show sayori 1bv at f21
     s "Wha...I..."
     show sayori at thide
     hide sayori
@@ -1017,7 +1026,7 @@ label Natsuki42:
     show natsuki s1bz at f43 zorder 4
     show sayori s1bn at f42 zorder 3
     play music t7
-    n "*SMOOOCH*"
+    n "{i}*SMOOOCH*{/i}"
     s s1bn "MMF!"
     show sayori s4bp at t21
     show natsuki s1bj at t22
@@ -1200,7 +1209,7 @@ label Natsuki43:
     "Noticing her even more aggressive stance, she fights back with words."
     show yuri 1k at t11 zorder 2
     y "Not scared anymore?"
-    y "You have your boyfriend to protect you now, so you think you can just do anything to... anyone?"
+    y "You have your boyfriend to protect you now, so you think you can just do anything to...anyone?"
     "Sounds very personal, and frankly, I'd be interested to hear the rest, but now is not the time."
     "I get in front of Natsuki before she does anything stupid."
     "I swear I could see her take out her claws and cutting Yuri's main artery in an alternate universe."
