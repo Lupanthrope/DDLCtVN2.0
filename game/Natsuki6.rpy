@@ -27,6 +27,7 @@ label Natsuki6:
             $ is_end = True
             call Natsuki64
 
+    call credit_sequence
     "Thank you for playing DDLCtVN Natsuki Route!"
     return
 
