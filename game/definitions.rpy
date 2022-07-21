@@ -78,8 +78,7 @@ define audio.t9 = "<loop 3.172>bgm/9.ogg"   #Emotional (My Feelings)
 define audio.t9g = "<loop 1.532>bgm/9g.ogg" #207% speed
 define audio.t10 = "<loop 5.861>bgm/10.ogg"   #Confession (My Confession)
 define audio.t10y = "<loop 0>bgm/10-yuri.ogg"
-define audio.td = "<loop 36.782>bgm/d.ogg"  #Sayori "happy" moment
-define audio.tdt = "<loop 26.226>mod_assets/d_t.ogg" #Sayori "happy" moment with 
+define audio.td = "<loop 36.782>bgm/d.ogg"
 
 define audio.m1 = "<loop 0>bgm/m1.ogg"
 define audio.mend = "<loop 6.424>bgm/monika-end.ogg"
@@ -918,6 +917,7 @@ image natsuki glitch1:
 image natsuki scream = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/scream.png")
 image natsuki scream_casual = im.Composite((960, 960), (0, 0), "natsuki/1bl.png", (0, 0), "natsuki/1br.png", (0, 0), "natsuki/scream.png")
 image natsuki vomit = "natsuki/vomit.png"
+image natsuki vomit_casual = "mod_assets/natsuki/natsuki_casual_puke.png"
 
 image n_blackeyes = "images/natsuki/blackeyes.png"
 image n_eye = "images/natsuki/eye.png"
@@ -1466,7 +1466,7 @@ define m = DynamicCharacter('m_name', image='monika', what_prefix='"', what_suff
 define n = DynamicCharacter('n_name', image='natsuki', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define y = DynamicCharacter('y_name', image='yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define ny = Character('Nat & Yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
-define k = DynamicCharacter('k_name', image='katashi', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define k = DynamicCharacter('k_name', image='katashi', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed") # Natsuki's dad
 
 
 define _dismiss_pause = config.developer
@@ -1635,10 +1635,6 @@ image bg bowling_alley = "mod_assets/bowling_alley.png"
 image bg sayori_bedroom_daydream = "mod_assets/sayori_bedroom_daydream.png"
 image bg park = "mod_assets/park.png"
     #Sayo
-
-        #Music
-
-
         #BG
 
 image bg pond = "mod_assets/pond.png"
