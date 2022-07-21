@@ -7,7 +7,7 @@ label Natsuki6:
         call Natsuki64
     
     # Bad Ending
-    elif ((karma < 0) and (is_end == False)):
+    elif ((karma < 0) and (end_dir == "SN" or end_dir == "YN") and (is_end == False)):
         $ is_end = True
         call Natsuki61
     
@@ -18,15 +18,14 @@ label Natsuki6:
             call Natsuki62
             
         # Yuri Ending
+        elif ((end_dir == "YN") and (is_end == False)):
+            $ is_end = True
+            call Natsuki63
+            
+        # Good Ending (failsafe)
         else:
-            if ((end_dir == "YN") and (is_end == False)):
-                $ is_end = True
-                call Natsuki63
-                
-            # Good Ending (failsafe)
-            else:
-                $ is_end = True
-                call Natsuki64
+            $ is_end = True
+            call Natsuki64
 
     "Thank you for playing DDLCtVN Natsuki Route!"
     return
@@ -162,7 +161,7 @@ label Natsuki61:
         m 2c "Though, honestly, it being Yuri, I'm shocked she isn't here already."
         m "I guess maybe I should try giving her a call."
         m 2a "Meanwhile, [player], you can give your legs a break and sit down."
-        mc "Eheh... right."
+        mc "Eheh...right."
         show monika at thide
         hide monika
         "With that, I take the seat next to Natsuki."
@@ -507,12 +506,10 @@ label Natsuki62:
     "A moment later, Natsuki and I are approaching a familiar front door, one I've become very well acquainted with over the last several years, but estranged with over the last several weeks."
     "Natsuki knocks on the door and a few moments pass without hearing anything."
     "I decide to take the liberty of opening the door and walking inside, since Sayori doesn't seem to be responsive at the moment."
-    scene black
-    with fade
-    scene bg sayori_hall
-    with dissolve
     "I feel so awful, is it possible she's been down for four straight weeks?"
     "I really wish I could've been there for her."
+    scene bg sayori_hall
+    with dissolve_scene_full
     mc "Sayori? Are you awake?"
     "I don't hear a response."
     "Natsuki and I walk together toward Sayori's bedroom."
@@ -541,7 +538,8 @@ label Natsuki62:
     n 1be "Listen to me!"
     n 4bw "I said I don't hate you! But that doesn't mean I'm not upset with you, of course I am!"
     n 5br "But if I've learned anything lately is that people deserve second chances, and I won't get anywhere by pushing people away the second they wrong me."
-    n 5bs "I just wanna talk so we can sort this out. Can we do that?"
+    n 5bs "And out of anybody in the world, I know that you more than anyone has earned a shot at a second chance by this point."
+    n "I just wanna talk so we can sort this out. Can we do that?"
     "..."
     "There's a marked silence between the two rooms for a solid ten seconds before one side decides to break it."
     s "Come in."
@@ -768,7 +766,7 @@ label Natsuki63:
     n "[player], hurry up!"
     scene bg kitchen
     with wipeleft_scene
-    "I rush to the kitchen thanks to the sweet smell of... peppermint?"
+    "I rush to the kitchen thanks to the sweet smell of...peppermint?"
     show natsuki 4bg at t11 zorder 2
     n "Hmph."
     n "You always take so long."
@@ -779,7 +777,7 @@ label Natsuki63:
     n 5bz "Chocolate Peppermint Pancakes with chocolate sauce, whipped cream, peppermint chunks, and a gingerbread cookie."
     "Natsuki puts on a very proud smile on her face."
     mc "You amaze me more every day."
-    n 2bt "Eheh... thanks."
+    n 2bt "Eheh...thanks."
     "She forces a smile and turns back toward the stove."
     "Did I say something wrong?"
     "There's like..."
