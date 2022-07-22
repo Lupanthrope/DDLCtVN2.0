@@ -2667,6 +2667,8 @@ image natsuki s5bx = sunset(im.Composite((960, 960), (18, 22), "natsuki/x.png", 
 image natsuki s5by = sunset(im.Composite((960, 960), (18, 22), "natsuki/y.png", (0, 0), "natsuki/3b.png"))
 image natsuki s5bz = sunset(im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), "natsuki/3b.png"))
 
+image natsuki s_vomit_casual = sunset("mod_assets/natsuki/natsuki_casual_puke.png")
+
 
 image yuri s1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/1r.png", (0, 0), "yuri/a.png"))
 image yuri s2 = sunset(im.Composite((960, 960), (0, 0), "yuri/1l.png", (0, 0), "yuri/2r.png", (0, 0), "yuri/a.png"))

@@ -10,6 +10,7 @@ label Natsuki2:
     $ n_name = "Natsuki"
     $ m_name = "Monika"
     $ k_name = "Katashi"
+    $ sayori_play = False
 
 #Scene 1 - Tension(1):
     scene black
@@ -30,7 +31,7 @@ label Natsuki2:
     "I love her so much."
     "Another minute passes and then, Natsuki begins to stir and mumbles something incoherently."
     show natsuki dbla2 at t11 zorder 2
-    n "Mmm... [player]?"
+    n "Mmm...[player]?"
     "I hesitate."
     mc "Good morning, Natsuki."
     n "How long have you been awake?"
@@ -162,7 +163,7 @@ label Natsuki2:
             mc "But I guess you can come off as sort of...abrasive at times."
             n 4m "Abrasive?"
             show natsuki 4n
-            "She doesn't sound angry or particularly upset about it. Just a little... put down."
+            "She doesn't sound angry or particularly upset about it. Just a little...put down."
             "I feel a little bad, but she seems to want to know what I mean by that."
             mc "Just in how you deal with new people and experiences. I know you and I didn't exactly get along at first."
             n 4o "W-well! That was because...b-because I..."
@@ -332,14 +333,14 @@ label Natsuki2:
     show natsuki 1v at d11
     "Natsuki slugs me in the arm."
     n 5n "Dummy."
-    mc "So... this is our first club meeting since we became {i}official{/i} official."
+    mc "So...this is our first club meeting since we became {i}official{/i} official."
     mc "Do you think the girls will notice something is different?"
     n 4j "Nothing's different, [player]."
-    mc "Well...we did... do...{i}that{/i}."
+    mc "Well...we did...do...{i}that{/i}."
     show natsuki 1z
     "Natsuki snickers."
     n 3d "Do you think the other girls are like sharks when it comes to pheromones or something?"
-    mc "Ehehe... I guess I'm just nervous about how I'll come off."
+    mc "Ehehe...I guess I'm just nervous about how I'll come off."
     n 1a "Don't be. We'll be fine."
     "Natsuki takes my hand, asserting that she wants the other girls to notice us."
     "I don't complain, and I open the clubroom door, walking inside with Natsuki."
@@ -444,7 +445,7 @@ label Natsuki2:
     "Monika and I leave the room and close the door behind us, and she starts to speak up."
     show monika 1r at t11 zorder 2
     m "Listen, [player], I want to preface this by saying, I'm not taking anyone's side here."
-    m 2g "If i'm being honest, I think Yuri is being a little bit too... reactive?"
+    m 2g "If i'm being honest, I think Yuri is being a little bit too...reactive?"
     m 4d "But she's concered."
     show monika 4c
     mc "About...what?"
@@ -475,7 +476,7 @@ label Natsuki2:
     m 4b "As club president..."
     m 4n "A-and as your friend..."
     m 2p "I just want what's best for everyone in the club."
-    m 2d "And like I said... I'm not taking sides here. I'm looking at things objectively, not emotionally."
+    m 2d "And like I said...I'm not taking sides here. I'm looking at things objectively, not emotionally."
     show monika 2e
     "I absorb what Monika says, and as long as she's speaking purely objectively, I guess I can't argue with her."
     "I'll do whatever she thinks is right, so that the club can stay intact."
@@ -562,9 +563,9 @@ label Natsuki2:
             mc "Sure thing! So what musical is it? Something silly like the one we watched as kids?"
             s 1l "N-no, actually, it's a little bit of a heavy one."
             mc "Oh?"
-            s 1c "It's about a guy with social anxiety who tries to make the family of his recently departed classmate believe he was his best friend."
+            s 1c "It's about a guy with social anxiety who tries to make the family of his recently deceased classmate believe he was his best friend."
             s 3c "And he has to carry a lie for months on end to this family because he doesn't want to break their hearts."
-            s 3c "But soon he starts to realize that because of this family he finally found people who accept him for who he is, which what he's wanted for his whole life."
+            s 3c "But soon he starts to realize that because of this family he finally found people who accept him for who he is, which is what he's wanted for his whole life."
             "..."
             "Holy crap."
             show sayori 1g
@@ -582,6 +583,12 @@ label Natsuki2:
             mc "I think you'll do awesome."
             s 2d "Thanks for the support, [player]. You're so great."
             mc "You're welcome, Sayori."
+            show sayori 1b at t11
+            mc "I just worry whatever role you'd get you'd have to take off your big red bow."
+            mc "That's like your defining characteristic, I'd hate to see it off of you."
+            s 1d "You really like my bow that much?"
+            mc "Of course I do, it always puts me in a good mood."
+            s 1q "Then I'll make sure to always have it on when you're around!"
             show sayori at thide
             hide sayori
             stop music fadeout 1.5
@@ -591,7 +598,7 @@ label Natsuki2:
             show natsuki 2j at t11 zorder 2
             "I meet Natsuki outside of the clubroom, then take her hand and swing our arms back and forth as we walk and talk."
             play music t8
-            n 2i "So, how'd it go with Sayori?"
+            n 2c "So, how'd it go with Sayori?"
             show natsuki 2j
             mc "It was great! I learned Sayori's actually a very good actress."
             n 2l "Really? That's so cool."
@@ -601,16 +608,17 @@ label Natsuki2:
             n 1j "You're really supportive. I'm glad to have someone like you behind me."
             mc "I'll always be happy to support you, Natsuki."
             mc "How'd it go with Yuri, by the way?"
-            n 1t "Uh... it was okay, I guess. We had some tea together."
-            n 3s "But... somehow she knew we were living together, which threw me off. Did you say anything?"
+            n 1t "Uh...it was okay, I guess. We had some tea together."
+            n 3s "But...somehow she knew we were living together, which threw me off. Did you say anything?"
             mc "No, I didn't, but that's really strange."
             n 2q "She was also really quiet."
             mc "Yuri's always quiet."
-            n 1u "Yeah but... I dunno, I might be overthinking. I hope I didn't do anything to offend her."
+            n 1u "Yeah but...I dunno, I might be overthinking. I hope I didn't do anything to offend her."
             mc "I'm sure you didn't, Natsuki."
             "...is what I'm telling myself and her so I don't make her nervous."
             show natsuki at thide
             hide natsuki
+            $ sayori_play = True
 
         #scene 1d
         "Yuri":
@@ -749,7 +757,7 @@ label Natsuki2:
     "She says that with sincere concern."
     mc "No! Don't worry!"
     n 1bq "O-okay, good. I just don't wanna actually offend you, you know?"
-    show natsuki 1s at t11
+    show natsuki 1bs at t11
     "A tsundere who {i}doesn't{/i} want to insult me? Which slice-of-life manga did I wake up in this morning?"
     show natsuki at thide
     hide natsuki
@@ -773,7 +781,7 @@ label Natsuki2:
     "Not to mention she might need some self-maintenance products like razors, shampoo, and other...feminine things."
     "I'm sure she has a lot of stuff at home, but I think she and I can both agree that we don't want to venture back to her old house."
     "Her father must be infuriated with her and I both. I don't want to see what happens if I were to see him face to face."
-    "I'm scared I'd punch the son of a bitch in his mouth."
+    "I'm scared I'd punch that piece of garbage in his mouth."
     "{i}Assuming he doesn't do the same to me first.{/i}"
     "I finish picking up our dirty clothes, then I frustratingly attempt to make the bed."
     "Once these tasks are completed and the room is more livable, I decide to take a break."
@@ -899,7 +907,7 @@ label Natsuki2:
 
     mc "Natsuki, I'm worried about you."
     mc "You seem really tense about this cookbook thing."
-    mc "And... you got very distant when I brought up your mom earlier."
+    mc "And...you got very distant when I brought up your mom earlier."
     mc "If there's something you need to talk to me about, just know I'm right here, and I want to know what's going on."
     "Natsuki maintains the concerned expression on her face, then speaks up."
     n 42bi "I don't want you to worry about me."
@@ -1892,7 +1900,7 @@ label Natsuki5b:
             mc "Well, newsflash, Yuri, this isn't one of your books."
             mc "It's real life, with your real friends, and this is a {i}real{/i} relationship you're criticizing."
             mc "Maybe if you stepped back into reality one of these days, you'd realize how insane you're acting."
-            show yuri 1d
+            show yuri 1g
             "Yuri has a deep look of disdain for me now."
             "She takes a few shallow breaths out of frustration, then slams her book down onto the table before storming out of the room."
             show yuri at thide
@@ -1922,7 +1930,7 @@ label Natsuki5b:
 
     with vpunch
     "We both tumble to the ground."
-    mc "Ow... What was that for?"
+    mc "Ow...what was that for?"
 
     play music t5_natsuki
 

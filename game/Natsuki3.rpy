@@ -263,7 +263,7 @@ label Natsuki31:
     n 5bw "If you're willing to take the risk that I won't like it, then sure."
     "Natsuki, once again, doesn't make it easy on me."
     show natsuki 5ba at t11 zorder 2
-    mc "Uh... sure."
+    mc "Uh...sure."
     "Do I even have a choice at this point?"
     "At least she seems all excited about it."
     n 4bl "Great! Can't wait to see your movie choosing skills~!"
@@ -656,8 +656,8 @@ label Natsuki32:
     "She goes with the latter."
     n 4by "If you let the punch of a four-foot-eleven girl be the death of you then I think you're the uncool one here."
     mc "Keep that up and you're paying for your tonkotsu."
-    n 1bz "I wanted shoyu anyway!"
-    show natsuki 1ba
+    n 1bw "I wanted shoyu anyway!"
+    show natsuki 1bz
     "Natsuki lets out a heavenly giggle and I laugh back as we reach the front of the line."
     show natsuki at thide
     hide natsuki
@@ -680,7 +680,7 @@ label Natsuki32:
     n "This place deserves more recognition."
     mc "It's pretty small and hidden, I like that about it, to be honest."
     n 3bd "You're right, there aren't as many uncultured swine coming in and taking all the ramen for themselves."
-    mc "Oh, and since when were you this town's resident ramen connoissuer?"
+    mc "Oh, and since when were you this town's resident ramen connoisseur?"
     n 1be "Since forever!"
     n 4bq "Not that I have to explain myself to you."
     mc "Didn't you just say you haven't come her since you were a kid?"
@@ -717,20 +717,20 @@ label Natsuki32:
     n 2bl "Plus we got a poke bowl on the side."
     n 4bl "Ahh, it was delicious!"
     mc "Aw man, I should've gotten one of those for us."
-    n 3bd "Don't worry about it, I know you're broke."
+    n 3by "Don't worry about it, I know you're broke."
     mc "I'm not broke!"
     "I say as the wind blows through my depleted wallet."
     n 3bl "Sure you're not, just like I'm not small and fun in bed."
     "A feel a slight tingle throughout my body as she says that."
     mc "Way too loud."
     n 2bb "Whatever, everyone here can see that I'm small."
-    show natsuki 2ba at d11 zorder 2
+    show natsuki 7a at d11 zorder 2
     "Natsuki gives me a wink."
     n 2bd "Wouldn't it be awesome if I just got super tall and ripped one of these days?"
     n "Like, disgustingly huge."
     mc "Pft, call me when that happens."
     "Natsuki and I chat for a few more minutes before our food arrives at the table."
-    "The pink-haired girl girl drools before she buries her nose deep into the bowl, nearly making contact with the hot broth the take a large sniff of the spice."
+    "She drools before she buries her nose deep into the bowl, nearly making contact with the hot broth, to take a large sniff of the spices."
     "I'm worried that her eyebrows will singe and fall off considering the lack of distance between her and the molten soup."
     mc "That's gonna be hell to eat, I can already tell."
     n 4be "You don't know anything."
@@ -752,11 +752,13 @@ label Natsuki32:
     mc "But, if you do in fact lose, you have to wear a pair of cat ears to the literature club for a whole week."
     n 4by "Ha!"
     n "That's it?"
-    n "Seems pretty low-risk, high-rewards if you ask me."
+    n "Seems pretty low-risk, high-reward if you ask me."
+    show natsuki 4bc
     mc "And every time you speak to the girls, you have to close every sentence with {i}\'Nye~!\'{/i}"
-    show natsuki 1bx
+    show natsuki 5bx
     "Natsuki takes a deep breath of frustration, knowing the stakes have now heightened to cringe levels."
-    n 4bg "You're on."
+    n 5bg "You're on."
+    show natsuki 1bq at t11
     "Natsuki takes her first sip of the broth and seems to be holding it together alright for a few moments."
     "However, our feet are inadvertently touching under the table and I can feel the vibrations of her right leg."
     "Seems like the pressure's already on."
@@ -787,7 +789,7 @@ label Natsuki32:
     n 4bt "All I got left is this one piece of pork."
     "Natsuki tantalizingly lifts the piece of meat with her chopsticks then tilts her head back and drops it into her very red mouth."
     mc "Wow, I didn't think you could do it, but you pulled it off."
-    mc "Great job Natsuki--"
+    mc "Great job Natsu--"
     show natsuki 3bw
     "Before I can finish my sentence, Natsuki begins chugging the glass of milk like her life depended on it."
     "Which, to be fair, it probably did."
@@ -815,7 +817,7 @@ label Natsuki32:
     n "Wait, hold on, one more thing!"
     show natsuki at thide
     hide natsuki
-    "She walks over to the wall on the ohter side of the store where a few pieces of merch like t-shirts and head gear are hanging."
+    "She walks over to the wall on the other side of the store where a few pieces of merch like t-shirts and head gear are hanging."
     "I don't see what Natsuki takes initially, but when she returns to the counter she sets down a pair of cat ears."
     "I chuckle and hold her hand."
     mc "Hey, you won, you don't have to do that in front of the club."
@@ -829,7 +831,7 @@ label Natsuki32:
     hide natsuki
     scene bg central_hub
     with wipeleft_scene
-    "Upon leaving the manga shop, I tell Natsuki we can continue perusing or go for a walk, but she declines the offer."
+    "Upon leaving the manga shop, I tell Natsuki we can continue perusing other stores or go for a walk, but she declines the offer."
     "She insists that her stomach is still not feeling well, and she just wants to go home, which I have no qualms with."
     scene bg house
     with wipeleft_scene
@@ -841,7 +843,7 @@ label Natsuki32:
     "I expect maybe a text or two but then I realize the only person in the world who would text me is currently releasing a lot of regret in the bathroom."
     "I chuckle at the thought."
     "Though, the fact that nobody is texting me gets me thinking about Sayori."
-    "She and I have been close for along time, and we do regularly communicate with each other."
+    "She and I have been close for a long time, and we do regularly communicate with each other."
     "It's just usually in sporadic visits to each other's houses, rather than by texting or calling each other."
     "She walks in here, I walk in there, whatever it may be, but we usually just ride the wave and have a good time together."
     "Admittedly I kind of miss it, but when one person in a platonic relationship become romantic with somebody..."
@@ -855,9 +857,11 @@ label Natsuki32:
     mc "Ahaha, I'm so sorry Nats."
     mc "I really shouldn't have put you through that."
     mc "For what it's worth though, it put me in a good mood."
+    show natsuki 1bi at t11
     "She looks at me disapprovingly."
     "It's hard to gauge whether it's real anger or not, but I give her a kiss on the cheek in an attempt to repent for my sins."
-    "She smiles in return."
+    show natsuki 1bu at t11
+    "She smiles in return, but it's quickly gone off her face."
     stop music fadeout 1.5
     n 1bq "[player], can I be honest with you?"
     mc "Always, Natsuki."
@@ -874,7 +878,7 @@ label Natsuki32:
     n "And I ruined it."
     n "I should've listened to you and not gotten it so spicy."
     n 1bq "I could barely taste it after like two bites because my mouth was so numb."
-    n 1br "I wasted your money {i}twice{/i}. and now who knows when I'll get to eat there again?"
+    n 1br "I wasted your money {i}twice{/i}, and now who knows when I'll get to eat there again?"
     n 1bu "You probably never want to take me back there after the way I screwed everything up."
     show natsuki 12bf
     "Natsuki starts to sob lightly, then mumble under her breath."
@@ -883,8 +887,8 @@ label Natsuki32:
     n "It's all my fault."
     "{i}No, she can't be thinking this way again.{/i}"
     n "It's always all my fault."
-    n 12bi "What's wrong wth me?!"
-    n "Why do I have to be such a screw up?!"
+    n 12bi "What's wrong with me?!"
+    n "Why do I have to be such a screw-up?!"
     show natsuki 12bf
     "I hug Natsuki tightly."
     "I can't bear to hear her talk like this."
@@ -900,7 +904,7 @@ label Natsuki32:
     mc "If you didn't have a good time, I'll do what I can to amend that."
     mc "I'll take you out again, we can do more stuff together, anything you want."
     mc "I can take you back to that place again whenever you feel better, Natsuki."
-    mc "I'll help you through everything you're feeling, because nothing is more impartant to me than you and your happiness."
+    mc "I'll help you through everything you're feeling, because nothing is more important to me than you and your happiness."
     "{i}And that's the truth.{/i}"
     n 12ba "[player]..."
     "Natsuki can't seem to form more words than just my name."
@@ -931,7 +935,7 @@ label Natsuki32:
     "But knowing what I know, that she thinks she can never be sincerely happy..."
     "And that I've been expending all this energy on her happiness."
     "Happiness that'll never be fulfilled..."
-    mc "H-Hey, Natsuki, I'm gonna go for a walk."
+    mc "H-hey, Natsuki, I'm gonna go for a walk."
     n "Huh? Oh, o-okay, see you soon."
     scene bg residential_day
     with wipeleft_scene
@@ -968,9 +972,9 @@ label Natsuki32:
             s 2bh "Did you two fight?"
             s "Please tell me you didn't fight."
             mc "Uh, no, we didn't."
-            mc "It's almost like... the opposite happened."
+            mc "It's almost like...the opposite happened."
             "Sayori blushes a little bit."
-            s 4be "So you two... had..."
+            s 4be "So you two...had..."
             mc "No!"
             mc "Yeesh, is that the opposite of fighting in your book?"
             s 4br "Hehehe~!"
@@ -1010,7 +1014,7 @@ label Natsuki32:
             mc "And I really want to be there for her and help put her past behind her."
             mc "But I don't think she's even capable of letting me in, whether she wants to or not."
             s 2bu "That's so horrible."
-            s 2bt "I... I understand how she feels in a way."
+            s 2bt "I...I understand how she feels in a way."
             s 1bt "But if I'm being honest, she should be more grateful to you."
             mc "I hate to admit it, but I was thinking the same thing."
             mc "I'm her boyfriend, and it's my job to support her, right?"
@@ -1024,7 +1028,7 @@ label Natsuki32:
             "A chill runs through me as my best friend stands a few centimeters from my face, and puts her hand on my shoulder and neck."
             s 1bj "If Natsuki won't let you help her, then that's her fault."
             s "Because even though I empathize with her a lot, there's one key difference between us based on what you're telling me."
-            s 2bk "I know that... i-if you were {i}my{/i} boyfirend, I'd be growing more and more grateful toward having you every single day."
+            s 2bk "I know that...i-if you were {i}my{/i} boyfirend, I'd be growing more and more grateful toward having you every single day."
             s 2bl "If you were my boyfriend I would have an easier time waving the rain clouds away."
             s 4bh "Because all my life you've been that sunshine for me that dries everything up."
             s 3bk "And if we were together, I know it would be the best thing for me."
@@ -1115,14 +1119,15 @@ label Natsuki32:
             "For the next several minutes, Sayori and I reminisce about the past."
             "Days long behind us."
             "Stories from early childhood into late childhood into early adolescence, we'd share and remember together."
-            "But as Sayori rests her head on me, clearly more comfortable than a commited guy should let a female friend be with him, it dawns on me..."
+            "But as Sayori rests her head on me, clearly more comfortable than a committed guy should let a platonic female friend be with him, it dawns on me..."
             show sayori at thide
             hide sayori
             "If all you can do is remember, then there's no moving forward."
             "If I keep living in the past with mine and Sayori's childhood memories, then Natsuki and I will never reach the heights I want us to reach."
             "Sayori will always be a person I share some of the fondest memories with."
             "But my present and future is waiting for me right now at home."
-            "No matter what Natsuki says I can't do, I have to do everything in my power to save her, to save {i}us{/i}."
+            "No matter what Natsuki says I can't do, I have to do everything in my power to save her..."
+            "To save {i}us{/i}."
             show sayori 1bk at t11 zorder 2
             "I very lightly nudge Sayori off my shoulder so she knows I want to stand."
             mc "This was really nice, Sayori, I had a lot of fun."
@@ -1186,7 +1191,7 @@ label Natsuki33:
     show natsuki s1bo at t11 zorder 2
     "I take a deep whiff of the air around me, and Natsuki notices, giving me a dirty look."
     n s1bw "Weirdo, what are you doing?"
-    mc "Uh... trying to use my enhances sense of smell to find where the fried Oreos are being sold."
+    mc "Uh...trying to use my enhances sense of smell to find where the fried Oreos are being sold."
     n s1by "Enhanced sense of smell, really? You've been reading too much manga."
     show natsuki s1bk
     mc "Hey, you're one to talk!"
@@ -1247,8 +1252,9 @@ label Natsuki33:
     show natsuki s5bq
     "I don't have to heart to say I just wish I had more money so we could go on more rides."
     "But if we buy more tickets, I won't have enough money to buy us snacks."
-    "{i}And I want a fried Oreo more than words can describe."
+    "{i}And I want a fried Oreo more than words can describe.{/i}"
     "I decide I'll leave it up to Natsuki."
+    show natsuki s5bc at t11
     mc "Hey, listen, I still have some money. I'll let you decide, do you want to ride one more ride, or buy something to eat?"
     n s5bq "..."
     n s5br "This is the hardest choice I've ever had to make."
@@ -1268,9 +1274,9 @@ label Natsuki33:
     m "What are you guys doing here?"
     show monika s2bb at t21 zorder 2
     mc "O-oh, we're just on a little date."
-    show monika s2bl at f21 zorder 3
+    show monika s2bj at f21 zorder 3
     m "Ahaha, I can see that! You two having fun? Keeping out of trouble?"
-    show monika s2bl at t21 zorder 2
+    show monika s2bj at t21 zorder 2
     "Natsuki looks a little peeved at the moment and I'm not sure why."
     mc "Heh, yeah, Natsuki was about to decide if she wanted to buy snacks or go on one more ride."
     show monika s1bd at f21 zorder 3
@@ -1321,9 +1327,9 @@ label Natsuki33:
     m s4bk "It's always fun to tease you."
     show monika s4bk at t21 zorder 2
     show natsuki s5bt at f22 zorder 3
-    n "Heh... heh heh..."
+    n "Heh...heh heh..."
     n "Right, yeah."
-    n s4bu "I know... I was just joking around too."
+    n s4bu "I know...I was just joking around too."
     show natsuki s1ba at t22 zorder 2
     "We need Monika's advice and finish our Oreos before they get too cold."
     "Natsuki and I seem to simultaneously melt at the flavor of the flaky buttery dough surrounding the world-famous cookie."
@@ -1342,7 +1348,7 @@ label Natsuki33:
     "Monika then looks around and then she spots a contender."
     show monika s4bk at f21 zorder 3
     m "Ooh, the pirate ship! That's the one I haven't gone on yet!"
-    m s4bj "I'll go save us a place on line while you get your tickets! Meet me there, okay?"
+    m s4bj "I'll go save us a place in line while you get your tickets! Meet me there, okay?"
     show monika at thide
     hide monika
     show natsuki s4bd at t11 zorder 2
@@ -1360,7 +1366,7 @@ label Natsuki33:
     n s4by "Well, threatening that I might puke is a mighty sleazy way to do it!"
     mc "Ahahaha..."
     "Huh, that's weird."
-    "I just made a joke of similar caliber that I did just a few minutes ago, but she bit back instead of closing herself off."
+    "I just made a joke of similar caliber to that just a few minutes ago, but she bit back instead of closing herself off."
     show natsuki s4ba
     "Actually, that isn't weird at all, that's exactly what I'd expect."
     "It was a few minutes ago when Monika was around that she felt all anxious."
@@ -1402,6 +1408,8 @@ label Natsuki33:
     "I shout that at the person running the ride, and a moment later, we're free, but by the time I manage to stand up, it's too late."
     show natsuki s1bo at h11
     n "MMMFFF..."
+    show natsuki s_vomit_casual at h11
+    pause(1)
     show natsuki at thide
     hide natsuki
     n "BLUUUUURGH!"
@@ -1440,7 +1448,7 @@ label Natsuki33:
     n "That sucked."
     mc "I'm so sorry, Nats. I can't believe that actually happened to you again."
     n n1bt "Me too. I guess I'm just cursed forever at carnivals."
-    mc "Heh... well, I hope you had fun before that whole thing."
+    mc "Heh...well, I hope you had fun before that whole thing."
     n n1bk "Huh? O-oh, yeah I did."
     n n1br "I just wish..."
     mc "That Monika didn't show up?"
@@ -1498,7 +1506,7 @@ label Natsuki33:
             #Start Scene 7c-I
             $ karma += 1
             mc "Nats, I'm sorry. I had no idea."
-            mc "I didn't know you felt that way. If I had, I... probably would've told Monika something like 'Hey, we're on a date right now but we'll see you in club.'"
+            mc "I didn't know you felt that way. If I had, I...probably would've told Monika something like 'Hey, we're on a date right now but we'll see you in club.'"
             mc "I promise I won't make that mistake again."
             n n4bs "Th-thank you, [player]."
             mc "But you have to promise me not to make your mistake again."
@@ -1536,7 +1544,7 @@ label Natsuki33:
     "Jokingly when the imaginary kiss reaches my face I wave my hands around in front of me."
     mc "Pee-yew! You weren't kidding!"
     n n1bz "Ahahaha~! You big jerk."
-    mc "Heheh... good night, Natsuki."
+    mc "Heheh...good night, Natsuki."
     stop music fadeout 1.5
     n n1bt "Good night, [player], I love you."
     show natsuki at thide

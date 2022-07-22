@@ -1642,10 +1642,8 @@ label yuriroute:
         "No sense on dwelling on that sort of thing..."
         stop music fadeout 2.0
         scene bg ending_d
-        with dissolve_scene_full
-        pause 5.0
-        scene black
-        with dissolve_scene_full
+        call credit_sequence
+        "Thank you for playing DDLCtVN Yuri Route!"
         return
     else:
         hide yuri

@@ -5346,8 +5346,10 @@ Sincerely,
     y "I love you too, Yuri."
     stop music fadeout 2.0
     scene bg ending_c
-    with dissolve_scene_full
-    pause 5.0
-    scene bg black
-    with dissolve_scene_full
+    with fade
+    pause(5)
+    scene black
+    with fade
+    call credit_sequence
+    "Thank you for playing DDLCtVN Yuri Route!"
     return

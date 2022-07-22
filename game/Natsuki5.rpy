@@ -1,10 +1,10 @@
 label Natsuki5:
 #Start Scene 9 - Cocoa
     
-    if (karma >= 3):
-        call Natsuki51
-    else:
+    if (end_dir == "SN" or end_dir == "YN"):
         call Natsuki52
+    else:
+        call Natsuki51
 
     scene bg house
     with dissolve_scene_full
@@ -147,7 +147,7 @@ label Natsuki5:
     "I look more closely at Natsuki's arms and see her clutching something to her chest."
     mc "What's that?"
     n "..."
-    n 1bu "Its, uh..."
+    n 1bu "It's, uh..."
     "Natsuki holds the object out to me and I see what it is."
     play music t10
     n "It's...my mom's cookbook."
@@ -185,7 +185,7 @@ label Natsuki5:
     n 1bj "Thank you, [player], I love you."
     mc "By the way, could I ask you one more thing?"
     n 1bc "What is it?"
-    mc "How come... you've never told me about this before? About this tradition you have on your mom's birthday?"
+    mc "How come...you've never told me about this before? About this tradition you have on your mom's birthday?"
     n 1bn "Well...truth be told I just don't like to talk much about my mom."
     n "Don't get me wrong, I love her, but that's exactly why I don't like talking about her."
     n 2bm "The longer I do, I...break down, eventually. And I don't like you to see me like that."
@@ -402,7 +402,7 @@ label Natsuki5:
     show natsuki 1br at t22
     show katashi 4l at f21
     k 4l "What choice did I have, Natsuki?!"
-    k "I'm stuck, I have to work so many long hours at so many horribly-paying jobs to provide for you!"
+    k "I'm stuck, I have to work so many long hours at so many different jobs, working for peanuts just to provide for you!"
     k 2o "Everything I did and everything I didn't do was all for you, Natsuki!"
     show katashi 1k at t21
     show natsuki 12bc at f22
@@ -586,7 +586,7 @@ label Natsuki5:
     "Natsuki looks at the picture her dad handed her, and looking closer I can see that it's a full family photo."
     "I walk next to her and get a better look at it."
     "Her dad looks like a very different and more put together man in this picture."
-    n 1bq "I...put this on Mama's headstone here last year."
+    n 1bq "I...put this on Mama's headstone last year."
     n "I could've cut it and deleted any trace that he was in it the whole time too, but..."
     n 12bb "I would've felt too guilty because..."
     n "In spite of everything..."
@@ -781,7 +781,7 @@ label Natsuki52:
     n m12bi "[player]!"
     "Natsuki leaps into my arms and I hold her tight."
     mc "I'm so sorry I let things get this way, Nats."
-    n m12bf "No-o-o-o, I'm sorry... it was all my fault again..."
+    n m12bf "No-o-o-o, I'm sorry...it was all my fault again..."
     mc "Nats..."
     "Natsuki and I sob into each other's shoulders."
     "I don't know if this is really what needed to happen to get the two of us back on track, but..."
