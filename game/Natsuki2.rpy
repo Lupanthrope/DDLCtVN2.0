@@ -1953,22 +1953,8 @@ label Natsuki5b:
     "She helps me up, with a mocking expression on her face."
     mc "Thanks."
     n "Don't mention it."
-    n 2b "Want to get some food and coffee? I'm hungry and tired."
-    show natsuki 2a at t11 zorder 2
-    mc "You're always hungry Natsuki, but sure."
-    mc "Where do you want to go?"
-    n 1g "..."
-    n 1d "How about that little cafe by our house?"
-    show natsuki 1a at t11 zorder 2
-    "My heart jumps a beat when she says {i}our{/i} house."
-    n 4b "Something wrong?"
-    n "You turned pale and kinda spaced out for a second there."
-    show natsuki 4g at t11 zorder 2
-    mc "No, I'm good."
-    "I'm sure she noticed my hesitation."
-    mc "Just hungry. Let's go to that cafe."
-    show natsuki at thide
-    hide natsuki
+    n 2b "Well, we should probably head home, and we'll talk about things on the way."
+    "Natsuki and I leave school together."
 
     stop music fadeout 2
 
@@ -1982,100 +1968,29 @@ label Natsuki5b:
     $ n_name = "Natsuki"
     n s1k "Oh, uh, you can go first."
     mc "No, you can. You spoke before I did."
-
-
-    play music t2
-
-    n s1l "Okay then. How was your day?"
-    show natsuki s1j at t11 zorder 2
-    mc "Mine was decent, some stressful parts as you know. Tired mainly."
-    mc "How was yours?"
-    n s2q "Pretty crappy to be completely honest."
-    n s2m "I'm just happy that you're with me."
-    show natsuki s1n at t11 zorder 2
-    "She looks up at me, and pulls me into a sideways hug."
-    show natsuki at thide
-    hide natsuki
-    "I hug her back, and she rests her head on my shoulder."
-    pause(2.0)
-    scene bg cafe_in
-    with wipeleft_scene
-    "We stay like that for a few minutes while we walk into the coffee shop."
-    "We get there, and it's not busy."
-    "An older couple is in the back, and there is only one server."
-    show natsuki s1c at t11 zorder 2
-    n "Want to get a table for us? I'll get our orders."
-    mc "Alright. Can you get me a decaf coffee and a muffin? Thanks."
-    n s4d "Sure thing. Get a good table near the window."
-    show natsuki at thide
-    hide natsuki
-    "Natsuki walks off, and I go get us a small table near the window."
-    "I put our bags down and take a seat."
-    "The cafe is warm inside, but the chairs are still cold."
-    show natsuki s1d at t11 zorder 2
-    n "Here you go [player]. They ran out of lids so it has an open top."
-    show natsuki s1a at t11 zorder 2
-    "She sets the coffee and muffin down in front of me."
-    mc "Thanks, Nat, I really appreciate it. No sweat about the lid either."
-    "She sits down across from me, and starts sipping her hot chocolate."
-    mc "Nothing to eat, Natsuki? I thought you were hungry."
-    n s2d "I was really hoping I could get some of that muffin there."
-    show natsuki s2a at t11 zorder 2
-    "She smiles cutely and looks at me."
-    mc "Oh sure."
-    mc "Do you want my coffee too?"
-    n s4e "I don't want your backwash."
-    show natsuki s4g at t11 zorder 2
-    mc "Oh fine, guess we won't be kissing again anytime soon."
-    n s1p "Nooo, I didn't mean it!"
-    show natsuki s1n at t11 zorder 2
-    mc "Mhm, that's what I thought."
-    show natsuki s1a at t11
-    "We share a laugh, then sit in silence while I drink in my coffee and she eats my muffin."
-    show natsuki at thide
-    hide natsuki
-    show black
-    with fade
-    pause(1)
-    scene bg cafe_in
-    with fade
-    show natsuki s4a at t11 zorder 2
-    "As soon as it started, it ends."
-    mc "Hey, we've been here for thirty minutes. Want to head out?"
-    mc "We're finished with our stuff."
-    n s4d "Yeah sure, can you get our stuff while I get the trash?"
-    mc "On it captain!"
-    show natsuki at thide
-    hide natsuki
-    "She smirks as she walks away."
-    scene bg road_sunset
-    with wipeleft_scene
-    "I meet her outside the coffee shop after everything is closed up." 
-    show natsuki s5c at t11 zorder 2
-    n "Ready to go?"
-    show natsuki s5a at t11 zorder 2
-    mc "You know it. Let's go home."
-    mc "The sun is starting to set and I'm pretty tired."
-    n s2d "Same here. I can't wait for bed tonight."
-    show natsuki s1a at t11 zorder 2
-    "We walk home is silence, with Natuski leaning into me the whole time there."
-    show natsuki at thide
-    hide natsuki
-
-    stop music fadeout 2
-
-    scene black
-    with fade
-    scene bg bedroom_night
-    with wipeleft_scene
-    "We get home right as the sun starts to go below the horizon, and Natsuki and I head straight for our room."
-    "I slide into bed, then Natsuki turns off the light and cuddles next to me."
-    mc "Good night, Natsuki."
-    "I say as I embrace her, ready to start the weekend tomorrow."
-    n "Good night, [player]."
-    scene black
-    with fade
-    pause(1)
+    n s1c "O-okay, well, how'd it go with Yuri?"
+    mc "Um...I guess I learned a thing or two."
+    n s4s "That's good...I think."
+    n s4h "Does Yuri hate me?"
+    mc "Well, I don't think she hates {i}you{/i}."
+    n s4c "She doesn't?"
+    n s1m "Well does that mean she hates you?"
+    mc "Uh, I don't wanna jump to any conclusions."
+    mc "I don't think she hates either of us."
+    mc "It seems a little more complicated than that."
+    n s1n "How?"
+    mc "..."
+    "What Yuri said really dug into me, and I don't think I wanna get into it right now."
+    mc "Could we maybe talk about this another time? I'm just kind of exhausted by this whole thing."
+    n s1q "O-okay, sure, no problem."
+    n s1s "And uh...thanks again for doing that for me."
+    mc "You're welcome."
+    "Thankfully I was able to put that off for the time being."
+    "I just hope Sayori's doing okay, too."
+    "I could ask Natsuki how their conversation went, but it wouldn't be fair since I dodged the topic on my end."
+    stop music fadeout 1.5
+    "I'll just trust that Natsuki got through to her, and leave it at that."
+    
     return
     
     #End scene 5b
