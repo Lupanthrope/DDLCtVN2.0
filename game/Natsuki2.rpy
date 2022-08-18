@@ -552,14 +552,21 @@ label Natsuki2:
             "But it was a movie, not a live show."
             s 4q "Uh huh!"
             s 4a "And I think that musicals are a super cool form of literature!"
-            mc "That's really cool, Sayori. So what do you wanna do today to celebrate that?"
+            show sayori 4b at t11
+            mc "Are they even literature to begin with?"
+            s 1j "Hey, they have scripts that have words that are written on paper!"
+            mc "Not sure that counts."
+            s 5a "Can we just pretend?"
+            mc "Ahaha, okay, fine, Sayori."
+            mc "So what do you wanna do to celebrate?"
             s 2x "I was gonna try looking for a script to a musical I like and read lines."
             s "I think acting would be fun! Do you wanna help me?"
             show sayori 2a
             mc "You want me to read lines with you?"
             s 4r "Yeah!"
             show sayori 4q
-            "I've never acted before in my life, but this could be fun."
+            "I've never acted before in my life, but it'd make Sayori happy, and I don't think I could pass that up."
+            "And who knows, maybe I'll end up enjoying it, too."
             mc "Sure thing! So what musical is it? Something silly like the one we watched as kids?"
             s 1l "N-no, actually, it's a little bit of a heavy one."
             mc "Oh?"
@@ -572,15 +579,17 @@ label Natsuki2:
             mc "Sayori, that {i}is{/i} really heavy."
             mc "I wouldn't think you'd be into something like that."
             s 1a "Me either, but it was so awesome when I first watched it."
+            s 1x "And believe it or not, it's actually a comedy!"
+            s 1l "Just...kind of a dark one!"
             s 2q "So, let me find the script and we can run lines together!"
-            mc "Sounds great to me! This should be fun."
+            mc "Sounds great!"
             show sayori 1a
             "Sayori finds a portion of this show's script to read lines from, and she and I assign roles."
             "I quickly realize that Sayori is actually a very good actress, at least compared to the driftwood-esque performance I'm giving."
             mc "Sayori, have you ever thought about trying out for school plays? I think you'd be really good at it!"
             s 5b "Y-you think so?"
             s 5a "I wouldn't wanna embarrass myself, but if you really think I'm good at it then maybe I'll give it a shot."
-            mc "I think you'll do awesome."
+            mc "I think you'd do awesome."
             s 2d "Thanks for the support, [player]. You're so great."
             mc "You're welcome, Sayori."
             show sayori 1b at t11
@@ -601,7 +610,7 @@ label Natsuki2:
             n 2c "So, how'd it go with Sayori?"
             show natsuki 2j
             mc "It was great! I learned Sayori's actually a very good actress."
-            n 2l "Really? That's so cool."
+            n 2l "Really? That's awesome."
             n 2q "I could never get on stage in front of people, I'd be so nervous."
             show natsuki 2s
             mc "Sayori said the same thing, but I'm encouraging her to put herself out there and audition for the school play."
