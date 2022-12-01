@@ -13,7 +13,7 @@ label Natsuki3:
     "Catch up on anime?"
     "Maybe start a new RPG?"
     "That's when I hear a light moan emanate from the small being lying next to me and I remember."
-    "I have a girlfirend now."
+    "I have a girlfriend now."
     "I consider slowly slipping out of my bed so as not to disturb her, but the second my feet touch the floor, the girl beside me rises like a phoenix from the ashes."
     mc "Good morning, Nats."
     show natsuki 1bc at t11 zorder 2
@@ -112,7 +112,7 @@ label Natsuki3:
             show natsuki at thide
             hide natsuki
             "As she says that, she finishes making our eggs and rice, then cleans up the counter a little bit, albeit rather sluggishly."
-            "Seems like she's tring to bide her time, as if I'm going to forget about the question I asked if she takes too long to clean."
+            "Seems like she's trying to bide her time, as if I'm going to forget about the question I asked if she takes too long to clean."
             show natsuki 1bn at t11 zorder 2
             "Finally she sits down with our dishes and two cups of juice, then looks at me."
             "She's trying to read my face to see if I still want to know about the dream."
@@ -642,7 +642,7 @@ label Natsuki32:
     with wipeleft_scene
     show natsuki 4bz at t11 zorder 2
     n "Aw, yes! Thanks for bringing me here, [player]!"
-    n "I haven't gotten to eat her since I was, like, seven."
+    n "I haven't gotten to eat here since I was, like, seven."
     show natsuki 4bj
     mc "Don't mention it, Nats. I've had a craving for a while."
     mc "If I'm being honest, I chose this place more for me anyway."
@@ -909,7 +909,7 @@ label Natsuki32:
     n 12ba "[player]..."
     "Natsuki can't seem to form more words than just my name."
     "After a few more moments of waiting patiently, she speaks up again."
-    n 12bb "I love you so much, and I love everythng you do for me."
+    n 12bb "I love you so much, and I love everything you do for me."
     n 12bc "But as long as I have all these memories, all these neverending nightmares..."
     n 12be "As long as {i}he{/i} still holds a place in my mind and my soul..."
     n 12bb "I don't think I'll ever really be okay."
@@ -943,7 +943,7 @@ label Natsuki32:
     "I step out into the cool autumn breeze and examine my surroundings."
     "An abundance of crunchy leaves are scattered about, while a few neighborhood kids are playing in their front yards."
     "My toes are tapping below me anxiously, wondering what it is I'm currently going through."
-    "I try to take my mind off it for any amount of time I can manage, but it's hard for me to not envision the tears and angiish pouring down Natsuki's cheeks."
+    "I try to take my mind off it for any amount of time I can manage, but it's hard for me to not envision the tears and anguish pouring down Natsuki's cheeks."
     "Tears and anguish that I'll never be able to rid her of, according to her."
     "According to her, she's a lost cause."
     "According to my own girlfriend, I can't heal her of her pain."
@@ -1175,7 +1175,7 @@ label Natsuki33:
     n 1bz "Hehe~, you're probably right. In that case, I'd love to go!"
     mc "Awesome!"
     show natsuki 1bh
-    mc "In the meantine, do you want to have that other 'fun night' you were alluding t--"
+    mc "In the meantime, do you want to have that other 'fun night' you were alluding t--"
     stop music fadeout 1.5
     n 1by "I'm going to go read a manga."
     show natsuki at thide
@@ -1191,7 +1191,7 @@ label Natsuki33:
     show natsuki s1bo at t11 zorder 2
     "I take a deep whiff of the air around me, and Natsuki notices, giving me a dirty look."
     n s1bw "Weirdo, what are you doing?"
-    mc "Uh...trying to use my enhances sense of smell to find where the fried Oreos are being sold."
+    mc "Uh...trying to use my enhanced sense of smell to find where the fried Oreos are being sold."
     n s1by "Enhanced sense of smell, really? You've been reading too much manga."
     show natsuki s1bk
     mc "Hey, you're one to talk!"
@@ -1211,7 +1211,7 @@ label Natsuki33:
     mc "You wanna go on this Nats?"
     show natsuki s4bl at t11 zorder 2
     n "Totally!"
-    "We each give a ticket to the worker tendering the ride, who looks like he's about to check out of our realm of existence at any moment."
+    "We each give a ticket to the worker tending the ride, who looks like he's about to check out of our realm of existence at any moment."
     "Hopefully we don't get spun into the next town over with him operating this ride."
     n s2bq "You notice how that guy looks like he hates his life?"
     mc "Don't even think about it, Nats..."

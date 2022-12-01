@@ -226,7 +226,7 @@ label Natsuki2:
             "She huffs in mock annoyance and the subject is dropped altogether."
 
     show natsuki 1g
-    "A few minutes pass and I glace at my watch."
+    "A few minutes pass and I glance at my watch."
     "It's two minutes past the time we were supposed to leave already."
     "Natsuki must be aware of the time too, and she's visibly losing patience."
     n 1b "Look, [player], I don't think Sayori's coming any time soon."
@@ -445,8 +445,8 @@ label Natsuki2:
     "Monika and I leave the room and close the door behind us, and she starts to speak up."
     show monika 1r at t11 zorder 2
     m "Listen, [player], I want to preface this by saying, I'm not taking anyone's side here."
-    m 2g "If i'm being honest, I think Yuri is being a little bit too...reactive?"
-    m 4d "But she's concered."
+    m 2g "If I'm being honest, I think Yuri is being a little bit too...reactive?"
+    m 4d "But she's concerned."
     show monika 4c
     mc "About...what?"
     show monika 4r
@@ -524,7 +524,7 @@ label Natsuki2:
             "She seems hesitant, but before I can speak up and see if she wants to switch places, she stands up and walks toward Yuri."
             show natsuki at thide
             hide natsuki
-            "Well, guess there's nothing left to do except kick it in with Sayori."
+            "Well, guess there's nothing left to do except kick it with Sayori."
             "I stand up and walk over to the desk next to Sayori, then take a seat."
             show sayori 1b at t11 zorder 2
             mc "Hey, Sayori!"
@@ -552,14 +552,21 @@ label Natsuki2:
             "But it was a movie, not a live show."
             s 4q "Uh huh!"
             s 4a "And I think that musicals are a super cool form of literature!"
-            mc "That's really cool, Sayori. So what do you wanna do today to celebrate that?"
+            show sayori 4b at t11
+            mc "Are they even literature to begin with?"
+            s 1j "Hey, they have scripts that have words that are written on paper!"
+            mc "Not sure that counts."
+            s 5a "Can we just pretend?"
+            mc "Ahaha, okay, fine, Sayori."
+            mc "So what do you wanna do to celebrate?"
             s 2x "I was gonna try looking for a script to a musical I like and read lines."
             s "I think acting would be fun! Do you wanna help me?"
             show sayori 2a
             mc "You want me to read lines with you?"
             s 4r "Yeah!"
             show sayori 4q
-            "I've never acted before in my life, but this could be fun."
+            "I've never acted before in my life, but it'd make Sayori happy, and I don't think I could pass that up."
+            "And who knows, maybe I'll end up enjoying it, too."
             mc "Sure thing! So what musical is it? Something silly like the one we watched as kids?"
             s 1l "N-no, actually, it's a little bit of a heavy one."
             mc "Oh?"
@@ -572,15 +579,17 @@ label Natsuki2:
             mc "Sayori, that {i}is{/i} really heavy."
             mc "I wouldn't think you'd be into something like that."
             s 1a "Me either, but it was so awesome when I first watched it."
+            s 1x "And believe it or not, it's actually a comedy!"
+            s 1l "Just...kind of a dark one!"
             s 2q "So, let me find the script and we can run lines together!"
-            mc "Sounds great to me! This should be fun."
+            mc "Sounds great!"
             show sayori 1a
             "Sayori finds a portion of this show's script to read lines from, and she and I assign roles."
             "I quickly realize that Sayori is actually a very good actress, at least compared to the driftwood-esque performance I'm giving."
             mc "Sayori, have you ever thought about trying out for school plays? I think you'd be really good at it!"
             s 5b "Y-you think so?"
-            s 5a "I wouldn't wanna embarrass myelf, but if you really think I'm good at it then maybe I'll give it a shot."
-            mc "I think you'll do awesome."
+            s 5a "I wouldn't wanna embarrass myself, but if you really think I'm good at it then maybe I'll give it a shot."
+            mc "I think you'd do awesome."
             s 2d "Thanks for the support, [player]. You're so great."
             mc "You're welcome, Sayori."
             show sayori 1b at t11
@@ -601,7 +610,7 @@ label Natsuki2:
             n 2c "So, how'd it go with Sayori?"
             show natsuki 2j
             mc "It was great! I learned Sayori's actually a very good actress."
-            n 2l "Really? That's so cool."
+            n 2l "Really? That's awesome."
             n 2q "I could never get on stage in front of people, I'd be so nervous."
             show natsuki 2s
             mc "Sayori said the same thing, but I'm encouraging her to put herself out there and audition for the school play."
@@ -1052,9 +1061,9 @@ label Natsuki2:
     $ y_name = "Voice 1"
     $ k_name = "Voice 2"
     y "Katashi, I told you our exit was coming up!"
-    s "I know."
+    k "I know."
     y "Then why did we miss it?"
-    s "Maybe because {i}someone{/i} can't stop talking for five minutes."
+    k "Maybe because {i}someone{/i} can't stop talking for five minutes."
     y "I only--"
     "I give up on listening in."
     "This always happens."
@@ -1199,7 +1208,7 @@ label Natsuki2:
     "And at such a young age."
     "It's moments like these when I begin to question the existence of a fair and all-loving deity watching us from the clouds."
     "What god would find it appropriate to rip away something so crucial to a young girl so violently, so maliciously?"
-    "It just seems so sensless."
+    "It just seems so senseless."
     "But I can't get lost in my personal feelings on death and religion. Natsuki needs me now."
     "I shake my sorrow off and summon the will to speak."
     mc "I still don't understand why you said it's all your fault."
@@ -1299,7 +1308,7 @@ label Natsuki2:
     mc "Okay."
     n nblaq "Yeah, I was upset."
     n "I wasn't expecting a boy."
-    n "I though having one would ruin the club."
+    n "I thought having one would ruin the club."
     show natsuki nblas
     mc "How so?"
     n nblat "Well, Sayori talked about you a lot. She said she was bringing {i}someone{/i}, but she didn't say it would be you."
@@ -1351,7 +1360,7 @@ label Natsuki2:
     with dissolve_scene_full
     play music t5
     "It's another day at school."
-    "After all the drama and philosophical thoughts of yesterday, I'm actually gladto go to school for the school for once."
+    "After all the drama and philosophical thoughts of yesterday, I'm actually glad to go to school for the school for once."
     "Natsuki and I made it to school on time, and Sayori even caught up with us along the way."
     "Words cannot express how relieved I am to see her being her usual sunshiny self."
     "She was a welcome addition to the trek, even if she spent most of her time speaking with Natsuki about some sort of science project."
@@ -1658,7 +1667,7 @@ label Natsuki5a:
             s 1bw "All because I brought you to the Literature Club and blew it."
             "Sayori continues to cry, and I take a seat next to her."
             "I'm getting choked up myself at this point."
-            "Nobody ever wakes up thinking they're going to heat this kind of stuff from their best friend."
+            "Nobody ever wakes up thinking they're going to hear this kind of stuff from their best friend."
             show sayori 1bu at t11 zorder 2
             mc "Sayori, please, don't say things like that."
             mc "You are the furthest thing from useless to me as anything or anyone could be."
@@ -1788,7 +1797,7 @@ label Natsuki5b:
     "Admittedly, I've never really had to use it all that much."
     "But I figured Yuri had to be here."
     "If not...well..."
-    "A glimpse of purple catched me eye from one of the rows of shelves."
+    "A glimpse of purple catches my eye from one of the rows of shelves."
     "Gee, I wonder who that could be."
     mc "Yuri, you here?"
     "Silence greets me for a few seconds before a faint voice follows it."
@@ -1809,7 +1818,7 @@ label Natsuki5b:
     mc "I just wanna have a conversation, that's all."
     "A pause punctuates her reply."
     y "S-sorry."
-    mc "No need to apoloigize."
+    mc "No need to apologize."
     mc "Could you please show yourself? I'd rather talk to you face-to-face."
     "I see Yuri put her book down."
     "She starts walking over to me, head at a low angle."
@@ -1944,22 +1953,8 @@ label Natsuki5b:
     "She helps me up, with a mocking expression on her face."
     mc "Thanks."
     n "Don't mention it."
-    n 2b "Want to get some food and coffee? I'm hungry and tired."
-    show natsuki 2a at t11 zorder 2
-    mc "You're always hungry Natsuki, but sure."
-    mc "Where do you want to go?"
-    n 1g "..."
-    n 1d "How about that little cafe by our house?"
-    show natsuki 1a at t11 zorder 2
-    "My heart jumps a beat when she says {i}our{/i} house."
-    n 4b "Something wrong?"
-    n "You turned pale and kinda spaced out for a second there."
-    show natsuki 4g at t11 zorder 2
-    mc "No, I'm good."
-    "I'm sure she noticed my hesitation."
-    mc "Just hungry. Let's go to that cafe."
-    show natsuki at thide
-    hide natsuki
+    n 2b "Well, we should probably head home, and we'll talk about things on the way."
+    "Natsuki and I leave school together."
 
     stop music fadeout 2
 
@@ -1973,100 +1968,29 @@ label Natsuki5b:
     $ n_name = "Natsuki"
     n s1k "Oh, uh, you can go first."
     mc "No, you can. You spoke before I did."
-
-
-    play music t2
-
-    n s1l "Okay then. How was your day?"
-    show natsuki s1j at t11 zorder 2
-    mc "Mine was decent, some stressful parts as you know. Tired mainly."
-    mc "How was yours?"
-    n s2q "Pretty crappy to be completely honest."
-    n s2m "I'm just happy that you're with me."
-    show natsuki s1n at t11 zorder 2
-    "She looks up at me, and pulls me into a sideways hug."
-    show natsuki at thide
-    hide natsuki
-    "I hug her back, and she rests her head on my shoulder."
-    pause(2.0)
-    scene bg cafe_in
-    with wipeleft_scene
-    "We stay like that for a few minutes while we walk into the coffee shop."
-    "We get there, and it's not busy."
-    "An older couple is in the back, and there is only one server."
-    show natsuki s1c at t11 zorder 2
-    n "Want to get a table for us? I'll get our orders."
-    mc "Alright. Can you get me a decaf coffee and a muffin? Thanks."
-    n s4d "Sure thing. Get a good table near the window."
-    show natsuki at thide
-    hide natsuki
-    "Natsuki walks off, and I go get us a small table near the window."
-    "I put our bags down and take a seat."
-    "The cafe is warm inside, but the chairs are still cold."
-    show natsuki s1d at t11 zorder 2
-    n "Here you go [player]. They ran out of lids so it has an open top."
-    show natsuki s1a at t11 zorder 2
-    "She sets the coffee and muffin down in front of me."
-    mc "Thanks, Nat, I really appreciate it. No sweat about the lid either."
-    "She sits down across from me, and starts sipping her hot chocolate."
-    mc "Nothing to eat, Natsuki? I thought you were hungry."
-    n s2d "I was really hoping I could get some of that muffin there."
-    show natsuki s2a at t11 zorder 2
-    "She smiles cutely and looks at me."
-    mc "Oh sure."
-    mc "Do you want my coffee too?"
-    n s4e "I don't want your backwash."
-    show natsuki s4g at t11 zorder 2
-    mc "Oh fine, guess we won't be kissing again anytime soon."
-    n s1p "Nooo, I didn't mean it!"
-    show natsuki s1n at t11 zorder 2
-    mc "Mhm, that's what I thought."
-    show natsuki s1a at t11
-    "We share a laugh, then sit in silence while I drink in my coffee and she eats my muffin."
-    show natsuki at thide
-    hide natsuki
-    show black
-    with fade
-    pause(1)
-    scene bg cafe_in
-    with fade
-    show natsuki s4a at t11 zorder 2
-    "As soon as it started, it ends."
-    mc "Hey, we've been here for thirty minutes. Want to head out?"
-    mc "We're finished with our stuff."
-    n s4d "Yeah sure, can you get our stuff while I get the trash?"
-    mc "On it captain!"
-    show natsuki at thide
-    hide natsuki
-    "She smirks as she walks away."
-    scene bg road_sunset
-    with wipeleft_scene
-    "I meet her outside the coffee shop after everything is closed up." 
-    show natsuki s5c at t11 zorder 2
-    n "Ready to go?"
-    show natsuki s5a at t11 zorder 2
-    mc "You know it. Let's go home."
-    mc "The sun is starting to set and I'm pretty tired."
-    n s2d "Same here. I can't wait for bed tonight."
-    show natsuki s1a at t11 zorder 2
-    "We walk home is silence, with Natuski leaning into me the whole time there."
-    show natsuki at thide
-    hide natsuki
-
-    stop music fadeout 2
-
-    scene black
-    with fade
-    scene bg bedroom_night
-    with wipeleft_scene
-    "We get home right as the sun starts to go below the horizon, and Natsuki and I head straight for our room."
-    "I slide into bed, then Natsuki turns off the light and cuddles next to me."
-    mc "Good night, Natsuki."
-    "I say as I embrace her, ready to start the weekend tomorrow."
-    n "Good night, [player]."
-    scene black
-    with fade
-    pause(1)
+    n s1c "O-okay, well, how'd it go with Yuri?"
+    mc "Um...I guess I learned a thing or two."
+    n s4s "That's good...I think."
+    n s4h "Does Yuri hate me?"
+    mc "Well, I don't think she hates {i}you{/i}."
+    n s4c "She doesn't?"
+    n s1m "Well does that mean she hates you?"
+    mc "Uh, I don't wanna jump to any conclusions."
+    mc "I don't think she hates either of us."
+    mc "It seems a little more complicated than that."
+    n s1n "How?"
+    mc "..."
+    "What Yuri said really dug into me, and I don't think I wanna get into it right now."
+    mc "Could we maybe talk about this another time? I'm just kind of exhausted by this whole thing."
+    n s1q "O-okay, sure, no problem."
+    n s1s "And uh...thanks again for doing that for me."
+    mc "You're welcome."
+    "Thankfully I was able to put that off for the time being."
+    "I just hope Sayori's doing okay, too."
+    "I could ask Natsuki how their conversation went, but it wouldn't be fair since I dodged the topic on my end."
+    stop music fadeout 1.5
+    "I'll just trust that Natsuki got through to her, and leave it at that."
+    
     return
     
     #End scene 5b
