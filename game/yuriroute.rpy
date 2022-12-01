@@ -1521,7 +1521,7 @@ label yuriroute:
         y n2bw "...Okay."
         scene bg black
         with dissolve_scene_full
-        "For a moment, it felt like time stopped."
+        "In that moment, it feels like time stopped."
         "But it was not the power of the world."
         "Yuri lifted her sleeves, as slow as she could."
         scene bg bedroom_night
@@ -1632,7 +1632,7 @@ label yuriroute:
         "It's only when I finally awake that I notice Yuri is missing."
         "She seems to have let me lay down on the bed."
         "In fact, I can't find her at all."
-        "She must have left already, and without a word, if she did at all."
+        "I realize she must have left already, and without a word, if she did at all."
         "The only thing left in the room was silence, just like she wanted."
         "I get an itching feeling in the back of my mind as I re-process that moment."
         "Even though she said she didn't want to, there was something more that she wanted to say."
