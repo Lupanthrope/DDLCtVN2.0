@@ -1,0 +1,38 @@
+Wretched Team Exit Music: Redux (Act 1 demo)
+Yuri's House
+- n_home.png (Kimagure After)
+- n_home_n.png (Kimagure After)
+Road
+- n_street.png (Kimagure After)
+- n_street_n.png (Kimagure After)
+- n_street_s.png (Kimagure After)
+
+Wretched Team After School (demo)
+Restaurant and Restaurant Front
+- bistro.png (Minikle)
+- bistro_ext_s.png (Minikle)
+
+Nuxill:
+Living Room
+- mc_living_room_afternoon
+- mc_living_room_daytime (Night edit - MattyD)
+
+Minikle
+School
+- school lockers by minikle (edited by nuxill)
+Yuri Bedroom (yuri_bedroom.png)
+- bedroom (edited by nuxill) (Night edit - SpacecraftHQ)
+
+Kimagure After
+Bookstore/Library
+- Bookstore BG (Sunset Edit - MattyD)
+
+Konnet
+Central Hub
+- modern street by konnet
+
+MattyD: 
+- Yuri arm cut sprites
+
+CatBoyMech
+- Blanket Sprites (edited by SpacecraftHQ)
