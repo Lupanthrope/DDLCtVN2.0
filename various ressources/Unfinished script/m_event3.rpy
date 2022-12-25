@@ -883,7 +883,7 @@ label m_event3:
     menu:
         "Think [player], think!"
         "Use the Piano":
-            $ tuner = 0
+            $ tuner == 0
             mc "Yeah, I'm ready Monika."
             "I'll just look it up later."
             "Can't be that hard right?"
@@ -922,7 +922,7 @@ label m_event3:
             m "Ahaha~"
 
         "Use the Tuner":
-            $ tuner = 1
+            $ tuner == 1
             mc "W-wait Monika."
             m 1bc "Hmm?"
             m 1bd "What's up?"
@@ -2430,7 +2430,9 @@ label m_event3:
     "Man, I’ve put a lot of work into preparing for that fateful day."
 
     #[Wipe to black]
+    scene black with wipeleft_scene
     #[Wipe to generic classroom, day]
+    scene bg class_day with wipeleft_scene
 
     "And now that day is upon me."
     "Monika had dropped by for an hour or so over the past few days to cram in some more practice, as well as some solo warmups I did myself."
@@ -2440,6 +2442,7 @@ label m_event3:
     "One upside of this fact is that Monika shares this class with me."
 
     #[BG: Hallway, day]
+    scene bg corridor with wipeleft_scene
 
     "As I approach the classroom, it doesn’t look like any teacher is present."
     "Well, there aren’t any looming exams or anything, so that’s not really a problem."
@@ -2531,7 +2534,9 @@ label m_event3:
     "We each go our separate ways as we head to our final class of the day."
 
     #[Wipe to black]
+    scene black with wipeleft_scene
     #[Wipe to hallway, day]
+    scene bg corridor with wipeleft_scene
 
     "Lessons are over, and it’s time for the club."
     "Oh hell."
@@ -2549,7 +2554,7 @@ label m_event3:
     mc "Yeah…"
     m "Come on in, they’ll love it."
     mc "Will do…"
-    #Clubroom, day
+    scene bg club_day with wipeleft_scene
     "Everyone is already here."
     s "Heya, [player]!"
     s "Monika said you were performing for us today!"
@@ -2573,22 +2578,23 @@ label m_event3:
     "It’s horribly out of tune."
 
     #If you learn tuner
-
-    "No matter, I know how to tune a guitar."
-    "All that practice didn’t go to waste."
-    "Within a minute, the strums give a perfect noise."
+    if Tuner == 1:
+        "No matter, I know how to tune a guitar."
+        "All that practice didn’t go to waste."
+        "Within a minute, the strums give a perfect noise."
 
     #If you don’t learn tuner
+    Else:
 
-    "Damn."
-    "I really should’ve learned how to use a tuner."
-    "Oh hell."
-    "This is bad."
-    "This is really bad."
-    "This is really really bad."
-    "They’re all gonna hate me."
-    "Monika seems to notice my freaking out, and begins to play each note under the guise of testing her own device."
-    "After a few minutes of awkward silence and out of tune plucks, I’m ready."
+        "Damn."
+        "I really should’ve learned how to use a tuner."
+        "Oh hell."
+        "This is bad."
+        "This is really bad."
+        "This is really really bad."
+        "They’re all gonna hate me."
+        "Monika seems to notice my freaking out, and begins to play each note under the guise of testing her own device."
+        "After a few minutes of awkward silence and out of tune plucks, I’m ready."
     m "Okay, everyone, we’re ready!"
     s "Go for it!"
     n "Good luck."
