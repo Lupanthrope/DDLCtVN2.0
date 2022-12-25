@@ -1,38 +1,51 @@
-Wretched Team Exit Music: Redux (Act 1 demo)
-Yuri's House
-- n_home.png (Kimagure After)
-- n_home_n.png (Kimagure After)
-Road
-- n_street.png (Kimagure After)
-- n_street_n.png (Kimagure After)
-- n_street_s.png (Kimagure After)
+*Backgrounds
 
-Wretched Team After School (demo)
-Restaurant and Restaurant Front
-- bistro.png (Minikle)
-- bistro_ext_s.png (Minikle)
+mod_assets/ballroom.png				{Unknown}						https://pxhere.com/en/photo/726846
+mod_assets/bookstore.png			Kimagure After edited by Nuxill	https://gakaisozai.seesaa.net/article/201012article_1.html
+mod_assets/bookstore_sunset.png		Kimagure After edited MattyD	https://gakaisozai.seesaa.net/article/201012article_1.html
+mod_assets/bowling_alley.png		bowlvalencialanes				https://www.bowlvalencialanes.com/
+mod_assets/bus.png					Soviet Game						https://www.wallpaperflare.com/brown-bus-interior-illustration-buses-sunlight-everlasting-summer-wallpaper-212615
+mod_assets/cafe_in.png				iluminu							https://cloudnovel.net/iluminu/background/cafe
+mod_assets/carnival.png				animestar3						https://www.pinterest.fr/pin/1618549856125669/
+mod_assets/cemetery.png				Phoenix_Art						https://anime-pictures.net/posts/524386?lang=fr
+mod_assets/central_hub.png			konett							https://cloudnovel.net/konett/background/modern-street
+mod_assets/christmastree.png		fashion-press					https://www.fashion-press.net/news/78296
+mod_assets/corner.png				{Unknown}						https://animelandscape.blogspot.com/2018/04/library-anime-background_28.html
+mod_assets/courtyard.png			K-After							https://k-after.at.webry.info/201512/article_2.html
+mod_assets/frozen_lake.png			PAPERS.co						https://www.pinterest.se/pin/421438477629863887/
+mod_assets/frozen_lake_night.png	PAPERS.co (edited)				https://www.pinterest.se/pin/421438477629863887/
+mod_assets/hotel_lobby.png			{Unknown}						https://animelandscape.blogspot.com/2020/11/anime-front-cashier-hotel-reception.html
+mod_assets/hotel_outside.png		aleksandra357					https://www.pinterest.fr/pin/787707791080573961/
+mod_assets/hotel_room.png			GoulGirls90 					https://imgur.com/gallery/gmH6nOn
+mod_assets/livingroom.png			minikle edited by Nuxill		https://www.reddit.com/r/DDLCMods/comments/7zgapm/ive_been_editing_royalty_free_backgrounds_to_fit/
+mod_assets/livingroom2.png			minikle edited by Nuxill		https://www.reddit.com/r/DDLCMods/comments/7zgapm/ive_been_editing_royalty_free_backgrounds_to_fit/
+mod_assets/park.png					Uncle Mugen						https://lemmasoft.renai.us/forums/viewtopic.php?f=52&t=17302#p226871
+mod_assets/pond.png					ChildOfBurningTime27			https://cloudnovel.net/fluffness/background/lake-1
+mod_assets/reading_room.png			{Unknown}						https://animelandscape.blogspot.com/2021/01/library-reading-room-anime-background.html
+mod_assets/restaurant.png			Minikle 						https://www.dlsite.com/eng/work/=/product_id/RE210195.html
+mod_assets/restaurant_front.png		Minikle 						https://www.dlsite.com/eng/work/=/product_id/RE210195.html
+mod_assets/road.png					K-After							https://k-after.at.webry.info/201009/article_1.html
+mod_assets/road_night.png			K-After							https://k-after.at.webry.info/201009/article_1.html
+mod_assets/road_sunset.png			K-After							https://k-after.at.webry.info/201009/article_1.html
+mod_assets/sayori_hall.png			SHIO							https://cloudnovel.net/SHIO/background/home-entrance
+mod_assets/school.png				minikle edited by Nuxill		https://www.reddit.com/r/DDLCMods/comments/7zgapm/ive_been_editing_royalty_free_backgrounds_to_fit/
+mod_assets/schoolroof.png			彩雅介							https://cloudnovel.net/fluffness/background/school-roof-day-night-etc
+mod_assets/station_day.png			彩雅介							https://cloudnovel.net/fluffness/background/station-day-night-etc
+mod_assets/station_night.png		彩雅介							https://cloudnovel.net/fluffness/background/station-day-night-etc
+mod_assets/subway_afternoon.png		Pixabay (edited)				https://www.pexels.com/fr-fr/photo/rame-de-metro-vide-302428/
+mod_assets/subway_night_lights.png	Pixabay (edited)				https://www.pexels.com/fr-fr/photo/rame-de-metro-vide-302428/
+mod_assets/theater_in.png			Public Domain					https://www.rawpixel.com/image/3305279/free-photo-image-theater-stage-background
+mod_assets/theater_out.png			Public Domain (edited)			https://phonoteka.org/48388-gostinica-anime-art.html
+mod_assets/yuri_bathroom.png		{Unknown}						https://animelandscape.blogspot.com/2020/10/anime-white-bathroom-background.html
+mod_assets/yuri_bedroom.png			Minikle 	
+mod_assets/yuri_bedroom_night.png	Minikle (edited)	
+mod_assets/yuri_house.png			K-After							https://k-after.at.webry.info/200812/article_2.html
+mod_assets/yuri_house_night.png		K-After							https://k-after.at.webry.info/200812/article_2.html
 
-Nuxill:
-Living Room
-- mc_living_room_afternoon
-- mc_living_room_daytime (Night edit - MattyD)
+*Sprites
 
-Minikle
-School
-- school lockers by minikle (edited by nuxill)
-Yuri Bedroom (yuri_bedroom.png)
-- bedroom (edited by nuxill) (Night edit - SpacecraftHQ)
-
-Kimagure After
-Bookstore/Library
-- Bookstore BG (Sunset Edit - MattyD)
-
-Konnet
-Central Hub
-- modern street by konnet
-
-MattyD: 
-- Yuri arm cut sprites
-
-CatBoyMech
-- Blanket Sprites (edited by SpacecraftHQ)
+mod_assets/yuri/blanket/yuriblanket.png			blanket sprites by CatBoyMech	
+mod_assets/sayori/blanket/sayoriblanket.png		
+mod_assets/monika/blanket/monikablanket.png		
+mod_assets/natsuki/blanket/natsukiblanket.png		
+mod_assets/natsukidad							chronoshag						https://www.reddit.com/r/DDLCMods/comments/8ym847/ddrr_release_of_freetouse_natsuki_dad_sprite/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
