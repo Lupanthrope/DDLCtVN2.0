@@ -1,4 +1,3 @@
-
 scene bg bedroom
 with dissolve_scene_full
 play music t6
@@ -2088,3 +2087,4 @@ label yesPlushie:
     "Turns out, the movie was actually really amusing. Although some jokes didn't hit Monika's funny bone as much as I would like."
     "Still, we had a good time watching it, and heck, we might actually watch the sequel in the near future."
     "For now though, I think it's best we two go to sleep, it's 1 AM already and I don't think Monika would like for me to wake up after 8 in the morning."
+    Return
