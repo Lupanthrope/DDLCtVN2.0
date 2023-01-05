@@ -259,15 +259,25 @@ image bg club_day2_evening = evening2(Image("bg/club-skill.png"))
 image bg club_day2_night = night2(Image("bg/club-skill.png"))
 
 
-
 image bg carnival_sunset = sunset(Image("mod_assets/carnival.png"))
+
 
 image bg living_room_dawn = dawn(Image("mod_assets/livingroom.png"))
 image bg living_room_morning = morning(Image("mod_assets/livingroom.png"))
 image bg living_room_sunset = sunset(Image("mod_assets/livingroom.png"))
 image bg living_room_night = night(Image("mod_assets/livingroom.png"))
 
+
 image bg central_hub_sunset = sunset(Image("mod_assets/central_hub.png"))
+
+
+image bg downtown1_night = night(Image("mod_assets/downtown1.png"))
+image bg downtown2_night = night(Image("mod_assets/downtown2.png"))
+image bg downtown3_night = night(Image("mod_assets/downtown3.png"))
+
+
+image bg h_residential_night = night(Image("mod_assets/h_residential.png"))
+image bg h_livingroom_night = night(Image("mod_assets/h_livingroom.png"))
 
 
 
@@ -2855,7 +2865,7 @@ image yuri s4bc = sunset(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0),
 image yuri s4bd = sunset(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png"))
 image yuri s4be = sunset(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png"))
 
-#Yuri Cut (sunset)
+
 image yuri s3bac1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/a.png"))
 image yuri s3bbc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/b.png"))
 image yuri s3bcc1 = sunset(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/c.png"))
@@ -4746,7 +4756,7 @@ image yuri n4bc = night(im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), 
 image yuri n4bd = night(im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png"))
 image yuri n4be = night(im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png"))
 
-#Cut Yuri Night
+
 image yuri n3bac1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/a.png"))
 image yuri n3bbc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/b.png"))
 image yuri n3bcc1 = night(im.Composite((960, 960), (0, 0), "yuri/1bl.png", (0, 0), "mod_assets/yuri/cut/bcuth.png", (0, 0), "yuri/c.png"))
