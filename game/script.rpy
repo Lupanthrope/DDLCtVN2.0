@@ -2,33 +2,30 @@ label start:
     scene black
     $ quick_menu = True
 
-    $ chapter = 0
-    call ch0_main from _call_ch0_main
+    # $ chapter = 0
+    # call ch0_main from _call_ch0_main
 
+    "DDLCtVN is a mod that begins by playing through nearly the entirity of the first act."
+    "Would you like to skip directly to the new content?"
     
-    # "DDLCtVN is a mod that begins by playing through nearly the entirity of the first act."
-    # "Would you like to skip directly to the new content?"
-    
-    # menu:
-    #     "No, let me play though act one.":
-    #         call ch0_main from _call_ch0_main
-    #     "Yes, skip me to where I choose my route.":
-    #         call newcontent from _call_newcontent
-    #         jump day4
-    #     "Skip me to the new content for 2.0.":
-    #         menu:
-    #             "Please, select a character."
-    #             "Sayori":
-    #                 call sayoriroute2 from _call_Sayori2
-    #             "Natsuki":
-    #                call Natsuki2 from _call_Natsuki2
-    #             "Yuri":
-    #                 call Yuri2 from _call_Yuri2      
-    #             #"Monika":
-    #             #    call Monika2 from _call_Monika2
-    #         return
-    
-
+    menu:
+        "No, let me play though act one.":
+            call ch0_main from _call_ch0_main
+        "Yes, skip me to where I choose my route.":
+            call newcontent from _call_newcontent
+            jump day4
+        "Skip me to the new content for 2.0.":
+            menu:
+                "Please, select a character."
+                "Sayori":
+                    call sayoriroute2 from _call_Sayori2
+                "Natsuki":
+                    call Natsuki2 from _call_Natsuki2
+                "Yuri":
+                    call Yuri2 from _call_Yuri2      
+                "Monika":
+                    call Monika2 from _call_Monika2
+            return
 
     call poem from _call_poem_1
 
